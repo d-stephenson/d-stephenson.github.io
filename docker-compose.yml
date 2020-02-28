@@ -1,5 +1,5 @@
 jekyll:
-    comments: true;
+    comments: true
     image: jekyll/jekyll:latest
     command: jekyll serve --force_polling
     ports:

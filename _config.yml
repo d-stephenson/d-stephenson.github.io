@@ -1,5 +1,7 @@
 # Site
-comments: true
+---
+  comments: true
+---
 ame: "d-stephenson"
 title: "d-stephenson"
 description: "Jekyll template, Medium styled, free for bloggers."

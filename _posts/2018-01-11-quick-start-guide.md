@@ -1,5 +1,4 @@
 ---
-comments: true
 layout: post
 title:  "My new blog"
 author: d-stephenson

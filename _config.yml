@@ -1,5 +1,6 @@
 # Site
-name: "d-stephenson"
+comments: true;
+ame: "d-stephenson"
 title: "d-stephenson"
 description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'

@@ -1,8 +1,9 @@
 ---
+comments: true
 layout: post
 title:  "My new blog"
 author: d-stephenson
-categories: [ Dale, new, DAT601 ]
+categories: [ Dale, new, DAT602 ]
 image: assets/images/12.jpg
 featured: true
 hidden: true

@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "My new blog"
+title:  "Journal #One [DAT601]"
 author: d-stephenson
-categories: [ Dale, new, DAT602 ]
-image: assets/images/12.jpg
+categories: [ DAT601, Journal, Database Design & Administration ]
+image: conceptualDiagram.png
 featured: true
 hidden: true
 ---
 
-YO YO YO YO YO YO YO YO YO
+JOURNAL #ONE [DAT601]
 
 The mind-warping film opened with a hospital patient Simon Cable (Ryan Phillippe) awakening in a <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span> Dr. Newman: "Simon, this is the 29th of July. The year is 2002. And your wife, whose name is Anna, is waiting outside." 
 

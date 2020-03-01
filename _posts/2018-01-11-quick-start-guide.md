@@ -10,7 +10,7 @@ hidden: true
 
 JOURNAL #ONE [DAT601]
 
-Learning Summary
+Learning Summary<br>
 <u>WHAT</u>
 
 Class season have involved group work surrounding the development of a Conception Model Entity Relationship Diagram (ERD) for an online tile game that our group have called 'Game of Tiles'.
@@ -23,15 +23,15 @@ Entity = Rectangle or Square
 Attributes = Oval
 Relationship = Diamond 
 
-<u>Entity:</u>
+<b>Entity:</b>
 
 An entity is a definable or major element, commonly a noun, that is represented in the database. This could be an object or a person, a concept or event. The entity is the first consideration when looking at database design.
 
-<u>Attribute:</u>
+<b>Attribute:</b>
 
 An attribute is something that characterises the entity. For example in the case of 'Game of Tiles' we have a entity of 'Skill', the attributes related to the enity are skills that can be used by the Characters in the game.
 
-<u>Relationship</u>
+<b>Relationship</b>
 
 
 

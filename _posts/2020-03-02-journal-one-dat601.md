@@ -12,7 +12,7 @@ JOURNAL #ONE [DAT601]
 
 Learning Summary<br>
 
-<embed src="assets/docs/Game of Tiles - Conceptual Model ERD.pdf" type="application/pdf" width="100%" height="600px" />
+<embed src="assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="600px" />
 
 <u>WHAT</u>
 

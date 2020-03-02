@@ -12,7 +12,9 @@ JOURNAL #ONE [DAT601]
 
 Learning Summary<br>
 
-<embed src="assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="600px" />
+<object data="assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="100%">
+  <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+</object>
 
 <u>WHAT</u>
 

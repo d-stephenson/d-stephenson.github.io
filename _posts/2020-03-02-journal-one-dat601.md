@@ -87,7 +87,7 @@ I have been fortunate in joining a team where the other contributors are gamers 
 
 <b><u>Game of Tile Documentation</u></b>
 
-<object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="1000%">
+<object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="1000px">
   <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
 </object>
 

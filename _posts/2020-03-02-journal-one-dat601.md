@@ -13,7 +13,7 @@ JOURNAL #ONE [DAT601]
 Learning Summary<br>
 
 <object data="assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="100%">
-  <p>Download Game of Tiles<a href="assets/docs/GoT_ERD.pdf"></a> Documentation</p>
+  <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
 </object>
 
 <u>WHAT</u>

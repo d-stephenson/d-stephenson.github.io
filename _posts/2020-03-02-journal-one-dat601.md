@@ -12,10 +12,6 @@ JOURNAL #ONE [DAT601]
 
 Learning Summary<br>
 
-<object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="100%">
-  <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
-</object>
-
 <b><u>WHAT</u></b>
 
 Class sessions have involved group work surrounding the development of a Conception Model Entity Relationship Diagram (ERD) for an online tile game that our group have called 'Game of Tiles'.
@@ -88,6 +84,12 @@ As a result of having a working background in business I generally try to apply 
 Saying that this course relates to systems development with regards to gaming of which I know next to nothing. However the challenge will be fun, and a game is still a business entity especially if there are options to introduce paid for elements of the play which is the case with applications from the Apple App store for instance. 
 
 I have been fortunate in joining a team where the other contributors are gamers and they have proven extremely useful in plugging the games in my knowledge surrounding how a game such of this might work and operate. There is also some crossover with other systems, such as player login which functions in the same way as an email login for example. 
+
+<b><u>Game of Tile Documentation</u></b>
+
+<object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="1000%">
+  <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
+</object>
 
 
 

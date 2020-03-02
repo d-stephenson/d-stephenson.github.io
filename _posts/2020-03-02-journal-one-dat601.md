@@ -16,7 +16,7 @@ Learning Summary<br>
   <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
 </object>
 
-<u>WHAT</u>
+<b><u>WHAT</u></b>
 
 Class sessions have involved group work surrounding the development of a Conception Model Entity Relationship Diagram (ERD) for an online tile game that our group have called 'Game of Tiles'.
 
@@ -61,7 +61,7 @@ There are three cardinal relationships discussed in class that are used in the E
 
 <i>Many (m) to Many (n):</i> Many instances of one entity relates to many of another entity.
 
-<u>WHY</u>
+<b><u>WHY</u></b>
 
 Creating ERDs is extremely useful when trying to understand how a business system or organisation functions. 
 
@@ -71,7 +71,7 @@ Fundamentally ERDs help stakeholders of the system, in conjunctions with other d
 
 Having come from a business development background and been through critical change processes in local government I have participated in the support process of large technical change and how the data from multiple systems would need to be integrated into a single system to be used across multiple government departments. The more complex a system, which often comes with age and and historically poor planning the more useful these higher level diagrams are in gaining the understanding of all those involved in the process.
 
-<u>HOW</u>
+<b><u>HOW</u></b>
 
 Developing my understanding of the ERD at conceptual level has been helped by prior learning from last semester in DAT502. 
 

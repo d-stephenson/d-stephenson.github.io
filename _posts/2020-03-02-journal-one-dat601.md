@@ -7,6 +7,7 @@ image: assets/images/conceptualDiagram.png
 featured: true
 hidden: true
 ---
+<i>Conceptual ERD created by Team Excellence</i>
 
 JOURNAL #ONE [DAT601]
 

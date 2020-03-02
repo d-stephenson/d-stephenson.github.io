@@ -87,7 +87,7 @@ As a result of having a working background in business I generally try to apply 
 
 Saying that this course relates to systems development with regards to gaming of which I know next to nothing. However the challenge will be fun, and a game is still a business entity especially if there are options to introduce paid for elements of the play which is the case with applications from the Apple App store for instance. 
 
-I have been fortunate in forming a team where the other contributors are gamers and they have proven extremely useful in plugging the games in my knowledge surrounding how a game such of this might work and operate. There is also some crossover with other systems, such as player login which functions in the same way as an email login for example. 
+I have been fortunate in joining a team where the other contributors are gamers and they have proven extremely useful in plugging the games in my knowledge surrounding how a game such of this might work and operate. There is also some crossover with other systems, such as player login which functions in the same way as an email login for example. 
 
 
 

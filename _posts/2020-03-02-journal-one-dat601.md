@@ -12,9 +12,6 @@ JOURNAL #ONE [DAT601]
 
 Learning Summary<br>
 
-<iframe src="assets/docs/GoT_ERD.pdf">
-</iframe>
-
 <object data="assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="100%">
   <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
 </object>

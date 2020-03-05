@@ -39,14 +39,10 @@ When considering an entity in the ERD we can view it in a hierarchical way. We c
 
 This was done originally in the ERD, player and character was generalised into just player. Later after class discussion player was specialised into player and character with their own unique attributes.
 
-<b>Attribute:</b>
+<b>Weak Entity & Strong Entity:</b>
 
-An attribute is something that characterises the entity. For example, in the case of 'Game of Tiles' we have a entity of 'skill', the attributes related to the entity are skills that can be used by the characters in the game.
 
-Attributes can be more complex and broken into two distinct versions:
 
-Simple Attribute: cannot be split further e.g. Age.
-Composite Attribute: Can be further split into sub-attributes e.g. Name can be split into First, Middle and Last, or address into local street and wider regional parts, including postcode. 
 
 <b>Relationship:</b>
 

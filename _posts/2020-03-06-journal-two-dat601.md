@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Journal #One [DAT601]"
+title:  "Journal #Two [DAT601]"
 author: d-stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
-image: assets/images/conceptualDiagramV.2.png
+image: assets/images/conceptualDiagramV.2.PNG
 featured: true
 hidden: true
 ---

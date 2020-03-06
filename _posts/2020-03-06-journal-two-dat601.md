@@ -45,7 +45,7 @@ Chens Rule for the ERD: attributes cannot participate in another relationship, i
 
 
 
-<object data="/assets/docs/ERD_Symbol_Legend.pdf" type="application/pdf" width="100%" height="800px">
+<object data="/assets/docs/ERD_Symbol_Legend.pdf" type="application/pdf" width="100%" height="650px">
   <p>Download Game of Tiles <a href="assets/docs/ERD_Symbol_Legend.pdf">Documentation</a></p>
 </object>
 

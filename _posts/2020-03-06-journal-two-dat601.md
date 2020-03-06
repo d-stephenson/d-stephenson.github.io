@@ -7,58 +7,47 @@ image: assets/images/conceptualDiagramV.2.PNG
 featured: true
 hidden: true
 ---
-<i>Conceptual ERD development created by Team Excellence</i>
+<i>Conceptual ERD development process - created by Team Excellence</i>
 
 JOURNAL #TWO [DAT601]
 
 Learning Summary<br>
 
+Much of the group effort this week has revolved around furthering our understanding of the symbols avaliable to 
+
+Chens Rule for the ERD: attributes cannot participate in another relationship, if an attribute needs to participate in relationships with other entites then we must consider that the attribute is in fact its own entity.  
+
 <b><u>WHAT</u></b>
 
-Class sessions have involved group work and have focussed on the development of a Conception Model Entity Relationship Diagram (ERD) for an online tile game that our group have called 'Game of Tiles'.
 
-We have been looking at the structure of the ERD and specifically the notations and symbols involved in conceptual visualization of a relational database.
 
-A conceptual ERD is used to present a high level view of a business system or organisation. It is used to define the business objects involved, which are listed as entities, and show the relationships between the entities. 
 
-<i>N.B. Research carried out into Conceptual Diagrams show there is disagreement as to whether attributes and cardinality should be included at this level. Sources show attributes and cardinality being introduced at the logical level.
-
-However both attributes and cardinality are displayed on the ERD.</i>
-
-<i>Guide to the ERD:</i>
-
-Entity = Rectangle<br>
-Attribute = Oval<br>
-Relationship = Diamond<br> 
-
-<b>Entity:</b>
-
-An entity is a definable or major element, commonly a noun, that is represented in the database. This could be an object or a person, a concept or event. The entity is the first consideration when looking at database design.
-
-When considering an entity in the ERD we can view it in a hierarchical way. We can group entities together to represent a more general view, this is called Generalisation. Likewise we can do the exact opposite and break an entity up into more specialised entities, known as Specialisation. 
-
-This was done originally in the ERD, player and character was generalised into just player. Later after class discussion player was specialised into player and character with their own unique attributes.
-
-<b>Weak Entity & Strong Entity:</b>
+<b>Weak (Child) Entity & Strong (Parent) Entity:</b>
 
 
 
 
-<b>Relationship:</b>
+<b>Weak Relationship:</b>
 
-Relationships signify a link between two entities. For example in the case of 'Game of Tiles' character has a relationship with player. The player plays the character and the character is played by the player. 
 
-<b>Cardinality:</b>
 
-Cardinality looks at the number of occurrence's or the potential occurrence's between entities that have a relationship. For example in the case of 'Game of Tiles' a character can play 1 Game, but a game can have many (m) characters.
 
-There are three cardinal relationships as discussed in class that are used in the ERD: 
+<b>Mandatory (Total) & Optional (Partial) Participation:</b>
 
-<i>1 to 1:</i> Here we would split an entity that might otherwise be classed as one into two, such as player and character. They are arguably the same thing however splitting them and forming a 1 to 1 relationship makes the data easier to understand.
 
-<i>1 to Many (m):</i> A sole instance of one entity relates to many of another entity. Can be viewed in reverse as a Many (m) to 1 relationship.
 
-<i>Many (m) to Many (n):</i> Many instances of one entity relates to many instances of another entity. In this case we use an 'm' and an 'n' to show the amount of 'many' as potential different.
+
+<b>Mandatory (Total) & Optional (Partial) Participation:</b>
+
+
+
+
+
+
+
+<object data="/assets/docs/ERD_Symbol_Legend.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Download Game of Tiles <a href="assets/docs/ERD_Symbol_Legend.pdf">Documentation</a></p>
+</object>
 
 <b><u>WHY</u></b>
 
@@ -94,8 +83,8 @@ Below is the documentation produced to accompany the ERD displayed in the image 
 
 <b><u>Game of Tile Documentation</u></b>
 
-<object data="/assets/docs/ERD_Symbol_Legend.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Download Game of Tiles <a href="assets/docs/ERD_Symbol_Legend.pdf">Documentation</a></p>
+<object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>
 </object>
 
 

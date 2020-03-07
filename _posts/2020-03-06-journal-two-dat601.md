@@ -61,7 +61,7 @@ Specialisation on the other hand is the exact opposite being a top down approach
 
 Our work in this area can be seen in the following snapshot of our ERD:
 
-<img src="assets/images/GSisation.png" alt="Example Genralisation Specialisation"><br>
+<img src="/assets/images/GSisation.png" alt="Example Generalisation Specialisation"><br>
 
 <b>Database Design Legend - Symbols:</b>
 

@@ -47,9 +47,11 @@ Chens Rule for the ERD: attributes cannot participate in another relationship, i
 
 
 
+<b>Database Design Legend - Symbols:</b>
+
 <object data="/assets/docs/ERD_Symbol_Legend.pdf" type="application/pdf" width="100%" height="625px">
   <p>Download Game of Tiles <a href="assets/docs/ERD_Symbol_Legend.pdf">Documentation</a></p>
-</object>
+</object><br>
 
 <b><u>WHY</u></b>
 
@@ -84,6 +86,11 @@ I have been fortunate in joining a team where the other contributors are gamers 
 Below is the documentation produced to accompany the ERD displayed in the image of this Journal.
 
 <b><u>Game of Tile Documentation</u></b>
+
+Updated details include:
+
+- Business Rules
+- Data Dictionary 
 
 <object data="/assets/docs/GoT_ERD.pdf" type="application/pdf" width="100%" height="800px">
   <p>Download Game of Tiles <a href="assets/docs/GoT_ERD.pdf">Documentation</a></p>

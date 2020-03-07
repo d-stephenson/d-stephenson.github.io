@@ -21,9 +21,9 @@ We have been looking at the structure of the ERD and specifically the notations 
 
 A conceptual ERD is used to present a high level view of a business system or organisation. It is used to define the business objects involved, which are listed as entities, and show the relationships between the entities. 
 
-<i>N.B. Research carried out into Conceptual Diagrams show there is disagreement as to whether attributes and cardinality should be included at this level. Sources show attributes and cardinality being introduced at the logical level.
+<i>N.B. Research carried out into Conceptual Diagrams show there is disagreement as to whether attributes and cardinality should be included at this level. Sources show attributes and cardinality being introduced at the logical level.</i>
 
-However both attributes and cardinality are displayed on the ERD.</i>
+<i>However both attributes and cardinality are displayed on the ERD.</i>
 
 <i>Guide to the ERD:</i>
 

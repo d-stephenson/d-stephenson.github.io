@@ -13,51 +13,51 @@ JOURNAL #TWO [DAT601]
 
 Learning Summary<br>
 
-Much of the group effort this week has revolved around furthering our understanding of the symbols avaliable for use within the ERD. This led to creating a ERD legend that can be used as a refernce guide and updated as and when required as our learning develops. 
+Much of the group effort this week has revolved around furthering our understanding of the symbols available for use within the ERD. This led to creating a ERD legend that can be used as a reference guide and updated as and when required as our learning develops. 
 
-Our ERD has gone through a number of cycles at these stage and adding in complexity has led us to review our previous interpretation of how the game would operate and what data would need to be stored and at what stage. This has led to some minor changes but all a significant change surrounding 'Player' and 'Administrator', which we determeined were specialisations of a newly introduced entity known as 'Account'. 
+Our ERD has gone through a number of cycles at these stage and adding in complexity has led us to review our previous interpretation of how the game would operate and what data would need to be stored and at what stage. This has led to some minor changes but all a significant change surrounding 'Player' and 'Administrator', which we determined were specialisation's of a newly introduced entity known as 'Account'. 
 
-Additional understanding from this week: Chens Rule for the ERD - attributes cannot participate in another relationship, if an attribute needs to participate in relationships with other entites then we must consider that the attribute is in fact its own entity.  
+Additional understanding from this week: Chens Rule for the ERD - attributes cannot participate in another relationship, if an attribute needs to participate in relationships with other entities then we must consider that the attribute is in fact its own entity.  
 
 <b><u>WHAT</u></b>
 
 <b>Weak (Child) Entity & Strong (Parent) Entity:</b>
 
-There are two types of entites within an ERD. 
+There are two types of entities within an ERD. 
 
-A strong entity is an entoty within the ERD that can 'stand on its own'. What we mean by that is it can exist without any other entity.
+A strong entity is an entity within the ERD that can 'stand on its own'. What we mean by that is it can exist without any other entity.
 
-A strong entity is indentified by rectangle with either no or one outline. A strong entity may have total or partial participation in a relationship and will always have a primary key.
+A strong entity is identified by rectangle with either no or one outline. A strong entity may have total or partial participation in a relationship and will always have a primary key.
 
-In comparsion a weak entity does not exist without the strong enitity, it relies on the strong entity for its existence.
+In comparison a weak entity does not exist without the strong entity, it relies on the strong entity for its existence.
 
 A weak entity is identified by a rectangle with a double outline. A weak entity must always have total participation in the relationship.
 
 <b>Weak Relationship:</b>
 
-A weak relationship is the relationship that exist between the weak entity and the strong entoty for which it relies upon for its existence.
+A weak relationship is the relationship that exist between the weak entity and the strong entity for which it relies upon for its existence.
 
 As with a weak entity a weak relationship is denoted by a diamond with a double line outline.
 
 <b>Mandatory (Total) & Optional (Partial) Participation:</b>
 
-Entities wihin the ERD participate in the adjoing relationship between themselves and other entities. However that participation can either be mandatory (Total) or optional (partial).
+Entities within the ERD participate in the adjoining relationship between themselves and other entities. However that participation can either be mandatory (Total) or optional (partial).
 
-The type of participation an entity has within a relationship will corrolate with the business rule that describes the relationship. 
+The type of participation an entity has within a relationship will correlate with the business rule that describes the relationship. 
 
 Mandatory participation means that the entity has no option but to participate in the relationship. For example in the customer / order relationship an order must be placed by a customer. Therefore a customer record must exist i.e. have mandatory/total participation, for an order can be placed. 
 
 In this example an order cannot exist without a customer, making the order entity a weak entity of the customer entity and the relationship a weak relationship. This means that the order entity is also a mandatory entity. 
 
-Optional or partial participation means that an entity may or may not participate in a relationship. An example of this would be an employee must manage a department within a business or organisation. An employee may be a manager of a department but not all employess with manage, making this optional participation. 
+Optional or partial participation means that an entity may or may not participate in a relationship. An example of this would be an employee must manage a department within a business or organisation. An employee may be a manager of a department but not all employees with manage, making this optional participation. 
 
 <b>Genralisation & Specialisation:</b>
 
 Generalisation is an approach used in creating an ERD that can help with understanding the entities and break down the complexity. It is viewed as a bottom up approach, by which we mean that two entities can combine to form to form a higher level entity above the two below it. 
 
-Our team determined that this approach was necessary for our game ERD and formed an 'account' entity' that sat above the two types of accounts that existe in the ERD, being 'player' and 'administrator'.
+Our team determined that this approach was necessary for our game ERD and formed an 'account' entity' that sat above the two types of accounts that exists in the ERD, being 'player' and 'administrator'.
 
-Specialisation on the other hand is the exact opposite being a top down approach. In our example above we could have quite easily started with the entity 'account' and did discuss this early on amoungst ourselves. If this had been the case we could have the create two account sub-groups being 'player' and 'adminstrator'.
+Specialisation on the other hand is the exact opposite being a top down approach. In our example above we could have quite easily started with the entity 'account' and did discuss this early on amongst ourselves. If this had been the case we could have the create two account sub-groups being 'player' and 'administrator'.
 
 Our work in this area can be seen in the following snapshot of our ERD:
 
@@ -71,35 +71,21 @@ Our work in this area can be seen in the following snapshot of our ERD:
 
 <b><u>WHY</u></b>
 
-Creating ERDs is extremely useful when trying to understand how a business system or organisation functions. 
+Developing our understanding of the more complex structures of the ERD allows us to better understand how the database will be designed and how it will function. 
 
-ERDs allow all users or potential users of the system to visualize who the entities are that interact with the data system, what the relationships are between the entities and what attributes are associated with the entities. The development team can use the diagram to determine what the technical requirements are of the software system, and what data is required.
+The added complexity, whilst being more difficult to create and get your head around initial has the side effect of making the elements with the ERD clearer and by specifying exactly what is expected from each entity, whether it relates on other entities for its existence and what the relationship will look like. 
 
-Fundamentally ERDs help stakeholders of the system, in conjunctions with other diagramming techniques, to create a visual image of how the data in the system is connected in a very general way. This is so beneficial because multiple user groups are able to review and provide input based on their perspective.
+There are further benefits to the improved detail within the diagram particular for user groups that have a stake within the system. Business users for example are able to understand and start to picture how the system will work and identify problems that may arise from a 'shop floor' point of view, as well as identify opportunities available from a business perspective.
 
-Having come from a business development background, and been through critical change processes in local government, I have participated in the support process of large technical change. This experience has allowed me to see how the data from multiple systems would need to be integrated into a single system to be used across multiple government departments. 
-
-The more complex a system, which often comes with the age of the system and data stored, and historically poor planning and implementation means these higher level diagrams are even more useful in attempting to gain an understanding of the multiple elements involved in the development.
+Likewise those same opportunities are available to the technical and development teams. Furthermore the level of detail and clarity within the ERD will help to either reduce or element errors during the build process.  
 
 <b><u>HOW</u></b>
 
-Developing my understanding of the ERD at conceptual level has been helped by prior learning from last semester in DAT502. 
+This week has built on my base level of understanding of the Conceptual model ERD. Having those foundations in place from DAT502 have helped support the understanding process.
 
-I find class work provides a solid base in which to carry out personal research. It was doing this that I discovered that there variations to what is included at the conceptual level and what then is added at the logical level. I also found this in DAT502. 
+I think what was most helpful was creating the ERD Legend, not only did my research help to support the understanding of the options available, I was also able to understand some of the more difficult concepts by looking at the various examples used, particularly surrounding participation and generalisation. 
 
-I can see in a practical way how leaving attributes out at the conceptual level may be of benefit when dealing with people who are not technically minded, but nevertheless need to understand and provide input to a system. 
-
-Once everyone is working on the same page, attributes can then be added at the logical level in an incremental way. 
-
-The caveat to this is that a technical team might prefer attributes to be listed at the conceptual level, as they are more familiar with the technique and could speed up their understanding.
-
-As a result of having a working background in business I generally try to apply my learning to business environments, which is useful when trying to retain the information and specific details. 
-
-Saying that, this course relates to systems development with regards to gaming, of which I know next to nothing. However the challenge will be fun, and a game is still a business entity, especially if there are options to introduce paid add-ons within the game play, which is the case with applications from the Apple App store for instance. 
-
-I have been fortunate in joining a team where the other contributors are gamers and they have proven extremely useful in plugging the gaps in my knowledge, specifically surrounding how a game such as this might work and operate. There is also some crossover with other systems, such as player login which functions in the same way as an email login for example. 
-
-Below is the documentation produced to accompany the ERD displayed in the image of this Journal.
+As a non-gamer I struggled to 'see' the game at first. I couldn't visualise how it might look. However having carried out the exercises so far I now have a very good understanding of the principles of the game, what the business rules are and what the basic structure of the database will look like.   
 
 <b><u>Game of Tile Documentation</u></b>
 

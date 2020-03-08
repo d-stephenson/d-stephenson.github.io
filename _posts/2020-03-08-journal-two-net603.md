@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Two [NET603]"
 author: d-stephenson
 categories: [ NET603, Journal, Practical Network Development ]
-image: assets/images/netJ2.jpeg
+image: assets/images/NetJ2.png
 featured: true
 hidden: true
 ---
@@ -11,7 +11,7 @@ hidden: true
 
 <h2>JOURNAL #TWO [NET603]</h2>
 
-<h2>NETWORK REQUIREMENTS AND CONSIDERATIONS</h2><br>
+<h2>NETWORK REQUIREMENTS AND CONSIDERATIONS</h2>
 
 <h3>Discussion Points for Infrastructure Development</h3>
 
@@ -31,7 +31,7 @@ hidden: true
 	•	Installation & Implementation 
 
 <b>Technical Requirements/Considerations:</b>
-	•	
+
 	•	Technical Handbook, Diagrams & Naming Conventions
 	•	Technical Goals meeting Business Goals
 	•	Cost vs Benefit
@@ -79,7 +79,7 @@ In addition they may also chose to add in the benefit of a cloud based back up s
 
 See below example solution <i>(source: https://sysgen.ca/cloud-vs-in-house-servers/):</i>
 
-<img src="/assets/images/netJ2.png" alt="Logical Diagram"><br>
+<img src="/assets/images/NetJ2.png" alt="Logical Diagram"><br>
 
 Ultimately our team needs to determine the needs of the business and answer the following questions:
 

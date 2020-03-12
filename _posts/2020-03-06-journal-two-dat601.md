@@ -91,7 +91,7 @@ As a non-gamer I struggled to 'see' the game at first. I couldn't visualise how 
 
 <b><u>Game of Tile Documentation</u></b>
 
-<i>THis document has been updated in line with the new ERD.</i>
+<i>This document has been updated in line with the new ERD.</i>
 
 Updated details include:
 

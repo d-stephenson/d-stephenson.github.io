@@ -102,7 +102,7 @@ How much effort is put into creating a detailed and accurate picture of the data
 
 <b><u>Game of Tile - Attributes Data Dictionary</u></b>
 
-Further work carried out this week on 'Game of Tiles' has been the Attributes Data Dictionary as follows. 
+Further work carried out this week on 'Game of Tiles' has been the creation of the Attributes Data Dictionary as follows. 
 
 <object data="/assets/docs/GoT_DD.pdf" type="application/pdf" width="100%" height="800px">
   <p>Download Game of Tiles <a href="assets/docs/GoT_DD.pdf">Attributes Data Dictionary</a></p>

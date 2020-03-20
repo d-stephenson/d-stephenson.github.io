@@ -88,7 +88,7 @@ The tables in the Relational Model have a specific number of columns, but an unl
     <td>Completely remove the superclass from the relational diagram, instead each subclass becomes a table with all common attributes plus their own unique attributes</td>
     <td>The superclass becomes a table that holds all common attributes and the unique attributes of each subclass</td>
   </tr>
-</table>
+</table><br>
 
 <b>Crows Foot</b>
 

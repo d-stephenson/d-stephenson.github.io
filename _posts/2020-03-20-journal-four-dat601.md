@@ -48,7 +48,7 @@ The tables in the Relational Model have a specific number of columns, but an unl
     <td>Includes cardinality</td>
     <td>Does not include cardinality</td>
   </tr>
-</table> 
+</table><br> 
 
 <b>Rules when moving to the Relational Model</b>
 

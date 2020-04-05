@@ -19,7 +19,7 @@ hidden: true
 
 <object data="/assets/docs/NET_UserReq.pdf" type="application/pdf" width="100%" height="625px">
   <p>User Specifications<a href="assets/docs/NET_UserReq.pdf">Documentation</a></p>
-</object>
+</object><br>
 
 <img src="/assets/images/NET_UserSpec.png" alt="Business User Specifications"><br>
 
@@ -28,7 +28,7 @@ hidden: true
 <img src="/assets/images/NetworkImage.png" alt="Network Requirements"><br>
 
 <object data="/assets/docs/NET_NetReq.pdf" type="application/pdf" width="100%" height="625px">
-  <p>Network Specifications<a href="assets/docs/NET_NetReq.pdf">Documentation</a></p>
+  <p>Network Specifications<a href="assets/docs/NET_NetReq.pdf">Documentation</a></p><br>
 </object>
 
 <h3>Naming Conventions</h3>

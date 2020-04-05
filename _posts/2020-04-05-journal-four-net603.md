@@ -25,7 +25,7 @@ hidden: true
 
 <h3>Network Requirements</h3>
 
-<img src="/assets/images/NetworkImages.png" alt="Network Requirements"><br>
+<img src="/assets/images/NetworkImage.png" alt="Network Requirements"><br>
 
 <object data="/assets/docs/NET_NetReq.pdf" type="application/pdf" width="100%" height="625px">
   <p>Network Specifications<a href="assets/docs/NET_NetReq.pdf">Documentation</a></p>

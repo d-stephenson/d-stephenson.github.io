@@ -41,7 +41,7 @@ These entities will eventually become the tables with the database.
 In addition to the above we also defined some of the attributes associated with the entities. The business objects will have characteristics that define them, these become the entities attributes and stored as fields in the entities table. These attributes either:
 
 1. <i>Identify</i> the entities - known as key attributes e.g. person tax ID number
-2. <b>Describe</i> the entities - known as non-key attributes e.g. name, address, email
+2. <i>Describe</i> the entities - known as non-key attributes e.g. name, address, email
 
 <b><u>WHY</u></b>
 

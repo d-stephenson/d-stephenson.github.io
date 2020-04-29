@@ -7,7 +7,7 @@ image: assets/images/NaLER.PNG
 featured: true
 hidden: true
 ---
-<i>Normalisation</i>
+<i>Natural Language</i>
 
 JOURNAL #SEVEN [DAT601]
 

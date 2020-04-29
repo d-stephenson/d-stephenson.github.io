@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Journal #Six [DAT601]"
+title:  "Journal #Seven [DAT601]"
 author: d-stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
-image: assets/images/j5header.PNG
+image: assets/images/NaLER.PNG
 featured: true
 hidden: true
 ---
 <i>Normalisation</i>
 
-JOURNAL #SIX [DAT601]
+JOURNAL #SEVEN [DAT601]
 
 Learning Summary<br>
 

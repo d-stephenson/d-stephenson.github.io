@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Seven [DAT601]"
 author: d-stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
-image: assets/images/NaLER.PNG
+image: assets/images/NaLER.png
 featured: true
 hidden: true
 ---

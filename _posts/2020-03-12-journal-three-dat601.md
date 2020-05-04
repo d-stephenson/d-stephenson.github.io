@@ -105,7 +105,7 @@ How much effort is put into creating a detailed and accurate picture of the data
 Further work carried out this week on 'Game of Tiles' has been the creation of the Attributes Data Dictionary as follows. 
 
 <object data="/assets/docs/GoT_DD.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Download Game of Tiles <a href="assets/docs/GoT_DD.pdf">Attributes Data Dictionary</a></p>
+  <p>Attributes Data Dictionary<a href="assets/docs/GoT_DD.pdf"></a></p>
 </object>
 
 

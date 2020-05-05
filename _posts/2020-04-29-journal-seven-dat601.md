@@ -57,7 +57,7 @@ This step is carried out with the diagram meeting at least first normal form (1N
 
 A designer should begin by writing a sentence for the attribute that acts as the primary key (PK), the format of the sentence should be structured as follows:
 
-Each <Entity-name> is uniquely identified by <Primary Key>
+Each Entity-name is uniquely identified by Primary Key
 
 For example, “Each Vessel is uniquely identified by VesselTypeID.”
 
@@ -65,7 +65,7 @@ What this allows a designer to do is to understand and validate what the entity 
 
 Next begin to write sentences for all the entity attributes that is not either a PK or a foreign key (FK). This should be carried out using the structure as follows:
 
-One <Entity-name> identified by <PK> must have one <attribute name>
+One Entity-name identified by PK must have one attribute name
 
 For example, “Each Vessel Type identified by VesselTypeID must have one Vessel Type name.”
 
@@ -73,7 +73,7 @@ In the example it is clear a vessel type would have a name, however what if a gi
 
 Finally, a designer will need to write a sentence for any relationships which are binary. Recurring binary relationships are also carried out utilising the structure as follows:
 
-One <Entity-name1> identified by <PK> <optionality> <relationship-name> <cardinality> <Entity-name2> identified by <Foreign Key>
+One Entity-name1 identified by PK optionality relationship-name cardinality Entity-name2 identified by Foreign Key
 
 For example, “One Vessel Type identified by VesselTypeID must have one or more Seamen identified by (VesselTypeID, SeamenID).”
 
@@ -91,7 +91,7 @@ The steps outlined above are often enough to allow a user to understand most of 
 
 It is important that in this step and in step 5B that follows, that the designer focusses on the meaning of the relationship and how it interacts with the entities. The structure is as follows:
 
-One <Entity-name1> identified by <PK1> <optionality> <relationship-name1> <cardinality> <Entity-name2> identified by <PK2> <relationship-name2> <cardinality> <Entity-name3> identified by <PK3>
+One Entity-name1 identified by PK1 optionality relationship-name1 cardinality Entity-name2 identified by PK2 relationship-name2 cardinality Entity-name3 identified by PK3
 
 For example, “One Vessel Type identified by VesselTypeID must have one or more Seamen identified by SeamenID that uses one or more Tools identified by ToolID.”
 
@@ -99,7 +99,7 @@ It is important to note that the entities are those that participate in the rela
 
 <u>Step 5B – Where an entity is part of a ternary or greater, many-to-many relationship and has a clear identifier and singular attribute key</u>
 
-One <Entity-name1> identified by <PK1> must <relationship-name1> one <Entity-name2> identified by <FK1> <relationship-name2> one <Entity-name3> identified by <FK2> and <relationship-name3> one <Entity-name4> identified by <FK3>
+One Entity-name1 identified by PK1 must relationship-name1 one Entity-name2 identified by FK1 relationship-name2 one Entity-name3 identified by FK2 and relationship-name3 one Entity-name4 identified by FK3
 
 For example, One Invoice identified by InvoiceID must be made by one Salesperson identified by SalespersonID for one Customer identified by CustomerID and for one Order identified by OrderID
 
@@ -109,7 +109,7 @@ In this step all processes must be followed, and the first entity name must be t
 
 This final step involves listing all the sentences including any changes where necessary to make the relationship clearer to understand.
 
-An example sentence listing format for an ERD would look as follows:<br>
+An example sentence listing format for an ERD would look as follows:<br><br>
 S1: Each Vessel is uniquely identified by one VesselID<br>
 S2: One Vessel (VesselID) must has one mission<br>
 S3: One Vessel (VesselID) must has one VesselName<br>

@@ -109,15 +109,15 @@ In this step all processes must be followed, and the first entity name must be t
 
 This final step involves listing all the sentences including any changes where necessary to make the relationship clearer to understand.
 
-An example sentence listing format for an ERD would look as follows:
-S1: Each Vessel is uniquely identified by one VesselID
-S2: One Vessel (VesselID) must has one mission
-S3: One Vessel (VesselID) must has one VesselName
-S4: One Vessel (VesselID) must have one or more Seamen (VesselID, SeamanID)
-S5: Each Seaman is uniquely identified by one VesselID, SeamanID
-S6: One Seaman (VesselID, SeamanID) must have one Bunk
-S7: One Seaman (VesselID, SeamanID) must be stationed on one Vessel (VesselID)
-S8: One Seaman (VesselID, SeamanID) must be belong to one Department (DepartmentID)
+An example sentence listing format for an ERD would look as follows:<br>
+S1: Each Vessel is uniquely identified by one VesselID<br>
+S2: One Vessel (VesselID) must has one mission<br>
+S3: One Vessel (VesselID) must has one VesselName<br>
+S4: One Vessel (VesselID) must have one or more Seamen (VesselID, SeamanID)<br>
+S5: Each Seaman is uniquely identified by one VesselID, SeamanID<br>
+S6: One Seaman (VesselID, SeamanID) must have one Bunk<br>
+S7: One Seaman (VesselID, SeamanID) must be stationed on one Vessel (VesselID)<br>
+S8: One Seaman (VesselID, SeamanID) must be belong to one Department (DepartmentID)<br>
 
 <u>Conclusion<u>
 

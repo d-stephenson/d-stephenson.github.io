@@ -21,7 +21,7 @@ Class sessions this week introduced us to data types and join tables in SQL Serv
 
 <u>Data Types</u>
 
-In the relational database an attribute is defined by a data type. Data contained in the columns of the database can only hold data as defined by the data type.
+In the relational database an attribute is defined by a data type. Data contained in the columns of the database can only hold data as defined by the data type.<br>
 
 The data types that an attribute can be defined by are:
 
@@ -47,15 +47,15 @@ These types of joins are represented in the following chart:
 
 <img src="/assets/images/DAT9_joins.png" alt="Join Types"><br>
 
-Cross Joins – These joins work by joining each row from the first table with all the rows of the second table, if a WHERE clause is used then it functions like an inner join.
+Cross Joins – These joins work by joining each row from the first table with all the rows of the second table, if a WHERE clause is used then it functions like an inner join.<br>
 
-The conditions used in the join work with the WHERE search condition and the HAVING search condition. These search conditions allow a database user to control the rows that are selected from the tables as defined in the FROM clause.
+The conditions used in the join work with the WHERE search condition and the HAVING search condition. These search conditions allow a database user to control the rows that are selected from the tables as defined in the FROM clause.<br>
 
 When we specify the conditions of the join in the FROM clause, we are separating them from other search conditions in the WHERE clause. This can be seen in the following example applied in the test database in SQL Server:
 
 <img src="/assets/images/DAT9_joinEX1.png" alt="Join Table Example"><br>
 
-When we select columns for a join, we can choose all columns or identify a subset of the columns stored in the table to suit requirements. 
+When we select columns for a join, we can choose all columns or identify a subset of the columns stored in the table to suit requirements.<br>
 
 When using more then two tables in a join, a three table join for example, only one of the tables can be used to act as a bridge between the other two tables. The bridge table does not have to have any of its columns selected in the select list.
 
@@ -74,7 +74,7 @@ The following operator categories are used in SQL Server:
 
 <b><u>WHY</u></b>
 
-Join operators are used to retrieve data from tables within a database. Join operators are considered as an easy way to read and understand the appropriate data and used an efficient way to for retrieving that data. 
+Join operators are used to retrieve data from tables within a database. Join operators are considered as an easy way to read and understand the appropriate data and used an efficient way to for retrieving that data.<br>
 
 Joins can be used instead of subqueries and there are several advantages of join tables which include:
 
@@ -83,10 +83,10 @@ Joins can be used instead of subqueries and there are several advantages of join
 
 <b><u>HOW</u></b>
 
-We have been running these join queries in our test bed data within out SQL Server. Microsoft Docs has been useful in testing these join queries. 
+We have been running these join queries in our test bed data within out SQL Server. Microsoft Docs has been useful in testing these join queries.<br> 
 
-In the following example we have identified the database we want to pull the data from, then selected the data we want to retrieve using the SELECT clause and the AS clause the name the columns. 
+In the following example we have identified the database we want to pull the data from, then selected the data we want to retrieve using the SELECT clause and the AS clause the name the columns.<br> 
 
-This is followed with the FROM clause which define the database, schema and table and joined it using JOIN to a second table through an ID and operator. Finally, we include an order condition which list last name and first name in ascending order by last name.
+This is followed with the FROM clause which define the database, schema and table and joined it using JOIN to a second table through an ID and operator. Finally, we include an order condition which list last name and first name in ascending order by last name.<br>
 
 <img src="/assets/images/DAT9_joinEX2.png" alt="Join Table Example"><br>

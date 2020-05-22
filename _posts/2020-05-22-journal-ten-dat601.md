@@ -87,9 +87,15 @@ These types of queries are used across multiple departments in an organisation t
 
 Below are my examples of using queries to retrieve information from the example database in SQL Server:
 
-<img src="/assets/images/SQL2.png" alt="Practice SQL"><br>
-<img src="/assets/images/SQL3.png" alt="Practice SQL"><br>
-<img src="/assets/images/SQL4.png" alt="Practice SQL"><br>
-<img src="/assets/images/SQL5.png" alt="Practice SQL"><br>
-<img src="/assets/images/SQL6.png" alt="Practice SQL"><br>
-<img src="/assets/images/SQL1.png" alt="Practice SQL"><br>
+<img src="/assets/images/SQL2.png" alt="Practice SQL">
+<br>
+<img src="/assets/images/SQL3.png" alt="Practice SQL">
+<br>
+<img src="/assets/images/SQL4.png" alt="Practice SQL">
+<br>
+<img src="/assets/images/SQL5.png" alt="Practice SQL">
+<br>
+<img src="/assets/images/SQL6.png" alt="Practice SQL">
+<br>
+<img src="/assets/images/SQL1.png" alt="Practice SQL">
+<br>

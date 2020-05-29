@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Eleven [DAT601]"
 author: d-stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
-image: assets/images/SQL1.png
+image: assets/images/check_constraint.jpg
 featured: true
 hidden: true
 ---
@@ -33,7 +33,7 @@ Check constraints can be added to existing tables through an ALTER TABLE ADD CON
 
 The below is an example of some of the practical application applied in class:
 
-<img src="/assets/check_constraint.jpg" alt="Practice Check Constraint">
+<img src="/assets/images/check_constraint.jpg" alt="Practice Check Constraint">
 <br>
 
 Separately, work has progressed well with milestone 2 and the logical diagram, I’m hoping to have it submission ready by the end of the long weekend so I can focus effectively on the physical development up the end of term.

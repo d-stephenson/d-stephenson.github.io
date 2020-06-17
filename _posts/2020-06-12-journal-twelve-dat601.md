@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Twelve [DAT601]"
 author: d-stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
-image: assets/images/check_constraint.jpg
+image: assets/images/clusterDiagram.png
 featured: true
 hidden: true
 ---

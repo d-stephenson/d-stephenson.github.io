@@ -76,7 +76,7 @@ The following operator categories are used in SQL Server:
 
 Join operators are used to retrieve data from tables within a database. Join operators are considered as an easy way to read and understand the appropriate data and used an efficient way to for retrieving that data.<br>
 
-Joins can be used instead of subqueries and there are several advantages of join tables which include:
+Joins can be used instead of sub-queries and there are several advantages of join tables which include:
 
 -	Execute faster, performance may not always be noticeable by the user
 -	Multiple join types that can used to define the output 

@@ -36,7 +36,7 @@ A non-clustered index operates differently to a clustered index, its aim is the 
 
 It achieves its aim by copying specific data from columns in the table and then links that data to the associated table. Despite the differences a non-clustered index also uses a B-tree structure, the difference between the two index methods can be compared when looking at the following non-clustered diagram:
 
-<img src="/assets/images/nonclusterDiagram.png.jpg" alt="Non-Clustered Index">
+<img src="/assets/images/nonclusterDiagram.png" alt="Non-Clustered Index">
 <br>
 
 In addition to storing the index values, the nodes at the leaf level also store row pointers to the data rows that contain those key values. In a non-clustered structure, a table can have one or many non-clustered indexes with indexes including one or many columns of the table.

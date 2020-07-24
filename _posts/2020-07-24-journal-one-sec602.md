@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #One [SEC602]"
 author: d-stephenson
 categories: [ SEC602, Journal, Systems Security ]
-image: assets/images/clusterDiagram.png
+image: assets/images/SEC601-J1.jpeg
 featured: true
 hidden: true
 ---

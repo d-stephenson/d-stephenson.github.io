@@ -66,34 +66,34 @@ There are alternative actions that can be implemented on a machine that can cont
 - Running a free alternative to Defender, scheduled to specifically scan Defender excluded files and folders when the machine is not in use. This provides the user full protection and bypasses any performance issues. One of the benefits of Defender is that it will operate alongside other antivirus programs. 
 - Use Defender to run an on-demand scan by defining the location for the scan and setting it to run manually. This would require the user to be proactive in running the scan on the excluded files or folders.
 	 
-<i>Reference:</i> How To Set Your Own Scan Schedule For Windows Defender Antivirus, https://helpdeskgeek.com/windows-10/how-to-set-your-own-scan-schedule-for-windows-defender-antivirus/ 
+<i>Reference:</i> How To Set Your Own Scan Schedule For Windows Defender Antivirus, https://helpdeskgeek.com/windows-10/how-to-set-your-own-scan-schedule-for-windows-defender-antivirus/<br>
 
 <h3>Q2 - Discuss a scenario when you may need to use the Microsoft Safety Scanner rather than Windows Defender.</h3>
 
-Microsoft Safety Scanner might be used in a situation where a machine has already become infected with malware. Safety Scanner completely removes all the malware that it detects. It is useful when another anti-virus software has not worked, or the user is unable to download and install another anti-virus option.
+Microsoft Safety Scanner might be used in a situation where a machine has already become infected with malware. Safety Scanner completely removes all the malware that it detects. It is useful when another anti-virus software has not worked, or the user is unable to download and install another anti-virus option.<br>
  
-<i>Reference:</i> Windows Defender compared with MS Safety Scanner Compared with Windows Malicious Software Removal Tool, https://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning-windows_10/windows-defender-compared-with-ms-safety-scanner/e813d86b-5886-4ed2-b025-392a7d561559
+<i>Reference:</i> Windows Defender compared with MS Safety Scanner Compared with Windows Malicious Software Removal Tool, https://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning-windows_10/windows-defender-compared-with-ms-safety-scanner/e813d86b-5886-4ed2-b025-392a7d561559<br>
  
-Once Safety Scanner performs a scan it provides the user with a report which lists all instances of potentially harmful or malicious programs. Safety scanner allows the user to choose which antivirus program they use to remove the discovered malware. 
+Once Safety Scanner performs a scan it provides the user with a report which lists all instances of potentially harmful or malicious programs. Safety scanner allows the user to choose which antivirus program they use to remove the discovered malware.<br> 
  
-Defender is an incredibly capable alternative to Safety Scanner on machines running Windows 7 or higher. This means that Saftey Scanner should be used on all other applications of Windows to ensure these older operating systems maintain full protection. 
+Defender is an incredibly capable alternative to Safety Scanner on machines running Windows 7 or higher. This means that Saftey Scanner should be used on all other applications of Windows to ensure these older operating systems maintain full protection.<br>
  
-<i>Reference:</i> Microsoft Safety Scanner is a legitimate scanning software developed for the security of your computer, https://www.2-spyware.com/review-microsoft-safety-scanner.html
+<i>Reference:</i> Microsoft Safety Scanner is a legitimate scanning software developed for the security of your computer, https://www.2-spyware.com/review-microsoft-safety-scanner.html<br>
 
 <h3>Q3 -Select a feature Internet Explorer Browser Security from the lab and discuss the vulnerability it is protecting, is this required just for Internet Explorer?</h3>
 
-Let's discuss Pop-Blockers, not just because they protect us from harmful pop-ups, but because they reduce the amount of advertising material we are bombarded with on a daily basis, and as a result limit annoying distraction.
+Let's discuss Pop-Blockers, not just because they protect us from harmful pop-ups, but because they reduce the amount of advertising material we are bombarded with on a daily basis, and as a result limit annoying distraction.<br>
  
-The real damage can occur from those pop-ups that contain material that is deliberately deceptive by appealing to the user in a targeted way, the ones that catch the eye despite your best efforts. These are successful precisely because they are targeted in a way that makes it difficult not to click and link to whatever is being offered. Something I think we can all admit to being guilty of at one time or another.
+The real damage can occur from those pop-ups that contain material that is deliberately deceptive by appealing to the user in a targeted way, the ones that catch the eye despite your best efforts. These are successful precisely because they are targeted in a way that makes it difficult not to click and link to whatever is being offered. Something I think we can all admit to being guilty of at one time or another.<br>
  
-These pop-ups are problematic because the links contained within them can be malicious, and often it is difficult to determine whether they are genuine or harmful. Thankfully, most browsers including Internet Explorer, use filters which will detect and block pops-up without you having to turn on any settings or take any direct action.
+These pop-ups are problematic because the links contained within them can be malicious, and often it is difficult to determine whether they are genuine or harmful. Thankfully, most browsers including Internet Explorer, use filters which will detect and block pops-up without you having to turn on any settings or take any direct action.<br>
  
-There may however be instances where a user chooses to allow pop-ups from certain sites that are trusted and have been validated. In these instances, a user can allow pop-ups from these sites in order to continue using all the features and functionality offered.
+There may however be instances where a user chooses to allow pop-ups from certain sites that are trusted and have been validated. In these instances, a user can allow pop-ups from these sites in order to continue using all the features and functionality offered.<br>
  
-<i>Reference:</i> How to block web page pop-ups, https://computing.which.co.uk/hc/en-gb/articles/207058655-How-to-block-web-page-pop-ups
+<i>Reference:</i> How to block web page pop-ups, https://computing.which.co.uk/hc/en-gb/articles/207058655-How-to-block-web-page-pop-ups<br>
 
-<b>Conclusion</b>
+<b>Conclusion</b><br>
 
-The primary browser I use is Firefox for a range of reasons including its ability to block both pop-ups and pop-unders (those that appear underneath the browser instead of on top of the browser). 
+The primary browser I use is Firefox for a range of reasons including its ability to block both pop-ups and pop-unders (those that appear underneath the browser instead of on top of the browser).<br> 
  
 Pop-up blocking in Firefox can be administered and controlled similarly to that in Internet Explorer. Firefox has been my preferred option due to a several security concerns specifically privacy, an area which I believe is becoming increasing important in an age where users hand over their data to large corporations with little or no consideration as to how that data is used or who may make legally questionable requests for that information, including but not limited to government agents. 

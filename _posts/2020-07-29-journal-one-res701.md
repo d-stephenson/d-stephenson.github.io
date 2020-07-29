@@ -19,7 +19,7 @@ If I were to take a simple approach I would describe research as a method to lea
 
 However, in order to provide a complete and academic response I will research, research...
 
-My findings:
+<b>My findings:</b>
 
 Research is a process whereby consideration is made to a given field of study. It includes inquiry into collections of data and information gathered. A critical analysis and thoughtful interpretation of information is then documented in accordance with suitable methodologies as required by academic disciplines or professional standards. This inquiry facilitates the explaining and defining of the outcomes of the information gathered, as a result of the carrying out the research as observed. 
 
@@ -29,7 +29,7 @@ Research can be both inductive, which is used to analyse an observed event, or d
 
 There are many reasons why research is carried out, but its purpose if ultimately to allow for understanding of a given subject matter. It is useful to start by understanding what it is a researcher needs to find out, what processes need to be followed, what the arguments are and what evidence will be needed that support those arguments. 
 
-Research can be characterised as follows:
+<b>Research can be characterised as follows:</b>
 
 1. Follow a systematic approach which includes rules and procedures to ensure the accuracy of the data being interpreted. Applying a code of conduct which is based in ethical considerations is good practice, particularly when drawing conclusions to the observations.
 2. Conduct research using logical reasoning and include inductive methods and deductive methods.
@@ -39,7 +39,7 @@ Research can be characterised as follows:
 6. Due to the analytical nature of research, it is important that all the data gathered is documented to reduce the potential for ambiguity. 
 7. Ensure that the research documented is accurate, measured and true to its nature.
 
-There are five defined types of research methods as described below:
+<b>There are five defined types of research methods as described below:</b>
 
 <b>1 - Basic research</b>
 
@@ -67,7 +67,7 @@ Qualitative research is conducted to understand issues that exist in their natur
 4. Analysis of content 
 5. Case studies 
 
-Research is conducted for a number of reasons:
+<b>Research is conducted for a number of reasons:</b>
 
 1. Exploratory purpose - To explore a question or questions. Analyses of the results will not always produce a final conclusion but can be used to explore areas that had not previously been considered.
 
@@ -112,7 +112,7 @@ In order to gain a complete picture of plagiarism we must understand what is mea
 
 The act being performed is that of stealing the work and then being deliberately deceitful about its origins. It is important to understand that in a lot of jurisdictions around the world this acts is covered by copyright laws.
 
-Plagiarism includes the following:
+<b>Plagiarism includes the following:</b>
 
 - submitting work carried out by someone else as your own
 - not crediting sources when using their words or ideas

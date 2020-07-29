@@ -23,13 +23,13 @@ Class sessions covered previous security topics in more detail. Specifically, we
 - Keylogger 
 - Bots and botnets
 - Logic Bombs
-- Backdoor
+- Backdoor<br>
  
-After considering the threat vectors we looked at the common vulnerabilities and what preventative steps can be taken including:
+After considering the threat vectors we looked at the common vulnerabilities and what preventative steps can be taken including:<br>
  
 - Host Security 
 - User Security 
-·=- Monitoring 
+- Monitoring 
  
 Taking a personal perspective, I have been surprised how much of a role is played in user security. Coming from a business background I held an assumption that the security of the technology systems primarily sat with the I.T. Team. In my career there has been little requirement for personal consideration for the security of the technology systems I have relied upon daily. 
  
@@ -41,24 +41,24 @@ Moving onto the Lab, the tasks included looking at Exclusion features on Windows
 
 Windows Defender is a built-in antivirus package, initially as part of Windows 8 and continuing to Windows 10. The package was known in Windows 7 as Microsoft Security Essentials which was not built-in at the time, but instead offered as a separate download. 
  
-<i>Reference:</i> What's the best Antivirus for Windows 10?, https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/
+<i>Reference:</i> What's the best Antivirus for Windows 10?, https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/<br>
  
 Studies have shown that Windows Defender is comparable to the paid solutions offered by competitors. 
 
 In the past it was commonplace for organisations to pay for antivirus and anti-malware solutions simply due to the lack of quality free alternatives in addition to Microsoft not offering a service that provided sufficient protection.
 
-Windows Defender and its competition have been tested by two separate testing houses, AV-comparatives, and AV-test. The outcome from both tests was extremely positive for Defender, coming out amongst the top products.
+Windows Defender and its competition have been tested by two separate testing houses, AV-comparatives, and AV-test. The outcome from both tests was extremely positive for Defender, coming out amongst the top products.<br>
 
-<i>Reference:</i> Why you can stop paying for antivirus software, https://www.pcworld.com/article/3434097/why-you-can-stop-paying-for-antivirus-software.html
+<i>Reference:</i> Why you can stop paying for antivirus software, https://www.pcworld.com/article/3434097/why-you-can-stop-paying-for-antivirus-software.html<br>
  
 Windows Defender takes a proactive approach to protecting a Windows 10 machine by running in the background, offering real-time protection. The operation of Defender means there are reasons a user may want to make exclusions to the scanning process including:
  
 - Excluding files from being scanned to improve overall performance for tasks such as virtual machines or compiling code
-- Assist with false positives, this can prevent Defender identifying legitimate files as malware
+- Assist with false positives, this can prevent Defender identifying legitimate files as malware<br>
  
 It is important that users recognise that any excluded files will not be scanned by Defender. Consideration should be made to any potential risk before making any exclusions. 
  
-<i>Reference:</i> How to Add Exclusions in Windows Defender on Windows 10, https://www.howtogeek.com/671233/how-to-add-exclusions-in-windows-defender-on-windows-10/
+<i>Reference:</i> How to Add Exclusions in Windows Defender on Windows 10, https://www.howtogeek.com/671233/how-to-add-exclusions-in-windows-defender-on-windows-10/<br>
  
 There are alternative actions that can be implemented on a machine that can continue to offer protection to these files or folders after they have been excluded by Defender, including:
  

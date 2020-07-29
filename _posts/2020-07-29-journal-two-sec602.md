@@ -9,7 +9,7 @@ hidden: true
 ---
 <i>Application Data - Establish Host Security</i>
 
-JOURNAL #Two [SEC602]
+JOURNAL #TWO [SEC602]
 
 <h2>Application Data - Establish Host Security</h2>
 

@@ -81,6 +81,14 @@ In essence what occurs is conclusions that are interpreted based on the research
 
 <i>Reference:</i> A guide to ontology, epistemology, and philosophical perspectives for interdisciplinary researchers, https://i2insights.org/2017/05/02/philosophy-for-interdisciplinarity/ 
 
+I really liked this video which specifically referenced epistemology, and felt very relevant given the class discussion relating to truth and the question of how we know what we know. It also illustrates how vague a person needs to be in order for what is being said, or not being said, can be defined as 'truthful'.
+
+It's a long video so start at the specific clip which quite short - start the video at 7.16 for context and epistemology is referenced at 10.53. If nothing else it is also very funny! 
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=CPywDcWjvoo&t=3470s">
+</iframe>
+
 <h3>What is the connection between ontology and epistemology in a research context?</h3>
 
 When we use ontology and epistemology together we are able to get a holistic view of how we understand knowledge. This is a research paradigm. These research paradigms can be described as:

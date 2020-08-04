@@ -93,7 +93,7 @@ When we understand the approach and methodology of our research paradigm we can 
 
 The following diagram explains the relationship between Ontology, Epistemology and other terms associated with the research paradigm:
 
-<img src="/assets/images/RES701-J2-a.png" alt="Research Paradigm"><br>
+<img src="/assets/images/RES701-J2-a.gif" alt="Research Paradigm"><br>
 
 <i>Reference:</i> Ontology, epistemology and research paradigm, https://www.youtube.com/watch?v=hkcqGU7l_zU
 

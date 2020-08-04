@@ -37,7 +37,7 @@ I find myself uncomfortable with the term 'truth' as in a world of 'Trumpism' 't
 
 The former of the two truths is objective, reasoned and considered. On the other hand the latter truth, based on a belief, negates the need for evidence. In fact it often ignores evidence completely which I can only describe as willful ignorance and a complete waste. 
 
-I am not criticizing the ignorance of people, I too am ignorant of a great many things - but to ignore the leaps, strive, hard work and persecution humanity has taken to understand the world around us, then to simply ignore it in an effort to retain a truth based on belief, is an insult to all those that have sought that understanding which ultimately has led to improving the human condition. 
+I am not criticizing the ignorance of people, I too am ignorant of a great many things. Humanity has taken taken many leaps, put in immense hard work, made many sacrifices, endured strive and persecution to understand the world around us - to then ignore the knowledge gained in an effort to retain a 'truth' based on belief is an insult to all those that have sought that knowledge, knowledge which has ultimately led to the improving of the human condition more then anything else in our history. 
 
 It's probably obvious by now that I prefer to deal with facts, not just for the reasons mentioned, but because they are so wonderfully elegant and beautiful. For example take Darwinism vs. Creationism, a universe from nothing vs. a supernatural dictator, being made up from the remanence of exploding stars vs being made in 'God's' image - there's no contest in my mind. 
 

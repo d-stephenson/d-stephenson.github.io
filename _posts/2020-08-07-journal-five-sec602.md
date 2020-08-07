@@ -72,13 +72,13 @@ For personal users this is likely to increase the security level, on larger corp
 
 This brings us to the threats and vulnerabilities that are unique to cloud based solutions:
 
-1. The level of control and visibility the user has over the cloud service
+<h4>1. The level of control and visibility the user has over the cloud service</h4>
 
 This is a significant threat to consider when moving to the cloud. Where does security concerns end for the user and start for the provider, is it clear and what steps can be taken to ensure the dual responsibility meets in the middle so that the system maintains full protection?
 
 On a network level a technician would have to assess the service offered fully, and be constantly aware that terms and conditions are subject to change and as a result service levels can change. If this occurs a review would need to take place to determine what steps should happen to meet any challenges these changes create. This can also be problematic when considering how much trust to place in the provider to meet the ever-evolving treats that can pose a risk to the network. Ultimately it may be decided that the benefits of a cloud service are not worth the potential of increased risk.
 
-2. The ability of network users to add services without I.T. authorisation 
+<h4>2. The ability of network users to add services without I.T. authorisation </h4>
 
 Providers of cloud services make it very easy for users to add applications and features without the knowledge of the team that manage the network system. This type of activity is referred to as shadow I.T. and makes the network more difficult to protect from specific threats. 
 

@@ -27,7 +27,7 @@ By establishing a connection over the network the computers can then begin to tr
 
 <i>Reference:</i> TCP 3-Way Handshake (SYN,SYN-ACK,SYN), https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml
 
-The attack is carried out through the 'hping3' tool ,designed to overload the system by sending a large number of packets at set intervals to a specific target. These purpose of the request is to send packets at a rate that is faster then the target machine can handle them. 
+The attack is carried out through the 'hping3' tool, designed to overload the system by sending a large number of packets at set intervals to a specific target. These purpose of the request is to send packets at a rate that is faster then the target machine can handle them. 
 
 In a commercial organisation or public sector setting the effect of such an attack can lead to operational loss in the form or employee downtime, to an inability to fulfill mandated services such as those provided by the public sector.
 

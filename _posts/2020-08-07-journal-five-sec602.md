@@ -78,19 +78,19 @@ This is a significant threat to consider when moving to the cloud. Where does se
 
 On a network level a technician would have to assess the service offered fully, and be constantly aware that terms and conditions are subject to change and as a result service levels can change. If this occurs a review would need to take place to determine what steps should happen to meet any challenges these changes create. This can also be problematic when considering how much trust to place in the provider to meet the ever-evolving treats that can pose a risk to the network. Ultimately it may be decided that the benefits of a cloud service are not worth the potential of increased risk.
 
-<h4>2. The ability of network users to add services without I.T. authorisation </h4>
+<h4>2. The ability of network users to add services without I.T. authorisation</h4>
 
 Providers of cloud services make it very easy for users to add applications and features without the knowledge of the team that manage the network system. This type of activity is referred to as shadow I.T. and makes the network more difficult to protect from specific threats. 
 
 The additional service offered may not be considered as a secure package, and in ordinary circumstances may be rejected by the I.T. team and an alternative recommended. Not only is this an undesired scenario but it also reduces the visibility of the network by the people who's job it is to secure it. 
 
-3. The need to delete data and be confident that the data is 'deleted' 
+<h4>3. The need to delete data and be confident that the data is 'deleted'</h4> 
 
 The simple fact is that the user has no idea where their data is physically stored, including the data of their customers and employees which limits their ability to verify that the data has been completely deleted. Often the data will be stored across multiple storage devices within the cloud providers network infrastructure, most likely for legitimate reasons such as back up and recovery.
 
 Each cloud provider will have different procedures for handling deleted data, and if these procedures fail then any data you believed was securely deleted, may still be available to potential attackers.
 
-4. Exposure of application programming interfaces (API) to the internet 
+<h4>4. Exposure of application programming interfaces (API) to the internet</h4> 
 
 A lot of cloud services provide a web-based interface that allows user to access and interact with the applications they use. The APIs are a risk to the same type of attacks as those on operating systems accessed through an on-site network. However, the added risk comes from the fact that cloud APIs are accessed online which increases the reach and as a consequence the vulnerability.
 

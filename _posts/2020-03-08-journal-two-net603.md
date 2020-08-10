@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Journal #Two [NET603]"
-author: d-stephenson
+author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
 image: assets/images/NetJ2.png
 featured: true

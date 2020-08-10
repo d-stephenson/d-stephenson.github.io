@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Journal #Six [DAT601]"
-author: d-stephenson
+author: Dale Stephenson
 categories: [ DAT601, Journal, Database Design & Administration ]
 image: assets/images/DAT_JournalSIX.jpeg
 featured: true

@@ -23,7 +23,7 @@ I started this investigation with the intent to look at the vulnerability result
 
 The results identified by the scan are that the service will accept weak SSL/TLS cipher suites. Cipher suites are a set of mathematical algorithms. Ciphers suites are used for encryption, decryption, digital signatures or hashing.
 
-<i>Reference:</i> Cipher Suites in TLS/SSL (Schannel SSP), https://docs.microsoft.com/en-us/windows/win32/secauthn/cipher-suites-in-schannel
+<i>Reference:</i> Cipher Suites in TLS/SSL (Schannel SSP), (https://docs.microsoft.com/en-us/windows/win32/secauthn/cipher-suites-in-schannel)
 
 The scanning tool is a useful resource. Not only does it perform the scan function but, once vulnerabilities are identified, offers a solution, provides further details regarding the vulnerability detected in addition to references which allowed me to pull up the information on the CVE database. 
 
@@ -31,9 +31,9 @@ The insight provided by the report surrounded the cryptographic strength of the 
 
 The CVE reports list the vulnerability as an RC4 stream cipher which is known to contain many single-byte biases. RC4 was initially a trade secret until a description of the algorithm was made public in September 1994. The effect is such that it is easy to attack remotely through plain-text recovery.
 
-<i>Reference:</i> RC4, https://en.wikipedia.org/wiki/RC4
+<i>Reference:</i> RC4, (https://en.wikipedia.org/wiki/RC4)
 
-The following link is to an interesting article regarding the RC4 encryption algorithm and its vulnerability to brute force using plain-text attacks: https://threatpost.com/new-rc4-attack-dramatically-reduces-plaintext-recovery-time/113808/ 
+The following link is to an interesting article regarding the RC4 encryption algorithm and its vulnerability to brute force using plain-text attacks: (https://threatpost.com/new-rc4-attack-dramatically-reduces-plaintext-recovery-time/113808/) 
 
 The CVE reports scores the vulnerability as follows:
 
@@ -50,7 +50,7 @@ For context there are other ciphers which, as a result of their design are more 
 
 As a result the scanning tool recommends mitigating the problem by configuring the services so that they no longer accept any types of cipher suites that are categorised as weak. 
 
-The following url will link to the CVE report as discussed in this journal: https://www.cvedetails.com/cve/CVE-2013-2566/
+The following url will link to the CVE report as discussed in this journal: (https://www.cvedetails.com/cve/CVE-2013-2566/)
 
 <h3>Q2 - Investigate and discuss vulnerability assessment of services on Cloud Infrastructure such as Amazon Web Services.</h3>
 
@@ -105,7 +105,7 @@ It should be noted that these vulnerabilities are over and above those that exis
 - Reliance on a supply chain resulting from outsourcing infrastructure, maintenance or operations
 - A lack of due diligence or understanding of the scope of the system 
 
-<i>Reference:</i> 12 Risks, Threats, & Vulnerabilities in Moving to the Cloud, https://insights.sei.cmu.edu/sei_blog/2018/03/12-risks-threats-vulnerabilities-in-moving-to-the-cloud.html
+<i>Reference:</i> 12 Risks, Threats, & Vulnerabilities in Moving to the Cloud, (https://insights.sei.cmu.edu/sei_blog/2018/03/12-risks-threats-vulnerabilities-in-moving-to-the-cloud.html)
 
 <b>Conclusion</b>
 

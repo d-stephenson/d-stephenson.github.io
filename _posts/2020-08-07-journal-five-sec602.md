@@ -23,7 +23,7 @@ I started this investigation with the intent to look at the vulnerability result
 
 The results identified by the scan are that the service will accept weak SSL/TLS cipher suites. Cipher suites are a set of mathematical algorithms. Ciphers suites are used for encryption, decryption, digital signatures or hashing.
 
-<i>Reference:</i> [Cipher Suites in TLS/SSL (Schannel SSP), ](https://docs.microsoft.com/en-us/windows/win32/secauthn/cipher-suites-in-schannel)
+<i>Reference:</i> [Cipher Suites in TLS/SSL (Schannel SSP), https://docs.microsoft.com/en-us/windows/win32/secauthn/cipher-suites-in-schannel](https://docs.microsoft.com/en-us/windows/win32/secauthn/cipher-suites-in-schannel)
 
 The scanning tool is a useful resource. Not only does it perform the scan function but, once vulnerabilities are identified, offers a solution, provides further details regarding the vulnerability detected in addition to references which allowed me to pull up the information on the CVE database. 
 

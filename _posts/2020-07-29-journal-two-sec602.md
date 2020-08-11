@@ -41,7 +41,7 @@ Moving onto the Lab, the tasks included looking at Exclusion features on Windows
 
 Windows Defender is a built-in antivirus package, initially as part of Windows 8 and continuing to Windows 10. The package was known in Windows 7 as Microsoft Security Essentials which was not built-in at the time, but instead offered as a separate download. 
 
-<i>Reference:</i> What's the best Antivirus for Windows 10?, https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/
+<i>Reference:</i> [What's the best Antivirus for Windows 10?, https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/](https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/)
 
 Studies have shown that Windows Defender is comparable to the paid solutions offered by competitors.
 
@@ -49,7 +49,7 @@ In the past it was commonplace for organisations to pay for antivirus and anti-m
 
 Windows Defender and its competition have been tested by two separate testing houses, AV-comparatives, and AV-test. The outcome from both tests was extremely positive for Defender, coming out amongst the top products.
 
-<i>Reference:</i> Why you can stop paying for antivirus software, https://www.pcworld.com/article/3434097/why-you-can-stop-paying-for-antivirus-software.html
+<i>Reference:</i> [Why you can stop paying for antivirus software, https://www.pcworld.com/article/3434097/why-you-can-stop-paying-for-antivirus-software.html](https://www.pcworld.com/article/3434097/why-you-can-stop-paying-for-antivirus-software.html)
 
 Windows Defender takes a proactive approach to protecting a Windows 10 machine by running in the background, offering real-time protection. The operation of Defender means there are reasons a user may want to make exclusions to the scanning process including:
 
@@ -58,7 +58,7 @@ Windows Defender takes a proactive approach to protecting a Windows 10 machine b
 
 It is important that users recognise that any excluded files will not be scanned by Defender. Consideration should be made to any potential risk before making any exclusions. 
 
-<i>Reference:</i> How to Add Exclusions in Windows Defender on Windows 10, https://www.howtogeek.com/671233/how-to-add-exclusions-in-windows-defender-on-windows-10/
+<i>Reference:</i> [How to Add Exclusions in Windows Defender on Windows 10, https://www.howtogeek.com/671233/how-to-add-exclusions-in-windows-defender-on-windows-10/](https://www.howtogeek.com/671233/how-to-add-exclusions-in-windows-defender-on-windows-10/)
 
 There are alternative actions that can be implemented on a machine that can continue to offer protection to these files or folders after they have been excluded by Defender, including:
 
@@ -66,19 +66,19 @@ There are alternative actions that can be implemented on a machine that can cont
 - Running a free alternative to Defender, scheduled to specifically scan Defender excluded files and folders when the machine is not in use. This provides the user full protection and bypasses any performance issues. One of the benefits of Defender is that it will operate alongside other antivirus programs. 
 - Use Defender to run an on-demand scan by defining the location for the scan and setting it to run manually. This would require the user to be proactive in running the scan on the excluded files or folders.
 
-<i>Reference:</i> How To Set Your Own Scan Schedule For Windows Defender Antivirus, https://helpdeskgeek.com/windows-10/how-to-set-your-own-scan-schedule-for-windows-defender-antivirus/
+<i>Reference:</i> [How To Set Your Own Scan Schedule For Windows Defender Antivirus, https://helpdeskgeek.com/windows-10/how-to-set-your-own-scan-schedule-for-windows-defender-antivirus/](https://helpdeskgeek.com/windows-10/how-to-set-your-own-scan-schedule-for-windows-defender-antivirus/)
 
 <h3>Q2 - Discuss a scenario when you may need to use the Microsoft Safety Scanner rather than Windows Defender.</h3>
 
 Microsoft Safety Scanner might be used in a situation where a machine has already become infected with malware. Safety Scanner completely removes all the malware that it detects. It is useful when another anti-virus software has not worked, or the user is unable to download and install another anti-virus option.
 
-<i>Reference:</i> Windows Defender compared with MS Safety Scanner Compared with Windows Malicious Software Removal Tool, https://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning-windows_10/windows-defender-compared-with-ms-safety-scanner/e813d86b-5886-4ed2-b025-392a7d561559
+<i>Reference:</i> [Windows Defender compared with MS Safety Scanner Compared with Windows Malicious Software Removal Tool, https://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning-windows_10/windows-defender-compared-with-ms-safety-scanner/e813d86b-5886-4ed2-b025-392a7d561559](https://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning-windows_10/windows-defender-compared-with-ms-safety-scanner/e813d86b-5886-4ed2-b025-392a7d561559)
 
 Once Safety Scanner performs a scan it provides the user with a report which lists all instances of potentially harmful or malicious programs. Safety scanner allows the user to choose which antivirus program they use to remove the discovered malware.
 
 Defender is an incredibly capable alternative to Safety Scanner on machines running Windows 7 or higher. This means that Safety Scanner should be used on all other applications of Windows to ensure these older operating systems maintain full protection.
 
-<i>Reference:</i> Microsoft Safety Scanner is a legitimate scanning software developed for the security of your computer, https://www.2-spyware.com/review-microsoft-safety-scanner.html
+<i>Reference:</i> [Microsoft Safety Scanner is a legitimate scanning software developed for the security of your computer, https://www.2-spyware.com/review-microsoft-safety-scanner.html](https://www.2-spyware.com/review-microsoft-safety-scanner.html)
 
 <h3>Q3 -Select a feature Internet Explorer Browser Security from the lab and discuss the vulnerability it is protecting, is this required just for Internet Explorer?</h3>
 
@@ -90,7 +90,7 @@ These pop-ups are problematic because the links contained within them can be mal
 
 There may however be instances where a user chooses to allow pop-ups from certain sites that are trusted and have been validated. In these instances, a user can allow pop-ups from these sites in order to continue using all the features and functionality offered.
 
-<i>Reference:</i> How to block web page pop-ups, https://computing.which.co.uk/hc/en-gb/articles/207058655-How-to-block-web-page-pop-ups
+<i>Reference:</i> [How to block web page pop-ups, https://computing.which.co.uk/hc/en-gb/articles/207058655-How-to-block-web-page-pop-ups](https://computing.which.co.uk/hc/en-gb/articles/207058655-How-to-block-web-page-pop-ups)
 
 <b>Conclusion</b>
 

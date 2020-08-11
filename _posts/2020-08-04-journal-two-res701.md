@@ -75,11 +75,11 @@ Considers that which is being researched is both socially constructed by the ind
 
 In essence what occurs is conclusions that are interpreted based on the researchers perceived view of the world, and in a way that fits their understanding of the world. This position can be beneficial when we seek to determine how an individual perspective, based on their experiences, can influence their conclusion to the same research gathered. 
 
-<i>Reference:</i> What on earth is Ontology and Epistemology?, https://theperformancesolution.com/earth-ontology-epistemology/ 
+<i>Reference:</i> [What on earth is Ontology and Epistemology?, https://theperformancesolution.com/earth-ontology-epistemology/](https://theperformancesolution.com/earth-ontology-epistemology/ ) 
 
-<i>Reference:</i> Research Methods, https://research-methodology.net/research-philosophy/ontology/
+<i>Reference:</i> [Research Methods, https://research-methodology.net/research-philosophy/ontology/](https://research-methodology.net/research-philosophy/ontology/)
 
-<i>Reference:</i> A guide to ontology, epistemology, and philosophical perspectives for interdisciplinary researchers, https://i2insights.org/2017/05/02/philosophy-for-interdisciplinarity/ 
+<i>Reference:</i> [A guide to ontology, epistemology, and philosophical perspectives for interdisciplinary researchers, https://i2insights.org/2017/05/02/philosophy-for-interdisciplinarity/](https://i2insights.org/2017/05/02/philosophy-for-interdisciplinarity/) 
 
 I really liked this video which specifically referenced epistemology, and felt very relevant given the class discussion relating to truth and the question of how we know what we know. It also illustrates how vague a person needs to be in order for what is being said, or not being said, can be defined as 'truthful'.
 
@@ -103,7 +103,7 @@ The following diagram explains the relationship between Ontology, Epistemology a
 
 <img src="/assets/images/RES701-J2-a.gif" alt="Research Paradigm"><br>
 
-<i>Reference:</i> Ontology, epistemology and research paradigm, https://www.youtube.com/watch?v=hkcqGU7l_zU
+<i>Reference:</i> [Ontology, epistemology and research paradigm, https://www.youtube.com/watch?v=hkcqGU7l_zU](https://www.youtube.com/watch?v=hkcqGU7l_zU)
 
-<i>Reference:</i> The research paradigm – methodology, epistemology and ontology – explained in simple language, https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/
+<i>Reference:</i> [The research paradigm – methodology, epistemology and ontology – explained in simple language, https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/](ttps://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/)
 

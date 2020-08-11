@@ -17,7 +17,7 @@ Class sessions covered topics relating to the security and the protection of bus
 
 Risk is an important mitigating factor for any organisation, particularly relating to assets and infrastructure. It is not just the obvious financial risk associated with exposure, but reputational issues that can result from data leaks that have plagued large organisations such as Sony, LinkedIn, Adobe, Marritot International, Yahoo and Equifax amongst others.
 
-<i>Reference:</i>  The 15 biggest data breaches of the 21st century, https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html
+<i>Reference:</i>  [The 15 biggest data breaches of the 21st century, https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html](https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html)
 
 Breaches in security are however not always at the technical level but can stem from a calculated practice of gathering information about a person from often quite open profiles such as social media accounts, job platforms and even personal web pages. 
 
@@ -60,7 +60,7 @@ These acts would be extremely harmful in themselves on an individual level, howe
 
 Common phishing attacks include fake emails ranging from mass distribution to password expiration instructions, which can either link to a fake web page or worse, the real intended web page but unknown to the user, a malicious script is running that gives access.
 
-<i>Reference:</i> What is a phishing attack, https://www.imperva.com/learn/application-security/phishing-attack-scam/
+<i>Reference:</i> [What is a phishing attack, https://www.imperva.com/learn/application-security/phishing-attack-scam/](https://www.imperva.com/learn/application-security/phishing-attack-scam/)
 
 In the case of the user in the Lab the following could be a result from gathering of the information readily available:
 
@@ -81,7 +81,7 @@ In order for the user to mitigate the risk of being exposed to attacks as discus
 5. Keep your social media timeline restricted to trusted friends, colleagues and family, consider, does the world need to see this information? Apply this principle to all online activity including images, your location, your work history and friends list. 
 6. Use secure website when it is possible to do so, these are identified with the URL precursor HTTPs. This is particularly important when using a unsecured internet connection and when accessing personal information in the cloud, banking or shopping website which might require you to input credit card information should also be accessed securely.
 
-<i>Reference:</i> 5 simple ways you can protect yourself from phishing attacks, https://www.welivesecurity.com/2016/09/22/5-simple-ways-can-protect-phishing-attacks/
+<i>Reference:</i> [5 simple ways you can protect yourself from phishing attacks, https://www.welivesecurity.com/2016/09/22/5-simple-ways-can-protect-phishing-attacks/](https://www.welivesecurity.com/2016/09/22/5-simple-ways-can-protect-phishing-attacks/)
 
 <b>Conclusion</b>
 

@@ -23,7 +23,7 @@ However, in order to provide a complete and academic response I will research, r
 
 Research is a process whereby consideration is made to a given field of study. It includes inquiry into collections of data and information gathered. A critical analysis and thoughtful interpretation of information is then documented in accordance with suitable methodologies as required by academic disciplines or professional standards. This inquiry facilitates the explaining and defining of the outcomes of the information gathered, as a result of the carrying out the research as observed. 
 
-<i>Reference:</i> What is research?, https://www.hampshire.edu/dof/what-is-research
+<i>Reference:</i> [What is research?, https://www.hampshire.edu/dof/what-is-research](https://www.hampshire.edu/dof/what-is-research)
 
 Research can be both inductive, which is used to analyse an observed event, or deductive, which verifies an observed event. 
 
@@ -77,7 +77,7 @@ Qualitative research is conducted to understand issues that exist in their natur
 
 In conclusion, research is a collection of tools or instruments that can be used to support the goals of a study and through observation and accurate documentation can allow for the drawing of appropriate conclusions.
 
-<i>Reference:</i> What Is Research - Definition, Methods, Types & Examples, https://www.questionpro.com/blog/what-is-research/
+<i>Reference:</i> [What Is Research - Definition, Methods, Types & Examples, https://www.questionpro.com/blog/what-is-research/](https://www.questionpro.com/blog/what-is-research/)
 
 <h3>Do I think I will ever need research skills?</h3>
 
@@ -97,7 +97,7 @@ Additionally these types of journals can be used to maintain the academic integr
 
 The production of research journals is to allow other academic professionals in the field to study the information that they contain in order to stay informed. This is equally important for both graduate and undergraduate students who can use the journals to further their learning. 
 
-<i>Reference:</i> What Is a Research Journal Article?, https://classroom.synonym.com/research-journal-article-5656918.html
+<i>Reference:</i> [What Is a Research Journal Article?, https://classroom.synonym.com/research-journal-article-5656918.html](https://classroom.synonym.com/research-journal-article-5656918.html)
 
 <h3>What is plagiarism?</h3>
 
@@ -127,7 +127,7 @@ The act being performed is that of stealing the work and then being deliberately
 
 We all rely on others to inform our thinking and our work. However, when it comes to plagiarism it is best to avoid situations where this can occur, or always properly cite the source and seek relevant permissions where possible. 
 
-<i>Reference:</i> What is Plagiarism?, https://www.plagiarism.org/article/what-is-plagiarism
+<i>Reference:</i> [What is Plagiarism?, https://www.plagiarism.org/article/what-is-plagiarism](https://www.plagiarism.org/article/what-is-plagiarism)
 
 <h3>Why should I avoid plagiarism?</h3>
 
@@ -143,4 +143,4 @@ There are many reasonable considerations that can help us avoid plagiarism over 
 
 It is important to understand that plagiarism is serious, there are numerous examples of instances where individuals have been caught out for plagiarising others work and have suffered the consequences, ranging from being discredited all the way to being subject to legal proceedings. In cases where there is a reliance on the work of others a writer should research the rules, laws and guidelines to ensure they reasonably apply those principles to avoid allegations of plagiarism.
 
-<i>Reference:</i> 20 Reasons Why You Should Not Plagiarize and Try to Write in Your Own Words, https://www.onlineparaphrase.net/why-you-should-not-plagiarize/
+<i>Reference:</i> [20 Reasons Why You Should Not Plagiarize and Try to Write in Your Own Words, https://www.onlineparaphrase.net/why-you-should-not-plagiarize/](https://www.onlineparaphrase.net/why-you-should-not-plagiarize/)

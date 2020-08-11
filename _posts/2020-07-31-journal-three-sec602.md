@@ -26,7 +26,7 @@ Footprinting is a process used to gather information about an individual compute
 1. Passive - Such as reviewing company information online
 2. Active - Utilising aspects of social engineering to gain access to a computer network
 
-<i>Reference:</i> Footprinting and Reconnaissance, http://www.techtrick.in/Description/39-footprinting-and-reconnaissance
+<i>Reference:</i> [Footprinting and Reconnaissance, http://www.techtrick.in/Description/39-footprinting-and-reconnaissance](http://www.techtrick.in/Description/39-footprinting-and-reconnaissance)
 
 An attacker can gain a lot of information through effectively footprinting the target network or organisation including:
 
@@ -42,7 +42,7 @@ An attacker can gain a lot of information through effectively footprinting the t
 - The structure of the servers and the applications utilised
 - Any network implementation details publicly available 
 
-<i>Reference:</i> Anatomy Of A Hack - The Rise And Fall Of Your Network, https://www.informit.com/articles/article.aspx?p=397660&seqNum=4
+<i>Reference:</i> [Anatomy Of A Hack - The Rise And Fall Of Your Network, https://www.informit.com/articles/article.aspx?p=397660&seqNum=4](https://www.informit.com/articles/article.aspx?p=397660&seqNum=4)
 
 The methods attackers use include:
 
@@ -67,7 +67,7 @@ The methods attackers use include:
 
 An attacker can use the information gained from this technique to learn as much about the network as they possibly can. This can include the networks remote access abilities, the ports being used over the network, the services the network employs to the benefit the organisation, and the security it deploys to protect the network.
 
-<i>Reference:</i> Footprinting: The Basics of Hacking, https://news.hitb.org/node/5359
+<i>Reference:</i> [Footprinting: The Basics of Hacking, https://news.hitb.org/node/5359](https://news.hitb.org/node/5359)
 
 The more information an attacker gains, the greater success they will have at infiltrating a network. An attacker can use the information to:
 
@@ -78,7 +78,7 @@ The more information an attacker gains, the greater success they will have at in
 
 Footprinting is an form of attack that organisations should take seriously. It is often the first step for attackers to start gathering information, and is successful because it uses different means to obtain the information they need to perform their attack.
 
-<i>Reference:</i> What exactly is footprinting and reconnaissance?, https://quadrant360.com/blog/what-exactly-is-footprinting-and-reconnaissance/
+<i>Reference:</i> [What exactly is footprinting and reconnaissance?, https://quadrant360.com/blog/what-exactly-is-footprinting-and-reconnaissance/](https://quadrant360.com/blog/what-exactly-is-footprinting-and-reconnaissance/)
 
 <h3>Q3 - How can packet sniffing be used to detect potential threats on a network?</h3>
 
@@ -98,7 +98,7 @@ Using encryption such as Secure Sockets Layer (SLL) or Transport Layer Security 
 
 It is useful for network administrators to be familiar with packet sniffers so they understand how they work and what steps an attacker might take to infiltrate their network. By understanding the routes an attacker could take, the better they will be able to protect against them.
 
-<i>Reference:</i> What Are Packet Sniffers and How Do They Work?, https://www.lifewire.com/what-is-a-packet-sniffer-2487312
+<i>Reference:</i> [What Are Packet Sniffers and How Do They Work?, https://www.lifewire.com/what-is-a-packet-sniffer-2487312](https://www.lifewire.com/what-is-a-packet-sniffer-2487312)
 
 <h3>Q4 - How can packet sniffing be used to detect potential threats on a network?</h3>
 

@@ -27,7 +27,7 @@ The purpose of the algorithm is to take random text or binary data, which can be
 
 The following is an example of how an MD5 hash function would convert the string input into a fixed length hash:
 
-<img src="/assets/images/SEC601-J6-a.gif" alt="MD5 Hash Function"><br>
+<img src="/assets/images/SEC601-J6-a.jpeg" alt="MD5 Hash Function"><br>
 
 Each time an MD5 hash is used it is unique, this is the case for every file. The result is that the MD5 hash can uniquely identify one specific file from another, even if they are the same file type and size.
 

@@ -31,11 +31,11 @@ The following is an example of how an MD5 hash function would convert the string
 
 Each time an MD5 hash is used it is unique, this is the case for every file. The result is that the MD5 hash can uniquely identify one specific file from another, even if they are the same file type and size.
 
-<i>Reference:</i> [What is MD5 Hash and How to Use it, https://www.gohacking.com/what-is-md5-hash/](https://www.gohacking.com/what-is-md5-hash/)
+<i>Reference:</i> What is MD5 Hash and How to Use it, [https://www.gohacking.com/what-is-md5-hash/](https://www.gohacking.com/what-is-md5-hash/)
 
 MD5 is a widely used algorithm but not in the way it was originally intended. It was discovered that the algorithm suffered from extensive vulnerabilities. The inherent vulnerabilities were famously exploited in 2012 by the Flame malware attack, where it was used in collision attacks where it generated identical hashes. This was the first such instance of an MD5 attack being used maliciously in a real-world scenario. 
 
-<i>Reference:</i> [Crypto breakthrough shows Flame was designed by world-class scientists,  https://arstechnica.com/information-technology/2012/06/flame-crypto-breakthrough/](https://arstechnica.com/information-technology/2012/06/flame-crypto-breakthrough/)
+<i>Reference:</i> Crypto breakthrough shows Flame was designed by world-class scientists, [https://arstechnica.com/information-technology/2012/06/flame-crypto-breakthrough/](https://arstechnica.com/information-technology/2012/06/flame-crypto-breakthrough/)
 
 Despite these problems it still has practical uses. The algorithm is used as a checksum in order to verify the integrity of data against unintentional corruption, or for other non-cryptographic purposes such as:
 
@@ -48,7 +48,7 @@ These checks are useful because they provide assurances that files transferred a
 
 Earlier uses of MD5 included the storing of one-way hash passwords and unique document identification. However, as a result of the Flame attack these uses are no longer recommended. The best advice is to use more secure hash functions such as Secure Hash Algorithm (SHA1) which has a length of 160-bits.
 
-<i>Reference:</i> [MD5, https://en.wikipedia.org/wiki/MD5](https://en.wikipedia.org/wiki/MD5)
+<i>Reference:</i> MD5, [https://en.wikipedia.org/wiki/MD5](https://en.wikipedia.org/wiki/MD5)
 
 <b>Conclusion</b>
 

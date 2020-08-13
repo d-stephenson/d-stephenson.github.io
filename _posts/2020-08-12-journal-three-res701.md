@@ -29,9 +29,9 @@ There are several lines of inquiry that make up a research paradigm as reference
 2. Epistemological inquiry: How do we know what we know about the reality
 3. Methodological inquiry: The procedures and methods used to gather the data
 
-<i>Reference:</i> [What are research paradigms?, http://researcharticles.com/index.php/what-research-paradigms/](http://researcharticles.com/index.php/what-research-paradigms/)
+<i>Reference:</i> What are research paradigms?, [http://researcharticles.com/index.php/what-research-paradigms/](http://researcharticles.com/index.php/what-research-paradigms/)
 
-<i>Reference:</i> [The research paradigm – methodology, epistemology and ontology – explained in simple language, https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/](https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/)
+<i>Reference:</i> The research paradigm – methodology, epistemology and ontology – explained in simple language, [https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/](https://salmapatel.co.uk/academia/the-research-paradigm-methodology-epistemology-and-ontology-explained-in-simple-language/)
 
 <h3>My view on the subject of research paradigms</h3>
 

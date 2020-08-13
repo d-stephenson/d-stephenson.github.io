@@ -25,7 +25,7 @@ I wanted to be clear as to what was happening here so carried out some further r
 
 By establishing a connection over the network the computers can then begin to transmit other data such as SSH and HTTP. This type of communication occurs frequently across networks and in itself is not a cause for concern.
 
-<i>Reference:</i> [TCP 3-Way Handshake (SYN,SYN-ACK,SYN), https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml](https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml)
+<i>Reference:</i> TCP 3-Way Handshake (SYN,SYN-ACK,SYN), [https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml](https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml)
 
 The attack is carried out through the 'hping3' tool, designed to overload the system by sending a large number of packets at set intervals to a specific target. These purpose of the request is to send packets at a rate that is faster then the target machine can handle them. 
 
@@ -41,7 +41,7 @@ The hping3 command is targeting a computer at a specific destination address, in
 
 The command sends SYN packets which are empty, at set intervals. It does this using IP addresses which are generated at random. The packets appear like legitimate requests to establish communication - this means that the targeted device responds to each attempt and staying open whilst it waits. The connection will eventually time out, but before that happens another packet will have already been sent and this cycle continues. 
 
-<i>Reference:</i> [TCP SYN Flood, https://www.imperva.com/learn/application-security/syn-flood/](https://www.imperva.com/learn/application-security/syn-flood/)
+<i>Reference:</i> TCP SYN Flood, [https://www.imperva.com/learn/application-security/syn-flood/](https://www.imperva.com/learn/application-security/syn-flood/)
 
 This is in effect a relatively simple but effective attack. The aim is to either severely restrict access to the machine or network, or make it completely unresponsive as it exploits the normal 3-way handshake.
 

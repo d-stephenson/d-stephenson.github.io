@@ -40,7 +40,7 @@ Because passwords are the most common authentication method used, a password cra
 
 It is surprising simple to initiate a brute force attack using Cain and Abel. The user interface has a logical layout and for the most part is simple to navigate.
 
-<i>Reference:</i> [Cain and Abel Software Download, https://softfay.com/windows-browser/cain-and-abel-software/](https://softfay.com/windows-browser/cain-and-abel-software/)
+<i>Reference:</i> Cain and Abel Software Download, [https://softfay.com/windows-browser/cain-and-abel-software/](https://softfay.com/windows-browser/cain-and-abel-software/)
 
 The brute force attack is performed from the 'Cracker' tab. The first step is to display the users of the system that will be the victims of the attack. This is done by importing hashes from a local system, alternatively hashes can be imported from a text file or SAM database. For the purpose of this Lab the exercises utilised the two former methods. 
 
@@ -79,13 +79,13 @@ It is relatively simple to protect yourself from a brute force attack, use the f
 - Special characters
 - At least 8-10 characters long, the longer the better  
 
-<i>Reference:</i> [Learn about Brute Force attack, https://tipsmake.com/learn-about-brute-force-attack](https://tipsmake.com/learn-about-brute-force-attack)
+<i>Reference:</i> Learn about Brute Force attack, [https://tipsmake.com/learn-about-brute-force-attack](https://tipsmake.com/learn-about-brute-force-attack)
 
 An alternative password attack would be a dictionary attack. A dictionary attack operates in a similar way to a brute force attack in that attempts to defeat a password by taking a systematic approach to crack. Instead of characters though, it uses dictionary words. The idea behind the attack is that many users deploy ordinary words as passwords, words that are ordinarily found in a dictionary. 
 
 These types of attacks come with a separate set of problems, namely if multiple words are used in the password the crack will be ineffective. The same is true if the password contains a random use of lowercase and uppercase characters as well as digits. The drawbacks of a dictionary attack can be overcome by using the brute force attack. 
 
-<i>Reference:</i> [Dictionary Attack, https://www.techopedia.com/definition/1774/dictionary-attack](https://www.techopedia.com/definition/1774/dictionary-attack)
+<i>Reference:</i> Dictionary Attack, [https://www.techopedia.com/definition/1774/dictionary-attack](https://www.techopedia.com/definition/1774/dictionary-attack)
 
 Attackers will often create word lists when deploying a dictionary attack, for example they might look at:
 
@@ -95,7 +95,7 @@ Attackers will often create word lists when deploying a dictionary attack, for e
 - Deploying common word pairs
 - Words extracted from multiple databases which might include names, locations, films etc.
 
-<i>Reference:</i> [What is dictionary attack and how to Prevent It?, https://www.zerosuniverse.com/dictionary-attack/](https://www.zerosuniverse.com/dictionary-attack/)
+<i>Reference:</i> What is dictionary attack and how to Prevent It?, [https://www.zerosuniverse.com/dictionary-attack/](https://www.zerosuniverse.com/dictionary-attack/)
 
 <b>Conclusion</b>
 

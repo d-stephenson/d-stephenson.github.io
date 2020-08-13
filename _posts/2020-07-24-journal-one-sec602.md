@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #One [SEC602]"
 author: d-stephenson
-categories: [ SEC602, Systems Security ]
+categories: [ SEC602 Systems Security ]
 image: assets/images/SEC601-J1.jpeg
 featured: true
 hidden: true

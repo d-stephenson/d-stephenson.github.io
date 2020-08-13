@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Five [DAT601]"
 author: Dale Stephenson
-categories: [ DAT601, Database Design & Administration ]
+categories: [ DAT601 Database Design & Administration ]
 image: assets/images/j5header.PNG
 featured: true
 hidden: true

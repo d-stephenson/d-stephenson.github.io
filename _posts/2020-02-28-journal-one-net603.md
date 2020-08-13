@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #One [NET603]"
 author: Dale Stephenson
-categories: [ NET603, Practical Network Development ]
+categories: [ NET603 Practical Network Development ]
 image: assets/images/sub-net.jpeg
 featured: true
 hidden: true

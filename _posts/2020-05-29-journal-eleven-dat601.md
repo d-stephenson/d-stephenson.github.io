@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Eleven [DAT601]"
 author: Dale Stephenson
-categories: [ DAT601, Database Design & Administration ]
+categories: [ DAT601 Database Design & Administration ]
 image: assets/images/check_constraint.jpg
 featured: true
 hidden: true

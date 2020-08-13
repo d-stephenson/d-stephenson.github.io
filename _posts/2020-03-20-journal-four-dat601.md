@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Four [DAT601]"
 author: Dale Stephenson
-categories: [ DAT601, Database Design & Administration ]
+categories: [ DAT601 Database Design & Administration ]
 image: assets/images/j4header.PNG
 featured: true
 hidden: true

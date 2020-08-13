@@ -100,3 +100,11 @@ Attackers will often create word lists when deploying a dictionary attack, for e
 <b>Conclusion</b>
 
 These types of cracks are surprisingly easy to implement, and it is clear why hackers might use them in order to carry out attacks. They aren't however foolproof - if system users follow readily available password security protocols like the ones discussed in today's class session, they are far less likely to succumb to this kind of attack.  
+
+I have found myself constantly adapting my passwords. For example, I now create passwords that are so complex in there use of special characters, length of the string, plays on words, and random mix of uppercase and lowercase letters that I couldn't even attempt to guess them - even a few minutes after creating them which, let's be honest is very frustrating!!!
+
+I'm also almost ashamed to say that I used to rely on a password protected word document or notepad file to store my passwords - I suspect I'm not the only one! But now I use a password manager app, [myki](https://myki.com/). I really like this app and find it super useful, the app is downloaded to my phone and my Mac so I can readily access my passwords on either device. On my phone it uses fingerprint biometrics to access, and a six digit pin on my Mac. What I liked was that it syncs P2P between devices storing the password locally, and not in the cloud. 
+
+In addition, I have also been using the [authy](https://authy.com/) app for the last year or so. Again the app is available across multiple device. It's easy to set up and use, and adds that second layer of security. 
+
+I admit to not always having been great at using different passwords for different applications, however I do this more and more now since starting this degree. Very few of my passwords are now shared and the complexity is getting <i>worse</i> all the time. As long as this trend continues and passwords remain the main method of authentication, I will continue to rely on and recommend these services. 

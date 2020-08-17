@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #One [RES701]"
 author: d-stephenson
-categories: [ RES701 Research Methods ]
+categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J1.jpeg
 featured: true
 hidden: true

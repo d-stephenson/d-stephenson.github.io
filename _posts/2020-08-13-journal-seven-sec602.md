@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Journal #Seven [SEC602]"
-author: d-stephenson
-categories: [ SEC602 Systems Security ]
+author: Dale Stephenson
+categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J7.jpeg
 featured: true
 hidden: true

@@ -33,9 +33,9 @@ Most of this occurs without the user being aware, with Secure Sockets Layer (SSL
 - Secure access to devices 
 - Local network security 
 
-<i>Reference:</i> What is PKI? And how it secures just about everything online, [https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html] (https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html)
+<i>Reference:</i> What is PKI? And how it secures just about everything online, [https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html](https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html)
 
-<i>Reference:</i> A Beginner's Guide to SSL: What It is & Why It Makes Your Website More Secure, [https://blog.hubspot.com/marketing/what-is-ssl] (https://blog.hubspot.com/marketing/what-is-ssl)
+<i>Reference:</i> A Beginner's Guide to SSL: What It is & Why It Makes Your Website More Secure, [https://blog.hubspot.com/marketing/what-is-ssl](https://blog.hubspot.com/marketing/what-is-ssl)
 
 Organisations need to be aware of the importance of PKI in order to keep their employees and customers secure when operating and accessing information online. Furthermore, they need this to stay compliant with both privacy laws within their jurisdiction, and with regulatory requirements surrounding the security of the data they transmit. 
 
@@ -57,7 +57,7 @@ It is important to understand that digital certificates do not last forever and 
 
 For organisations such as NMIT it is important that an adequate level of oversight in maintained, a failure to do so could lead to potential vulnerabilities in the certificate being identified and exploited by threat actors. For educational institutions like NMIT this could result in sensitive data such as student information, tutor details, or financial records being leveraged for personal gain.
 
-<i>Reference:</i> What Are the Stages of the Certificate Lifecycle?, [https://dzone.com/articles/what-are-the-stages-of-the-certificate-lifecycle] (https://dzone.com/articles/what-are-the-stages-of-the-certificate-lifecycle)
+<i>Reference:</i> What Are the Stages of the Certificate Lifecycle?, [https://dzone.com/articles/what-are-the-stages-of-the-certificate-lifecycle](https://dzone.com/articles/what-are-the-stages-of-the-certificate-lifecycle)
 
 From a student perspective it's important when logging into services such as MyNMIT, that we know we can trust the server. In the case of MyNMIT the web browser authenticates the server using DigiCert Inc. NMIT currently operates multiple buildings and site locations, data sharing between these locations will also require secure, encrypted means of communications whether over the internet or locally through the intranet.
 
@@ -74,4 +74,4 @@ PKI is a vital tool for organisations like NMIT to protect data and communicatio
 
 A lot of the information students and tutors access require secure connections, Moodle, NMIT email accounts, MyNMIT as mentioned, TALOS, Office365, Microsoft Azure, GitHub and more - to meet expectations of user groups and to comply with regulatory requirements, PKI offers a solution to both authentication and encryption needs.
 
-<i>Reference:</i> What is PKI and How Does it Work?, [https://info.keyfactor.com/what-is-pki#how_does_pki_work] (https://info.keyfactor.com/what-is-pki#how_does_pki_work)
+<i>Reference:</i> What is PKI and How Does it Work?, [https://info.keyfactor.com/what-is-pki#how_does_pki_work](https://info.keyfactor.com/what-is-pki#how_does_pki_work)

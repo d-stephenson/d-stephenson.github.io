@@ -23,8 +23,6 @@ For each article I will conduct a credibility assessment which will detail my re
 
 <h5>Article One</h5>
 
-<img src="/assets/images/RES701-J4-1.png" alt="Web snip - Article One" height="42" width="100%"><br>
-
 1. URL: [https://search-proquest-com.nmit.idm.oclc.org/docview/2241270349/DFAE2141B99145BBPQ/17?accountid=40261](https://search-proquest-com.nmit.idm.oclc.org/docview/2241270349/DFAE2141B99145BBPQ/17?accountid=40261)
 2. Search Term: <i>"Computational Thinking"</i>
 3. How I found it: ProQuest Basic Search

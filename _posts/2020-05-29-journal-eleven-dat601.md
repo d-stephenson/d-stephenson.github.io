@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Eleven [DAT601]"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
-image: assets/images/DAT601-J11.jpeg
+image: assets/images/DAT601-J11.png
 featured: true
 hidden: true
 ---

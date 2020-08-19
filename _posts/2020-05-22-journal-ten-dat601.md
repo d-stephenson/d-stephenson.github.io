@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Ten [DAT601]"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
-image: assets/images/SQL1.png
+image: assets/images/DAT601-J10.jpeg
 featured: true
 hidden: true
 ---

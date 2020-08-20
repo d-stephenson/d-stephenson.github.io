@@ -107,8 +107,8 @@ Key recovery is conducted through the use of an application such as the command 
 
 <i>Reference:</i> Public Key Infrastructure Part 9 – management accounts, [https://www.tech-coffee.net/public-key-infrastructure-part-9-management-accounts/](https://www.tech-coffee.net/public-key-infrastructure-part-9-management-accounts/)
 
-<i>Reference:</i> Configure Automatic Key Archiving in Certificate services| key recovery agent, [https://w7cloud.com/configure-automatic-key-archiving-in-certificate-services-key-recovery-agent/](https://w7cloud.com/configure-automatic-key-archiving-in-certificate-services-key-recovery-agent/)
-
+<i>Reference:</i> Configure Automatic Key Archiving in Certificate services key recovery agent, [https://w7cloud.com/configure-automatic-key-archiving-in-certificate-services-key-recovery-agent/](https://w7cloud.com/configure-automatic-key-archiving-in-certificate-services-key-recovery-agent/)<br>
+<br>
 <b>Conclusion</b>
 
 PKI is vital in allowing users to safely communicate across the internet, and perform all the functions we have become accustom to. The processes practiced in this Lab, combined with implemented policies and procedures mean we can all place a high level of trust in the technology that has been designed to protect our data and communications. 

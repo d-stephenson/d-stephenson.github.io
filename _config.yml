@@ -7,7 +7,7 @@ title: "Dale Stephenson"
 description: "Dale Stephenson Journal - Bachelor of Information Technology, Undergraduate Degree"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: 'https://d-stephenson.github.io/'
+baseurl: 'https://d-stephenson.github.io/index.html'
 google_analytics: ''
 disqus: ''
 mailchimp-list: ''
@@ -35,7 +35,7 @@ authors:
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
-url: https://d-stephenson.github.io/
+url: https://d-stephenson.github.io/index.html
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Three [NET603]"
 author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
-image: assets/images/UserAnalysis.png
+image: assets/images/UserAnalysis.jpeg
 featured: true
 hidden: true
 ---

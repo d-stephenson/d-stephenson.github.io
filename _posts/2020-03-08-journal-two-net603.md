@@ -79,7 +79,7 @@ In addition they may also chose to add in the benefit of a cloud based back up s
 
 See below example solution <i>(source: https://sysgen.ca/cloud-vs-in-house-servers/):</i>
 
-<img src="/assets/images/NetJ2.png" alt="Logical Diagram"><br>
+<img src="/assets/images/NetJ2-a.jpg" alt="Logical Diagram"><br>
 
 Ultimately our team needs to determine the needs of the business and answer the following questions:
 

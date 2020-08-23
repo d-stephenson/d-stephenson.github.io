@@ -55,13 +55,13 @@ The encryption process in SSH means that any threat actors attempting to infiltr
 
 Because of the security provided by OpenSSH it has multiple practical uses, and there are many features included in its support of nearly all operating systems, I will discuss two here:
 
-<h6>Remote Login with secure authentication</h6>
+<h5>Remote Login with secure authentication</h5>
 
 SSH is used to allow a secure remote connection between a user and a different machine such as a server. In this instance a remote server would be running an SSH server, and the local machine connects via an SSH client authenticated through a password or SSH keys. The authentication process is used to determine the identity of the user and is therefore capable of filtering out threat actors. Using an SSH key option will produce a more secure connection then password logins, keys also means you don't always have to log in. 
 
 This is an extremely useful service for network administrators who need to manage systems securely from a remote location. It allows administrators to navigate the files and folders on a server, access applications, configurations, settings, even rebooting the server with ease and convenience.
 
-<h6>Tunneling between machines secure file copying</h6>
+<h5>Tunneling between machines secure file copying</h5>
 
 SSH tunneling is used to establish a channel between two client machines or a client and server through an end-to-end encryption through TCP (port 22). In order for the service to operate on a network it will need to be enabled on the server. Services can be transmitted through this secure encrypted channel.
 

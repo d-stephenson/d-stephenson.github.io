@@ -1,0 +1,19 @@
+<!-- sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority" -->
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+        {% for post in site.posts %}
+            {% include sitemap-entry.xml entry=post %}
+        {% endfor %}
+
+    </urlset>

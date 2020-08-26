@@ -1,0 +1,23 @@
+linkedin:
+  id: 'dale-s-983405126/'
+  href: 'https://www.linkedin.com/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
+  
+facebook:
+  id: 'dale.stephenson.1232'
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  fa-icon: 'fa-facebook-square'
+
+twitter:
+  id: 'DaleSte38224486'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'd-stephenson'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'

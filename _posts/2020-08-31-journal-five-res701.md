@@ -63,7 +63,7 @@ Exploratory research is incredible versatile and can help you uncover faults in 
 3. Interview - Allow for interaction with target market and research participants
 4. Secondary Research - Review of earlier work allows researchers to prove the data is correct
 
-<i>Reference</i>: 10+ Exploratory Research Examples in PDF | DOC, [https://www.examples.com/business/exploratory-research.html](https://www.examples.com/business/exploratory-research.html)
+<i>Reference</i>: 10+ Exploratory Research Examples in PDF DOC, [https://www.examples.com/business/exploratory-research.html](https://www.examples.com/business/exploratory-research.html)
 
 <h3>What are the weaknesses of the approach?</h3>
 
@@ -71,6 +71,6 @@ Exploratory research is not with its drawbacks, the biggest is that is can lean 
 
 Typically with this type of research, those studied may not be typical of the larger population interested in the topic, meaning it is not representative. Ultimately this leads to research that can be costly and can be unsuccessful. 
 
-<!-- <object data="/assets/docs/Exploratory_Research.pdf" type="application/pdf" width="100%" height="625px">
+<object data="/assets/docs/Exploratory_Research.pdf" type="application/pdf" width="100%" height="625px">
   <p>Exploratory Research Presentation <a href="assets/docs/Exploratory_Research.pdf"></a></p>
-</object> -->
+</object>

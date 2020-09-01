@@ -1,4 +1,4 @@
----
+<!-- ---
 ---
 sitemap:
     filename: "/sitemap.xml"
@@ -18,4 +18,4 @@ sitemap:
             {% include sitemap-entry.xml entry=post %}
         {% endfor %}
 
-    </urlset>
+    </urlset> -->

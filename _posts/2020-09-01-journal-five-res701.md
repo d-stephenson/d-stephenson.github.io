@@ -71,6 +71,6 @@ Exploratory research is not with its drawbacks, the biggest is that is can lean 
 
 Typically with this type of research, those studied may not be typical of the larger population interested in the topic, meaning it is not representative. Ultimately this leads to research that can be costly and can be unsuccessful. 
 
-<object data="/assets/docs/Exploratory_Research.pdf" type="application/pdf" width="100%" height="625px">
+<!-- <object data="/assets/docs/Exploratory_Research.pdf" type="application/pdf" width="100%" height="625px">
   <p>Exploratory Research Presentation <a href="assets/docs/Exploratory_Research.pdf"></a></p>
-</object>
+</object> -->

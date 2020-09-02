@@ -62,7 +62,7 @@ Another consideration is changing the default port 3389, as this is a potential 
 
 <i>Reference:</i> How To Open RDP Port To Allow Remote Desktop Access To Your System, [https://www.itechtics.com/rdp-port/](https://www.itechtics.com/rdp-port/)
 
-<h3>Q1 - Investigate and discuss the configuration required on a firewall for a database server providing.</h3> 
+<h3>Q2 - Investigate and discuss the configuration required on a firewall for a database server providing.</h3> 
 
 <h4>MariaDB</h4>
 

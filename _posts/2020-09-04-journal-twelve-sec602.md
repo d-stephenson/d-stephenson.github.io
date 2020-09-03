@@ -21,7 +21,7 @@ NMIT is an excellent example of the unique properties that make up the physical 
 
 The recommended approach for NMIT based on the guideline would be to set up a WPA2 Enterprise, with mutual authentication and authorisation via 802.1X/EAP (Extensible Authentication Protocol).  
 
-<img src="/assets/images/SEC601-J12a.jpeg" alt="WiFi Settings">
+<img src="/assets/images/SEC601-J12a.jpeg" alt="Screenshot of WiFi settings>
 
 The above screenshot of the NMIFI wi-fi connection shows that port 802.1X is deployed by NMIT, meaning the institution deploys the port based access control standard. The benefit of this standard is that it restricts access to the available resources until the user is authenticated. Further benefits of this standard includes the flexibility to use a range of authentication methods. 
 

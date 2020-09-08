@@ -48,12 +48,19 @@ This type of research has the potential to lead to new possibilities or new area
 The benefits of exploratory research are:
 
 <b>Increased Understanding</b> - Improve the knowledge the researchers has of a topic<br>
+
 <b>Concept Testing</b> - Used as a base to check concepts before they go to market<br>
+
 <b>Assistance</b> - Build up a list of possible causes to a problem<br>
+
 <b>Source Flexibility</b> - Published literature from multiple secondary sources <br>
+
 <b>Achieve Goals</b> - Support the strategic goals of decision makers<br>
+
 <b>Administering</b> - Answer questions to the administering of projects<br>
+
 <b>Conclusions</b> - Better topical knowledge helps guide future research <br>
+
 <b>Strategic Planning</b> - In the right circumstances can lead to reducing costs and saving time<br>
 
 Exploratory research is incredible versatile and can help you uncover faults in a study or marketing strategy, and there are many methods to achieving this:

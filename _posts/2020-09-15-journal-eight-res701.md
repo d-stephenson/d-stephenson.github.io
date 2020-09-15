@@ -35,11 +35,11 @@ JOURNAL #EIGHT [RES701]
 
 <b>If I couldn’t study IT I would study........</b>
 
-<i>Theoretical Physics, answering the greatest questions of our time</i>
+<i>Theoretical Physics, or CGI</i>
 
 <b>When I was a kid I wanted to be........</b>
 
-<i>Astronaut, there's still time…</i>
+<i>Astronaut, Disney Imagineer - there's still time…</i>
 
 <b>One IT thing I would like to know more about is........</b>
 

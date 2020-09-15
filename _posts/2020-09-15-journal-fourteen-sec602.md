@@ -51,13 +51,13 @@ The safest place to secure a recovery up key would be in a hardware encrypted st
 
 <i>References</i> 
 
-Dailies—The Secure Transport Use Case | SecureDrive.com. (n.d.). SecureDrive. Retrieved September 15, 2020, from [https://www.securedrive.com/solutions/bitlocker](https://www.securedrive.com/solutions/bitlocker)
+Dailies—The Secure Transport Use Case - SecureDrive.com. (n.d.). SecureDrive. Retrieved September 15, 2020, from [https://www.securedrive.com/solutions/bitlocker](https://www.securedrive.com/solutions/bitlocker)
 
 Dansimp. (n.d.). BitLocker (Windows 10)—Microsoft 365 Security. Retrieved September 15, 2020, from [https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
 
 Introduction to BitLocker: Protecting Your System Disk. (2020, January 20). ElcomSoft Blog. [https://blog.elcomsoft.com/2020/01/introduction-to-bitlocker-protecting-your-system-disk/](https://blog.elcomsoft.com/2020/01/introduction-to-bitlocker-protecting-your-system-disk/)
 
-Paul, I., Contributor, Aug 1, Pcw. |, & hassles, 2016 2:27 pm PDT About | Smart fixes for your PC. (2016, August 1). A beginner’s guide to BitLocker, Windows’ built-in encryption tool. PCWorld. [https://www.pcworld.com/article/2308725/a-beginners-guide-to-bitlocker-windows-built-in-encryption-tool.html](https://www.pcworld.com/article/2308725/a-beginners-guide-to-bitlocker-windows-built-in-encryption-tool.html)
+Paul, I., Contributor, Aug 1, Pcw., & hassles, 2016 2:27 pm PDT About - Smart fixes for your PC. (2016, August 1). A beginner’s guide to BitLocker, Windows’ built-in encryption tool. PCWorld. [https://www.pcworld.com/article/2308725/a-beginners-guide-to-bitlocker-windows-built-in-encryption-tool.html](https://www.pcworld.com/article/2308725/a-beginners-guide-to-bitlocker-windows-built-in-encryption-tool.html)
 
 Randall Vu. (2018, November 6). Microsoft BitLocker function in Windows 10/8/7. Windows Bulletin Tutorials. [http://windowsbulletin.com/bitlocker-function-in-windows/](http://windowsbulletin.com/bitlocker-function-in-windows/)
 

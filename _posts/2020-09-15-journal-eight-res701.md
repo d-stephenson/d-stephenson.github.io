@@ -13,34 +13,34 @@ JOURNAL #EIGHT [RES701]
 
 <h2>What interests me about IT and what doesn’t</h2>
 
-The IT area/subject I have most enjoyed is........
+<b>The IT area/subject I have most enjoyed is........</b>
 
 <i>The application of IT to benefit business enterprise</i> 
 
-The IT area/subject I least enjoyed is........
+<b>The IT area/subject I least enjoyed is........</b>
 
 <i>Some areas of coding which seemingly have no rules</i>
 
-The IT area/subject I was most interested in is........
+<b>The IT area/subject I was most interested in is........</b>
 
 <i>Higher level system analysis and design</i> 
 
-The one IT thing I never want to have to do again is........
+<b>The one IT thing I never want to have to do again is........</b>
 
 <i>Never say never!</i>
 
-I chose to study IT because........
+<b>I chose to study IT because........</b>
 
 <i>In business I didn't enjoy handing over projects to IT teams</i>
 
-If I couldn’t study IT I would study........
+<b>If I couldn’t study IT I would study........</b>
 
 <i>Theoretical Physics, answering the greatest questions of our time</i>
 
-When I was a kid I wanted to be........
+<b>When I was a kid I wanted to be........</b>
 
 <i>Astronaut, there's still time…</i>
 
-One IT thing I would like to know more about is........
+<b>One IT thing I would like to know more about is........</b>
 
 <i>Cloud computing and its application in business</i>

@@ -45,7 +45,7 @@ Best protection is offered when backups are automated and occur on a regular bas
 
 Data backup offers a company or organisation protection from data loss, this could be in the form of customer or employee information, financial transactions which must be retained in a regulatory capacity, and operational reports or strategic projections. 
 
-I have experienced significant data loss in business and it has taught me the value of data back ups. In my first job posting in claims handling the database suffered a catastrophic failure which caused a loss off all the data for thousands of client cases. There was no backup procedure, possibly due to the timing being mid-2000, but also because it was a small businesses with limited resources. On this occasion printed reports had been produced that allowed for the manual input of client data back into the system, but the information was not complete. In addition this manual process was incredibly time consuming leading to a significant drain on employee resources.
+I have experienced significant data loss in business and it has taught me the value of data back ups. In my first job posting in claims handling, the database suffered a catastrophic failure which caused a loss of all the data for thousands of client cases. There was no backup procedure, possibly due to the timing being mid-2000, but also because it was a small businesses with limited resources. On this occasion printed reports had been produced that allowed for the manual input of client data back into the system, but the information was not complete. In addition this manual process was incredibly time consuming leading to a significant drain on employee resources.
 
 <i>References</i> 
 

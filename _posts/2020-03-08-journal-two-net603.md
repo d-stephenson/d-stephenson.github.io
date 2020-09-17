@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Two [NET603]"
+title:  "Journal #Two [NET603] - Network Requirements & Considerations"
 author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
 image: assets/images/NetJ2.png
@@ -11,7 +11,7 @@ hidden: true
 
 <h2>JOURNAL #TWO [NET603]</h2>
 
-<h2>NETWORK REQUIREMENTS AND CONSIDERATIONS</h2>
+<h2>Network Requirements & Considerations</h2>
 
 <h3>Discussion Points for Infrastructure Development</h3>
 

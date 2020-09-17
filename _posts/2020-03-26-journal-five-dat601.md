@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Five [DAT601]"
+title:  "Journal #Five [DAT601] - Normalisation"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/j5header.PNG

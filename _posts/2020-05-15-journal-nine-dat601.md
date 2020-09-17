@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Nine [DAT601]"
+title:  "Journal #Nine [DAT601] - SQL Server - Data Types and Joins"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/DAT601-J9.jpeg

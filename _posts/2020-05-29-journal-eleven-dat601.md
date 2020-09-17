@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Eleven [DAT601]"
+title:  "Journal #Eleven [DAT601] - SQL Server - Constraints"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/DAT601-J11.png

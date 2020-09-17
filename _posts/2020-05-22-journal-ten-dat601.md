@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Ten [DAT601]"
+title:  "Journal #Ten [DAT601] - SQL Server - Clauses and Subqueries"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/DAT601-J10.png

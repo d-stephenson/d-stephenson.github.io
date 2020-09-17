@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #One [NET603]"
+title:  "Journal #One [NET603] - Sub-netting"
 author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
 tags: [ Dale Stephenson, Networking, NET603, Practical Network Development, Business, Infrastructure ]

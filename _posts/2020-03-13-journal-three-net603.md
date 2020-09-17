@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Three [NET603]"
+title:  "Journal #Three [NET603] - User Groups"
 author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
 image: assets/images/UserAnalysis.jpeg
@@ -11,7 +11,7 @@ hidden: true
 
 <h2>JOURNAL #THREE [NET603]</h2>
 
-<h2>USER GROUPS</h2>
+<h2>User Groups</h2>
 
 <h3>Understanding business users profiles</h3>
 

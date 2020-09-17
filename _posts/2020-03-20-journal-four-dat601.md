@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Four [DAT601]"
+title:  "Journal #Four [DAT601] - Comparing the Conceptual Model with the Relational Model"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/j4header.PNG

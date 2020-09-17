@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Four [NET603]"
+title:  "Journal #Four [NET603] - Business Requirements & Specifications"
 author: Dale Stephenson
 categories: [ NET603, Journal, Practical Network Development ]
 image: assets/images/RequirementsImage.png
@@ -11,7 +11,7 @@ hidden: true
 
 <h2>JOURNAL #FOUR [NET603]</h2>
 
-<h2>BUSINESS REQUIREMENTS & SPECIFICATIONS</h2>
+<h2>Business Requirements & Specifications</h2>
 
 <h3>User Requirements</h3>
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Journal #One [DAT601]"
+title:  "Journal #One [DAT601] - Conceptual ERD"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/conceptualDiagram.png
 featured: true
 hidden: true
 ---
-<i>Conceptual ERD created by Team Excellence</i>
+<i>Conceptual ERD</i>
 
 JOURNAL #ONE [DAT601]
 

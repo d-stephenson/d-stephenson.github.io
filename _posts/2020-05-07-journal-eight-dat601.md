@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Eight [DAT601]"
+title:  "Journal #Eight [DAT601] - SQL Server"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/sqlServer.png

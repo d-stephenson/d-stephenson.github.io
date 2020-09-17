@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Six [DAT601]"
+title:  "Journal #Six [DAT601] - Understanding Business Requirements"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/DAT_JournalSIX.jpeg

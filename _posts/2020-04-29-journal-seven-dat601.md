@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Seven [DAT601]"
+title:  "Journal #Seven [DAT601] - Natural Language"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/NaLER.png

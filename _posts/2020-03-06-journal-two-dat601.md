@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Journal #Two [DAT601]"
+title:  "Journal #Two [DAT601] - Conceptual ERD development process"
 author: Dale Stephenson
 categories: [ DAT601, Journal,  Database Design & Administration ]
 image: assets/images/DAT601-J2.jpeg
 featured: true
 hidden: true
 ---
-<i>Conceptual ERD development process - created by Team Excellence</i>
+<i>Conceptual ERD development process</i>
 
 JOURNAL #TWO [DAT601]
 

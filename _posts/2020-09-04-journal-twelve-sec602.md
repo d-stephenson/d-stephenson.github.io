@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Twelve [SEC602]"
+title:  "Journal #Twelve [SEC602] - Wi-Fi Access Point Security"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J12.jpeg

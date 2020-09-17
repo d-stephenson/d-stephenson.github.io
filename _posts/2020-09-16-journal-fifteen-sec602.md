@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Fifteen [SEC602]"
+title:  "Journal #Fifteen [SEC602] - Backup and Recovery"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J15.jpeg

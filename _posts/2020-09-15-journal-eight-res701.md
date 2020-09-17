@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Eight [RES701]"
+title:  "Journal #Eight [RES701] - What interests me about IT and what doesn’t"
 author: Dale Stephenson
 categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J8.jpeg

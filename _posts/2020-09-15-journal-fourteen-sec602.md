@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Fourteen [SEC602]"
+title:  "Journal #Fourteen [SEC602] - Data Encryption"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J14.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Seven [RES701]"
+title:  "Journal #Seven [RES701] - Peer Reviewed Journal"
 author: Dale Stephenson
 categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J7.jpeg

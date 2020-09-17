@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Thirteen [SEC602]"
+title:  "Journal #Thirteen [SEC602] - Implementing a Network Policy Server"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J13.jpeg

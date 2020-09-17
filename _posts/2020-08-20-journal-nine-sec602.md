@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Nine [SEC602]"
+title:  "Journal #Nine [SEC602] - Managing Certificates"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J9.png

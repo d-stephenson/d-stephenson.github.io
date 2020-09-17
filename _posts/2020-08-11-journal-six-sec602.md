@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Six [SEC602]"
+title:  "Journal #Six [SEC602] - Encryption and Hashing"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J6.jpeg

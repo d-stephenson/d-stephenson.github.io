@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Ten [SEC602]"
+title:  "Journal #Ten [SEC602] - Implementing NAT and OpenSSH"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J10.jpeg

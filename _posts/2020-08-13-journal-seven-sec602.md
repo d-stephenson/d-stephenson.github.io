@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Seven [SEC602]"
+title:  "Journal #Seven [SEC602] - Password Cracking Tools"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J7.jpeg

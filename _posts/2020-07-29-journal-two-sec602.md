@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Two [SEC602]"
+title:  "Journal #Two [SEC602] - Application Data - Establish Host Security"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J2.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Four [RES701]"
+title:  "Journal #Four [RES701] - Credibility"
 author: Dale Stephenson
 categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J4.jpeg

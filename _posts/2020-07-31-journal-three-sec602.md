@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Three [SEC602]"
+title:  "Journal #Three [SEC602] - Network Vulnerabilities"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J3.jpeg

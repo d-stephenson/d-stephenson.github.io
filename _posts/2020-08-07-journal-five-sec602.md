@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Five [SEC602]"
+title:  "Journal #Five [SEC602] - Scanning and Remediating Vulnerabilities"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J5.jpeg

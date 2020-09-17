@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Six [RES701]"
+title:  "Journal #Six [RES701] - Academic Articles"
 author: Dale Stephenson
 categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J6.jpeg

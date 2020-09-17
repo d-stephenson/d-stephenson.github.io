@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #One [SEC602]"
+title:  "Journal #One [SEC602] - Social Engineering Reconnaissance"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J1.jpeg

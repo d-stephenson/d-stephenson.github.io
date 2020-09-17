@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Eight [SEC602]"
+title:  "Journal #Eight [SEC602] - Understanding PKI Concepts"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J8.jpeg

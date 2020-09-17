@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Eleven [SEC602]"
+title:  "Journal #Eleven [SEC602] - Firewall Rule Based Management"
 author: Dale Stephenson
 categories: [ SEC602, Journal, Systems Security ]
 image: assets/images/SEC601-J11.jpeg

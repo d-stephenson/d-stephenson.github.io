@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Five [RES701]"
+title:  "Journal #Five [RES701] - Exploratory Research"
 author: Dale Stephenson
 categories: [ RES701, Journal, Research Methods ]
 image: assets/images/RES701-J5.jpeg

@@ -122,6 +122,6 @@ Digital Forensics Process—Identification. (2017, May 4). DriveSavers Data Reco
 
 Digital Forensic Process—Presentation. (2018, April 4). DriveSavers Data Recovery Services. [https://drivesaversdatarecovery.com/blog/digital-forensic-process-presentation/](https://drivesaversdatarecovery.com/blog/digital-forensic-process-presentation/)
 
-Introduction to Digital Forensics | Cipsec. (n.d.). Retrieved September 17, 2020, from [https://www.cipsec.eu/content/introduction-digital-forensics](https://www.cipsec.eu/content/introduction-digital-forensics)
+Introduction to Digital Forensics - Cipsec. (n.d.). Retrieved September 17, 2020, from [https://www.cipsec.eu/content/introduction-digital-forensics](https://www.cipsec.eu/content/introduction-digital-forensics)
 
 US Department of Justice; Office of Justice Programs; National Institute of Justice. (2004). Forensic Examination of Digital Evidence: A Guide for Law Enforcement: (378092004-001) [Data set]. American Psychological Association. [https://doi.org/10.1037/e378092004-001](https://doi.org/10.1037/e378092004-001)

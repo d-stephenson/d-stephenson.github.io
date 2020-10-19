@@ -60,37 +60,27 @@ When applied to research, ethical standards can encompass many moral social valu
 
 <h3>Solving Ethical Problems</h3>
 
-1. You find some good images on the web that would look good on your site. You copy and paste them to your blog.
+1- You find some good images on the web that would look good on your site. You copy and paste them to your blog.
 
 <i>If the website is not for profit such as a student blog, and there is no financial gain, then the harm is limited and this would be ethical, however it would be reasonable to expect the source to cited where possible. If the image is used for the purposes of a website for a commercial entity then permission should be obtained by the owner, or the image purchased under license.</i>
 
-2. You are in a hurry to finish an assignment and you find the perfect explanation of a difficult concept on wikipedia. You decide to copy it into your work.
+2- You are in a hurry to finish an assignment and you find the perfect explanation of a difficult concept on wikipedia. You decide to copy it into your work.
 
 <i>This would be unacceptable behaviour, not only will the learning of the subject be compromised but it is a foolish exercise as it would most likely be discovered. Either a request should be made for an extension, citing valid reasons to allow for more time to complete the assignment, or the assignment should be submitted omitting the concept.</i>
 
-3. You are a medical researcher and you think you have discovered a new drug that cures lung cancer. It worked well on mice although a few of them died of heart problems. You want to test it on people. You recruit 100 lung cancer patients into your treatment programme. You don’t tell them about the new drug. You treat 50 patients with usual drugs and 50 with the new drug to see which is better.
+3- You are a medical researcher and you think you have discovered a new drug that cures lung cancer. It worked well on mice although a few of them died of heart problems. You want to test it on people. You recruit 100 lung cancer patients into your treatment programme. You don’t tell them about the new drug. You treat 50 patients with usual drugs and 50 with the new drug to see which is better.
 
 <i>This is extremely unethical behaviour, testing a drug on mice does not mean it will work in the same way on humans. Furthermore, people should not be kept in the dark about the administering of any untested drug. Such an act may also lead to further ethical problems such as, if the test proved positive, should the research be used to get the drug approved by the relevant authorities - this could lead to other science projects being conducted in the 'dark' which increases potential for harm.</i>  
 
-4. You are doing your PhD about drug abuse among students. You interview 30 students about their drug use. You discover that one of the students is actually a fairly big time dealer and you report him to the police.
+4- You are doing your PhD about drug abuse among students. You interview 30 students about their drug use. You discover that one of the students is actually a fairly big time dealer and you report him to the police.
 
 <i>Clearly defined guidelines should be established and recited to the students participating in the study. Either the researchers should explain that if certain information is provided to them, then it would be passed to the relevant authorities. Alternatively, the researchers could make the choice to not collect the identities of the participants, in doing do this would protect themselves from a compromising situation.</i> 
 
-5. You are a researcher looking at the effect of violent computer games on children. You recruit 20 children into your study. Over a month you regularly show them images of violence to see if it has an adverse effect on their behaviour. One of the children becomes quite distressed each time and so you stop showing her images and drop her from the study.
+5- You are a researcher looking at the effect of violent computer games on children. You recruit 20 children into your study. Over a month you regularly show them images of violence to see if it has an adverse effect on their behaviour. One of the children becomes quite distressed each time and so you stop showing her images and drop her from the study.
 
 <i>It is impossible to know the long term affects of this type of violent exposure in children, it would not be ethical to test children in this way and should not be permitted. An alternative solution, such as studying those children already playing these games approved by the parents, should be considered.</i> 
 
-6. You want to research how easy it is to hack into your organisation’s computer system by persuading people to divulge login and password details. You recruit a small team to ring up key people in the organisation and persuade them to give either their own or their boss’s details.
+6- You want to research how easy it is to hack into your organisation’s computer system by persuading people to divulge login and password details. You recruit a small team to ring up key people in the organisation and persuade them to give either their own or their boss’s details.
 
 <i>Companies may deploy this kind of research to determine how secure their computer system is with respect to those individuals authorised to use it. If permission was granted by the companies consideration should be made to the affect it may have on the employees subjected to the hack.</i>
-
-m
  
-
-
-
-
-
-
-
-

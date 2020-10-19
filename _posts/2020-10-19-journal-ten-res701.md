@@ -84,7 +84,7 @@ When applied to research, ethical standards can encompass many moral social valu
 
 <i>Companies may deploy this kind of research to determine how secure their computer system is with respect to those individuals authorised to use it. If permission was granted by the companies consideration should be made to the affect it may have on the employees subjected to the hack.</i>
 
-
+m
  
 
 

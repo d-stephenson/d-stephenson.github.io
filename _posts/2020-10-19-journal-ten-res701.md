@@ -84,3 +84,10 @@ When applied to research, ethical standards can encompass many moral social valu
 
 <i>Companies may deploy this kind of research to determine how secure their computer system is with respect to those individuals authorised to use it. If permission was granted by the companies consideration should be made to the affect it may have on the employees subjected to the hack.</i>
  
+<i>References</i> 
+
+By David B. Resnik, J.D., Ph.D. - What Is Ethics in Research & Why Is It Important? (n.d.). National Institute of Environmental Health Sciences. Retrieved October 19, 2020, from https://www.niehs.nih.gov/research/resources/bioethics/whatis/index.cfm
+
+University, S. C. (n.d.). What is Ethics? Retrieved October 19, 2020, from https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/what-is-ethics/
+
+What’s The Difference Between Morals And Ethics? (2018, November 8). Dictionary.Com. https://www.dictionary.com/e/moral-vs-ethical/

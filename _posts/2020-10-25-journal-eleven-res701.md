@@ -20,7 +20,7 @@ There are several legal principles that ensure that 'unique' work is protected w
 Intellectual Property (IP) is a legal protection which ensures creations and inventions are attributed to the people responsible for the work. This work is often referred to as a creation of the mind, and the intention of IP is to strike an acceptable balance between the interests of the creators to be:
 
 a) recognised for their work, and <br>
-b) to benefit financial from their work, <br>
+b) to benefit financially from their work, <br>
 c) whilst at the same time considering the interests of the wider public. 
 
 The aim of defining this balance is to foster an environment that allows people to innovate freely and apply creative ideas to solve problems. The principle of IP encompasses the following uses in commerce:

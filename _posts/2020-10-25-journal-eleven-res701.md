@@ -7,7 +7,7 @@ image: assets/images/RES701-J11.jpeg
 featured: true
 hidden: true
 ---
-<i>Ethics</i>
+<i>Protecting and Sharing Work</i>
 
 JOURNAL #ELEVEN [RES701]
 
@@ -79,18 +79,18 @@ Creative Commons generates licensing alternatives to copyright which are freely 
 
 The licensing options available are as followed, copied directly from the [Creative Commons](https://creativecommons.org/about/cclicenses/) website:
 
-- <u>CC BY</u>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.
-- <u>CC BY-SA</u>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
-- <u>CC BY-NC</u>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. 
-- <u>CC BY-NC-SA</u>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. 
-- <u>CC BY-ND</u>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, and only so long as attribution is given to the creator. The license allows for commercial use.
-- <u>CC BY-NC-ND</u>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator. 
+- <b><u>CC BY</u></b>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.
+- <b><u>CC BY-SA</u></b>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
+- <b><u>CC BY-NC</u></b>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. 
+- <b><u>CC BY-NC-SA</u></b>: This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms. 
+- <b><u>CC BY-ND</u></b>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, and only so long as attribution is given to the creator. The license allows for commercial use.
+- <b><u>CC BY-NC-ND</u></b>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator. 
 
 If you take a look down at the bottom of this webpage you'll probably <i>not</i> notice that the established copyright logo has now been removed, replaced instaed with a Creative Commons license - if you want to create your own license for your website [click here](https://creativecommons.org/share-your-work/).
 
 <i>References</i>
 
-Copyleft | intellectual property license. (n.d.). Encyclopedia Britannica. Retrieved October 25, 2020, from [https://www.britannica.com/topic/copyleft](https://www.britannica.com/topic/copyleft)
+Copyleft - intellectual property license. (n.d.). Encyclopedia Britannica. Retrieved October 25, 2020, from [https://www.britannica.com/topic/copyleft](https://www.britannica.com/topic/copyleft)
 
 Copyright Basics: What Is a Copyright and Why Is It Important? (n.d.). Retrieved October 25, 2020, from [https://www.legalzoom.com/articles/copyright-basics-what-is-a-copyright-and-why-is-it-important](https://www.legalzoom.com/articles/copyright-basics-what-is-a-copyright-and-why-is-it-important)
 

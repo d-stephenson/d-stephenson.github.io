@@ -60,7 +60,7 @@ There are many ways to create storyboards, from simple sketches with pen on pape
 
 <img src="/assets/images/DAT602-11 FoundGemsScreen.jpg" alt="Storyboard Found Gems Screen">
 
-<img src="/assets/images/DAT602-12 PopUp_NoGems.jpg" alt="Storyboard No Gems">
+<img src="/assets/images/DAT602-12 PopUp_NoGems.png" alt="Storyboard No Gems">
 
 <img src="/assets/images/DAT602-19 AdminScreen.jpg" alt="Storyboard Administration Screen">
 

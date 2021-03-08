@@ -9,7 +9,7 @@ hidden: true
 ---
 <i>Information Management</i>
 
-JOURNAL #ONE [RES701]
+JOURNAL #ONE [DES501]
 
 <h2>Information Management</h2>
 

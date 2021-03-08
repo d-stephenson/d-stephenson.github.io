@@ -85,7 +85,7 @@ To realise the full benefits of IM the principles and processes must be put to u
 
 <i>References</i>
 
-Information Management Best Practices | Smartsheet. (n.d.). Retrieved March 8, 2021, from [https://www.smartsheet.com/information-management](https://www.smartsheet.com/information-management)
+Information Management Best Practices - Smartsheet. (n.d.). Retrieved March 8, 2021, from [https://www.smartsheet.com/information-management](https://www.smartsheet.com/information-management)
 
 The Information Management Body of Knowledge. (n.d.). Retrieved March 8, 2021, from [https://www.imbok.info/](https://www.imbok.info/)
 

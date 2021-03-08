@@ -40,8 +40,9 @@ IM is a business practice which incorporates concepts that are familiar to busin
 
 The four main components of IM are:
 
-<b>1. People:</b> Stakeholders and users create the data and use the information <b>2. Policies and Procedures:</b> A set of established and well-defined rules that make certain determinations such as access controls, storage processes, mitigation of security risks, and time limits for archiving 
-<b>3. Technology:</b> This encompasses both the hardware and software required to meet the functional and business requirements
+<b>1. People:</b> Stakeholders and users create the data and use the information<br>
+<b>2. Policies and Procedures:</b> A set of established and well-defined rules that make certain determinations such as access controls, storage processes, mitigation of security risks, and time limits for archiving<br> 
+<b>3. Technology:</b> This encompasses both the hardware and software required to meet the functional and business requirements<br>
 <b>4. Data and Information</b>The stored data that the other three components use
 
 IM should not be confused with Content Management or Knowledge Management, these are separate concepts, albeit with some overlap.
@@ -61,10 +62,10 @@ The knowledge areas that must be understood are:
 
 The processes in the IM principles are:
 
-<b>Projects:</b> The creation of new organisational capacity, or new software or hardware for the information systems
-<b>Change:</b> Ensure improvements can be made through the evaluation of information systems
-<b>Operations:</b> Ensure improvements to the day-to-day processes of the organisation, which benefit the overall system
-<b>Performance:</b> Management are able to ensure the systems peak capacity is maintained 
+<b>Projects:</b> The creation of new organisational capacity, or new software or hardware for the information systems<br>
+<b>Change:</b> Ensure improvements can be made through the evaluation of information systems<br>
+<b>Operations:</b> Ensure improvements to the day-to-day processes of the organisation, which benefit the overall system<br>
+<b>Performance:</b> Management are able to ensure the systems peak capacity is maintained <br>
 
 <h3>Information Management Strategies</h3> 
 
@@ -72,11 +73,11 @@ To effectively guide standards and practices within organisations, strategies mu
 
 Information that can be useful when creating an IM strategy include:
 
-	- Current status of the organisation and its IM
-	- Future business goals and aims
-	- The steps the organisation intends to make to achieve those goals 
-	- The policy documents and processes for interactions between departments
-Assigning responsibility to, and implementing all areas of the strategy, and produce reports that inform the strategy 
+- Current status of the organisation and its IM
+- Future business goals and aims
+- The steps the organisation intends to make to achieve those goals 
+- The policy documents and processes for interactions between departments
+- Assigning responsibility to, and implementing all areas of the strategy, and produce reports that inform the strategy 
 
 <h3>Conclusion</h3> 
 

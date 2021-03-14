@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #One [DES501] - The IT Business" 
 author: Dale Stephenson
-categories: [ DES5001, Journal, Design and Development Concepts ]
+categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J1.jpeg
 featured: true
 hidden: true

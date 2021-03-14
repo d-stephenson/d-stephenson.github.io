@@ -21,7 +21,7 @@ The relational (logical) modelling diagram is developed to both improve the syst
 
 The logical ERD for the Seven Dwarfs Gem Hunt has gone through many iterations to get it to its current state as follows:
 
-<img src="/assets/images/DAT602_LogicalDiagram_v2.2.png" alt="Game Logical ERD" class="center"><br>
+<img src="/assets/images/DAT602_LogicalDiagram_v2.2.png" alt="Game Logical ERD"><br>
 
 The most difficult part to understand and get right was the relationship between the game table, player table, character table and item table. Several variations were developed, however they didn’t satisfy normalisation. Ultimately, it came down to the play table to resolve some of the issues in addition to developing the item/game table to include the tile location and play ID, both as nullable fields. 
 

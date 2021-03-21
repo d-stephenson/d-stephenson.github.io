@@ -55,6 +55,8 @@ A detailed analysis is formed for each of the identified events:
 - Admin Update Player
 - Admin Remove Player
 
+The CRUD table has been created in a spreadsheet as this makes it easier to update and change then it would otherwise be in a word table for example. 
+
 <i>References</i> 
 
 What is CRUD? Explaining CRUD Operations. (n.d.). Sumo Logic. Retrieved March 7, 2021, from https://www.sumologic.com/glossary/crud/

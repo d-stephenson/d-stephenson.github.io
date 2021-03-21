@@ -13,7 +13,7 @@ JOURNAL #FOUR [DAT602]
 
 <h2>CRUD Table</h2>
 
-Development work has continued on the game design with the creation and refinement of the CRUD table. 
+Development work has continued on the game design with the creation and refinement of the CRUD table. Version control has been established to ensure changes to the ERD are reflected in the CRUD table, an iterative and incremental approach has been adopted for the game development and consequently changes to the CRUD table are expected as the game build proceeds. 
 
 <h3>WHAT</h3>
 
@@ -25,7 +25,7 @@ Effective development of persistent storage applications requires four functions
 
 <b>UPDATE:</b> The update function is used to modify specified data stored in the database using ALTER, for example, user information can change over time such as addresses or mobile telephone numbers.
 
-<b>DELETE:</b> The delete function removes records from the database using DELETE.
+<b>DELETE:</b> The delete function removes records from the database using DELETE. The delete function removes records from the database using DELETE. The decision to delete information should not be made lightly and some database administrators perform soft deletes that update the row status instead, depending on the circumstances this may be preferable to a hard delete with removes the record from the database entirely. 
 
 <img src="/assets/images/DAT602_CRUD.png" alt="Game CRUD table"><br>
 

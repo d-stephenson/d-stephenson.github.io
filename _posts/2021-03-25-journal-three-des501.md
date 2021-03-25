@@ -54,7 +54,7 @@ Once the tasks have been aggregated an indication can be obtained for the overal
 
 Estimates are determined by the consensus of the team, and in reference to agile are used to estimate the backlog of a product. Story points are a unit measurement that estimates the effort and duration of a task, commonly the Fibonacci scale is used which helps to achieve better results by reducing the complexity. The Fibonacci sequence consists of numbers that are made up of the two numbers that precede it, as follows:
 
-<div align="center"><i><b>1- 1- 2- 3- 5- 8- 13- 21- 34- 55 and so on</b></i></div>
+<div align="center"><i><b>1- 1- 2- 3- 5- 8- 13- 21- 34- 55 and so on</b></i></div><br>
 
 When used for planning poker each team is given a set of cards with each card containing a value from the sequence. A user story or feature is then described to the team who then discuss it so they understand the aspects before making individual estimations.
 

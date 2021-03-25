@@ -56,7 +56,7 @@ Estimates are determined by the consensus of the team, and in reference to agile
 
 <div align="center"><i><b>1- 1- 2- 3- 5- 8- 13- 21- 34- 55 and so on</b></i></div>
 
-value from the sequence. A user story or feature is then described to the team who then discuss it so they understand the aspects before making individual estimations.
+When used for planning poker each team is given a set of cards with each card containing a value from the sequence. A user story or feature is then described to the team who then discuss it so they understand the aspects before making individual estimations.
 
 The team reveals their estimations at the same time, if there is consensus then the value becomes the estimate for the story. If there is no consensus then it goes to further discussion. All members of the team can be involved in the discussion, however, emphasis is placed on those at each end of the value scale to understand the reasons.
 

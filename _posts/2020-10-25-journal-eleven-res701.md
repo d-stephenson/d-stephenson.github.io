@@ -39,7 +39,7 @@ IP law has several methods that allow people to protect their creations, one is 
 
 2. <b>Trademarks</b> - Allow enterprises to protect signs that distinguish themselves or their products and services from other enterprises. Trademarks can include words, letters, combinations of words, drawings, symbols, packaging, sounds, fragrances or colour shades, the possibilities are almost endless. Many corporations trademark distinguishing marks, such as McDonalds with the golden arches, and Disney, as two examples. 
 
-These protections are not criminally applied but civil in nature, and allow redress to be obtained in the form of financial compensation through the courts, or used to stop misuse where it has occurred. Start up businesses will often secure their IP as soon as it is feasible to prevent costly disputes, it also allows for the securing of venture capital funding which is particularly prevelant in the software development industry.
+These protections are not criminally applied but civil in nature, and allow redress to be obtained in the form of financial compensation through the courts, or used to stop misuse where it has occurred. Start up businesses will often secure their IP as soon as it is feasible to prevent costly disputes, it also allows for the securing of venture capital funding which is particularly prevalent in the software development industry.
 
 <h3>Copyright</h3>
 
@@ -73,7 +73,7 @@ A person exploiting copyrighted work will infringe on the first two rights if th
 
 The origins of <i>copyleft</i> are thought to have come from computer expert Richard Stallman during his work at MIT in 1983. The <i>copyleft</i> principle was applied to the open-source programming project GNU, commonly known as Linux. The idea of keeping works and their derivatives free from copyright, is that it builds on what has come before, and helps to shape what comes next, which encourages the growth of knowledge for the common good, in effect it becomes part of our heritage.
 
-The <i>copyleft</i> concept has led to the formation of the non-profit organisation 'Creative Commons', which aims to provide an alternative to the automatically applied copyright that is often viewed as restrictive
+The <i>copyleft</i> concept has led to the formation of the non-profit organisation 'Creative Commons', which aims to provide an alternative to the automatically applied copyright that is often viewed as restrictive.
 
 Creative Commons generates licensing alternatives to copyright which are freely available. The licenses are designed to encourage the sharing of knowledge and information for general use, which aligns with many broad educations aims. A Creative Commons license gives users a guarantee that content is safe, as long as it is correctly applied, making the content a valuable resource for individuals and teams. It also offers a simple way to allow use of your work, without third parties contacting you requesting permission. Furthermore, you have a say in exactly how you want the information you share used. 
 

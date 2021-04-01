@@ -15,7 +15,7 @@ JOURNAL #FOUR [DES501]
 
 The Systems Development Life Cycle (SDLC) is used by software engineers and development teams to plan, structure and control the development process. 
 
-<center><img src="/assets/images/DES501-J4_SDLC.png" alt="Systems Development Life Cycle"><br></center>
+<center><img src="/assets/images/DES501-J4_SDLC.png" alt="Systems Development Life Cycle"></center><br>
 <i>Image Afify Marus {Link to https://afifymarus.blogspot.com/2016/06/sdlc-system-development-life-cycle.html}<br>
 
 The SDLC was introduced as a standardised methodology to respond to the growing complexity within software development. It is an approach that sought to correct the practice of programmers, when being asked by businesses and organisations to resolve an issue or carry out a procedure, giving little thought to stakeholder or user needs and requirements. Developers don’t need to look back too far to see the effects of not adopting an SDLC approach.

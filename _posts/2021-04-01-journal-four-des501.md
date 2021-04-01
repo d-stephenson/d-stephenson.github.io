@@ -52,7 +52,7 @@ The complexity of modern systems and the delivery of a successful project requir
     <td>7</td>
     <td>Systems Operation</td>
   </tr>
-</table> <br>
+</table> 
 
 The SDLC supports various models that are industry recognised, these include:
 

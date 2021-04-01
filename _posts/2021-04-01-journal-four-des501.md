@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Journal #Four [DES501] - Systems Development Life Cycle" 
+title:  "Journal #Four [DES501] - Systems Development & DevOps Life Cycle" 
 author: Dale Stephenson
 categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J4.jpeg
 featured: true
 hidden: true
 ---
-<i>Systems Development Life Cycle</i>
+<i>Systems Development & DevOps Life Cycle</i>
 
 JOURNAL #FOUR [DES501]
 

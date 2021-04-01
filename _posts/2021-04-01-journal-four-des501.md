@@ -15,7 +15,7 @@ JOURNAL #FOUR [DES501]
 
 The Systems Development Life Cycle (SDLC) is used by software engineers and development teams to plan, structure and control the development process. 
 
-<img src="/assets/images/DES501-J4_SDLC.png" alt="Systems Development Life Cycle">
+<img src="/assets/images/DES501-J4_SDLC.png" alt="Systems Development Life Cycle"><br>
 <i>Image Afify Marus {Link to https://afifymarus.blogspot.com/2016/06/sdlc-system-development-life-cycle.html}<br>
 
 The SDLC was introduced as a standardised methodology to respond to the growing complexity within software development. It is an approach that sought to correct the practice of programmers, when being asked by businesses and organisations to resolve an issue or carry out a procedure, giving little thought to stakeholder or user needs and requirements. Developers don’t need to look back too far to see the effects of not adopting an SDLC approach.
@@ -95,7 +95,7 @@ There are several approaches to agile:
 
 The aim of DevOps is to shorten the development time of systems, this includes the delivery of feature updates and fixes that align with the objectives of the business. The approach is intended to produce software that is of a superior quality that is more reliable for users and stakeholders whilst reducing the development time.
 
-<img src="/assets/images/DES501-J4_DOLC.png" alt="DevOps Life Cycle">
+<img src="/assets/images/DES501-J4_DOLC.png" alt="DevOps Life Cycle"><br>
 <i>Image Clarusway {Link to https://clarusway.com/devops-life-cycle-development-operations/}<br>
 
 The DevOps Life Cycle encompasses various phases:

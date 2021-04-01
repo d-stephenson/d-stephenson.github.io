@@ -54,6 +54,7 @@ The complexity of modern systems and the delivery of a successful project requir
   </tr>
 </table> 
 
+
 The SDLC supports various models that are industry recognised, these include:
 
 <h4>Waterfall Model</h4>

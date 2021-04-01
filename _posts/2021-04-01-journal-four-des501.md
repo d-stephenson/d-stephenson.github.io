@@ -115,9 +115,9 @@ These tools support the desire of development teams to collaborate, communicate,
 
 Continuous integration is a practice deployed by software developers where they increase the frequency of commit changes to the source code, this could be daily or weekly depending on requirements. Commits are built and used to detect problems and aid with:
 
-- code review
-- unit and integration testing
-- packaging
+- Code review
+- Unit and integration testing
+- Packaging
 
 Any developed code that supports new functionality will be integrated continuously with the existing code. The integration must occur smoothly with the systems to ensure end-users don't suffer disruption to service.
 

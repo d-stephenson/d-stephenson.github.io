@@ -27,11 +27,11 @@ Aggregate queries: Perform calculations against a determined set of values<br>
  
 Select queries retrieve rows or columns from tables within a database, the select statement can include the following clauses:
  
-<b>INTO</b> - Creates a new table and inserts the results of the query
+  <b>INTO</b> - Creates a new table and inserts the results of the query
 
-<b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source
+  <b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source
 
-<b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:
+  <b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:
 - <b>INNER</b>: Returns all matching rows, discarding unmatched rows
 - <b>FULL [OUTER}</b>: A row from either the right or left table not meeting the join condition is included in the result set
 - <b>LEFT [OUTER]</b>: All rows from the left table not meeting the join condition is included in the result set  

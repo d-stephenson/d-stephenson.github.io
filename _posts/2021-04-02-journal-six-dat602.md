@@ -19,25 +19,32 @@ JOURNAL #SIX [DAT602]
  
 Working with data requires queries to be called against the database, these can take the form of:
  
-Select queries: The retrieval of information from the database that is displayed in a 'virtual' table
-Action queries: Requests activities on the database such as the creation of new tables
-Aggregate queries: Perform calculations against a determined set of values 
+Select queries: The retrieval of information from the database that is displayed in a 'virtual' table<br>
+Action queries: Requests activities on the database such as the creation of new tables<br>
+Aggregate queries: Perform calculations against a determined set of values<br>
  
 <h4>Select Queries</h4> 
  
 Select queries retrieve rows or columns from tables within a database, the select statement can include the following clauses:
  
 <b>INTO</b> - Creates a new table and inserts the results of the query
+
 <b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source
+
 <b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:
 - <b>INNER</b>: Returns all matching rows, discarding unmatched rows
 - <b>FULL [OUTER}</b>: A row from either the right or left table not meeting the join condition is included in the result set
 - <b>LEFT [OUTER]</b>: All rows from the left table not meeting the join condition is included in the result set  
 - <b>RIGHT [OUTER]</b>: All rows from the right table not meeting the join condition is included in the result set  
+
 <b>WHERE</b> - Used to define the search condition for the returned rows
+
 <b>GROUP BY</b> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG
+
 <b>HAVING</b> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate
+
 <b>DISTINCT</b> - Used to return only those values that are different, those that are not duplicated in a table
+
 <b>OVER</b> - Defines a set of rows within a query result as specified by the user
  
 <h4>Action Queries</h4> 
@@ -45,10 +52,15 @@ Select queries retrieve rows or columns from tables within a database, the selec
 Action queries are used to make changes in a database, an action query can take the form of one of the following statements:
  
 <b>CREATE</b> - Used to make tables in the database
+
 <b>ALTER</b> - Modifies columns or constraints in a table
+
 <b>INSERT</b> - Adds data into current table rows
+
 <b>UPDATE</b> - Takes existing data in a table and changes it
+
 <b>DELETE</b> - Deletes data contained in rows of a database
+
 <b>DROP</b> - Deletes tables from a database
  
 <h4>Aggregated Queries</h4>
@@ -58,10 +70,15 @@ Aggregate functions perform calculations on a set of values to return a single v
 An aggregate query can include the following clauses:
  
 <b>AVG</b> - Used to return the average of a set of values in a group, ignoring NULL values
+
 <b>COUNT</b> - Returns an <i>int</i> data type value representing the number of items found in a group
+
 <b>GROUPING</b> - If the specified column expression is aggregated the statement returns '1', if not it returns '0'
+
 <b>SUM</b> - Takes all the values in a column and returns the sum, can only be used in numerical columns
+
 <b>MAX</b> - The maximum value in the expression is returned
+
 <b>MIN</b> - The minimum value in the expression is returned
  
 <h3>WHY</h3>

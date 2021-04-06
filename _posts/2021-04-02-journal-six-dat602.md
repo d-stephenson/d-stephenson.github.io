@@ -27,41 +27,41 @@ Aggregate queries: Perform calculations against a determined set of values<br>
  
 Select queries retrieve rows or columns from tables within a database, the select statement can include the following clauses:
 
-<p style = “margin-left: 10px”><b>INTO</b> - Creates a new table and inserts the results of the query</p>
+<b>INTO</b> - Creates a new table and inserts the results of the query
 
-<p style = “margin-left: 10px”><b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source</p>
+<b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source
 
-<p style = “margin-left: 10px”><b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:</p>
+<b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:
 - <b>INNER</b>: Returns all matching rows, discarding unmatched rows
 - <b>FULL [OUTER}</b>: A row from either the right or left table not meeting the join condition is included in the result set
 - <b>LEFT [OUTER]</b>: All rows from the left table not meeting the join condition is included in the result set  
 - <b>RIGHT [OUTER]</b>: All rows from the right table not meeting the join condition is included in the result set  
 
-<p style = “margin-left: 10px”><b>WHERE</b> - Used to define the search condition for the returned rows</p>
+<b>WHERE</b> - Used to define the search condition for the returned rows
 
-<p style = “margin-left: 10px”><b>GROUP BY</b> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG</p>
+<b>GROUP BY</b> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG
 
-<p style = “margin-left: 10px”><b>HAVING</b> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate</p>
+<b>HAVING</b> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate
 
-<p style = “margin-left: 10px”><b>DISTINCT</b> - Used to return only those values that are different, those that are not duplicated in a table</p>
+<b>DISTINCT</b> - Used to return only those values that are different, those that are not duplicated in a table
 
-<p style = “margin-left: 10px”><b>OVER</b> - Defines a set of rows within a query result as specified by the user</p>
+<b>OVER</b> - Defines a set of rows within a query result as specified by the user
  
 <h4>Action Queries</h4> 
  
 Action queries are used to make changes in a database, an action query can take the form of one of the following statements:
  
-<p style = “margin-left: 10px”><b>CREATE</b> - Used to make tables in the database</p>
+<b>CREATE</b> - Used to make tables in the database
 
-<p style = “margin-left: 10px”><b>ALTER</b> - Modifies columns or constraints in a table</p>
+<b>ALTER</b> - Modifies columns or constraints in a table
 
-<p style = “margin-left: 10px”><b>INSERT</b> - Adds data into current table rows</p>
+<b>INSERT</b> - Adds data into current table rows
 
-<p style = “margin-left: 10px”><b>UPDATE</b> - Takes existing data in a table and changes it</p>
+<b>UPDATE</b> - Takes existing data in a table and changes it
 
-<p style = “margin-left: 10px”><b>DELETE</b> - Deletes data contained in rows of a database</p>
+<b>DELETE</b> - Deletes data contained in rows of a database
 
-<p style = “margin-left: 10px”><b>DROP</b> - Deletes tables from a database</p>
+<b>DROP</b> - Deletes tables from a database
  
 <h4>Aggregated Queries</h4>
  
@@ -69,17 +69,17 @@ Aggregate functions perform calculations on a set of values to return a single v
  
 An aggregate query can include the following clauses:
  
-<p style = “margin-left: 10px”><b>AVG</b> - Used to return the average of a set of values in a group, ignoring NULL values</p>
+<b>AVG</b> - Used to return the average of a set of values in a group, ignoring NULL values
 
-<p style = “margin-left: 10px”><b>COUNT</b> - Returns an <i>int</i> data type value representing the number of items found in a group</p>
+<b>COUNT</b> - Returns an <i>int</i> data type value representing the number of items found in a group
 
-<p style = “margin-left: 10px”><b>GROUPING</b> - If the specified column expression is aggregated the statement returns '1', if not it returns '0'</p>
+<b>GROUPING</b> - If the specified column expression is aggregated the statement returns '1', if not it returns '0'
 
-<p style = “margin-left: 10px”><b>SUM</b> - Takes all the values in a column and returns the sum, can only be used in numerical columns</p>
+<b>SUM</b> - Takes all the values in a column and returns the sum, can only be used in numerical columns
 
-<p style = “margin-left: 10px”><b>MAX</b> - The maximum value in the expression is returned</p>
+<b>MAX</b> - The maximum value in the expression is returned
 
-<p style = “margin-left: 10px”><b>MIN</b> - The minimum value in the expression is returned</p>
+<b>MIN</b> - The minimum value in the expression is returned
  
 <h3>WHY</h3>
  

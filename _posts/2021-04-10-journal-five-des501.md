@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Four [DES501] - User Experience Design" 
+title:  "Journal #Five [DES501] - User Experience Design" 
 author: Dale Stephenson
 categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J5.jpeg

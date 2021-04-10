@@ -24,7 +24,7 @@ The scope of UX design includes the consideration of every interaction and exper
  
 The job of a UX designer is to build a bridge between a business or organisation through the creation of a user experience that is easy to use. This is achieved through market analysis, product development and a clear design strategy that leads to a project outcome that meets user needs, requirements and expectations. To accomplish these goals UX is often split into the following main disciplines:
  
-1. Experience Strategy (ExS): Holistic strategy that includes both customer and business needs.
+1. Experience Strategy (ExS): Holistic strategy that includes both customer and business needs
 2. Interaction Design (IxD): Interactive elements of the system including buttons, page transitions etc.
 3. User Research (UR): Identify the problems and designing a solution through research and user feedback
 4. Information Architecture (IA): Understand the relationship between sets of content to organise information 

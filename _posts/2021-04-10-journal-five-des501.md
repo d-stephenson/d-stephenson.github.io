@@ -13,9 +13,9 @@ JOURNAL #FIVE [DES501]
 
 <h2>User Experience Design</h2>
 
-User experience (UX) design coupled with the tools and methods that support the process is not only really important for producing successful project outcomes, but it is also an area I have enjoyed from my career experience. Having worked with companies to effect business turnaround through the use of, amongst other things, new website development and attitude changes to technology adoption have reaffirmed my excitement for the creative process through the development stages.
+User experience (UX) design coupled with the tools and methods that support the process is not only really important for producing successful project outcomes, but it is also an area I have enjoyed from my career experience. Having worked with companies to effect business turnaround through the use of, amongst other things, new website development and attitude changes to technology adoption have only reaffirmed my excitement for the creative process throughout the development stages.
  
-I have learnt from experience how important UX design can be to shape a business or brand, UX is a vast field that requires a multidisciplinary approach requiring a skill set that is highly diverse to allow teams to react to a fast-paced and challenging environment.
+I have learnt from experience how important UX design can be to shape a business or brand, UX is a vast field that requires a multidisciplinary approach and a skill set that is highly diverse to allow teams to react to a fast-paced and challenging environment.
  
 The scope of UX design includes the consideration of every interaction and experience a user has with a product or service, such as:
  

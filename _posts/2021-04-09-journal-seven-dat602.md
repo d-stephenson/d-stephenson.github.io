@@ -81,7 +81,7 @@ BEGIN<br>
 SELECT 'MySQL Definer';<br>
 END;<br>
 //<br>
-<i>Please note the above code is not indented correctly</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 <h3>SQL Security</h3>
  
@@ -101,7 +101,7 @@ UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
 -- Executes with the DEFINER security context privilege<br>
-<i>Please note the above code is not indented correctly</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 To execute this procedure, any user that has the EXECUTE privilege can CALL the statement, as well as UPDATE the table tbl_Account under the DEFINER security context.
  
@@ -117,7 +117,7 @@ UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
 -- Executes with the INVOKER security context privilege<br>
-<i>Please note the above code is not indented correctly</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 This procedure executes in the INVOKER security context, meaning the DEFINER security context is ignored, if the INVOKER does not have the EXECUTE or UPDATE privilege the procedure will fail.
  
@@ -141,11 +141,11 @@ FROM tblBoardTile<br>
 WHERE TileID = pTileID;<br>
 END;<br>
 //<br>
-<i>Please note the above code is not indented correctly</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 Stored procedures can accept parameters as an input, such as those defined in the above example. Multiple values can be returned as an output parameter by calling the procedure.
 
-<i>Reference</i>
+<i>References</i>
 
 Access Control in MySQL Stored Routines: DEFINER, INVOKER & SQL SECURITY - ..::CHANGE is INEVITABLE::.. (2012, January 30). https://kedar.nitty-witty.com/blog/access-control-in-mysql-stored-routines-by-example-definer-invoker-sql-security
 

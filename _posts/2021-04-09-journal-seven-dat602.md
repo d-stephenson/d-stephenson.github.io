@@ -86,7 +86,7 @@ END;<br>
  
 When considering the security of stored procedures two characteristics can be specified, the DEFINER context and the INVOKER context. If neither is selected then the DEFINER context is set as the default characteristic of the stored procedure.
  
-Selecting the DEFINER security context will execute the stored procedure with the privileges of the account named in the DEFINER attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the INVOKERS privileges are disregarded for the purpose of calling the procedure, even if the DEFINER privileges are higher than that of the INVOKER.
+Selecting the DEFINER security context will execute the stored procedure with the privileges of the account named in the DEFINER attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the INVOKER privileges are disregarded for the purpose of calling the procedure, even if the DEFINER privileges are higher than that of the INVOKER.
  
 When considering the security of a database, those users with a high level of security should seriously consider who needs to call any given procedure.
  

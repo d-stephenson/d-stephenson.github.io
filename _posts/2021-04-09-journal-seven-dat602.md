@@ -111,7 +111,7 @@ The following is an example of a stored procedure that has declared an SQL SECUR
  
 delimiter //<br>
 CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Invoker()<br>
-SQL SECURITY DEFINER<br>
+SQL SECURITY INVOKER<br>
 BEGIN<br>
 UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>

@@ -80,7 +80,7 @@ CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()<br>
 BEGIN<br>
 SELECT 'MySQL Definer';<br>
 END;<br>
-//
+//<br>
 <i>Please note the above code is not indented correctly</i>
  
 <h3>SQL Security</h3>
@@ -100,7 +100,7 @@ BEGIN<br>
 UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
--- Executes with the DEFINER security context privilege
+-- Executes with the DEFINER security context privilege<br>
 <i>Please note the above code is not indented correctly</i>
  
 To execute this procedure, any user that has the EXECUTE privilege can CALL the statement, as well as UPDATE the table tbl_Account under the DEFINER security context.
@@ -116,7 +116,7 @@ BEGIN<br>
 UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
--- Executes with the INVOKER security context privilege
+-- Executes with the INVOKER security context privilege<br>
 <i>Please note the above code is not indented correctly</i>
  
 This procedure executes in the INVOKER security context, meaning the DEFINER security context is ignored, if the INVOKER does not have the EXECUTE or UPDATE privilege the procedure will fail.
@@ -140,7 +140,7 @@ SELECT BoardType AS 'Board Description', TileID AS 'Tile Ref'<br>
 FROM tblBoardTile<br>
 WHERE TileID = pTileID;<br>
 END;<br>
-//
+//<br>
 <i>Please note the above code is not indented correctly</i>
  
 Stored procedures can accept parameters as an input, such as those defined in the above example. Multiple values can be returned as an output parameter by calling the procedure.

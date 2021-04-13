@@ -54,13 +54,13 @@ The following are examples of deterministic and nondeterministic functions:
     <td>NULLIF</td>
     <td>CURRENT_TIMESTAMP</td>
   </tr>
-</table>
+</table><br>
  
 <h3>Access Control</h3>
  
 Stored procedures are used as a way to improve the performance of databases, they are also used to improve database security and restrict user access. The security aspects of a stored procedure include:
  
-<b>DEFINER:</b> A clause that specifies the creator of the stored procedure
+<b>DEFINER:</b> A clause that specifies the creator of the stored procedure<br>
 <b>SQL SECURITY:</b> A clause that specifics the context of the stored procedure
  
 <h3>Definer</h3>
@@ -75,11 +75,11 @@ SELECT user, host FROM mysql.user;
  
 To create a DEFINER within a database a query can be created as a stored procedure as follows:
  
-delimiter //
-CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()
-BEGIN
-SELECT 'MySQL Definer';
-END;
+delimiter //<br>
+CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()<br>
+BEGIN<br>
+SELECT 'MySQL Definer';<br>
+END;<br>
 //
  
 <h3>SQL Security</h3>
@@ -92,13 +92,13 @@ When considering the security of a database, those users with a high level of se
  
 The following is an example of a stored procedure that has declared an SQL SECURITY DEFINER characteristic:
  
-delimiter //
-CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()
-SQL SECURITY DEFINER
-BEGIN
-UPDATE tbl_Accounts SET counter = counter + 1;
-END;
-//
+delimiter //<br>
+CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()<br>
+SQL SECURITY DEFINER<br>
+BEGIN<br>
+UPDATE tbl_Accounts SET counter = counter + 1;<br>
+END;<br>
+//<br>
 -- Executes with the DEFINER security context privilege
  
 To execute this procedure, any user that has the EXECUTE privilege can CALL the statement, as well as UPDATE the table tbl_Account under the DEFINER security context.
@@ -107,13 +107,13 @@ If a stored procedure selects the INVOKER security context then it can only be i
  
 The following is an example of a stored procedure that has declared an SQL SECURITY INVOKER characteristic:
  
-delimiter //
-CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Invoker()
-SQL SECURITY DEFINER
-BEGIN
-UPDATE tbl_Accounts SET counter = counter + 1;
-END;
-//
+delimiter //<br>
+CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Invoker()<br>
+SQL SECURITY DEFINER<br>
+BEGIN<br>
+UPDATE tbl_Accounts SET counter = counter + 1;<br>
+END;<br>
+//<br>
 -- Executes with the INVOKER security context privilege
  
 This procedure executes in the INVOKER security context, meaning the DEFINER security context is ignored, if the INVOKER does not have the EXECUTE or UPDATE privilege the procedure will fail.
@@ -121,22 +121,22 @@ This procedure executes in the INVOKER security context, meaning the DEFINER sec
 What SQL SECURITY does is restrict users access to tables directly, whilst allowing access to certain data to perform their required functions. This can help support an organisation to meet the security concept of 'principle of least privilege' (POLP) and help to secure sensitive or customer data.
  
 In SQL the POLP extends to:
-	- Read-access to data
-	- Creating user accounts
-	- Changing table structure
+- Read-access to data
+- Creating user accounts
+- Changing table structure
  
 <h3>Procedures and Stored Procedures</h3>
  
 Procedures or stored procedures are SQL queries that are created once and stored in the database to be executed multiple times when required by a database user by calling the procedure. Stored procedures result in reduced execution time.
  
-delimiter //
-DROP PROCEDURE IF EXISTS SelectTileBoard;
-CREATE PROCEDURE SelectTileBoard( pTileID int )
-BEGIN
-SELECT BoardType AS 'Board Description', TileID AS 'Tile Ref'
-FROM tblBoardTile
-WHERE TileID = pTileID;
-END;
+delimiter //<br>
+DROP PROCEDURE IF EXISTS SelectTileBoard;<br>
+CREATE PROCEDURE SelectTileBoard( pTileID int )<br>
+BEGIN<br>
+SELECT BoardType AS 'Board Description', TileID AS 'Tile Ref'<br>
+FROM tblBoardTile<br>
+WHERE TileID = pTileID;<br>
+END;<br>
 //
  
 Stored procedures can accept parameters as an input, such as those defined in the above example. Multiple values can be returned as an output parameter by calling the procedure.

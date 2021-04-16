@@ -44,7 +44,7 @@ Wireframes and other similar tools can be created in two ways:
     <td>Show basic content</td>
    <td>Visualise simple process flows</td>
   </tr>
- </table>
+ </table><br>
 
  <img src="/assets/images/DES501_wireframes.png" alt="Wireframes"><br>
  

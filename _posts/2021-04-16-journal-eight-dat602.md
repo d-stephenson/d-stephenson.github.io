@@ -30,24 +30,24 @@ In a THEN branch, the function returns the corresponding result if the condition
  
 <b>CASE example 1:</b>
  
-SELECT ProductID, StockAmount,
-CASE
-    WHEN StockAmount > 10 THEN "Stock is sufficient"
-    WHEN StockAmount = 10 THEN "Re-order stock"
-    ELSE "Stock is very low, urgent re-order"
-END
-FROM tblStockDetails;
+SELECT ProductID, StockAmount,<br>
+CASE<br>
+    WHEN StockAmount > 10 THEN "Stock is sufficient"<br>
+    WHEN StockAmount = 10 THEN "Re-order stock"<br>
+    ELSE "Stock is very low, urgent re-order"<br>
+END<br>
+FROM tblStockDetails;<br>
 <i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 <b>CASE example 2:</b>
  
-SELECT ManufacturerID, Town, Postcode
-FROM tblManufacturer
-ORDER BY
-(CASE
-    WHEN Town IS NULL THEN Postcode
-    ELSE Town
-END); <i>returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode</i>
+SELECT ManufacturerID, Town, Postcode<br>
+FROM tblManufacturer<br>
+ORDER BY<br>
+(CASE<br>
+    WHEN Town IS NULL THEN Postcode<br>
+    ELSE Town<br>
+END); <i>returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode</i><br>
 <i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 <h4>IF/ELSE Construct</h4>
@@ -56,9 +56,9 @@ A value will be returned as a result of a given condition.
  
 <b>IF example:</b>
  
-SELECT ProductID, StockAmount,
-IF(StockAmount > 10, 'More', 'Less')
-FROM tblStockDetails; <i>returns 'More' if the condition is true and 'Less' if the condition is 'False'</i>
+SELECT ProductID, StockAmount,<br>
+IF(StockAmount > 10, 'More', 'Less')<br>
+FROM tblStockDetails; <i>returns 'More' if the condition is true and 'Less' if the condition is 'False'</i><br>
 <i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 <h4>IFNULL</h4>
@@ -67,7 +67,7 @@ The first argument will be returned if it is not NULL, if it is NULL then the se
  
 <b>IFNULL example:</b>
  
-SELECT IFNULL(NULL, 10); <i>returns 10</i>
+SELECT IFNULL(NULL, 10); <i>returns 10</i><br>
 <i>Please note the above code is not indented correctly for the purpose of this journal</i>
  
 <h4>NULLIF</h4>
@@ -76,9 +76,9 @@ Returns NULL if the first argument equals the second argument, if it does not eq
  
 <b>NULLIF example:</b>
  
-SELECT NULLIF(25, 25); <i>returns NULL</i>
-SELECT NULLIF(15, 25); <i>returns 15</i>
-SELECT NULLIF(15, 5); <i>returns 15</i>
+SELECT NULLIF(25, 25); <i>returns NULL</i><br>
+SELECT NULLIF(15, 25); <i>returns 15</i><br>
+SELECT NULLIF(15, 5); <i>returns 15</i><br>
 <i>Please note the above code is not indented correctly for the purpose of this journal</i>
 
 <i>References</i>

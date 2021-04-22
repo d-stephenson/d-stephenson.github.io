@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "Journal #Eight [DAT602] - Control Flow" 
+author: Dale Stephenson
+categories: [ DAT602, Journal, Database Application Development ]
+image: assets/images/DAT602-J8.jpeg
+featured: true
+hidden: true
+---
+<i>Control Flow</i>
+
+JOURNAL #EIGHT [DAT602]
+
+<h2>Control Flow</h2>
+
+<h3>Control Flow Functions</h3>
+ 
+There are several functions available in SQL that allow logic to be added to queries, this can be done without using the procedural code. Control flow functions return a value for each row that is processed, the values returned are a result of an evaluated comparison. Control flow functions can be utilised in the following clauses:
+ 
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+ 
+Control flow functions allow MySQL uses to add IF - THEN - ELSE logic by utilising the following control flow functions:
+ 
+<h4>CASE Operator</h4>
+ 
+In a THEN branch, the function returns the corresponding result if the condition in the WHEN branch is satisfied, if it is not satisfied, the result in the ELSE branch is returned.
+ 
+<b>CASE example 1:</b>
+ 
+SELECT ProductID, StockAmount,
+CASE
+    WHEN StockAmount > 10 THEN "Stock is sufficient"
+    WHEN StockAmount = 10 THEN "Re-order stock"
+    ELSE "Stock is very low, urgent re-order"
+END
+FROM tblStockDetails;
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+ 
+<b>CASE example 2:</b>
+ 
+SELECT ManufacturerID, Town, Postcode
+FROM tblManufacturer
+ORDER BY
+(CASE
+    WHEN Town IS NULL THEN Postcode
+    ELSE Town
+END); <i>returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+ 
+<h4>IF/ELSE Construct</h4>
+ 
+A value will be returned as a result of a given condition.
+ 
+<b>IF example:</b>
+ 
+SELECT ProductID, StockAmount,
+IF(StockAmount > 10, 'More', 'Less')
+FROM tblStockDetails; <i>returns 'More' if the condition is true and 'Less' if the condition is 'False'</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+ 
+<h4>IFNULL</h4>
+ 
+The first argument will be returned if it is not NULL, if it is NULL then the second argument is returned.
+ 
+<b>IFNULL example:</b>
+ 
+SELECT IFNULL(NULL, 10); <i>returns 10</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+ 
+<h4>NULLIF</h4>
+ 
+Returns NULL if the first argument equals the second argument, if it does not equal the second argument then it will return the first argument.
+ 
+<b>NULLIF example:</b>
+ 
+SELECT NULLIF(25, 25); <i>returns NULL</i>
+SELECT NULLIF(15, 25); <i>returns 15</i>
+SELECT NULLIF(15, 5); <i>returns 15</i>
+<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+
+<i>References</i>
+ 
+MySQL Control Flow Functions Overview. (n.d.). MySQL Tutorial. Retrieved April 22, 2021, from https://www.mysqltutorial.org/mysql-control-flow-functions/
+ 
+Use MySQL Control Flow Functions—CASE, IF, IFNULL, and NULLIF. (n.d.). Retrieved April 22, 2021, from https://www.geeksengine.com/database/single-row-functions/control-flow-functions.php

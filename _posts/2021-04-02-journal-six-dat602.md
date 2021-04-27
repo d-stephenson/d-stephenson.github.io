@@ -101,15 +101,15 @@ The following SQL is procedural transactions in SQL Server:
 
 <i>References</i> 
 
-cawrites. (n.d.). Aggregate Functions (Transact-SQL)—SQL Server. Retrieved April 6, 2021, from https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql
+cawrites. (n.d.). Aggregate Functions (Transact-SQL)—SQL Server. Retrieved April 6, 2021, from [https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql)
 
 JanbaskTraining. (2019, February 28). What Is SQL Queries? List Of All SQL Queries With Examples. JanbaskTraining. 
-https://www.janbasktraining.com/blog/what-is-sql-queries
+[https://www.janbasktraining.com/blog/what-is-sql-queries](https://www.janbasktraining.com/blog/what-is-sql-queries)
 
-SQL GROUP BY Statement. (n.d.). Retrieved April 6, 2021, from https://www.w3schools.com/sql/sql_groupby.asp
+SQL GROUP BY Statement. (n.d.). Retrieved April 6, 2021, from [https://www.w3schools.com/sql/sql_groupby.asp](https://www.w3schools.com/sql/sql_groupby.asp)
 
-VanMSFT. (n.d.-a). FROM clause plus JOIN, APPLY, PIVOT (T-SQL)—SQL Server. Retrieved April 6, 2021, from https://docs.microsoft.com/en-us/sql/t-sql/queries/from-transact-sql
+VanMSFT. (n.d.-a). FROM clause plus JOIN, APPLY, PIVOT (T-SQL)—SQL Server. Retrieved April 6, 2021, from [https://docs.microsoft.com/en-us/sql/t-sql/queries/from-transact-sql](https://docs.microsoft.com/en-us/sql/t-sql/queries/from-transact-sql)
 
-VanMSFT. (n.d.-b). Queries—SQL Server. Retrieved April 6, 2021, from https://docs.microsoft.com/en-us/sql/t-sql/queries/queries
+VanMSFT. (n.d.-b). Queries—SQL Server. Retrieved April 6, 2021, from [https://docs.microsoft.com/en-us/sql/t-sql/queries/queries](https://docs.microsoft.com/en-us/sql/t-sql/queries/queries)
 
-What is SQL and why is it important? - Quora. (n.d.). Retrieved April 6, 2021, from https://www.quora.com/What-is-SQL-and-why-is-it-important?share=1
+What is SQL and why is it important? - Quora. (n.d.). Retrieved April 6, 2021, from [https://www.quora.com/What-is-SQL-and-why-is-it-important?share=1](https://www.quora.com/What-is-SQL-and-why-is-it-important?share=1)

@@ -59,4 +59,4 @@ The CRUD table has been created in a spreadsheet as this makes it easier to upda
 
 <i>References</i> 
 
-What is CRUD? Explaining CRUD Operations. (n.d.). Sumo Logic. Retrieved March 7, 2021, from https://www.sumologic.com/glossary/crud/
+What is CRUD? Explaining CRUD Operations. (n.d.). Sumo Logic. Retrieved March 7, 2021, from [https://www.sumologic.com/glossary/crud/](https://www.sumologic.com/glossary/crud/)

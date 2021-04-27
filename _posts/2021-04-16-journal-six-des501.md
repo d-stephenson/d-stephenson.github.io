@@ -105,8 +105,8 @@ Mood boards can grow to include sound or video depending on the audience and can
 
 <i>References</i>
 
-Mockplus. (n.d.). Retrieved April 16, 2021, from https://www.mockplus.com/blog/post/wireframe-mockup-prototype-selection-of-prototyping-tools
+Mockplus. (n.d.). Retrieved April 16, 2021, from [https://www.mockplus.com/blog/post/wireframe-mockup-prototype-selection-of-prototyping-tools](https://www.mockplus.com/blog/post/wireframe-mockup-prototype-selection-of-prototyping-tools)
 
-Schicker, E. (2020, October 26). Journey-mapping pain points & success moments in UX research. Medium. https://blog.prototypr.io/journey-mapping-pain-points-success-moments-ac2d6cbcafae
+Schicker, E. (2020, October 26). Journey-mapping pain points & success moments in UX research. Medium. [https://blog.prototypr.io/journey-mapping-pain-points-success-moments-ac2d6cbcafae](https://blog.prototypr.io/journey-mapping-pain-points-success-moments-ac2d6cbcafae)
 
-What is a Mood board? How to Use Mood Boards in UX Design. (2020, February 6). FreeCodeCamp.Org. https://www.freecodecamp.org/news/what-is-a-moodboard/
+What is a Mood board? How to Use Mood Boards in UX Design. (2020, February 6). FreeCodeCamp.Org. [https://www.freecodecamp.org/news/what-is-a-moodboard/](https://www.freecodecamp.org/news/what-is-a-moodboard/)

@@ -83,6 +83,6 @@ SELECT NULLIF(15, 5); <i>returns 15</i><br>
 
 <i>References</i>
  
-MySQL Control Flow Functions Overview. (n.d.). MySQL Tutorial. Retrieved April 22, 2021, from https://www.mysqltutorial.org/mysql-control-flow-functions/
+MySQL Control Flow Functions Overview. (n.d.). MySQL Tutorial. Retrieved April 22, 2021, from [https://www.mysqltutorial.org/mysql-control-flow-functions/](https://www.mysqltutorial.org/mysql-control-flow-functions/)
  
-Use MySQL Control Flow Functions—CASE, IF, IFNULL, and NULLIF. (n.d.). Retrieved April 22, 2021, from https://www.geeksengine.com/database/single-row-functions/control-flow-functions.php
+Use MySQL Control Flow Functions—CASE, IF, IFNULL, and NULLIF. (n.d.). Retrieved April 22, 2021, from [https://www.geeksengine.com/database/single-row-functions/control-flow-functions.php](https://www.geeksengine.com/database/single-row-functions/control-flow-functions.php)

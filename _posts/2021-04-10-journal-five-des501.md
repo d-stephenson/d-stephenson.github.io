@@ -86,16 +86,16 @@ The purpose of storyboarding is to develop a set of images that can be understoo
 
 <i>References</i>
 
-8 Essential Characteristics of a User Persona for a Website. (n.d.). Blue Fountain Media. Retrieved April 2, 2021, from https://www.bluefountainmedia.com/blog/8-essential-characteristics-of-a-user-person
+8 Essential Characteristics of a User Persona for a Website. (n.d.). Blue Fountain Media. Retrieved April 2, 2021, from [https://www.bluefountainmedia.com/blog/8-essential-characteristics-of-a-user-person](https://www.bluefountainmedia.com/blog/8-essential-characteristics-of-a-user-person)
 
-How to Define a User Persona. (n.d.). Retrieved April 2, 2021, from https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona/
+How to Define a User Persona. (n.d.). Retrieved April 2, 2021, from [https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona/](https://careerfoundry.com/en/blog/ux-design/how-to-define-a-user-persona/)
 
-How to design user scenarios: Best practices and examples. (n.d.). Retrieved April 3, 2021, from https://www.justinmind.com/blog/how-to-design-user-scenarios/
+How to design user scenarios: Best practices and examples. (n.d.). Retrieved April 3, 2021, from [https://www.justinmind.com/blog/how-to-design-user-scenarios/](https://www.justinmind.com/blog/how-to-design-user-scenarios/)
 
-How to Write a Good User Story: With Examples & Templates. (2018, July 20). Stormotion Blog. https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/
+How to Write a Good User Story: With Examples & Templates. (2018, July 20). Stormotion Blog. [https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/)
 
-Justinmind. (2017, July 31). User Personas, Scenarios, User Stories And Storyboards: What’s the Difference? Medium. https://uxplanet.org/user-personas-scenarios-user-stories-and-storyboards-whats-the-difference-cf00315f0799
+Justinmind. (2017, July 31). User Personas, Scenarios, User Stories And Storyboards: What’s the Difference? Medium. [https://uxplanet.org/user-personas-scenarios-user-stories-and-storyboards-whats-the-difference-cf00315f0799](https://uxplanet.org/user-personas-scenarios-user-stories-and-storyboards-whats-the-difference-cf00315f0799)
 
-What is User Story? (n.d.). Retrieved April 2, 2021, from https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/
+What is User Story? (n.d.). Retrieved April 2, 2021, from [https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/](https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story/)
 
-What Is User Experience (UX) Design? Everything You Need To Know To Get Started. (n.d.). Retrieved April 10, 2021, from https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started/
+What Is User Experience (UX) Design? Everything You Need To Know To Get Started. (n.d.). Retrieved April 10, 2021, from [https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started/](https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started/)

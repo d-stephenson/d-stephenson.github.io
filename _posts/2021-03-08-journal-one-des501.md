@@ -61,4 +61,4 @@ Product planning is well suited to the OKR method, objectives are aligned direct
 
 <i>References</i>
 
-Objectives and Key Results (OKR)—Overview, How It Works, Advantages. (n.d.). Corporate Finance Institute. Retrieved March 18, 2021, from https://corporatefinanceinstitute.com/resources/knowledge/strategy/objectives-and-key-results-okr/
+Objectives and Key Results (OKR)—Overview, How It Works, Advantages. (n.d.). Corporate Finance Institute. Retrieved March 18, 2021, from [https://corporatefinanceinstitute.com/resources/knowledge/strategy/objectives-and-key-results-okr/](https://corporatefinanceinstitute.com/resources/knowledge/strategy/objectives-and-key-results-okr/)

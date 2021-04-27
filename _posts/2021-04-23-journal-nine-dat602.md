@@ -45,21 +45,21 @@ The following screenshot shows the working password input used in the registrati
 
 <i>References</i>
 
-Bichot, G. (2015, October 14). Storing UUID Values in MySQL Tables. MySQL Server Blog. https://mysqlserverteam.com/storing-uuid-values-in-mysql-tables/
+Bichot, G. (2015, October 14). Storing UUID Values in MySQL Tables. MySQL Server Blog. [https://mysqlserverteam.com/storing-uuid-values-in-mysql-tables/](https://mysqlserverteam.com/storing-uuid-values-in-mysql-tables/)
 
-Frank. (2006, August 21). MySQL Consulting and NoSQL Consulting: MySQL DBA: Storing Passwords in MySQL. MySQL Consulting and NoSQL Consulting. http://mysqldatabaseadministration.blogspot.com/2006/08/storing-passwords-in-mysql.html
+Frank. (2006, August 21). MySQL Consulting and NoSQL Consulting: MySQL DBA: Storing Passwords in MySQL. MySQL Consulting and NoSQL Consulting. [http://mysqldatabaseadministration.blogspot.com/2006/08/storing-passwords-in-mysql.html](http://mysqldatabaseadministration.blogspot.com/2006/08/storing-passwords-in-mysql.html)
 
-How do you securely store a user’s password and salt in MySQL? (n.d.). Stack Overflow. Retrieved April 24, 2021, from https://stackoverflow.com/questions/7270526/how-do-you-securely-store-a-users-password-and-salt-in-mysql
+How do you securely store a user’s password and salt in MySQL? (n.d.). Stack Overflow. Retrieved April 24, 2021, from [https://stackoverflow.com/questions/7270526/how-do-you-securely-store-a-users-password-and-salt-in-mysql](https://stackoverflow.com/questions/7270526/how-do-you-securely-store-a-users-password-and-salt-in-mysql)
 
-MySQL - AES_DECRYPT ( ) Function. (2019, November 6). GeeksforGeeks. https://www.geeksforgeeks.org/mysql-aes_decrypt-function/
+MySQL - AES_DECRYPT ( ) Function. (2019, November 6). GeeksforGeeks. [https://www.geeksforgeeks.org/mysql-aes_decrypt-function/](https://www.geeksforgeeks.org/mysql-aes_decrypt-function/)
 
-MySQL :: MySQL 8.0 Reference Manual: 12.24 Miscellaneous Functions. (n.d.). Retrieved April 24, 2021, from https://dev.mysql.com/doc/refman/8.0/en/miscellaneous-functions.html#function_uuid
+MySQL :: MySQL 8.0 Reference Manual: 12.24 Miscellaneous Functions. (n.d.). Retrieved April 24, 2021, from [https://dev.mysql.com/doc/refman/8.0/en/miscellaneous-functions.html#function_uuid](https://dev.mysql.com/doc/refman/8.0/en/miscellaneous-functions.html#function_uuid)
 
 Salted, M. G. U., Hashed, February 09, L. was published on, & 2015. (n.d.). MySQL: Generate Unique Salted, Hashed, Logins. Boone Putney. Retrieved April 24, 2021, from /development/mysql-generate-salted-hashed-logins/
 
-Salting and hashing passwords in MySQL. (n.d.). Stack Overflow. Retrieved April 24, 2021, from https://stackoverflow.com/questions/23278565/salting-and-hashing-passwords-in-mysql
+Salting and hashing passwords in MySQL. (n.d.). Stack Overflow. Retrieved April 24, 2021, from [https://stackoverflow.com/questions/23278565/salting-and-hashing-passwords-in-mysql](https://stackoverflow.com/questions/23278565/salting-and-hashing-passwords-in-mysql)
 
-Storing passwords in a secure way in a SQL Server database. (n.d.). Retrieved April 24, 2021, from https://www.mssqltips.com/sqlservertip/4037/storing-passwords-in-a-secure-way-in-a-sql-server-database/
+Storing passwords in a secure way in a SQL Server database. (n.d.). Retrieved April 24, 2021, from [https://www.mssqltips.com/sqlservertip/4037/storing-passwords-in-a-secure-way-in-a-sql-server-database/](https://www.mssqltips.com/sqlservertip/4037/storing-passwords-in-a-secure-way-in-a-sql-server-database/)
 
-Storing passwords securely with MySQL encryption. (n.d.). Zino UI. Retrieved April 24, 2021, from https://zinoui.com/blog/storing-passwords-securely
+Storing passwords securely with MySQL encryption. (n.d.). Zino UI. Retrieved April 24, 2021, from [https://zinoui.com/blog/storing-passwords-securely](https://zinoui.com/blog/storing-passwords-securely)
 

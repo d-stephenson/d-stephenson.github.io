@@ -147,12 +147,13 @@ Determining the root cause of issues through continuous monitoring assists teams
 
 <i>References</i>
 
-DevOps Lifecycle: Everything About DevOps Lifecycle Phases. (2019, June 27). Edureka. https://www.edureka.co/blog/devops-lifecycle/
+DevOps Lifecycle: Everything About DevOps Lifecycle Phases. (2019, June 27). Edureka. [https://www.edureka.co/blog/devops-lifecycle/](https://www.edureka.co/blog/devops-lifecycle/
+)
 
-Introduction to the systems development lifecycle. (2016, May 5). Arrk Group. https://www.arrkgroup.com/thought-leadership/introduction-to-the-systems-development-lifecycle/
+Introduction to the systems development lifecycle. (2016, May 5). Arrk Group. [https://www.arrkgroup.com/thought-leadership/introduction-to-the-systems-development-lifecycle/](https://www.arrkgroup.com/thought-leadership/introduction-to-the-systems-development-lifecycle/)
 
-SDLC: Seven Phases of the System Development Life Cycle. (n.d.). Retrieved March 27, 2021, from https://www.innovativearchitects.com/KnowledgeCenter/basic-IT-systems/system-development-life-cycle.aspx
+SDLC: Seven Phases of the System Development Life Cycle. (n.d.). Retrieved March 27, 2021, from [https://www.innovativearchitects.com/KnowledgeCenter/basic-IT-systems/system-development-life-cycle.aspx](https://www.innovativearchitects.com/KnowledgeCenter/basic-IT-systems/system-development-life-cycle.aspx)
 
-Staff Writer. (n.d.). Comparison of Various Software Development Life Cycle. ITProPortal. Retrieved March 27, 2021, from https://www.itproportal.com/2010/07/04/comparison-various-software-development-life-cycle/
+Staff Writer. (n.d.). Comparison of Various Software Development Life Cycle. ITProPortal. Retrieved March 27, 2021, from [https://www.itproportal.com/2010/07/04/comparison-various-software-development-life-cycle/](https://www.itproportal.com/2010/07/04/comparison-various-software-development-life-cycle/)
 
-What Is Continuous Deployment? Everything You Need to Know - DZone DevOps. (n.d.). Dzone.Com. Retrieved April 1, 2021, from https://dzone.com/articles/what-is-continuous-deployment-everything-you-need
+What Is Continuous Deployment? Everything You Need to Know - DZone DevOps. (n.d.). Dzone.Com. Retrieved April 1, 2021, from [https://dzone.com/articles/what-is-continuous-deployment-everything-you-need](https://dzone.com/articles/what-is-continuous-deployment-everything-you-need)

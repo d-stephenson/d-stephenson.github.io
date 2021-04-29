@@ -21,7 +21,7 @@ Subqueries are defined by parenthesis in MySQL and are also known as the inner q
  
 The following query has been created for the game database in development as part of the DAT602 course, it contains a subquery in the WHERE clause, which compares PlayerID's from the tblPlayer table where they are not contained in the tblPlay table.
 
-<center><img src="/assets/images/DAT602-Subquery.png" alt="MySQL Subquery"></center><br>
+<center><img src="/assets/images/DAT602-Subquery.png" alt="MySQL Subquery" width=100%></center><br>
  
 Subqueries can be used with comparison operators such as =, <, > such as:
 - …WHERE quantity = (SELECT MAX(quantity) FROM tblStock);

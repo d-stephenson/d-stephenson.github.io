@@ -31,8 +31,8 @@ Active Directory Certificate Services (ADCS) are available as a server role in W
 
 <img src="/assets/images/SEC601-J9-a.png" alt="CIA Triad"><br>
 
-<b>Confidential </b>- encrypting data and communications
-<b>Integrity </b>- issuing of digital signatures
+<b>Confidential </b>- encrypting data and communications<br>
+<b>Integrity </b>- issuing of digital signatures <br>
 <b>Availability </b>- authenticated certificate keys 
 
 Specifically , these certificates are used to encrypt and sign documents and messages, to authenticate computers, users, accounts and devices on a network. The Lab showed how this functionality worked in practice, how it could be used to secure a document and the user access to that document - the components that make up the CIA Triad.

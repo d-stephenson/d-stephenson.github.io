@@ -65,7 +65,7 @@ Various transaction levels supported by MySQL:
 
 <i>References</i>
 
-MySQL :: MySQL 8.0 Reference Manual: 15.7.2.1 Transaction Isolation Levels. (n.d.). Retrieved April 29, 2021, from [https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html(https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)
+MySQL :: MySQL 8.0 Reference Manual: 15.7.2.1 Transaction Isolation Levels. (n.d.). Retrieved April 29, 2021, from [https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)
 
 MySQL ON DELETE CASCADE: Deleting Data from Related Tables Automatically. (n.d.). MySQL Tutorial. Retrieved April 29, 2021, from [https://www.mysqltutorial.org/mysql-on-delete-cascade/](https://www.mysqltutorial.org/mysql-on-delete-cascade/)
 

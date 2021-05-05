@@ -27,7 +27,7 @@ Effective development of persistent storage applications requires four functions
 
 <b>DELETE:</b> The delete function removes records from the database using DELETE. The delete function removes records from the database using DELETE. The decision to delete information should not be made lightly and some database administrators perform soft deletes that update the row status instead, depending on the circumstances this may be preferable to a hard delete with removes the record from the database entirely. 
 
-<img src="/assets/images/DAT602_CRUD.png" alt="Game CRUD table"><br>
+<center><img src="/assets/images/DAT602_CRUD.png" alt="Game CRUD table"></center><br>
 
 <h3>WHY</h3>
 

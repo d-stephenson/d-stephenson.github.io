@@ -111,7 +111,7 @@ The item/game table is used to link an item record to the game record in the rel
 
 The following screens show the DDL that has been used to create the game database. The CREATE TABLE DDL has been stored in a procedure which is called once all the tables have been created.
 
-<img src="/assets/images/DAT602-DDL1.png" alt="Create database"><br>
-<img src="/assets/images/DAT602-DDL2.png" alt="Create stored procedure"><br>
-<img src="/assets/images/DAT602-DDL2.png" alt="Create table">
+<center><img src="/assets/images/DAT602-DDL1.png" alt="Create database"></center><br>
+<center><img src="/assets/images/DAT602-DDL2.png" alt="Create stored procedure"></center><br>
+<center><img src="/assets/images/DAT602-DDL2.png" alt="Create table"></center>
 

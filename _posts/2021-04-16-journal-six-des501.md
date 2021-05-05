@@ -46,7 +46,7 @@ Wireframes and other similar tools can be created in two ways:
   </tr>
  </table><br>
 
- <img src="/assets/images/DES501_wireframes.png" alt="Wireframes"><br>
+<center><img src="/assets/images/DES501_wireframes.png" alt="Wireframes"><br></center>
  
 <h4>Mockup</h4>
 
@@ -61,7 +61,7 @@ Graphics that support the web app navigation
  
 Not every user involved in the project development will be able to imaging the final product when looking at wireframes, this is where mockups are particularly useful. They also aid designers through the ease at which the impression of the final product can be reviewed, tested and iterated.
 
-<img src="/assets/images/DES501_mockup.png" alt="Mockups"><br>
+<center><img src="/assets/images/DES501_mockup.png" alt="Mockups"></center><br>
  
 <h4>Prototype</h4>
  
@@ -78,7 +78,7 @@ Generally, mockups are high-fidelity creations, prototypes on the other hand can
  
 High-fidelity prototypes contain high-quality visuals, content and interactions and will take advantage of a professional prototyping tool. This allows it to act as though it is the final product, without the need of creating expensive code or requiring a development team.
 
-<img src="/assets/images/DES501_prototype.png" alt="Prototype"><br>
+<center><img src="/assets/images/DES501_prototype.png" alt="Prototype"></center><br>
  
 <h3>Pain Points</h3>
  
@@ -101,7 +101,7 @@ To create a mood board designers need to research and find images, shapes, colou
  
 Mood boards can grow to include sound or video depending on the audience and can be physical or digital. Any method is acceptable as long as it effectively portrays the ideas and inspiration for the project.
 
-<img src="/assets/images/DES501_moodboard.png" alt="Mood Board"><br>
+<center><img src="/assets/images/DES501_moodboard.png" alt="Mood Board"></center><br>
 
 <i>References</i>
 

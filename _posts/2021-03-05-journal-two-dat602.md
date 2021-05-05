@@ -52,17 +52,17 @@ The purpose of storyboarding is to develop a set images that can be understood q
 
 There are many ways to create storyboards, from simple sketches with pen on paper, to specialised software packages. For the purpose of the game all storyboards will be created using Visual Studio. Adobe XD is a fantastic storyboarding software package. The following storyboards are the initial designs for the game as wireframes, design, colour, fonts etc. have not been considered to any great degree at this stage. 
 
-<img src="/assets/images/DAT602-1 LoginScreen.jpg" alt="Storyboard Login Screen">
+<center><img src="/assets/images/DAT602-1 LoginScreen.jpg" alt="Storyboard Login Screen"></center><br>
 
-<img src="/assets/images/DAT602-5 RegistrationScreen.jpg" alt="Storyboard Registration Screen">
+<center><img src="/assets/images/DAT602-5 RegistrationScreen.jpg" alt="Storyboard Registration Screen"></center><br>
 
-<img src="/assets/images/DAT602-9 GameboardScreen.jpg" alt="Storyboard Gameboard Screen">
+<center><img src="/assets/images/DAT602-9 GameboardScreen.jpg" alt="Storyboard Gameboard Screen"></center><br>
 
-<img src="/assets/images/DAT602-11 FoundGemsScreen.jpg" alt="Storyboard Found Gems Screen">
+<center><img src="/assets/images/DAT602-11 FoundGemsScreen.jpg" alt="Storyboard Found Gems Screen"></center><br>
 
-<img src="/assets/images/DAT602-12 PopUp_NoGems.png" alt="Storyboard No Gems">
+<center><img src="/assets/images/DAT602-12 PopUp_NoGems.png" alt="Storyboard No Gems"></center><br>
 
-<img src="/assets/images/DAT602-19 AdminScreen.jpg" alt="Storyboard Administration Screen">
+<center><img src="/assets/images/DAT602-19 AdminScreen.jpg" alt="Storyboard Administration Screen"></center><br>
 
 <i>References</i> 
 

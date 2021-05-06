@@ -7,7 +7,7 @@ image: assets/images/DES501-J7.jpeg
 featured: true
 hidden: true
 ---
-<i>User Experience Concepts</i>
+<i>The Basics: HTML, CCS, Grids</i>
 
 JOURNAL #SEVEN [DES501]
 
@@ -82,7 +82,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <td>< li ></td>
     <td>Used in conjunction with the ul tag to form the unordered list.</td>
   </tr>
-</table><br>
+</table>
+<br>
  
 <h3>CSS Properties</h3>
  
@@ -165,24 +166,24 @@ Grids in CCS have various features such as:
  
 <b>Alignment control:</b> Ability to control the alignment of content after it is placed inside a grid.
  
-<b>Overlapping content control:</b> Numerous items can be placed in a grid and they can partially overlap one another, the layering can be controlled with the z-index property.
+<b>Overlapping content control:</b> Numerous items can be placed in a grid and they can partially overlap one another, the layering can be controlled with the z-index property.<br>
  
 <h3>Activity Screenshots</h3>
  
-The following are screenshots of the HTML and CSS activities in Dash:
+The following are screenshots of the HTML and CSS activities in Dash:<br>
  
-<b>Project 1: Build a personal website</b>
+<b>Project 1: Build a personal website</b><br>
 
 <center><img src="/assets/images/DES501_PRJ1.png" alt="HTML and CSS Dash project 1"></center><br>
  
-<b>Project 2: Build a responsive blog theme</b>
+<b>Project 2: Build a responsive blog theme</b><br>
 
 <center><img src="/assets/images/DES501_PRJ1.png" alt="HTML and CSS Dash project 2"></center><br>
  
-<i>References</i>
+<i>References</i><br>
  
-Basic Concepts of grid layout - CSS: Cascading Style Sheets - MDN. (n.d.). Retrieved May 6, 2021, from [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+Basic Concepts of grid layout - CSS: Cascading Style Sheets - MDN. (n.d.). Retrieved May 6, 2021, from [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)<br>
  
-Learn to code HTML, CSS, and JavaScript with Dash. (n.d.). Retrieved May 6, 2021, from [https://dash.generalassemb.ly/projects](https://dash.generalassemb.ly/projects)
+Learn to code HTML, CSS, and JavaScript with Dash. (n.d.). Retrieved May 6, 2021, from [https://dash.generalassemb.ly/projects](https://dash.generalassemb.ly/projects)<br>
  
 W3Schools Online Web Tutorials. (n.d.). Retrieved May 6, 2021, from [https://www.w3schools.com/default.asp](https://www.w3schools.com/default.asp)

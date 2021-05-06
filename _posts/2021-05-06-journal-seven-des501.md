@@ -146,8 +146,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   <tr>
     <td>@media</td>
     <td>This is a rule in CSS that is used in media queries that allows different styles to apply to different media types or devices. This is particularly useful to deliver tailored style sheets for responsive web pages.</td>
-  </tr>
-</table><br>
+  </tr></table>
+  <br>
  
 <h3>CSS Grids</h3>
  

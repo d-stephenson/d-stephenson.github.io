@@ -72,7 +72,7 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr>
     <td>< h1 ></td>
-    <td>Defines a large heading on the web page, extends to <h7>.</td>
+    <td>Defines a large heading on the web page, extends to < h7 >.</td>
   </tr>
   <tr>
     <td>< ul ></td>

@@ -42,9 +42,17 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <td>< body ></td>
     <td>This is used to define the body of the document, it contains all the visible web page contents such as images, paragraphs, tables, links, etc.</td>
   </tr>
+    <tr>
+    <td>< h1 ></td>
+    <td>Defines a large heading on the web page, extends to < h7 >.</td>
+  </tr>
   <tr>
     <td>< p ></td>
     <td>Defines a paragraph on the web page. </td>
+  </tr>
+    <tr>
+    <td>< article ></td>
+    <td>Defines self-contained content that is independent from other content in the body.</td>
   </tr>
   <tr>
     <td>< img src =" " ></td>
@@ -63,16 +71,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <td>Provides a link that imports a style sheet to the html document.</td>
   </tr>
   <tr>
-    <td>< article ></td>
-    <td>Defines self-contained content that is independent from other content in the body.</td>
-  </tr>
-  <tr>
     <td>< button ></td>
     <td>Creates a visible button on the web page. </td>
-  </tr>
-  <tr>
-    <td>< h1 ></td>
-    <td>Defines a large heading on the web page, extends to < h7 >.</td>
   </tr>
   <tr>
     <td>< ul ></td>

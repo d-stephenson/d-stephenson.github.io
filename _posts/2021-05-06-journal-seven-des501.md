@@ -81,8 +81,7 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   <tr>
     <td>< li ></td>
     <td>Used in conjunction with the ul tag to form the unordered list.</td>
-  </tr>
-</table>
+  </tr></table>
 <br>
  
 <h3>CSS Properties</h3>

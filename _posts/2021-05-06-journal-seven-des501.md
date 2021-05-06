@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Journal #Seven [DES501] - The Basics: HTML, CCS, Grids" 
+title:  "Journal #Seven [DES501] - Web Design: HTML, CCS, Grids" 
 author: Dale Stephenson
 categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J7.jpeg
 featured: true
 hidden: true
 ---
-<i>The Basics: HTML, CCS, Grids</i>
+<i>Web Design: HTML, CCS, Grids</i>
 
 JOURNAL #SEVEN [DES501]
 
-<h2>The Basics: HTML, CCS, Grids</h2>
+<h2>Web Design: HTML, CCS, Grids</h2>
  
 The following HTML and CSS form part of the exercise projects available on [Dash](https://dash.generalassemb.ly/projects). Project 1 and 2 have been completed and screenshots are located in this journal.
  

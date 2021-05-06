@@ -177,7 +177,7 @@ The following are screenshots of the HTML and CSS activities in Dash:<br>
  
 <b>Project 2: Build a responsive blog theme</b><br>
 
-<center><img src="/assets/images/DES501_PRJ1.png" alt="HTML and CSS Dash project 2"></center><br>
+<center><img src="/assets/images/DES501_PRJ2.png" alt="HTML and CSS Dash project 2"></center><br>
  
 <i>References</i><br>
  

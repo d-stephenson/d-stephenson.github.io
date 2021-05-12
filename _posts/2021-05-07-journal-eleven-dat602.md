@@ -67,10 +67,10 @@ Where a database has 'autocommit' enabled all statements will form separate, sin
  
 With autocommit enabled on a session, multiple-statement transactions can be performed. These transactions can be created with the following syntax:
  
-// Start the transaction
+// Start the transaction<br>
 START TRANSACTION or BEGIN
  
-// End the transaction
+// End the transaction<br>
 COMMIT or ROLLBACK
  
 When commit or rollback is used to end a transaction, a new transaction can then be started. If autocommit is disabled on a session and the transaction does not end with COMMIT, ROLLBACK will be performed on the transaction.

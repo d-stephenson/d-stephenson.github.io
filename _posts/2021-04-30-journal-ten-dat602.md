@@ -41,11 +41,11 @@ If we imagine an automotive database with two tables, tblMake and tblModel, each
 In this database design, when you delete a car make, you also want to delete the model rows that relate to that make. To delete all the child references on the foreign key we must use ON DELETE CASCADE in the model table as follows:<br>
 <code> 
 CREATE TABLE tblModel (<br>
-Model_Name Varchar(255) NOT NULL<br>
-Make_Name Varchar(255)<br>
-FOREIGN KEY (Make_Name)<br>
-REFERENCES tblMake (Make_Name)<br>
-ON DELETE CASCADE<br>
+    Model_Name Varchar(255) NOT NULL<br>
+    Make_Name Varchar(255)<br>
+    FOREIGN KEY (Make_Name)<br>
+    REFERENCES tblMake (Make_Name)<br>
+    ON DELETE CASCADE<br>
 );<br>
 </code>
  

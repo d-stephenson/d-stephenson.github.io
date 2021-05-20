@@ -92,59 +92,59 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <th>Description</th>
   </tr>
   <tr>
-    <td>text-align: center;</td>
+    <td>text-align: center;</code></td>
     <td>Sets the alignment of text on the horizontal axis, can be right, left, justified or centered.</td>
   </tr>
   <tr>
-    <td>background-color: white;</td>
+    <td>background-color: white;</code></td>
     <td>This property that sets the background colour of an element, including border and padding, but excludes the margin.</td>
   </tr>
     <tr>
-    <td>background-size: cover;</td>
+    <td>background-size: cover;</code></td>
     <td>This property is used to specify the size of background images.</td>
   </tr>
   <tr>
-    <td>color: black;</td>
+    <td>color: black;</code></td>
     <td>This is used to specific predefined colours, that can be described in this example or RGB, HSL, RGBA, HEX, etc.</td>
   </tr>
     <tr>
-    <td>font-family: helvetica;</td>
+    <td>font-family: helvetica;</code></td>
     <td> The property is used to specify the font within an element, several font names can be included and used as a fallback if the browser doesn't support the first font.</td>
   </tr>
   <tr>
-    <td>padding: 100px;</td>
+    <td><code>padding: 100px;</code></td>
     <td>The padding property is used to pad the space between the content and its border. This property has four values for top, right, bottom, left, in that order.</td>
   </tr>
   <tr>
-    <td>display: block;</td>
+    <td><code>display: block;</code></td>
     <td>This property is used to specify an elements display property.</td>
   </tr>
   <tr>
-    <td>font-size: 40px;</td>
+    <td><code>font-size: 40px;</code></td>
     <td>Used to set the size of the text, this should not be used to make adjustments to text size to make it headings.</td>
   </tr>
   <tr>
-    <td>background: url(" ");</td>
+    <td><code>background: url(" ");</code></td>
     <td>Sets an image as the web page background.</td>
   </tr>
   <tr>
-    <td>margin: 40px 0px 0px 0px;</td>
+    <td><code>margin: 40px 0px 0px 0px;</code></td>
     <td>This property is used to set an elements margins, the four values include top, right, bottom, and left, in that order.</td>
   </tr>
   <tr>
-    <td>border: 7px solid white;</td>
+    <td><code>border: 7px solid white;</code></td>
     <td>This is used to specify a border width and colour.</td>
   </tr>
   <tr>
-    <td>border-radius: 20px;</td>
+    <td><code>border-radius: 20px;</td>
     <td>This property is used to define the radius of the corners of an element.</td>
   </tr>
   <tr>
-    <td>max-width: 500px;</td>
+    <td><code>max-width: 500px;</code></td>
     <td>This allows the element to support smaller browser windows, it is useful to make the element compatible with smaller devices.</td>
   </tr>
   <tr>
-    <td>@media</td>
+    <td><code>@media</code></td>
     <td>This is a rule in CSS that is used in media queries that allows different styles to apply to different media types or devices. This is particularly useful to deliver tailored style sheets for responsive web pages.</td>
   </tr></table>
   <br>

@@ -29,7 +29,8 @@ Control flow functions allow MySQL uses to add IF - THEN - ELSE logic by utilisi
 In a THEN branch, the function returns the corresponding result if the condition in the WHEN branch is satisfied, if it is not satisfied, the result in the ELSE branch is returned.
  
 <b>CASE example 1:</b>
- 
+
+<code> 
 SELECT ProductID, StockAmount,<br>
 CASE<br>
     WHEN StockAmount > 10 THEN "Stock is sufficient"<br>
@@ -37,18 +38,19 @@ CASE<br>
     ELSE "Stock is very low, urgent re-order"<br>
 END<br>
 FROM tblStockDetails;<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+</code>
  
 <b>CASE example 2:</b>
- 
+
+<code> 
 SELECT ManufacturerID, Town, Postcode<br>
 FROM tblManufacturer<br>
 ORDER BY<br>
 (CASE<br>
     WHEN Town IS NULL THEN Postcode<br>
     ELSE Town<br>
-END); <i>returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode</i><br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+END); // returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode<br>
+</code>
  
 <h4>IF/ELSE Construct</h4>
  
@@ -56,10 +58,11 @@ A value will be returned as a result of a given condition.
  
 <b>IF example:</b>
  
+<code>
 SELECT ProductID, StockAmount,<br>
 IF(StockAmount > 10, 'More', 'Less')<br>
-FROM tblStockDetails; <i>returns 'More' if the condition is true and 'Less' if the condition is 'False'</i><br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+FROM tblStockDetails; // returns 'More' if the condition is true and 'Less' if the condition is 'False'<br>
+</code>
  
 <h4>IFNULL</h4>
  
@@ -75,11 +78,12 @@ SELECT IFNULL(NULL, 10); <i>returns 10</i><br>
 Returns NULL if the first argument equals the second argument, if it does not equal the second argument then it will return the first argument.
  
 <b>NULLIF example:</b>
- 
-SELECT NULLIF(25, 25); <i>returns NULL</i><br>
-SELECT NULLIF(15, 25); <i>returns 15</i><br>
-SELECT NULLIF(15, 5); <i>returns 15</i><br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+
+<code> 
+SELECT NULLIF(25, 25); // returns NULL<br>
+SELECT NULLIF(15, 25); // returns 15<br>
+SELECT NULLIF(15, 5); // returns 15<br>
+</code>
 
 <i>References</i>
  

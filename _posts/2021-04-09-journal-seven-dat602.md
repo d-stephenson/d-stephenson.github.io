@@ -17,7 +17,7 @@ JOURNAL #SEVEN [DAT602]
  
 Deterministic functions will return the same results if the same values are being called, non-deterministic functions on the other hand might return different results when called, even if the input values are the same.
  
-Built-in functions are either deterministic or nondeterministic, their state cannot be changed. For example, the AVG function is always deterministic and will return the same result if the same value is called. The <code>GETDATE</code> function however, is nondeterministic, returning the current date and time that will always be a different result when called. Specifying a clause such as <code>ORDER BY</code> in a query will not change the determinism of a function.
+Built-in functions are either deterministic or nondeterministic, their state cannot be changed. For example, the <code>AVG</code> function is always deterministic and will return the same result if the same value is called. The <code>GETDATE</code> function however, is nondeterministic, returning the current date and time that will always be a different result when called. Specifying a clause such as <code>ORDER BY</code> in a query will not change the determinism of a function.
  
 The following are examples of deterministic and nondeterministic functions:
  

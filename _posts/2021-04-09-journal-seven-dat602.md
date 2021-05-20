@@ -158,7 +158,7 @@ Deterministic and Nondeterministic Functions—SQL in a Nutshell, 3rd Edition [B
 
 rothja. (n.d.). Deterministic and Nondeterministic Functions—SQL Server. Retrieved April 13, 2021, from [https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions/deterministic-and-nondeterministic-functions](https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions/deterministic-and-nondeterministic-functions)
 
-Is `definer` required when creating a MySQL stored procedure? (n.d.). Retrieved April 12, 2021, from [https://www.tutorialspoint.com/is-definer-required-when-creating-a-mysql-stored-procedure](https://www.tutorialspoint.com/is-definer-required-when-creating-a-mysql-stored-procedure)
+Is definer required when creating a MySQL stored procedure? (n.d.). Retrieved April 12, 2021, from [https://www.tutorialspoint.com/is-definer-required-when-creating-a-mysql-stored-procedure](https://www.tutorialspoint.com/is-definer-required-when-creating-a-mysql-stored-procedure)
 
 MySQL :: MySQL 8.0 Reference Manual: 25.6 Stored Object Access Control. (n.d.). Retrieved April 12, 2021, from [https://dev.mysql.com/doc/refman/8.0/en/stored-objects-security.html](https://dev.mysql.com/doc/refman/8.0/en/stored-objects-security.html)
 

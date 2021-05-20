@@ -136,7 +136,7 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <td>This is used to specify a border width and colour.</td>
   </tr>
   <tr>
-    <td><code>border-radius: 20px;</td>
+    <td><code>border-radius: 20px;</code></td>
     <td>This property is used to define the radius of the corners of an element.</td>
   </tr>
   <tr>
@@ -146,7 +146,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   <tr>
     <td><code>@media</code></td>
     <td>This is a rule in CSS that is used in media queries that allows different styles to apply to different media types or devices. This is particularly useful to deliver tailored style sheets for responsive web pages.</td>
-  </tr></table>
+  </tr>
+  </table>
   <br>
  
 <h3>CSS Grids</h3>

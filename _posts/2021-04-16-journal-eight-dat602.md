@@ -69,9 +69,10 @@ FROM tblStockDetails; // returns 'More' if the condition is true and 'Less' if t
 The first argument will be returned if it is not NULL, if it is NULL then the second argument is returned.
  
 <b>IFNULL example:</b>
- 
-SELECT IFNULL(NULL, 10); <i>returns 10</i><br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+
+<code> 
+SELECT IFNULL(NULL, 10); // returns 10<br>
+</code>
  
 <h4>NULLIF</h4>
  

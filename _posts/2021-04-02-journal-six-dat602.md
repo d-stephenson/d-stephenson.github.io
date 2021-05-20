@@ -19,49 +19,50 @@ JOURNAL #SIX [DAT602]
  
 Working with data requires queries to be called against the database, these can take the form of:
  
-Select queries: The retrieval of information from the database that is displayed in a 'virtual' table<br>
-Action queries: Requests activities on the database such as the creation of new tables<br>
-Aggregate queries: Perform calculations against a determined set of values<br>
+<b>Select queries:</b> The retrieval of information from the database that is displayed in a 'virtual' table<br>
+<b>Action queries:</b> Requests activities on the database such as the creation of new tables<br>
+<b>Aggregate queries:</b> Perform calculations against a determined set of values<br>
  
 <h4>Select Queries</h4> 
  
 Select queries retrieve rows or columns from tables within a database, the select statement can include the following clauses:
 
-<b>INTO</b> - Creates a new table and inserts the results of the query
+<code>INTO</code> - Creates a new table and inserts the results of the query
 
-<b>FROM</b> - Can be used in SELECT, UPDATE and DELETE statements and specifies the table source
+<code>FROM</code> - Can be used in <code>SELECT</code>, <code>UPDATE</code> and <code>DELETE</code> statements and specifies the table source
 
-<b>JOIN</b> - A join is used where a result is produced from two or more tables in the database, join types are:
-- <b>INNER</b>: Returns all matching rows, discarding unmatched rows
-- <b>FULL [OUTER}</b>: A row from either the right or left table not meeting the join condition is included in the result set
-- <b>LEFT [OUTER]</b>: All rows from the left table not meeting the join condition is included in the result set  
-- <b>RIGHT [OUTER]</b>: All rows from the right table not meeting the join condition is included in the result set  
+<code>JOIN</code> - A join is used where a result is produced from two or more tables in the database, join types are:
 
-<b>WHERE</b> - Used to define the search condition for the returned rows
+<code>INNER</code> - Returns all matching rows, discarding unmatched rows
+<code>FULL [OUTER}</code> - A row from either the right or left table not meeting the join condition is included in the result set
+<code>LEFT [OUTER]</code> - All rows from the left table not meeting the join condition is included in the result set  
+<code>RIGHT [OUTER]</code> - All rows from the right table not meeting the join condition is included in the result set  
 
-<b>GROUP BY</b> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG
+<code>WHERE</code> - Used to define the search condition for the returned rows
 
-<b>HAVING</b> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate
+<code>GROUP BY</code> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG
 
-<b>DISTINCT</b> - Used to return only those values that are different, those that are not duplicated in a table
+<code>HAVING</code> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate
 
-<b>OVER</b> - Defines a set of rows within a query result as specified by the user
+<code>DISTINCT</code> - Used to return only those values that are different, those that are not duplicated in a table
+
+<code>OVER</code> - Defines a set of rows within a query result as specified by the user
  
 <h4>Action Queries</h4> 
  
 Action queries are used to make changes in a database, an action query can take the form of one of the following statements:
  
-<b>CREATE</b> - Used to make tables in the database
+<code>CREATE</code> - Used to make tables in the database
 
-<b>ALTER</b> - Modifies columns or constraints in a table
+<code>ALTER</code> - Modifies columns or constraints in a table
 
-<b>INSERT</b> - Adds data into current table rows
+<code>INSERT</code> - Adds data into current table rows
 
-<b>UPDATE</b> - Takes existing data in a table and changes it
+<code>UPDATE</code> - Takes existing data in a table and changes it
 
-<b>DELETE</b> - Deletes data contained in rows of a database
+<code>DELETE</code> - Deletes data contained in rows of a database
 
-<b>DROP</b> - Deletes tables from a database
+<code>DROP</code> - Deletes tables from a database
  
 <h4>Aggregated Queries</h4>
  
@@ -69,17 +70,17 @@ Aggregate functions perform calculations on a set of values to return a single v
  
 An aggregate query can include the following clauses:
  
-<b>AVG</b> - Used to return the average of a set of values in a group, ignoring NULL values
+<code>AVG</code> - Used to return the average of a set of values in a group, ignoring NULL values
 
-<b>COUNT</b> - Returns an <i>int</i> data type value representing the number of items found in a group
+<code>COUNT</code> - Returns an <code>int</code> data type value representing the number of items found in a group
 
-<b>GROUPING</b> - If the specified column expression is aggregated the statement returns '1', if not it returns '0'
+<code>GROUPING</code> - If the specified column expression is aggregated the statement returns <code>1</code>, if not it returns <code>0</code>
 
-<b>SUM</b> - Takes all the values in a column and returns the sum, can only be used in numerical columns
+<code>SUM</code> - Takes all the values in a column and returns the sum, can only be used in numerical columns
 
-<b>MAX</b> - The maximum value in the expression is returned
+<code>MAX</code> - The maximum value in the expression is returned
 
-<b>MIN</b> - The minimum value in the expression is returned
+<code>MIN</code> - The minimum value in the expression is returned
  
 <h3>WHY</h3>
  
@@ -89,7 +90,7 @@ The commonality of SQL makes it an incredibly sought-after skill by employees. S
  
 <h3>HOW</h3>
  
-There are, however, some differences between SQL depending on the application.  Microsoft SQL Server uses different keywords to MySQL or MariaDB for example, in SQL Server the IDENTITY keyword is used to automatically increase the value of an <i>int</i> column type, whereas the keyword in MySQL and MariaDB is AUTO_INCREMENT.
+There are, however, some differences between SQL depending on the application. Microsoft SQL Server uses different keywords to MySQL or MariaDB for example, in SQL Server the <code>IDENTITY</code> keyword is used to automatically increase the value of an <code>int</code> column type, whereas the keyword in MySQL and MariaDB is <code>AUTO_INCREMENT</code>.
  
 The following SQL is procedural transactions in SQL Server:
 

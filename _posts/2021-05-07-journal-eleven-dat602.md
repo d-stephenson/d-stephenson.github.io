@@ -51,9 +51,9 @@ Locking reads include:
 - <code>UPDATE</code> statements
 - <code>DELETE</code> statements
  
-For these instances only index records are locked, this allows for new records to be inserted next to locked records. With UPDATE and DELETE statements 'read committed' holds locks for the rows that are being updated or deleted, rows that are not included in the statement are released after the WHERE condition has been evaluated. This is important for reducing the chance of deadlocks occurring, but it doesn't entirely eliminate them.
+For these instances only index records are locked, this allows for new records to be inserted next to locked records. With <code>UPDATE</code> and <code>DELETE</code> statements 'read committed' holds locks for the rows that are being updated or deleted, rows that are not included in the statement are released after the <code>WHERE</code> condition has been evaluated. This is important for reducing the chance of deadlocks occurring, but it doesn't entirely eliminate them.
  
-If a row is locked and forms part of an <code>UPDATE</code> statement, a 'semi-consistent' read is performed in InnoDB. In these cases, the latest committed version is returned and the row is checked to determine if it matched the WHERE condition. If the match is confirmed then the row is read again and locked, or MySQL waits for it to be locked.
+If a row is locked and forms part of an <code>UPDATE</code> statement, a 'semi-consistent' read is performed in InnoDB. In these cases, the latest committed version is returned and the row is checked to determine if it matched the <code>WHERE</code> condition. If the match is confirmed then the row is read again and locked, or MySQL waits for it to be locked.
  
 <h2>Transaction Activity</h2>
  
@@ -81,7 +81,7 @@ When commit or rollback is used to end a transaction, a new transaction can then
 <code>COMMIT</code> makes the changes made in a transaction permanent and available to other sessions
 <code>ROLLBACK</code> cancels any modifications made in a transaction
  
-All of the locks that are set in a transaction are released when COMMIT or ROLLBACK are run at the end of the transaction.
+All of the locks that are set in a transaction are released when <code>COMMIT</code> or <code>ROLLBACK</code> are run at the end of the transaction.
 
 <i>References</i>
 

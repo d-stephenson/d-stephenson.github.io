@@ -40,6 +40,7 @@ If we imagine an automotive database with two tables, tblMake and tblModel, each
  
 In this database design, when you delete a car make, you also want to delete the model rows that relate to that make. To delete all the child references on the foreign key we must use ON DELETE CASCADE in the model table as follows:<br>
 <br>
+
 <code> 
 CREATE TABLE tblModel (<br>
     Model_Name Varchar(255) NOT NULL<br>
@@ -56,7 +57,7 @@ If a delete statement was run on the tblMake table to delete the row where car m
  
 Transaction isolation is vital for database processing, without it the game development for this course could not be achieved. Isolation forms part of the ACID principle and allows multiple transactions to be performed, and to make changes to the database, at the same time. This principle and functionality mean a database is consistent and reliable when these procedures are processed.
  
-Various transaction levels supported by MySQL:
+The zarious transaction levels supported by MySQL:
  
 <b>Repeatable Read: </b>Perform consistent reads within a transaction read, meaning select statements are consistent with each other. This is the default isolation level for InnoDB, which is being used for the local version of the game database development. In this isolation level changes made by other transactions are not taken into account.
  

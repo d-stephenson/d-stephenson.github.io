@@ -102,7 +102,7 @@ BEGIN<br>
   UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
-// Executes with the DEFINER security context privilege<br>
+-- Executes with the DEFINER security context privilege<br>
 </code>
  
 To execute this procedure, any user that has the <code>EXECUTE</code> privilege can <code>CALL</code> the statement, as well as <code>UPDATE</code> the table tbl_Account under the <code>DEFINER</code> security context.
@@ -119,7 +119,7 @@ BEGIN<br>
   UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
-// Executes with the INVOKER security context privilege<br>
+-- Executes with the INVOKER security context privilege<br>
 </code>
  
 This procedure executes in the <code>INVOKER</code> security context, meaning the <code>DEFINER</code> security context is ignored, if the <code>INVOKER</code> does not have the <code>EXECUTE</code> or <code>UPDATE</code> privilege the procedure will fail.

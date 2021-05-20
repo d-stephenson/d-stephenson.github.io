@@ -33,11 +33,11 @@ For the game database, the salt stored will be unique for each user of the datab
  
 <h3>HOW</h3>
  
-Before accepting passwords that could be passed as AES encryption the table needed to be updated, the password column data type was changed to BLOB from varchar. Once this was done the procedure was updated to set the password input as AES_ENCRYPT and a key string was passed alongside the password.
+Before accepting passwords that could be passed as AES encryption the table needed to be updated, the password column data type was changed to <code>BLOB</code> from <code>varchar</code>. Once this was done the procedure was updated to set the password input as <code>AES_ENCRYPT</code> and a key string was passed alongside the password.
  
-Once the encryption was functioning correctly salt was added to the password, for these to be unique values against each user a new salt is declared for each procedure called using the UUID function. The new salt UUID is then included as part of the password. The salt in the database is set as varchar(36) and placed at the beginning of the password as input by the user. 
+Once the encryption was functioning correctly salt was added to the password, for these to be unique values against each user a new salt is declared for each procedure called using the <code>UUID</code> function. The new salt UUID is then included as part of the password. The salt in the database is set as <code>varchar(36)</code> and placed at the beginning of the password as input by the user. 
 
-Encrypting passwords stored in a database, combined with unique salts, mitigates the risk that the passwords are cracked, UUID is a useful tool due to its randomness and uniqueness. The same password encryption used when registering a new user is also used when that user logs into their account.
+Encrypting passwords stored in a database, combined with unique salts, mitigates the risk that the passwords are cracked, <code>UUID</code> is a useful tool due to its randomness and uniqueness. The same password encryption used when registering a new user is also used when that user logs into their account.
 
 The following screenshot shows the working password input used in the registration process in the game:
 

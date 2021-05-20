@@ -43,7 +43,7 @@ LINQ is a powerful tool used by developers to query different data sources utili
  
 <b>1. Query Syntax or Query Expressions Syntax:</b>
  
-Query syntax uses similar construction as the SQL used against the database, it starts with the <code>from</code> keyword and concludes with the <code>select</code> keyword. Query syntax is shown in the following example:
+Query syntax uses similar construction as the SQL used against the database, it starts with the <code>FROM</code> keyword and concludes with the <code>SELECT</code> keyword. Query syntax is shown in the following example:
  
 <code>
 // Example LINQ query syntax C#

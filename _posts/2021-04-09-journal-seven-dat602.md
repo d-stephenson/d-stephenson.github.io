@@ -67,7 +67,7 @@ Stored procedures are used as a way to improve the performance of databases, the
  
 The <code>DEFINER</code> attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The <code>DEFINER</code> assigns an owner to a procedure, if it's defined with <code>SQL SECURITY</code> then it will run with the privileges of that account, regardless of which users invoke the procedure.
  
-Database users that have sufficient privileges, such as <code>SET_USER_ID<c/ode> or <code>SUPER</code>, can select any user as the <code>DEFINER</code> attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
+Database users that have sufficient privileges, such as <code>SET_USER_ID</code> or <code>SUPER</code>, can select any user as the <code>DEFINER</code> attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
  
 Before selecting a <code>DEFINER</code> in a stored procedure a check on all users and the host can be made, using the following statement:
  

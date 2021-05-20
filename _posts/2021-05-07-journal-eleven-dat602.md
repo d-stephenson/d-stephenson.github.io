@@ -68,12 +68,13 @@ Where a database has <code>autocommit</code> enabled all statements will form se
 With <code>autocommit</code> enabled on a session, multiple-statement transactions can be performed. These transactions can be created with the following syntax:<br>
 <code> 
 // Start the transaction<br>
-START TRANSACTION or BEGIN<br>
+    START TRANSACTION or BEGIN<br>
 </code> 
 <code>
 // End the transaction<br>
-COMMIT or ROLLBACK<br>
+    COMMIT or ROLLBACK<br>
 </code> 
+<br>
 When commit or rollback is used to end a transaction, a new transaction can then be started. If autocommit is disabled on a session and the transaction does not end with <code>COMMIT</code>, <code>ROLLBACK</code> will be performed on the transaction.
  
 <code>COMMIT</code> makes the changes made in a transaction permanent and available to other sessions

@@ -54,10 +54,10 @@ A mockup can be thought of as a more realistic impression of how the website wil
  
 Whereas wireframes are made up of grey lines and boxes, mockups offer a far richer experience through the use of added visual details including:
  
-Colours, style options, graphical elements and typography suggestions 
-Buttons and text that are specifically relevant 
-A content layout that features the accurate spacing of components
-Graphics that support the web app navigation
+- Colours, style options, graphical elements and typography suggestions 
+- Buttons and text that are specifically relevant 
+- A content layout that features the accurate spacing of components
+- Graphics that support the web app navigation
  
 Not every user involved in the project development will be able to imaging the final product when looking at wireframes, this is where mockups are particularly useful. They also aid designers through the ease at which the impression of the final product can be reviewed, tested and iterated.
 

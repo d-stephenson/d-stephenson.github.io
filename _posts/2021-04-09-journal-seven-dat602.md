@@ -27,32 +27,32 @@ The following are examples of deterministic and nondeterministic functions:
     <th>Nondeterministic Functions</th>
   </tr>
   <tr>
-    <td>ROUND</td>
-    <td>GETDATE</td>
+    <td><code>ROUND</code></td>
+    <td><code>GETDATE</code></td>
   </tr>
   <tr>
-    <td>ISNULL</td>
-    <td>GETUTCDATE</td>
+    <td><code>ISNULL</code></td>
+    <td><code>GETUTCDATE</code></td>
   </tr>
     <tr>
-    <td>DATALENGTH</td>
-    <td>GET_TRANSMISSION_STATUS</td>
+    <td><code>DATALENGTH</code></td>
+    <td><code>GET_TRANSMISSION_STATUS</code></td>
   </tr>
   <tr>
-    <td>DATEADD</td>
-    <td>LAST_VALUE</td>
+    <td><code>DATEADD</code></td>
+    <td><code>LAST_VALUE</code></td>
   </tr>
     <tr>
-    <td>EXP</td>
-    <td>NEWSEQUENTIALID</td>
+    <td><code>EXP</code></td>
+    <td><code>NEWSEQUENTIALID</code></td>
   </tr>
   <tr>
-    <td>SQUARE</td>
-    <td>RAND</td>
+    <td><code>SQUARE</code></td>
+    <td><code>RAND</code></td>
   </tr>
   <tr>
-    <td>NULLIF</td>
-    <td>CURRENT_TIMESTAMP</td>
+    <td><code>NULLIF</code></td>
+    <td><code>CURRENT_TIMESTAMP</code></td>
   </tr>
 </table><br>
  
@@ -67,13 +67,13 @@ Stored procedures are used as a way to improve the performance of databases, the
  
 The <code>DEFINER</code> attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The DEFINER assigns an owner to a procedure, if it's defined with <code>SQL SECURITY</code> then it will run with the privileges of that account, regardless of which users invoke the procedure.
  
-Database users that have sufficient privileges, such as <code>SET_USER_ID<c/ode> or <code>SUPER</code>, can select any user as the DEFINER attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
+Database users that have sufficient privileges, such as <code>SET_USER_ID<c/ode> or <code>SUPER</code>, can select any user as the <code>DEFINER</code> attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
  
 Before selecting a <code>DEFINER</code> in a stored procedure a check on all users and the host can be made, using the following statement:
  
 <code>SELECT user, host FROM mysql.user;</code>
  
-To create a DEFINER within a database a query can be created as a stored procedure as follows:
+To create a <code>DEFINER</code> within a database a query can be created as a stored procedure as follows:
 
 <code>
 delimiter //<br>
@@ -88,7 +88,7 @@ END;<br>
  
 When considering the security of stored procedures two characteristics can be specified, the <code>DEFINER</code> context and the <code>INVOKER</code> context. If neither is selected then the <code>DEFINER</code> context is set as the default characteristic of the stored procedure.
  
-Selecting the <code>DEFINER</code> security context will execute the stored procedure with the privileges of the account named in the <code>DEFINER</code> attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the INVOKER privileges are disregarded for the purpose of calling the procedure, even if the DEFINER privileges are higher than that of the <code>INVOKER</code>.
+Selecting the <code>DEFINER</code> security context will execute the stored procedure with the privileges of the account named in the <code>DEFINER</code> attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the <code>INVOKER</code> privileges are disregarded for the purpose of calling the procedure, even if the <code>DEFINER</code> privileges are higher than that of the <code>INVOKER</code>.
  
 When considering the security of a database, those users with a high level of security should seriously consider who needs to call any given procedure.
  
@@ -105,7 +105,7 @@ END;<br>
 // Executes with the DEFINER security context privilege<br>
 </code>
  
-To execute this procedure, any user that has the <code>EXECUTE</code> privilege can <code>CALL</code> the statement, as well as UPDATE the table tbl_Account under the <code>DEFINER</code> security context.
+To execute this procedure, any user that has the <code>EXECUTE</code> privilege can <code>CALL</code> the statement, as well as <code>UPDATE</code> the table tbl_Account under the <code>DEFINER</code> security context.
  
 If a stored procedure selects the <code>INVOKER</code> security context then it can only be invoked by those users that have the appropriate privileges. The <code>DEFINER</code> attribute privileges are disregarded for the purpose of calling the procedure.
  
@@ -122,7 +122,7 @@ END;<br>
 // Executes with the INVOKER security context privilege<br>
 </code>
  
-This procedure executes in the <code>INVOKER</code> security context, meaning the DEFINER security context is ignored, if the <code>INVOKER</code> does not have the EXECUTE or UPDATE privilege the procedure will fail.
+This procedure executes in the <code>INVOKER</code> security context, meaning the <code>DEFINER</code> security context is ignored, if the <code>INVOKER</code> does not have the <code>EXECUTE</code> or <code>UPDATE</code> privilege the procedure will fail.
  
 What <code>SQL SECURITY</code> does is restrict users access to tables directly, whilst allowing access to certain data to perform their required functions. This can help support an organisation to meet the security concept of 'principle of least privilege' (POLP) and help to secure sensitive or customer data.
  

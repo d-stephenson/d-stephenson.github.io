@@ -30,10 +30,10 @@ Transaction isolation is an essential part of database processing, being the "I"
  
 The four transaction levels have been described in [Journal Ten](https://d-stephenson.github.io/dat602/journal/database%20application%20development/2021/04/30/journal-ten-dat602.html) and consist of:
  
-- REPEATABLE READ
-- READ COMMITTED 
-- READ UNCOMMITTED
-- SERIALIZABLE
+- <code>REPEATABLE READ</code>
+- <code>READ COMMITTED</code> 
+- <code>READ UNCOMMITTED</code>
+- <code>SERIALIZABLE</code>
  
 The database in development as part of this course has been updated from 'repeatable read', to 'read committed'. This decision has been made due to the balance trade-off for the type of multi-player role-based game and the benefits of the level as follows.
  
@@ -47,13 +47,13 @@ Furthermore, unlike the default InnoDB setting 'repeatable read' where consisten
  
 Locking reads include:
  
-- SELECT with FOR UPDATE or LOCK IN SHARE MODE
-- UPDATE statements
-- DELETE statements
+- <code>SELECT</code> with <code>FOR UPDATE</code> or <code>LOCK IN SHARE MODE</code>
+- <code>UPDATE</code> statements
+- <code>DELETE</code> statements
  
 For these instances only index records are locked, this allows for new records to be inserted next to locked records. With UPDATE and DELETE statements 'read committed' holds locks for the rows that are being updated or deleted, rows that are not included in the statement are released after the WHERE condition has been evaluated. This is important for reducing the chance of deadlocks occurring, but it doesn't entirely eliminate them.
  
-If a row is locked and forms part of an UPDATE statement, a 'semi-consistent' read is performed in InnoDB. In these cases, the latest committed version is returned and the row is checked to determine if it matched the WHERE condition. If the match is confirmed then the row is read again and locked, or MySQL waits for it to be locked.
+If a row is locked and forms part of an <code>UPDATE</code> statement, a 'semi-consistent' read is performed in InnoDB. In these cases, the latest committed version is returned and the row is checked to determine if it matched the WHERE condition. If the match is confirmed then the row is read again and locked, or MySQL waits for it to be locked.
  
 <h2>Transaction Activity</h2>
  
@@ -63,20 +63,21 @@ Activity performed on the database by its users occurs inside the transactions. 
 - Commit
 - Rollback
  
-Where a database has 'autocommit' enabled all statements will form separate, single transactions. autocommit is enabled by default when each session is started, which means that each statement is committed unless an error is found, at which point the statement may be rolled back.
+Where a database has <code>autocommit</code> enabled all statements will form separate, single transactions. <code>autocommit</code> is enabled by default when each session is started, which means that each statement is committed unless an error is found, at which point the statement may be rolled back.
  
-With autocommit enabled on a session, multiple-statement transactions can be performed. These transactions can be created with the following syntax:
- 
+With <code>autocommit</code> enabled on a session, multiple-statement transactions can be performed. These transactions can be created with the following syntax:
+<code> 
 // Start the transaction<br>
 START TRANSACTION or BEGIN
- 
+</code> 
+<code>
 // End the transaction<br>
 COMMIT or ROLLBACK
+</code> 
+When commit or rollback is used to end a transaction, a new transaction can then be started. If autocommit is disabled on a session and the transaction does not end with <code>COMMIT</code>, <code>ROLLBACK</code> will be performed on the transaction.
  
-When commit or rollback is used to end a transaction, a new transaction can then be started. If autocommit is disabled on a session and the transaction does not end with COMMIT, ROLLBACK will be performed on the transaction.
- 
-COMMIT makes the changes made in a transaction permanent and available to other sessions
-ROLLBACK cancels any modifications made in a transaction
+<code>COMMIT</code> makes the changes made in a transaction permanent and available to other sessions
+<code>ROLLBACK</code> cancels any modifications made in a transaction
  
 All of the locks that are set in a transaction are released when COMMIT or ROLLBACK are run at the end of the transaction.
 

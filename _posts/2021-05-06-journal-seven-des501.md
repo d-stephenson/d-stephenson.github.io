@@ -23,63 +23,63 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <th>Description</th>
   </tr>
   <tr>
-    <td><code><!DOCTYPE html></code></td>
+    <td><code>< !DOCTYPE html ></code></td>
     <td>This declaration provides information to the browser about the document type.</td>
   </tr>
   <tr>
-    <td>< head ></td>
+    <td><code>< head ></code></td>
     <td>This is a container element for data about the document, this metadata is not displayed on the web page.</td>
   </tr>
     <tr>
-    <td>< title ></td>
+    <td><code>< title ></code></td>
     <td>This element contains the title of the web page and is displayed in the title bar of the web browser.</td>
   </tr>
   <tr>
-    <td>< style ></td>
+    <td><code>< style ></code></td>
     <td>This is a tag that is used for the style information (CSS) for the web page content in the body.</td>
   </tr>
     <tr>
-    <td>< body ></td>
+    <td><code>< body ></code></td>
     <td>This is used to define the body of the document, it contains all the visible web page contents such as images, paragraphs, tables, links, etc.</td>
   </tr>
     <tr>
-    <td>< h1 ></td>
+    <td><code>< h1 ></code></td>
     <td>Defines a large heading on the web page, extends to < h7 >.</td>
   </tr>
   <tr>
-    <td>< p ></td>
+    <td><code>< p ></code></td>
     <td>Defines a paragraph on the web page. </td>
   </tr>
     <tr>
-    <td>< article ></td>
+    <td><code>< article ></code></td>
     <td>Defines self-contained content that is independent from other content in the body.</td>
   </tr>
   <tr>
-    <td>< img src =" " ></td>
+    <td><code>< img src =" " ></code></td>
     <td>This allows for a image to be embedded on a web page.</td>
   </tr>
   <tr>
-    <td>< input type ></td>
+    <td><code>< input type ></code></td>
     <td>Used to define an input field, these can be numerous types including "button", "text", "email", "radio", etc.</td>
   </tr>
   <tr>
-    <td>< placeholder ></td>
+    <td><code>< placeholder ></code></td>
     <td>Used to give a hint as to the expected value of an input being passed into a field.</td>
   </tr>
   <tr>
-    <td>< link href=" " rel=" " ></td>
+    <td><code>< link href=" " rel=" " ></code></td>
     <td>Provides a link that imports a style sheet to the html document.</td>
   </tr>
   <tr>
-    <td>< button ></td>
+    <td><code>< button ></code></td>
     <td>Creates a visible button on the web page. </td>
   </tr>
   <tr>
-    <td>< ul ></td>
+    <td><code>< ul ></code></td>
     <td>Creates an unordered, bulleted list.</td>
   </tr>
   <tr>
-    <td>< li ></td>
+    <td><code>< li ></code></td>
     <td>Used in conjunction with the ul tag to form the unordered list.</td>
   </tr></table>
 <br>

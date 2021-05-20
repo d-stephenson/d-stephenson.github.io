@@ -92,23 +92,23 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <th>Description</th>
   </tr>
   <tr>
-    <td>text-align: center;</code></td>
+    <td><code>text-align: center;</code></td>
     <td>Sets the alignment of text on the horizontal axis, can be right, left, justified or centered.</td>
   </tr>
   <tr>
-    <td>background-color: white;</code></td>
+    <td><code>background-color: white;</code></td>
     <td>This property that sets the background colour of an element, including border and padding, but excludes the margin.</td>
   </tr>
     <tr>
-    <td>background-size: cover;</code></td>
+    <td><code>background-size: cover;</code></td>
     <td>This property is used to specify the size of background images.</td>
   </tr>
   <tr>
-    <td>color: black;</code></td>
+    <td><code>color: black;</code></td>
     <td>This is used to specific predefined colours, that can be described in this example or RGB, HSL, RGBA, HEX, etc.</td>
   </tr>
     <tr>
-    <td>font-family: helvetica;</code></td>
+    <td><code>font-family: helvetica;</code></td>
     <td> The property is used to specify the font within an element, several font names can be included and used as a fallback if the browser doesn't support the first font.</td>
   </tr>
   <tr>

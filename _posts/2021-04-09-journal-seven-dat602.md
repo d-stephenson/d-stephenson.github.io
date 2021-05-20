@@ -60,12 +60,12 @@ The following are examples of deterministic and nondeterministic functions:
  
 Stored procedures are used as a way to improve the performance of databases, they are also used to improve database security and restrict user access. The security aspects of a stored procedure include:
  
-<b>DEFINER:</b> A clause that specifies the creator of the stored procedure.<br>
-<b>SQL SECURITY:</b> A clause that specifics the context of the stored procedure.
+<code>DEFINER</code> - A clause that specifies the creator of the stored procedure.<br>
+<code>SQL SECURITY</code> - A clause that specifics the context of the stored procedure.
  
 <h3>Definer</h3>
  
-The <code>DEFINER</code> attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The DEFINER assigns an owner to a procedure, if it's defined with <code>SQL SECURITY</code> then it will run with the privileges of that account, regardless of which users invoke the procedure.
+The <code>DEFINER</code> attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The <code>DEFINER</code> assigns an owner to a procedure, if it's defined with <code>SQL SECURITY</code> then it will run with the privileges of that account, regardless of which users invoke the procedure.
  
 Database users that have sufficient privileges, such as <code>SET_USER_ID<c/ode> or <code>SUPER</code>, can select any user as the <code>DEFINER</code> attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
  

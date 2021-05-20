@@ -66,7 +66,7 @@ Action queries are used to make changes in a database, an action query can take 
  
 <h4>Aggregated Queries</h4>
  
-Aggregate functions perform calculations on a set of values to return a single value, these types of functions ignore values that are <code>NULL</code> and are commonly used with the SELECT statement and GROUP BY clause.
+Aggregate functions perform calculations on a set of values to return a single value, these types of functions ignore values that are <code>NULL</code> and are commonly used with the <code>SELECT</code> statement and <code>GROUP BY</code> clause.
  
 An aggregate query can include the following clauses:
  

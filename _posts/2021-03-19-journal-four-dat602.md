@@ -19,13 +19,13 @@ Development work has continued on the game design with the creation and refineme
 
 Effective development of persistent storage applications requires four functions, these are create, retrieve, update and delete (CRUD). 
 
-<b>CREATE:</b> The create function is used to create records in the database using INSERT, this adds a new row to a table and populates the columns within that row.  
+<code>CREATE</code> - The create function is used to create records in the database using <code>INSERT</code>, this adds a new row to a table and populates the columns within that row.  
 
-<b>RETRIEVE:</b> The retrieve function can be viewed as a search function to retrieve specified information from the database, using SELECT, and can follow a set of customised criteria defined by the database user using FROM and WHERE.
+<code>RETRIEVE</code> - The retrieve function can be viewed as a search function to retrieve specified information from the database, using <code>SELECT</code>, and can follow a set of customised criteria defined by the database user using <code>FROM</code> and <code>WHERE</code>.
 
-<b>UPDATE:</b> The update function is used to modify specified data stored in the database using ALTER, for example, user information can change over time such as addresses or mobile telephone numbers.
+<code>UPDATE</code> - The update function is used to modify specified data stored in the database using <code>ALTER</code>, for example, user information can change over time such as addresses or mobile telephone numbers.
 
-<b>DELETE:</b> The delete function removes records from the database using DELETE. The delete function removes records from the database using DELETE. The decision to delete information should not be made lightly and some database administrators perform soft deletes that update the row status instead, depending on the circumstances this may be preferable to a hard delete with removes the record from the database entirely. 
+<code>DELETE</code> - The delete function removes records from the database using <code>DELETE</code>. The delete function removes records from the database using <code>DELETE</code>. The decision to delete information should not be made lightly and some database administrators perform soft deletes that update the row status instead, depending on the circumstances this may be preferable to a hard delete with removes the record from the database entirely. 
 
 <center><img src="/assets/images/DAT602_CRUD.png" alt="Game CRUD table"></center><br>
 

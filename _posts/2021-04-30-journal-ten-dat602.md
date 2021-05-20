@@ -23,16 +23,18 @@ The following query has been created for the game database in development as par
 
 <center><img src="/assets/images/DAT602-Subquery.png" alt="MySQL Subquery" width="950"></center><br>
  
-Subqueries can be used with comparison operators such as =, <, > such as:
-- …WHERE quantity = (SELECT MAX(quantity) FROM tblStock);
-- …WHERE > (SELECT AVG(quantity) FROM tblStock);
+Subqueries can be used with comparison operators such as <code>=</code>, <code><</code>, <code>></code> such as:<br>
+<code>
+…WHERE quantity = (SELECT MAX(quantity) FROM tblStock);
+…WHERE > (SELECT AVG(quantity) FROM tblStock);
+</code>
  
 The FROM clause can also contain a subquery as follows:
-- SELECT MAX(product) FROM (SELECT supplierA, COUNT(supplierA) AS product FROM tblProduct…
+<code>SELECT MAX(product) FROM (SELECT supplierA, COUNT(supplierA) AS product FROM tblProduct…</code>
  
 <h3>Cascade</h3>
  
-Deleting data in MySQL can be performed more efficiently by using the DELETE CASCADE referential action against foreign keys. What this does is delete data from all child tables as part of the data deletion in the parent table.
+Deleting data in MySQL can be performed more efficiently by using the <code>DELETE CASCADE</code> referential action against foreign keys. What this does is delete data from all child tables as part of the data deletion in the parent table.
  
 If we imagine an automotive database with two tables, tblMake and tblModel, each car make can have one or many models, but each model relates to just one car make. A car model wouldn’t exist without a make, for example, a Phantom car model is made by Rolls Royce, but Rolls Royce makes the Phantom, Ghost, Wraith, Dawn and Cullinan.
  

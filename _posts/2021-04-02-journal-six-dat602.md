@@ -19,9 +19,9 @@ JOURNAL #SIX [DAT602]
  
 Working with data requires queries to be called against the database, these can take the form of:
  
-<b>Select queries:</b> The retrieval of information from the database that is displayed in a 'virtual' table<br>
-<b>Action queries:</b> Requests activities on the database such as the creation of new tables<br>
-<b>Aggregate queries:</b> Perform calculations against a determined set of values<br>
+<b>Select queries</b> - The retrieval of information from the database that is displayed in a 'virtual' table.<br>
+<b>Action queries</b> - Requests activities on the database such as the creation of new tables.<br>
+<b>Aggregate queries</b> - Perform calculations against a determined set of values.<br>
  
 <h4>Select Queries</h4> 
  

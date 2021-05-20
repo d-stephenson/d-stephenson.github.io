@@ -17,10 +17,10 @@ JOURNAL #EIGHT [DAT602]
  
 There are several functions available in SQL that allow logic to be added to queries, this can be done without using the procedural code. Control flow functions return a value for each row that is processed, the values returned are a result of an evaluated comparison. Control flow functions can be utilised in the following clauses:
  
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
+- <code>SELECT</code>
+- <code>WHERE</code>
+- <code>ORDER BY</code>
+- <code>GROUP BY</code>
  
 Control flow functions allow MySQL uses to add IF - THEN - ELSE logic by utilising the following control flow functions:
  
@@ -49,7 +49,7 @@ ORDER BY<br>
 (CASE<br>
     WHEN Town IS NULL THEN Postcode<br>
     ELSE Town<br>
-END); // returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode<br>
+END); -- returns ManufacturerID ordered by Town unless Town is NULL in which case ordered by Postcode<br>
 </code>
  
 <h4>IF/ELSE Construct</h4>
@@ -61,7 +61,7 @@ A value will be returned as a result of a given condition.
 <code>
 SELECT ProductID, StockAmount,<br>
 IF(StockAmount > 10, 'More', 'Less')<br>
-FROM tblStockDetails; // returns 'More' if the condition is true and 'Less' if the condition is 'False'<br>
+FROM tblStockDetails; -- returns 'More' if the condition is true and 'Less' if the condition is 'False'<br>
 </code>
  
 <h4>IFNULL</h4>
@@ -71,7 +71,7 @@ The first argument will be returned if it is not NULL, if it is NULL then the se
 <b>IFNULL example:</b>
 
 <code> 
-SELECT IFNULL(NULL, 10); // returns 10<br>
+SELECT IFNULL(NULL, 10); -- returns 10<br>
 </code>
  
 <h4>NULLIF</h4>
@@ -81,9 +81,9 @@ Returns NULL if the first argument equals the second argument, if it does not eq
 <b>NULLIF example:</b>
 
 <code> 
-SELECT NULLIF(25, 25); // returns NULL<br>
-SELECT NULLIF(15, 25); // returns 15<br>
-SELECT NULLIF(15, 5); // returns 15<br>
+SELECT NULLIF(25, 25); -- returns NULL<br>
+SELECT NULLIF(15, 25); -- returns 15<br>
+SELECT NULLIF(15, 5); -- returns 15<br>
 </code>
 
 <i>References</i>

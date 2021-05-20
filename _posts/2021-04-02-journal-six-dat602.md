@@ -33,9 +33,9 @@ Select queries retrieve rows or columns from tables within a database, the selec
 
 <code>JOIN</code> - A join is used where a result is produced from two or more tables in the database, join types are:
 
-<code>INNER</code> - Returns all matching rows, discarding unmatched rows
-<code>FULL [OUTER}</code> - A row from either the right or left table not meeting the join condition is included in the result set
-<code>LEFT [OUTER]</code> - All rows from the left table not meeting the join condition is included in the result set  
+<code>INNER</code> - Returns all matching rows, discarding unmatched rows<br>
+<code>FULL [OUTER}</code> - A row from either the right or left table not meeting the join condition is included in the result set<br>
+<code>LEFT [OUTER]</code> - All rows from the left table not meeting the join condition is included in the result set<br>
 <code>RIGHT [OUTER]</code> - All rows from the right table not meeting the join condition is included in the result set  
 
 <code>WHERE</code> - Used to define the search condition for the returned rows

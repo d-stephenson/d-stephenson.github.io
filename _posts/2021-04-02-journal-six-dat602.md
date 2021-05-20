@@ -40,9 +40,9 @@ Select queries retrieve rows or columns from tables within a database, the selec
 
 <code>WHERE</code> - Used to define the search condition for the returned rows
 
-<code>GROUP BY</code> - Groups rows with the same values into summary rows, can be used with aggregate functions such as COUNT, SUM, AVG
+<code>GROUP BY</code> - Groups rows with the same values into summary rows, can be used with aggregate functions such as <code>COUNT</code>, <code>SUM</code>, <code>AVG</code>
 
-<code>HAVING</code> - Exclusive use in SELECT statements and specifies a search condition for a GROUP BY or aggregate
+<code>HAVING</code> - Exclusive use in <code>SELECT</code> statements and specifies a search condition for a <code>GROUP BY</code> or aggregate
 
 <code>DISTINCT</code> - Used to return only those values that are different, those that are not duplicated in a table
 
@@ -66,11 +66,11 @@ Action queries are used to make changes in a database, an action query can take 
  
 <h4>Aggregated Queries</h4>
  
-Aggregate functions perform calculations on a set of values to return a single value, these types of functions ignore values that are NULL and are commonly used with the SELECT statement and GROUP BY clause.
+Aggregate functions perform calculations on a set of values to return a single value, these types of functions ignore values that are <code>NULL</code> and are commonly used with the SELECT statement and GROUP BY clause.
  
 An aggregate query can include the following clauses:
  
-<code>AVG</code> - Used to return the average of a set of values in a group, ignoring NULL values
+<code>AVG</code> - Used to return the average of a set of values in a group, ignoring <code>NULL</code> values
 
 <code>COUNT</code> - Returns an <code>int</code> data type value representing the number of items found in a group
 

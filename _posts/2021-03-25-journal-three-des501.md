@@ -68,6 +68,6 @@ The agile approach is best for teams that want to deliver flexibility and speed 
 
 <i>References</i>
 
-Matthew McConaughey. (2016, June 1). What is Agile? https://www.youtube.com/watch?v=Z9QbYZh1YXY
+Matthew McConaughey. (2016, June 1). What is Agile? [https://www.youtube.com/watch?v=Z9QbYZh1YXY](https://www.youtube.com/watch?v=Z9QbYZh1YXY)
 
 Matthew McConaughey. (2019, February 11). Planning Poker - Story Point Estimation in Agile - Agile Estimation Techniques. [https://www.youtube.com/watch?v=TxSzo3lwwWQ&list=PLNsfkWfsIoV7sg04yrBzVvP22K8gommTo&index=1](https://www.youtube.com/watch?v=TxSzo3lwwWQ&list=PLNsfkWfsIoV7sg04yrBzVvP22K8gommTo&index=1)

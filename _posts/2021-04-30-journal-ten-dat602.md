@@ -37,7 +37,7 @@ Deleting data in MySQL can be performed more efficiently by using the DELETE CAS
 If we imagine an automotive database with two tables, tblMake and tblModel, each car make can have one or many models, but each model relates to just one car make. A car model wouldn’t exist without a make, for example, a Phantom car model is made by Rolls Royce, but Rolls Royce makes the Phantom, Ghost, Wraith, Dawn and Cullinan.
  
 In this database design, when you delete a car make, you also want to delete the model rows that relate to that make. To delete all the child references on the foreign key we must use ON DELETE CASCADE in the model table as follows:
- 
+<code> 
 CREATE TABLE tblModel (<br>
 Model_Name Varchar(255) NOT NULL<br>
 Make_Name Varchar(255)<br>
@@ -45,7 +45,7 @@ FOREIGN KEY (Make_Name)<br>
 REFERENCES tblMake (Make_Name)<br>
 ON DELETE CASCADE<br>
 );<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+</code>
  
 If a delete statement was run on the tblMake table to delete the row where car make equals Rolls Royce, all the models that belong to the Rolls Royce brand will be deleted from the tblModel table as well. This is where the efficiencies are made when deleting data from a database.
  

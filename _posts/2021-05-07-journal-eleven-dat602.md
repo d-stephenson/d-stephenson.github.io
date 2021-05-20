@@ -66,6 +66,7 @@ Activity performed on the database by its users occurs inside the transactions. 
 Where a database has <code>autocommit</code> enabled all statements will form separate, single transactions. <code>autocommit</code> is enabled by default when each session is started, which means that each statement is committed unless an error is found, at which point the statement may be rolled back.
  
 With <code>autocommit</code> enabled on a session, multiple-statement transactions can be performed. These transactions can be created with the following syntax:<br>
+<br>
 <code> 
 // Start the transaction<br>
     START TRANSACTION or BEGIN<br>

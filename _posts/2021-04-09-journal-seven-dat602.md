@@ -17,7 +17,7 @@ JOURNAL #SEVEN [DAT602]
  
 Deterministic functions will return the same results if the same values are being called, non-deterministic functions on the other hand might return different results when called, even if the input values are the same.
  
-Built-in functions are either deterministic or nondeterministic, their state cannot be changed. For example, the AVG function is always deterministic and will return the same result if the same value is called. The GETDATE function however, is nondeterministic, returning the current date and time that will always be a different result when called. Specifying a clause such as ORDER BY in a query will not change the determinism of a function.
+Built-in functions are either deterministic or nondeterministic, their state cannot be changed. For example, the AVG function is always deterministic and will return the same result if the same value is called. The <code>GETDATE</code> function however, is nondeterministic, returning the current date and time that will always be a different result when called. Specifying a clause such as <code>ORDER BY</code> in a query will not change the determinism of a function.
  
 The following are examples of deterministic and nondeterministic functions:
  
@@ -65,65 +65,69 @@ Stored procedures are used as a way to improve the performance of databases, the
  
 <h3>Definer</h3>
  
-The DEFINER attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The DEFINER assigns an owner to a procedure, if it's defined with SQL SECURITY then it will run with the privileges of that account, regardless of which users invoke the procedure.
+The <code>DEFINER</code> attribute should match the credentials of a valid user account to prevent an error from being returned when the procedure is invoked. The DEFINER assigns an owner to a procedure, if it's defined with <code>SQL SECURITY</code> then it will run with the privileges of that account, regardless of which users invoke the procedure.
  
-Database users that have sufficient privileges, such as SET_USER_ID or SUPER, can select any user as the DEFINER attribute. If a user does not have sufficient privileges then the only account they specific as the DEFINER is their own.
+Database users that have sufficient privileges, such as <code>SET_USER_ID<c/ode> or <code>SUPER</code>, can select any user as the DEFINER attribute. If a user does not have sufficient privileges then the only account they specific as the <code>DEFINER</code> is their own.
  
-Before selecting a DEFINER in a stored procedure a check on all users and the host can be made, using the following statement:
+Before selecting a <code>DEFINER</code> in a stored procedure a check on all users and the host can be made, using the following statement:
  
-SELECT user, host FROM mysql.user;
+<code>SELECT user, host FROM mysql.user;</code>
  
 To create a DEFINER within a database a query can be created as a stored procedure as follows:
- 
+
+<code>
 delimiter //<br>
 CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()<br>
 BEGIN<br>
-SELECT 'MySQL Definer';<br>
+  SELECT 'MySQL Definer';<br>
 END;<br>
 //<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+</code>
  
 <h3>SQL Security</h3>
  
-When considering the security of stored procedures two characteristics can be specified, the DEFINER context and the INVOKER context. If neither is selected then the DEFINER context is set as the default characteristic of the stored procedure.
+When considering the security of stored procedures two characteristics can be specified, the <code>DEFINER</code> context and the <code>INVOKER</code> context. If neither is selected then the <code>DEFINER</code> context is set as the default characteristic of the stored procedure.
  
-Selecting the DEFINER security context will execute the stored procedure with the privileges of the account named in the DEFINER attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the INVOKER privileges are disregarded for the purpose of calling the procedure, even if the DEFINER privileges are higher than that of the INVOKER.
+Selecting the <code>DEFINER</code> security context will execute the stored procedure with the privileges of the account named in the <code>DEFINER</code> attribute, which might be different from the privileges assigned to the user invoking the procedure. In procedures established in this way, the INVOKER privileges are disregarded for the purpose of calling the procedure, even if the DEFINER privileges are higher than that of the <code>INVOKER</code>.
  
 When considering the security of a database, those users with a high level of security should seriously consider who needs to call any given procedure.
  
-The following is an example of a stored procedure that has declared an SQL SECURITY DEFINER characteristic:
- 
+The following is an example of a stored procedure that has declared an <code>SQL SECURITY DEFINER</code> characteristic:
+
+<code> 
 delimiter //<br>
 CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Definer()<br>
 SQL SECURITY DEFINER<br>
 BEGIN<br>
-UPDATE tbl_Accounts SET counter = counter + 1;<br>
+  UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
--- Executes with the DEFINER security context privilege<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+// Executes with the DEFINER security context privilege<br>
+</code>
  
-To execute this procedure, any user that has the EXECUTE privilege can CALL the statement, as well as UPDATE the table tbl_Account under the DEFINER security context.
+To execute this procedure, any user that has the <code>EXECUTE</code> privilege can <code>CALL</code> the statement, as well as UPDATE the table tbl_Account under the <code>DEFINER</code> security context.
  
-If a stored procedure selects the INVOKER security context then it can only be invoked by those users that have the appropriate privileges. The DEFINER attribute privileges are disregarded for the purpose of calling the procedure.
+If a stored procedure selects the <code>INVOKER</code> security context then it can only be invoked by those users that have the appropriate privileges. The <code>DEFINER</code> attribute privileges are disregarded for the purpose of calling the procedure.
  
-The following is an example of a stored procedure that has declared an SQL SECURITY INVOKER characteristic:
- 
+The following is an example of a stored procedure that has declared an <code>SQL SECURITY INVOKER</code> characteristic:
+
+<code> 
 delimiter //<br>
 CREATE DEFINER = 'username'@'localhost' PROCEDURE SP_Invoker()<br>
 SQL SECURITY INVOKER<br>
 BEGIN<br>
-UPDATE tbl_Accounts SET counter = counter + 1;<br>
+  UPDATE tbl_Accounts SET counter = counter + 1;<br>
 END;<br>
 //<br>
--- Executes with the INVOKER security context privilege<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+// Executes with the INVOKER security context privilege<br>
+</code>
  
-This procedure executes in the INVOKER security context, meaning the DEFINER security context is ignored, if the INVOKER does not have the EXECUTE or UPDATE privilege the procedure will fail.
+This procedure executes in the <code>INVOKER</code> security context, meaning the DEFINER security context is ignored, if the <code>INVOKER</code> does not have the EXECUTE or UPDATE privilege the procedure will fail.
  
-What SQL SECURITY does is restrict users access to tables directly, whilst allowing access to certain data to perform their required functions. This can help support an organisation to meet the security concept of 'principle of least privilege' (POLP) and help to secure sensitive or customer data.
+What <code>SQL SECURITY</code> does is restrict users access to tables directly, whilst allowing access to certain data to perform their required functions. This can help support an organisation to meet the security concept of 'principle of least privilege' (POLP) and help to secure sensitive or customer data.
  
 In SQL the POLP extends to:
+
 - Read-access to data
 - Creating user accounts
 - Changing table structure
@@ -131,17 +135,18 @@ In SQL the POLP extends to:
 <h3>Procedures and Stored Procedures</h3>
  
 Procedures or stored procedures are SQL queries that are created once and stored in the database to be executed multiple times when required by a database user by calling the procedure. Stored procedures result in reduced execution time.
- 
+
+<code> 
 delimiter //<br>
 DROP PROCEDURE IF EXISTS SelectTileBoard;<br>
 CREATE PROCEDURE SelectTileBoard( pTileID int )<br>
 BEGIN<br>
-SELECT BoardType AS 'Board Description', TileID AS 'Tile Ref'<br>
-FROM tblBoardTile<br>
-WHERE TileID = pTileID;<br>
+  SELECT BoardType AS 'Board Description', TileID AS 'Tile Ref'<br>
+  FROM tblBoardTile<br>
+  WHERE TileID = pTileID;<br>
 END;<br>
 //<br>
-<i>Please note the above code is not indented correctly for the purpose of this journal</i>
+</code>
  
 Stored procedures can accept parameters as an input, such as those defined in the above example. Multiple values can be returned as an output parameter by calling the procedure.
 

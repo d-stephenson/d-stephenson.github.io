@@ -23,7 +23,7 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <th>Description</th>
   </tr>
   <tr>
-    <td>< !DOCTYPE html ></td>
+    <td><code><!DOCTYPE html></code></td>
     <td>This declaration provides information to the browser about the document type.</td>
   </tr>
   <tr>

@@ -29,7 +29,7 @@ Subqueries can be used with comparison operators such as <code>=</code>, <code><
 …WHERE > (SELECT AVG(quantity) FROM tblStock);
 </code>
  
-The FROM clause can also contain a subquery as follows:
+The FROM clause can also contain a subquery as follows:<br>
 <code>SELECT MAX(product) FROM (SELECT supplierA, COUNT(supplierA) AS product FROM tblProduct…</code>
  
 <h3>Cascade</h3>
@@ -39,6 +39,7 @@ Deleting data in MySQL can be performed more efficiently by using the <code>DELE
 If we imagine an automotive database with two tables, tblMake and tblModel, each car make can have one or many models, but each model relates to just one car make. A car model wouldn’t exist without a make, for example, a Phantom car model is made by Rolls Royce, but Rolls Royce makes the Phantom, Ghost, Wraith, Dawn and Cullinan.
  
 In this database design, when you delete a car make, you also want to delete the model rows that relate to that make. To delete all the child references on the foreign key we must use ON DELETE CASCADE in the model table as follows:<br>
+<br>
 <code> 
 CREATE TABLE tblModel (<br>
     Model_Name Varchar(255) NOT NULL<br>

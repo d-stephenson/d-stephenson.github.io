@@ -60,8 +60,8 @@ The following are examples of deterministic and nondeterministic functions:
  
 Stored procedures are used as a way to improve the performance of databases, they are also used to improve database security and restrict user access. The security aspects of a stored procedure include:
  
-<b>DEFINER:</b> A clause that specifies the creator of the stored procedure<br>
-<b>SQL SECURITY:</b> A clause that specifics the context of the stored procedure
+<b>DEFINER:</b> A clause that specifies the creator of the stored procedure.<br>
+<b>SQL SECURITY:</b> A clause that specifics the context of the stored procedure.
  
 <h3>Definer</h3>
  

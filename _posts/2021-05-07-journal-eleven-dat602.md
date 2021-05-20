@@ -76,7 +76,7 @@ With <code>autocommit</code> enabled on a session, multiple-statement transactio
     COMMIT or ROLLBACK<br>
 </code> 
 <br>
-When commit or rollback is used to end a transaction, a new transaction can then be started. If autocommit is disabled on a session and the transaction does not end with <code>COMMIT</code>, <code>ROLLBACK</code> will be performed on the transaction.
+When commit or rollback is used to end a transaction, a new transaction can then be started. If <code>autocommit</code> is disabled on a session and the transaction does not end with <code>COMMIT</code>, <code>ROLLBACK</code> will be performed on the transaction.
  
 <code>COMMIT</code> makes the changes made in a transaction permanent and available to other sessions
 <code>ROLLBACK</code> cancels any modifications made in a transaction

@@ -67,13 +67,13 @@ Relative lengths are relative to other length properties, they are unit specific
  
 Font sizes are best when using the <i>em</i> length unit, to set the font size to the default size of the screen. This means that the size of the font sits comfortably on the device screen, for example <code>H2 {font-size: 3em}</code> is 3 times the size of the defined font of the <code>body</code> text.
  
-<table style="width:100%">
+<center><table style="width:100%">
   <tr>
     <th>Unit</th>
     <th>Description</th>
     <th>Example</th>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>em</td>
     <td>Length unit that is relative to the elements<br> font size, so 5em is 5 times the current font size</td>
     <td><code>
@@ -87,7 +87,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>ex</td>
     <td>Length unit that is relative to the x-height of<br> the current font size, this is rarely used</td>
     <td><code>
@@ -101,7 +101,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>ch</td>
     <td>Length unit that is relative to the width of<br> the "0"</td>
     <td><code>
@@ -115,7 +115,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }<br>
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>rem</td>
     <td>Length unit that is relative to the font-size of<br> the root element</td>
     <td><code>
@@ -129,7 +129,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>vw</td>
     <td>Length unit that is relative to 1% of the <br>viewport width</td>
     <td><code>
@@ -138,7 +138,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>vh</td>
     <td>Length unit that is relative to 1% of the <br>viewport height</td>
     <td><code>
@@ -147,7 +147,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>vmin</td>
     <td>Length unit that is relative to 1% of the smaller<br> dimension of the viewport</td>
     <td><code>
@@ -156,7 +156,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>vmax</td>
     <td>Length unit that is relative to 1% of the larger<br> dimension of the viewport</td>
     <td><code>
@@ -165,7 +165,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
-  <tr valign="top" padding="5px">
+  <tr valign="top">
     <td>%</td>
     <td>Length unit that is relative to the parent<br> element</td>
     <td><code>
@@ -179,7 +179,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
         }
 </code></td>
   </tr>
- </table>
+ </table></center>
  
 <i>References</i>
  

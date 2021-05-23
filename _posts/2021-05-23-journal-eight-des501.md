@@ -75,7 +75,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
   <tr>
     <td>em</td>
-    <td>Length unit that is relative to the elements font size, so 5em is 5 times the current font size</td>
+    <td>Length unit that is relative to the elements<br> font size, so 5em is 5 times the current font size</td>
     <td><code>
         div {<br>
         font-size: 30px;<br>
@@ -89,7 +89,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
   <tr>
     <td>ex</td>
-    <td>Length unit that is relative to the x-height of the current font size, this is rarely used</td>
+    <td>Length unit that is relative to the x-height of<br> the current font size, this is rarely used</td>
     <td><code>
         div {<br>
         font-size: 30px;<br>
@@ -103,7 +103,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>ch</td>
-    <td>Length unit that is relative to the width of the "0"</td>
+    <td>Length unit that is relative to the width of<br> the "0"</td>
     <td><code>
         body {<br>
         font-size:16px;<br>
@@ -117,7 +117,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>rem</td>
-    <td>Length unit that is relative to the font-size of the root element</td>
+    <td>Length unit that is relative to the font-size of<br> the root element</td>
     <td><code>
         html {<br>
         font-size:16px;<br>
@@ -131,7 +131,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>vw</td>
-    <td>Length unit that is relative to 1% of the viewport width</td>
+    <td>Length unit that is relative to 1% of the <br>viewport width</td>
     <td><code>
         h1 {<br>
         font-size: 20vw;<br>
@@ -140,7 +140,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>vh</td>
-    <td>Length unit that is relative to 1% of the viewport height</td>
+    <td>Length unit that is relative to 1% of the <br>viewport height</td>
     <td><code>
         h1 {<br>
         font-size: 20vh;<br>
@@ -149,7 +149,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>vmin</td>
-    <td>Length unit that is relative to 1% of the smaller dimension of the viewport</td>
+    <td>Length unit that is relative to 1% of the smaller<br> dimension of the viewport</td>
     <td><code>
         h1 {<br>
         font-size: 15vmin;<br>
@@ -158,7 +158,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>vmax</td>
-    <td>Length unit that is relative to 1% of the larger dimension of the viewport</td>
+    <td>Length unit that is relative to 1% of the larger<br> dimension of the viewport</td>
     <td><code>
         h1 {<br>
         font-size: 15vmax;<br>
@@ -167,7 +167,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
   </tr>
     <tr>
     <td>%</td>
-    <td>Length unit that is relative to the parent element</td>
+    <td>Length unit that is relative to the parent<br> element</td>
     <td><code>
         body {<br>
         font-size:16px;<br>

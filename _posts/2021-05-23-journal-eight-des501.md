@@ -23,7 +23,7 @@ Absolute lengths are fixed units and are always expressed as the size that is de
  
 There are instances where <i>px</i> can be useful, such as cases where text must be aligned next to images, or if the text needs to be very sharp, 1px will guarantee that the text looks sharp on-screen.
  
-<table style="width:100%">
+<center><table style="width:100%">
   <tr>
     <th>Unit</th>
     <th>Description</th>
@@ -59,7 +59,7 @@ There are instances where <i>px</i> can be useful, such as cases where text must
     <td>picas <i>1pc = 12pt</i></td>
     <td><code>h1 {font-size: 4.5pc;}</code></td>
   </tr>
- </table>
+ </table></center>
  <br>
 <h3>Relative Lengths</h3>
  
@@ -73,7 +73,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
     <th>Description</th>
     <th>Example</th>
   </tr>
-  <tr valign="top" padding="5px" background-color="#e6e6e6">
+  <tr valign="top" padding="5px">
     <td>em</td>
     <td>Length unit that is relative to the elements<br> font size, so 5em is 5 times the current font size</td>
     <td><code>

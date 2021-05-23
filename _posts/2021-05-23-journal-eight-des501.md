@@ -60,7 +60,7 @@ There are instances where <i>px</i> can be useful, such as cases where text must
     <td><code>h1 {font-size: 4.5pc;}</code></td>
   </tr>
  </table>
- 
+ <br>
 <h3>Relative Lengths</h3>
  
 Relative lengths are relative to other length properties, they are unit specifications that scale between various rendering mediums, which makes them better for websites that are accessed on a variety of screen sizes.

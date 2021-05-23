@@ -73,7 +73,7 @@ Font sizes are best when using the <i>em</i> length unit, to set the font size t
     <th>Description</th>
     <th>Example</th>
   </tr>
-  <tr valign="top" padding="5px" background="#000000">
+  <tr valign="top" padding="5px" background-color="#000000">
     <td>em</td>
     <td>Length unit that is relative to the elements<br> font size, so 5em is 5 times the current font size</td>
     <td><code>

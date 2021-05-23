@@ -67,7 +67,7 @@ Relative lengths are relative to other length properties, they are unit specific
  
 Font sizes are best when using the <i>em</i> length unit, to set the font size to the default size of the screen. This means that the size of the font sits comfortably on the device screen, for example <code>H2 {font-size: 3em}</code> is 3 times the size of the defined font of the <code>body</code> text.
  
-<table style="width:100%" style="vertical-align: top;">
+<table style="width:100%" style="text-align: top;">
   <tr>
     <th>Unit</th>
     <th>Description</th>

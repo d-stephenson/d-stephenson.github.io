@@ -93,11 +93,13 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>text-align: center;</code></td>
-    <td>Sets the alignment of text on the horizontal axis, can be right, left, justified or centered.</td>
+    <td>Sets the alignment of text on the horizontal axis, <br>
+    can be right, left, justified or centered.</td>
   </tr>
   <tr valign="top">
     <td><code>background-color: white;</code></td>
-    <td>This property that sets the background colour of an element, including border and padding, but excludes the margin.</td>
+    <td>This property that sets the background colour of an element, <br>
+    including border and padding, but excludes the margin.</td>
   </tr>
   <tr valign="top">
     <td><code>background-size: cover;</code></td>
@@ -105,15 +107,20 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>color: black;</code></td>
-    <td>This is used to specific predefined colours, that can be described in this example or RGB, HSL, RGBA, HEX, etc.</td>
+    <td>This is used to specific predefined colours, that can be described <br>
+    in this example or RGB, HSL, RGBA, HEX, etc.</td>
   </tr>
   <tr valign="top">
     <td><code>font-family: helvetica;</code></td>
-    <td> The property is used to specify the font within an element, several font names can be included and used as a fallback if the browser doesn't support the first font.</td>
+    <td> The property is used to specify the font within an element, several <br>
+    font names can be included and used as a fallback if the browser doesn't <br>
+    support the first font.</td>
   </tr>
   <tr valign="top">
     <td><code>padding: 100px;</code></td>
-    <td>The padding property is used to pad the space between the content and its border. This property has four values for top, right, bottom, left, in that order.</td>
+    <td>The padding property is used to pad the space between the content and<br>
+     its border. This property has four values for top, right, bottom, left, <br>
+     in that order.</td>
   </tr>
   <tr valign="top">
     <td><code>display: block;</code></td>
@@ -121,7 +128,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>font-size: 40px;</code></td>
-    <td>Used to set the size of the text, this should not be used to make adjustments to text size to make it headings.</td>
+    <td>Used to set the size of the text, this should not be used to make <br>
+    adjustments to text size to make it headings.</td>
   </tr>
   <tr valign="top">
     <td><code>background: url(" ");</code></td>
@@ -129,7 +137,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>margin: 40px 0px 0px 0px;</code></td>
-    <td>This property is used to set an elements margins, the four values include top, right, bottom, and left, in that order.</td>
+    <td>This property is used to set an elements margins, the four values<br>
+     include top, right, bottom, and left, in that order.</td>
   </tr>
   <tr valign="top">
     <td><code>border: 7px solid white;</code></td>
@@ -137,15 +146,19 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>border-radius: 20px;</code></td>
-    <td>This property is used to define the radius of the corners of an element.</td>
+    <td>This property is used to define the radius of the corners of an <br>
+    element.</td>
   </tr>
   <tr valign="top">
     <td><code>max-width: 500px;</code></td>
-    <td>This allows the element to support smaller browser windows, it is useful to make the element compatible with smaller devices.</td>
+    <td>This allows the element to support smaller browser windows, it is<br>
+    useful to make the element compatible with smaller devices.</td>
   </tr>
   <tr valign="top">
     <td><code>@media</code></td>
-    <td>This is a rule in CSS that is used in media queries that allows different styles to apply to different media types or devices. This is particularly useful to deliver tailored style sheets for responsive web pages.</td>
+    <td>This is a rule in CSS that is used in media queries that allows different <br>
+    styles to apply to different media types or devices. This is particularly<br>
+    useful to deliver tailored style sheets for responsive web pages.</td>
   </tr>
   </table>
   <br>
@@ -158,15 +171,21 @@ Grids are made up of horizontal and vertical intersecting lines that create colu
  
 Grids in CCS have various features such as:
  
-<b>Fixed & flexible track sizes:</b> Creation of grids with track sizes that are fixed, pixels can be used to define the layout. Flexible sizes can be created using percentages or the "fr" unit.
+<b>Fixed & flexible track sizes:</b> Creation of grids with track sizes that<br> 
+are fixed, pixels can be used to define the layout. Flexible sizes can be<br>
+ created using percentages or the "fr" unit.
  
 <b>Item placement:</b> Items can be placed accurately into their location.
  
-<b>Content held in additional tracks:</b> Ability to add rows and columns to add other features such as columns that fit inside a container.
+<b>Content held in additional tracks:</b> Ability to add rows and columns to<br>
+ add other features such as columns that fit inside a container.
  
-<b>Alignment control:</b> Ability to control the alignment of content after it is placed inside a grid.
+<b>Alignment control:</b> Ability to control the alignment of content after<br>
+ it is placed inside a grid.
  
-<b>Overlapping content control:</b> Numerous items can be placed in a grid and they can partially overlap one another, the layering can be controlled with the z-index property.<br>
+<b>Overlapping content control:</b> Numerous items can be placed in a grid and<br>
+ they can partially overlap one another, the layering can be controlled with<br>
+  the z-index property.<br>
  
 <h3>Activity Screenshots</h3>
  

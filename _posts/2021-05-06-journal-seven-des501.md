@@ -24,23 +24,29 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>< !DOCTYPE html ></code></td>
-    <td>This declaration provides information to the browser about the document type.</td>
+    <td>This declaration provides information to the browser about the<br>
+     document type.</td>
   </tr>
   <tr valign="top">
     <td><code>< head ></code></td>
-    <td>This is a container element for data about the document, this metadata is not displayed on the web page.</td>
+    <td>This is a container element for data about the document, this<br>
+     metadata is not displayed on the web page.</td>
   </tr>
   <tr valign="top">
     <td><code>< title ></code></td>
-    <td>This element contains the title of the web page and is displayed in the title bar of the web browser.</td>
+    <td>This element contains the title of the web page and is displayed<br>
+     in the title bar of the web browser.</td>
   </tr>
   <tr valign="top">
     <td><code>< style ></code></td>
-    <td>This is a tag that is used for the style information (CSS) for the web page content in the body.</td>
+    <td>This is a tag that is used for the style information (CSS) for<br>
+     the web page content in the body.</td>
   </tr>
   <tr valign="top">
     <td><code>< body ></code></td>
-    <td>This is used to define the body of the document, it contains all the visible web page contents such as images, paragraphs, tables, links, etc.</td>
+    <td>This is used to define the body of the document, it contains<br>
+     all the visible web page contents such as images, paragraphs, tables,<br>
+      links, etc.</td>
   </tr>
   <tr valign="top">
     <td><code>< h1 ></code></td>
@@ -52,7 +58,8 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>< article ></code></td>
-    <td>Defines self-contained content that is independent from other content in the body.</td>
+    <td>Defines self-contained content that is independent from other<br>
+     content in the body.</td>
   </tr>
   <tr valign="top">
     <td><code>< img src =" " ></code></td>
@@ -60,11 +67,13 @@ The following HTML and CSS form part of the exercise projects available on [Dash
   </tr>
   <tr valign="top">
     <td><code>< input type ></code></td>
-    <td>Used to define an input field, these can be numerous types including "button", "text", "email", "radio", etc.</td>
+    <td>Used to define an input field, these can be numerous types including<br>
+     "button", "text", "email", "radio", etc.</td>
   </tr>
   <tr valign="top">
     <td><code>< placeholder ></code></td>
-    <td>Used to give a hint as to the expected value of an input being passed into a field.</td>
+    <td>Used to give a hint as to the expected value of an input being<br>
+     passed into a field.</td>
   </tr>
   <tr valign="top">
     <td><code>< link href=" " rel=" " ></code></td>

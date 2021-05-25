@@ -22,63 +22,63 @@ The following HTML and CSS form part of the exercise projects available on [Dash
     <th>HTML</th>
     <th>Description</th>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< !DOCTYPE html ></code></td>
     <td>This declaration provides information to the browser about the document type.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< head ></code></td>
     <td>This is a container element for data about the document, this metadata is not displayed on the web page.</td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>< title ></code></td>
     <td>This element contains the title of the web page and is displayed in the title bar of the web browser.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< style ></code></td>
     <td>This is a tag that is used for the style information (CSS) for the web page content in the body.</td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>< body ></code></td>
     <td>This is used to define the body of the document, it contains all the visible web page contents such as images, paragraphs, tables, links, etc.</td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>< h1 ></code></td>
     <td>Defines a large heading on the web page, extends to < h7 >.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< p ></code></td>
     <td>Defines a paragraph on the web page. </td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>< article ></code></td>
     <td>Defines self-contained content that is independent from other content in the body.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< img src =" " ></code></td>
     <td>This allows for a image to be embedded on a web page.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< input type ></code></td>
     <td>Used to define an input field, these can be numerous types including "button", "text", "email", "radio", etc.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< placeholder ></code></td>
     <td>Used to give a hint as to the expected value of an input being passed into a field.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< link href=" " rel=" " ></code></td>
     <td>Provides a link that imports a style sheet to the html document.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< button ></code></td>
     <td>Creates a visible button on the web page. </td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< ul ></code></td>
     <td>Creates an unordered, bulleted list.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>< li ></code></td>
     <td>Used in conjunction with the ul tag to form the unordered list.</td>
   </tr></table>
@@ -87,63 +87,63 @@ The following HTML and CSS form part of the exercise projects available on [Dash
 <h3>CSS Properties</h3>
  
 <table style="width:100%">
-  <tr>
+  <tr valign="top">
     <th>CSS</th>
     <th>Description</th>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>text-align: center;</code></td>
     <td>Sets the alignment of text on the horizontal axis, can be right, left, justified or centered.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>background-color: white;</code></td>
     <td>This property that sets the background colour of an element, including border and padding, but excludes the margin.</td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>background-size: cover;</code></td>
     <td>This property is used to specify the size of background images.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>color: black;</code></td>
     <td>This is used to specific predefined colours, that can be described in this example or RGB, HSL, RGBA, HEX, etc.</td>
   </tr>
-    <tr>
+  <tr valign="top">
     <td><code>font-family: helvetica;</code></td>
     <td> The property is used to specify the font within an element, several font names can be included and used as a fallback if the browser doesn't support the first font.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>padding: 100px;</code></td>
     <td>The padding property is used to pad the space between the content and its border. This property has four values for top, right, bottom, left, in that order.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>display: block;</code></td>
     <td>This property is used to specify an elements display property.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>font-size: 40px;</code></td>
     <td>Used to set the size of the text, this should not be used to make adjustments to text size to make it headings.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>background: url(" ");</code></td>
     <td>Sets an image as the web page background.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>margin: 40px 0px 0px 0px;</code></td>
     <td>This property is used to set an elements margins, the four values include top, right, bottom, and left, in that order.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>border: 7px solid white;</code></td>
     <td>This is used to specify a border width and colour.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>border-radius: 20px;</code></td>
     <td>This property is used to define the radius of the corners of an element.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>max-width: 500px;</code></td>
     <td>This allows the element to support smaller browser windows, it is useful to make the element compatible with smaller devices.</td>
   </tr>
-  <tr>
+  <tr valign="top">
     <td><code>@media</code></td>
     <td>This is a rule in CSS that is used in media queries that allows different styles to apply to different media types or devices. This is particularly useful to deliver tailored style sheets for responsive web pages.</td>
   </tr>

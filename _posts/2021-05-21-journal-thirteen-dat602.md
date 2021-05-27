@@ -290,9 +290,7 @@ Data Access in C# for the Login Check Credentials Procedure:
 
 Program in C# to display a selection list menu:
 
-<pre>
-    <code>
-    namespace DAT602_ConsoleApp
+<pre><code>namespace DAT602_ConsoleApp
     {
         class Program
         {
@@ -386,6 +384,4 @@ Program in C# to display a selection list menu:
                             }
                         }
                         Console.ReadLine();
-                        return true;
-    </code>
-</pre>
+                        return true;</code></pre>

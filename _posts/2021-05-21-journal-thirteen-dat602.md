@@ -13,7 +13,7 @@ JOURNAL #THIRTEEN [DAT602]
 
 <h2>Practical Project Development</h2>
 
-It's well past time that this journal series for <code>DAT602</code> included some practical examples of the project development being worked on, now that <code>milestone 2</code> has been completed it's reasonable to share the progress made. For those interested in seeing the complete MySql and C# please go to the <a href='https://github.com/d-stephenson/DAT602' target='_blank'>GitHub repo</a>.
+It's well past time that this journal series for <code>DAT602</code> included some practical examples of the project development being worked on, now that milestone 2 has been completed it's reasonable to share the progress made. For those interested in seeing the complete MySql and C# please go to the <a href='https://github.com/d-stephenson/DAT602' target='_blank'>GitHub repo</a>.
 
 <h3>MySQL DDL</h3>
 

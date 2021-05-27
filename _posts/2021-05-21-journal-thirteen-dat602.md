@@ -238,9 +238,9 @@ END //
 DELIMITER ;
 </code></pre>
 
-<h3>C# Data Access</h3>
+<h3>C# Data Access & Program</h3>
 
-Data Access in C# for the Login Check Credentials Procedure:
+Data Access in C# for the Login Check Credentials Procedure and Program to display a selection list menu:
 
 <pre><code>// Login Check Credentials Procedure
             public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
@@ -284,13 +284,9 @@ Data Access in C# for the Login Check Credentials Procedure:
                 {
                     return null;
                 }
-            }</code></pre>
+            }
 
-<h3>C# Program</h3>
-
-Program in C# to display a selection list menu:
-
-<pre><code>namespace DAT602_ConsoleApp
+namespace DAT602_ConsoleApp
     {
         class Program
         {

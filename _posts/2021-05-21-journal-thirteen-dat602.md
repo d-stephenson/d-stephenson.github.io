@@ -47,7 +47,7 @@ CREATE TABLE tblPlayer (
 
 Adding a <code>mysql.user</code> to the database and setting grants:
 
-<code>
+<pre><code>
 SELECT `user`, `host` FROM mysql.user;
 
 DROP USER IF EXISTS 'databaseAdmin'@'localhost';
@@ -56,7 +56,7 @@ GRANT ALL ON sdghGameDatabase TO 'databaseAdmin'@'localhost';
 
 SHOW GRANTS FOR 'databaseAdmin'@'localhost';
 SHOW GRANTS FOR 'root'@'localhost';
-</code>
+</code></pre>
 
 <h3>MySQL Procedures</h3>
 
@@ -64,7 +64,7 @@ The following are some of the procedures created as they relate to the CRUD anal
 
 <h4>User login and home screen display data:</h4>
 
-<code>
+<pre><code>
 DROP PROCEDURE IF EXISTS LoginCheckCredentials;
 DELIMITER //
 CREATE DEFINER = 'root'@'localhost' PROCEDURE LoginCheckCredentials(
@@ -135,11 +135,11 @@ BEGIN
 	END IF;
 END //
 DELIMITER ;
-</code>
+</code></pre>
 
 <h4>Moving a player to an adjacent tile:</h4>
 
-<code>
+<pre><code>
 DROP PROCEDURE IF EXISTS MovePlayer;
 DELIMITER //
 CREATE DEFINER = 'root'@'localhost' PROCEDURE MovePlayer(
@@ -240,13 +240,13 @@ BEGIN
 	END;
 END //
 DELIMITER ;
-</code>
+</code></pre>
 
 <h3>C# Data Access</h3>
 
 Data Access in C# for the Login Check Credentials Procedure:
 
-<code>
+<pre><code>
 // Login Check Credentials Procedure
         public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
         {
@@ -290,13 +290,13 @@ Data Access in C# for the Login Check Credentials Procedure:
                 return null;
             }
         }
-</code>
+</code></pre>
 
 <h3>C# Program</h3>
 
 Program in C# to display a selection list menu:
 
-<code>
+<pre><code>
 namespace DAT602_ConsoleApp
 {
     class Program
@@ -392,4 +392,4 @@ namespace DAT602_ConsoleApp
                     }
                     Console.ReadLine();
                     return true;
-</code>
+</code></pre>

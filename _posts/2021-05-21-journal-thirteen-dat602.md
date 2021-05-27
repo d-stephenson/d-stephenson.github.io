@@ -268,8 +268,8 @@ Data Access in C# for the Login Check Credentials Procedure:
                                                 select
                                                     new GameCount
                                                     {
-                                                        GameID = Convert.ToInt32(aResult.ItemArray[0].ToString()),//Field<int>("GameID"),
-                                                        PlayerCount = Convert.ToInt32(aResult.ItemArray[1].ToString())//aResult.Field<int>("PlayerCount"),
+                                                        GameID = Convert.ToInt32(aResult.ItemArray[0].ToString()),
+                                                        PlayerCount = Convert.ToInt32(aResult.ItemArray[1].ToString())
                                                     }).ToList();
 
                 theHomeDisplayData.PlayerHighScore = (from aResult in aDataSet.Tables[2].AsEnumerable()
@@ -277,7 +277,7 @@ Data Access in C# for the Login Check Credentials Procedure:
                                                           new PlayerHighScore
                                                           {
                                                               Player = aResult.Field<string>("Player"),
-                                                              HighScore = Convert.ToInt32(aResult.ItemArray[1].ToString())//aResult.Field<int>("HighScore"),
+                                                              HighScore = Convert.ToInt32(aResult.ItemArray[1].ToString())
                                                           }).ToList();
                 theHomeDisplayData.haveData = true;
 

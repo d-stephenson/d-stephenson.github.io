@@ -19,8 +19,7 @@ It's well past time that this journal series for <code>DAT602</code> included so
 
 The following SQL is the player table:
 
-<pre><code>
-DROP TABLE IF EXISTS tblPlayer;
+<pre><code>DROP TABLE IF EXISTS tblPlayer;
 
 CREATE TABLE tblPlayer (
 	PlayerID int AUTO_INCREMENT,
@@ -47,8 +46,7 @@ CREATE TABLE tblPlayer (
 
 Adding a <code>mysql.user</code> to the database and setting grants:
 
-<pre><code>
-SELECT `user`, `host` FROM mysql.user;
+<pre><code>SELECT `user`, `host` FROM mysql.user;
 
 DROP USER IF EXISTS 'databaseAdmin'@'localhost';
 CREATE USER IF NOT EXISTS 'databaseAdmin'@'localhost' IDENTIFIED BY 'P@ssword1';
@@ -64,8 +62,7 @@ The following are some of the procedures created as they relate to the CRUD anal
 
 <h4>User login and home screen display data:</h4>
 
-<pre><code>
-DROP PROCEDURE IF EXISTS LoginCheckCredentials;
+<pre><code>DROP PROCEDURE IF EXISTS LoginCheckCredentials;
 DELIMITER //
 CREATE DEFINER = 'root'@'localhost' PROCEDURE LoginCheckCredentials(
 		IN pUsername varchar(50), 
@@ -139,8 +136,7 @@ DELIMITER ;
 
 <h4>Moving a player to an adjacent tile:</h4>
 
-<pre><code>
-DROP PROCEDURE IF EXISTS MovePlayer;
+<pre><code>DROP PROCEDURE IF EXISTS MovePlayer;
 DELIMITER //
 CREATE DEFINER = 'root'@'localhost' PROCEDURE MovePlayer(
         IN pTileID int,
@@ -246,8 +242,7 @@ DELIMITER ;
 
 Data Access in C# for the Login Check Credentials Procedure:
 
-<pre><code>
-// Login Check Credentials Procedure
+<pre><code>// Login Check Credentials Procedure
         public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
         {
             HomeDisplayData theHomeDisplayData = new HomeDisplayData();
@@ -296,8 +291,7 @@ Data Access in C# for the Login Check Credentials Procedure:
 
 Program in C# to display a selection list menu:
 
-<pre><code>
-namespace DAT602_ConsoleApp
+<pre><code>namespace DAT602_ConsoleApp
 {
     class Program
     {

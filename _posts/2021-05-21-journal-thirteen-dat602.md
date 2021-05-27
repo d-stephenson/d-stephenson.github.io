@@ -242,9 +242,7 @@ DELIMITER ;
 
 Data Access in C# for the Login Check Credentials Procedure:
 
-<pre>
-    <code>
-    // Login Check Credentials Procedure
+<pre><code>// Login Check Credentials Procedure
             public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
             {
                 HomeDisplayData theHomeDisplayData = new HomeDisplayData();
@@ -257,10 +255,7 @@ Data Access in C# for the Login Check Credentials Procedure:
                 paramInput.Add(paramPassword);
 
                 var aDataSet = MySqlHelper.ExecuteDataset(DataAccess.mySqlConnection, "LoginCheckCredentials(@Username,@Password)", paramInput.ToArray());
-    </code>
-</pre>
-<pre>
-    <code>
+
                 var aMessage = (aDataSet.Tables[0].Rows[0])["MESSAGE"].ToString();
                 theHomeDisplayData.message = aMessage;
                 Console.WriteLine(aMessage);
@@ -289,9 +284,7 @@ Data Access in C# for the Login Check Credentials Procedure:
                 {
                     return null;
                 }
-            }
-    </code>
-</pre>
+            }</code></pre>
 
 <h3>C# Program</h3>
 

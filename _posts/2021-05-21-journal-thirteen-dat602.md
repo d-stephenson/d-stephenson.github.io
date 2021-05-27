@@ -254,9 +254,11 @@ Data Access in C# for the Login Check Credentials Procedure:
             paramPassword.Value = pPassword;
             paramInput.Add(paramUsername);
             paramInput.Add(paramPassword);
-
+</code>
+<code>
             var aDataSet = MySqlHelper.ExecuteDataset(DataAccess.mySqlConnection, "LoginCheckCredentials(@Username,@Password)", paramInput.ToArray());
-
+</code>
+<code>
             var aMessage = (aDataSet.Tables[0].Rows[0])["MESSAGE"].ToString();
             theHomeDisplayData.message = aMessage;
             Console.WriteLine(aMessage);

@@ -59,9 +59,9 @@ If a row is locked and forms part of an <code>UPDATE</code> statement, a 'semi-c
  
 Activity performed on the database by its users occurs inside the transactions. This activity takes the form of:
  
-- autocommit
-- Commit
-- Rollback
+- <code>autocommit</code>
+- <code>Commit</code>
+- <code>Rollback</code>
  
 Where a database has <code>autocommit</code> enabled all statements will form separate, single transactions. <code>autocommit</code> is enabled by default when each session is started, which means that each statement is committed unless an error is found, at which point the statement may be rolled back.
  

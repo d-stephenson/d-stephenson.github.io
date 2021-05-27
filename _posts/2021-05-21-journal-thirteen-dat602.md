@@ -19,8 +19,9 @@ It's well past time that this journal series for <code>DAT602</code> included so
 
 The following SQL is the player table:
 
-<code>
+<pre><code>
 DROP TABLE IF EXISTS tblPlayer;
+
 CREATE TABLE tblPlayer (
 	PlayerID int AUTO_INCREMENT,
 	Email varchar(50) NOT NULL,
@@ -36,6 +37,7 @@ CREATE TABLE tblPlayer (
 	CONSTRAINT UC_Username UNIQUE (Username),
 	CONSTRAINT CHK_Email CHECK (Email Like '_%@_%._%')
 );
+
 	ALTER TABLE tblPlayer AUTO_INCREMENT=000001;
 	ALTER TABLE tblPlayer ADD COLUMN Salt varchar(36); 
 	ALTER TABLE tblPlayer ENCRYPTION='Y'; -- Encrypt Player table
@@ -47,9 +49,11 @@ Adding a <code>mysql.user</code> to the database and setting grants:
 
 <code>
 SELECT `user`, `host` FROM mysql.user;
+
 DROP USER IF EXISTS 'databaseAdmin'@'localhost';
 CREATE USER IF NOT EXISTS 'databaseAdmin'@'localhost' IDENTIFIED BY 'P@ssword1';
 GRANT ALL ON sdghGameDatabase TO 'databaseAdmin'@'localhost';
+
 SHOW GRANTS FOR 'databaseAdmin'@'localhost';
 SHOW GRANTS FOR 'root'@'localhost';
 </code>
@@ -68,31 +72,37 @@ CREATE DEFINER = 'root'@'localhost' PROCEDURE LoginCheckCredentials(
 		IN pPassword BLOB
     )
 SQL SECURITY DEFINER
+
 BEGIN
 	DECLARE retrieveSalt varchar(36) DEFAULT NULL;
 	DECLARE proposedUID int DEFAULT NULL;
-	DECLARE currentAS bit DEFAULT NULL;     
+	DECLARE currentAS bit DEFAULT NULL;
+          
     SELECT Salt
     FROM tblPlayer
 	WHERE
 		Username = pUsername
 	INTO retrieveSalt; -- Retrieves the users SALT record 
+    
 	SELECT PlayerID
 	FROM tblPlayer
 	WHERE
 		AES_ENCRYPT(CONCAT(retrieveSalt, pPassword), 'Game_Key_To_Encrypt') = `Password` 
         AND pUsername = Username
 	INTO proposedUID; -- Retrieves the users Username and Password
+
 	SELECT ActiveStatus
 	FROM tblPlayer
 	WHERE
 		Username = pUsername
 	INTO currentAS;
+    
     IF proposedUID IS NULL AND currentAS = 0 THEN 
 		UPDATE tblPlayer
 		SET FailedLogins = FailedLogins +1, AccountLocked = (FailedLogins +1) > 5, ActiveStatus = (FailedLogins +1) < 1
         WHERE 
-			Username = pUsername;  
+			Username = pUsername;
+		    
 		SELECT 'You have entered an incorrect Username or Password, after 5 failed attempts your account will be locked' AS MESSAGE;
         -- Increments the failed logins, if it equals 5 then account is locked
 	ELSEIF proposedUID IS NOT NULL AND currentAS = 0 THEN
@@ -100,20 +110,25 @@ BEGIN
         SET ActiveStatus = 1, FailedLogins = 0, AccountLocked = 0
         WHERE 
 			Username = pUsername; 
+            
 		SELECT 'Success' AS MESSAGE;
+        
 		SELECT GameID AS 'GameID', COUNT(pl.GameID) AS 'PlayerCount'
         FROM tblPlayer py 
             JOIN tblPlay pl ON py.PlayerID = pl.PlayerID
         GROUP BY pl.GameID;  
+        
 		SELECT Username AS 'Player', HighScore AS 'HighScore' 
 		FROM tblPlayer; 
 		-- If credentials are correct user is logged into account by setting active status to true
 	ELSE 
 		SELECT 'You are logged in' AS MESSAGE;
+    
 		SELECT GameID AS 'GameID', COUNT(pl.GameID) AS 'PlayerCount'
         FROM tblPlayer py 
             JOIN tblPlay pl ON py.PlayerID = pl.PlayerID
         GROUP BY pl.GameID;  
+        
 		SELECT Username AS 'Player', HighScore AS 'HighScore' 
 		FROM tblPlayer;  
         -- Conditions are met so user is already logged in

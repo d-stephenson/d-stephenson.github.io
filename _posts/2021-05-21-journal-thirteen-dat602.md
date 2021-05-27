@@ -242,7 +242,7 @@ DELIMITER ;
 
 Data Access in C# for the Login Check Credentials Procedure:
 
-<pre><code>
+<code>
 // Login Check Credentials Procedure
         public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
         {
@@ -286,13 +286,13 @@ Data Access in C# for the Login Check Credentials Procedure:
                 return null;
             }
         }
-</code></pre>
+</code>
 
 <h3>C# Program</h3>
 
 Program in C# to display a selection list menu:
 
-<pre><code>
+<code>
 namespace DAT602_ConsoleApp
 {
     class Program
@@ -388,4 +388,4 @@ namespace DAT602_ConsoleApp
                     }
                     Console.ReadLine();
                     return true;
-</code></pre>
+</code>

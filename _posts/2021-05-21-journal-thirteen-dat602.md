@@ -297,100 +297,102 @@ Data Access in C# for the Login Check Credentials Procedure:
 
 Program in C# to display a selection list menu:
 
-<code>
-namespace DAT602_ConsoleApp
-{
-    class Program
+<pre>
+    <code>
+    namespace DAT602_ConsoleApp
     {
-        static void Main(string[] args)
+        class Program
         {
-            bool showMenu = true;
-            while (showMenu)
+            static void Main(string[] args)
             {
-                showMenu = MainMenu();
+                bool showMenu = true;
+                while (showMenu)
+                {
+                    showMenu = MainMenu();
+                }
             }
-        }
 
-        private static bool MainMenu()
-        {
-            Console.Clear();
-            Console.WriteLine("Choose an option:");
-            Console.WriteLine("1) Register account");
-            Console.WriteLine("2) User login");
-            Console.WriteLine("3) Create a new game");
-            Console.WriteLine("4) Join a game");
-            Console.WriteLine("5) Move a player");
-            Console.WriteLine("6) Find a gem");
-            Console.WriteLine("7) Select a gem");
-            Console.WriteLine("8) Update turn");
-            Console.WriteLine("9) Logout of game");
-            Console.WriteLine("10) Enter admin area");
-            Console.WriteLine("11) Kill a game");
-            Console.WriteLine("12) Add a new player");
-            Console.WriteLine("13) Update a players details");
-            Console.WriteLine("14) Delete a player");
-            Console.WriteLine("15) Exit");
-            Console.Write("\r\nSelect an option: ");
-
-            DataAccess aDataAccess = new DataAccess();
-
-            switch (Console.ReadLine())
+            private static bool MainMenu()
             {
-                case "1":
-                    Console.WriteLine(aDataAccess.NewUserRegistration("ConsoleU_1@appmail.com", "ConsoleU_1", "P@ssword1"));
-                    Console.ReadLine();
-                    return true;
-                case "2":
-                    var aHomePage = aDataAccess.LoginCheckCredentials("ConsoleU_1", "P@ssword1");
-                    Console.WriteLine("List of games");
-                    foreach (var item in aHomePage.GameCount)
-                    {
-                        Console.WriteLine("This game id is: " + item.GameID.ToString());
-                        Console.WriteLine("This game's player count is: " + item.PlayerCount.ToString());
-                    }
-                    Console.WriteLine("List of players");
-                    foreach (var item in aHomePage.PlayerHighScore)
-                    {
-                        Console.WriteLine("This player is: " + item.Player);
-                        Console.WriteLine("Their high score is: " + item.HighScore.ToString());
-                    }
-                    Console.ReadLine();
-                    return true;
-                case "3":
-                    Console.WriteLine(aDataAccess.NewGame("ConsoleU_1"));
-                    Console.ReadLine();
-                    return true;
-                case "4":
-                    Console.WriteLine(aDataAccess.JoinGame("100003", "1"));
-                    Console.ReadLine();
-                    return true;
-                case "5":
-                    var aTileInfo = aDataAccess.MovePlayer("32", "9", "100003"); 
-                    Console.WriteLine("Tile Details");
-                    foreach (var item in aTileInfo.TileInfo)
-                    {
-                        Console.WriteLine("This tile colour is: " + item.TileColour);
-                        Console.WriteLine("The tile row is: " + item.TileRow.ToString());
-                        Console.WriteLine("The tile column is: " + item.TileColumn.ToString());
-                    }
-                    Console.ReadLine();
-                    return true;
-                case "6":
-                    var aGemSelection = aDataAccess.FindGem("50", "9", "100003");
-                    if (aGemSelection != null)
-                    {
-                    foreach (var item in aGemSelection.GemSelection)
+                Console.Clear();
+                Console.WriteLine("Choose an option:");
+                Console.WriteLine("1) Register account");
+                Console.WriteLine("2) User login");
+                Console.WriteLine("3) Create a new game");
+                Console.WriteLine("4) Join a game");
+                Console.WriteLine("5) Move a player");
+                Console.WriteLine("6) Find a gem");
+                Console.WriteLine("7) Select a gem");
+                Console.WriteLine("8) Update turn");
+                Console.WriteLine("9) Logout of game");
+                Console.WriteLine("10) Enter admin area");
+                Console.WriteLine("11) Kill a game");
+                Console.WriteLine("12) Add a new player");
+                Console.WriteLine("13) Update a players details");
+                Console.WriteLine("14) Delete a player");
+                Console.WriteLine("15) Exit");
+                Console.Write("\r\nSelect an option: ");
+
+                DataAccess aDataAccess = new DataAccess();
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        Console.WriteLine(aDataAccess.NewUserRegistration("ConsoleU_1@appmail.com", "ConsoleU_1", "P@ssword1"));
+                        Console.ReadLine();
+                        return true;
+                    case "2":
+                        var aHomePage = aDataAccess.LoginCheckCredentials("ConsoleU_1", "P@ssword1");
+                        Console.WriteLine("List of games");
+                        foreach (var item in aHomePage.GameCount)
                         {
-                            Console.WriteLine("List of gems");
-                            Console.WriteLine("This item id is: " + item.ItemID.ToString());
-                            Console.WriteLine("This gem type is: " + item.GemType);
-                            Console.WriteLine("The points are: " + item.Points.ToString());
-                            Console.WriteLine("The game id is: " + item.GameID.ToString());
-                            Console.WriteLine("This player id is: " + item.PlayerID.ToString());
-                            Console.WriteLine("This play id is: " + item.PlayID.ToString());
-                            Console.WriteLine("This tile id is: " + item.TileID.ToString());
+                            Console.WriteLine("This game id is: " + item.GameID.ToString());
+                            Console.WriteLine("This game's player count is: " + item.PlayerCount.ToString());
                         }
-                    }
-                    Console.ReadLine();
-                    return true;
-</code>
+                        Console.WriteLine("List of players");
+                        foreach (var item in aHomePage.PlayerHighScore)
+                        {
+                            Console.WriteLine("This player is: " + item.Player);
+                            Console.WriteLine("Their high score is: " + item.HighScore.ToString());
+                        }
+                        Console.ReadLine();
+                        return true;
+                    case "3":
+                        Console.WriteLine(aDataAccess.NewGame("ConsoleU_1"));
+                        Console.ReadLine();
+                        return true;
+                    case "4":
+                        Console.WriteLine(aDataAccess.JoinGame("100003", "1"));
+                        Console.ReadLine();
+                        return true;
+                    case "5":
+                        var aTileInfo = aDataAccess.MovePlayer("32", "9", "100003"); 
+                        Console.WriteLine("Tile Details");
+                        foreach (var item in aTileInfo.TileInfo)
+                        {
+                            Console.WriteLine("This tile colour is: " + item.TileColour);
+                            Console.WriteLine("The tile row is: " + item.TileRow.ToString());
+                            Console.WriteLine("The tile column is: " + item.TileColumn.ToString());
+                        }
+                        Console.ReadLine();
+                        return true;
+                    case "6":
+                        var aGemSelection = aDataAccess.FindGem("50", "9", "100003");
+                        if (aGemSelection != null)
+                        {
+                        foreach (var item in aGemSelection.GemSelection)
+                            {
+                                Console.WriteLine("List of gems");
+                                Console.WriteLine("This item id is: " + item.ItemID.ToString());
+                                Console.WriteLine("This gem type is: " + item.GemType);
+                                Console.WriteLine("The points are: " + item.Points.ToString());
+                                Console.WriteLine("The game id is: " + item.GameID.ToString());
+                                Console.WriteLine("This player id is: " + item.PlayerID.ToString());
+                                Console.WriteLine("This play id is: " + item.PlayID.ToString());
+                                Console.WriteLine("This tile id is: " + item.TileID.ToString());
+                            }
+                        }
+                        Console.ReadLine();
+                        return true;
+    </code>
+</pre>

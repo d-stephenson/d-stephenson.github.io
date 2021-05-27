@@ -286,7 +286,7 @@ Data Access in C# for the Login Check Credentials Procedure:
                 {
                     return null;
                 }
-            }
+            };
     </code>
 </pre>
 

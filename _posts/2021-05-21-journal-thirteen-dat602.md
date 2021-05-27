@@ -242,53 +242,53 @@ DELIMITER ;
 
 Data Access in C# for the Login Check Credentials Procedure:
 
-<code>
-// Login Check Credentials Procedure
-        public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
-        {
-            HomeDisplayData theHomeDisplayData = new HomeDisplayData();
-            List<MySqlParameter> paramInput = new List<MySqlParameter>();
-            var paramUsername = new MySqlParameter("@Username", MySqlDbType.VarChar, 10);
-            var paramPassword = new MySqlParameter("@Password", MySqlDbType.Blob);
-            paramUsername.Value = pUsername;
-            paramPassword.Value = pPassword;
-            paramInput.Add(paramUsername);
-            paramInput.Add(paramPassword);
-</code>
-<code>
-            var aDataSet = MySqlHelper.ExecuteDataset(DataAccess.mySqlConnection, "LoginCheckCredentials(@Username,@Password)", paramInput.ToArray());
-</code>
-<code>
-            var aMessage = (aDataSet.Tables[0].Rows[0])["MESSAGE"].ToString();
-            theHomeDisplayData.message = aMessage;
-            Console.WriteLine(aMessage);
-            if ((aMessage == "Success") || (aMessage == "You are logged in"))
+<pre>
+    <code>
+    // Login Check Credentials Procedure
+            public HomeDisplayData LoginCheckCredentials(string pUsername, string pPassword)
             {
-                theHomeDisplayData.GameCount = (from aResult in aDataSet.Tables[1].AsEnumerable()
-                                                select
-                                                    new GameCount
-                                                    {
-                                                        GameID = Convert.ToInt32(aResult.ItemArray[0].ToString()),
-                                                        PlayerCount = Convert.ToInt32(aResult.ItemArray[1].ToString())
-                                                    }).ToList();
+                HomeDisplayData theHomeDisplayData = new HomeDisplayData();
+                List<MySqlParameter> paramInput = new List<MySqlParameter>();
+                var paramUsername = new MySqlParameter("@Username", MySqlDbType.VarChar, 10);
+                var paramPassword = new MySqlParameter("@Password", MySqlDbType.Blob);
+                paramUsername.Value = pUsername;
+                paramPassword.Value = pPassword;
+                paramInput.Add(paramUsername);
+                paramInput.Add(paramPassword);
 
-                theHomeDisplayData.PlayerHighScore = (from aResult in aDataSet.Tables[2].AsEnumerable()
-                                                      select
-                                                          new PlayerHighScore
-                                                          {
-                                                              Player = aResult.Field<string>("Player"),
-                                                              HighScore = Convert.ToInt32(aResult.ItemArray[1].ToString())
-                                                          }).ToList();
-                theHomeDisplayData.haveData = true;
+                var aDataSet = MySqlHelper.ExecuteDataset(DataAccess.mySqlConnection, "LoginCheckCredentials(@Username,@Password)", paramInput.ToArray());
 
-                return theHomeDisplayData;
+                var aMessage = (aDataSet.Tables[0].Rows[0])["MESSAGE"].ToString();
+                theHomeDisplayData.message = aMessage;
+                Console.WriteLine(aMessage);
+                if ((aMessage == "Success") || (aMessage == "You are logged in"))
+                {
+                    theHomeDisplayData.GameCount = (from aResult in aDataSet.Tables[1].AsEnumerable()
+                                                    select
+                                                        new GameCount
+                                                        {
+                                                            GameID = Convert.ToInt32(aResult.ItemArray[0].ToString()),
+                                                            PlayerCount = Convert.ToInt32(aResult.ItemArray[1].ToString())
+                                                        }).ToList();
+
+                    theHomeDisplayData.PlayerHighScore = (from aResult in aDataSet.Tables[2].AsEnumerable()
+                                                        select
+                                                            new PlayerHighScore
+                                                            {
+                                                                Player = aResult.Field<string>("Player"),
+                                                                HighScore = Convert.ToInt32(aResult.ItemArray[1].ToString())
+                                                            }).ToList();
+                    theHomeDisplayData.haveData = true;
+
+                    return theHomeDisplayData;
+                }
+                else 
+                {
+                    return null;
+                }
             }
-            else 
-            {
-                return null;
-            }
-        }
-</code>
+    </code>
+</pre>
 
 <h3>C# Program</h3>
 

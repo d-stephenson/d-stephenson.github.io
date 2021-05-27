@@ -380,4 +380,4 @@ namespace DAT602_ConsoleApp
                             }
                         }
                         Console.ReadLine();
-                        return true;</code></pre>
+                        return true;

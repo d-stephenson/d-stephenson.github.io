@@ -41,7 +41,7 @@ CREATE TABLE tblPlayer (
 	ALTER TABLE tblPlayer AUTO_INCREMENT=000001;
 	ALTER TABLE tblPlayer ADD COLUMN Salt varchar(36); 
 	ALTER TABLE tblPlayer ENCRYPTION='Y'; -- Encrypt Player table
-</code>
+</code></pre>
 
 <h3>MySQL Create Users & Grants</h3>
 

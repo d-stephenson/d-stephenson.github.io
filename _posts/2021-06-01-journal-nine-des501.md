@@ -25,4 +25,4 @@ The <a href="https://dev.azure.com/DES501-A3/DES501-A3">DevOps</a> board is publ
 <center><img src="/assets/images/des501-devops-2.png" alt="Devops board 2"></center><br>
 <center><img src="/assets/images/des501-devops-3.png" alt="Devops board 3"></center><br>
 <center><img src="/assets/images/des501-devops-4.png" alt="Devops board 4"></center><br>
-<center><img src="/assets/images/des501-devops-5.png" alt="Devops board 5"></center>
+<center><img src="/assets/images/des501-devops-5.png" alt="Devops board 5"></center><br>

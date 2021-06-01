@@ -21,9 +21,9 @@ Minor changes have been made to the design in an attempt to reduce the visual co
 
 The <a href="https://dev.azure.com/DES501-A3/DES501-A3">DevOps board is publicly available.</a>
 
-<img src="des501-devops-1.png" alt="Devops board">
-<img src="des501-devops-2.png" alt="Devops board">
-<img src="des501-devops-3.png" alt="Devops board">
-<img src="des501-devops-4.png" alt="Devops board">
-<img src="des501-devops-5.png" alt="Devops board">
+<img src="assets/images/des501-devops-1.png" alt="Devops board">
+<img src="assets/images/des501-devops-2.png" alt="Devops board">
+<img src="assets/images/des501-devops-3.png" alt="Devops board">
+<img src="assets/images/des501-devops-4.png" alt="Devops board">
+<img src="assets/images/des501-devops-5.png" alt="Devops board">
  

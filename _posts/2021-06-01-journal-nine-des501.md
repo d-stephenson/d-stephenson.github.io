@@ -13,5 +13,13 @@ JOURNAL #Nine [DES501]
 
 <h2>DevOps | Mockups | Prototype</h2>
  
-There are several ways to express lengths in CSS, lengths are important due to the numerous properties that take length values including <code>width</code>, <code>margin</code> and <code>padding</code>. The units used for expressing lengths are split into two distinct types, <i>absolute</i> and <i>relative</i>. Length units are declared as a number followed by the unit type, several of the types available in CSS allow the for input of negative lengths.
+As part of the course content prototypes of the web development project are being developed in  <a href="https://www.adobe.com/products/xd.html">Adode XD</a>, mockups are also being developed in <code>HTML</code>, and <code>CSS</code>, bootstrap will also be deployed to structure the web pages and assist with making the website compatible with mobile devices. DevOps has been utilised to assist with the project management and to help meet all the requirements within the assessment criteria. 
+
+<h3>DevOps Board</h3>
+
+<img src="des501-devops-1" alt="Devops board">
+<img src="des501-devops-2" alt="Devops board">
+<img src="des501-devops-3" alt="Devops board">
+<img src="des501-devops-4" alt="Devops board">
+<img src="des501-devops-5" alt="Devops board">
  

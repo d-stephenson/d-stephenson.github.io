@@ -28,6 +28,4 @@ Development work for milestone 3 of the game development has required updates of
 
 The gameplay (player move) functionality that runs the related SQL procedures is not yet developed outside the data access class created for milestone 2. The next step is to allow a player to move to an adjacent tile to complete the gameplay.
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=Xz4g9qfIaBc>
-</iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=Xz4g9qfIaBc"></iframe>

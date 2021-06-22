@@ -27,7 +27,7 @@ Development work for milestone 3 of the game development has required updates of
 - Delete a player from the database 
 - Logout of the game 
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4g9qfIaBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4g9qfIaBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 The game play (player move, find and select gem) functionality that runs the related SQL procedures has also been developed as an extension of the data access class created for milestone 2. The following video shows the player move to an adjacent tile, find gems, if any, that are located on the tile and select a gem to complete the game play.
 

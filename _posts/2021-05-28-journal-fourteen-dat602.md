@@ -13,7 +13,7 @@ JOURNAL #FOURTEEN [DAT602]
 
 <h2>GUI Components with Data Access</h2>
 
-Development work for milestone 3 of the game development has required updates of both the SQL and data access class, ensuring it can function with the GUI forms created for the storyboard in milestone 1. The video shows the work achieved to date, the functionality includes:
+Development work for milestone 3 of the game development has required updates of both the SQL and data access class, ensuring it can function with the GUI forms created for the storyboard in milestone 1. The videos show the work achieved, the functionality includes:
 
 - Register as a new player without admin privileges 
 - Login credential check to access the game area

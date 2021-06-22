@@ -19,6 +19,7 @@ Development work for milestone 3 of the game development has required updates of
 - Login credential check to access the game area
 - Create a new game that other players can then join
 - Join an existing game where the player count is less than 7
+- Move character, find and select a gem which updates game points
 - Access the admin area where a user is authorised 
 - Select a game and kill it, removing it from the database
 - Add a new player and set all the various privileges 
@@ -26,6 +27,8 @@ Development work for milestone 3 of the game development has required updates of
 - Delete a player from the database 
 - Logout of the game 
 
-The gameplay (player move) functionality that runs the related SQL procedures is not yet developed outside the data access class created for milestone 2. The next step is to allow a player to move to an adjacent tile to complete the gameplay.
-
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4g9qfIaBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br>
+
+The game play (player move, find and select gem) functionality that runs the related SQL procedures has also been developed as an extension of the data access class created for milestone 2. The following video shows the player move to an adjacent tile, find gems, if any, that are located on the tile and select a gem to complete the game play.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Ysdd9SG3Ebg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Nine [DES501] - DevOps, Mockups & Prototype" 
 author: Dale Stephenson
-categories: [ DES01, Journal, Design and Development Concepts ]
+categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J9.jpeg
 featured: true
 hidden: true

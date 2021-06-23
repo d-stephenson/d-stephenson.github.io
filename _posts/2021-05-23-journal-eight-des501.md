@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Eight [DES501] - CSS Length Units" 
 author: Dale Stephenson
-categories: [ DES01, Journal, Design and Development Concepts ]
+categories: [ DES501, Journal, Design and Development Concepts ]
 image: assets/images/DES501-J8.jpeg
 featured: true
 hidden: true

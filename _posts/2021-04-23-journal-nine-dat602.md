@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Nine [DAT602] - Password Security" 
 author: Dale Stephenson
-categories: [ DAT602, Journal, Password Security ]
+categories: [ DAT602, Journal, Database Application Development ]
 image: assets/images/DAT602-J9.jpeg
 featured: true
 hidden: true

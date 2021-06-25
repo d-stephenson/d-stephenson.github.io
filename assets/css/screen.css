@@ -535,8 +535,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #990000;
+    border-color: #990000;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -581,8 +581,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #990000;
+    border: 1px solid #990000;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;

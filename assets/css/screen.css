@@ -275,7 +275,7 @@ span.post-read-more a:hover {
 .mediumnavigation .form-inline .btn:hover,
 .mediumnavigation .form-inline .btn:active {
     background: transparent;
-    color: green;
+    color: #990000;
 }
 
 .mediumnavigation .navbar-brand {
@@ -337,7 +337,7 @@ span.post-read-more a:hover {
 }
 
 blockquote {
-    border-left: 4px solid #00ab6b;
+    border-left: 4px solid #990000;
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
@@ -474,7 +474,7 @@ blockquote {
 
 .share,
 .share a {
-    color: #990000;
+    color: rgba(0, 0, 0, .44);
     fill: rgba(0, 0, 0, .44);
 }
 

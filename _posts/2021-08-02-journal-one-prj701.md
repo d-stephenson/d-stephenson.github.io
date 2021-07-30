@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #One [PRJ701] - Executive Summary" 
 author: Dale Stephenson
 categories: [ PRJ701, Journal, Project ]
-image: assets/images/prj701-j1.gif
+image: assets/images/prj701-j1.jpg
 featured: true
 hidden: true
 ---

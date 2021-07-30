@@ -15,6 +15,6 @@ JOURNAL #ONE [PRJ701]
 
 <h3>Pending</h3>
 
-<div style="background-color: #E9EBEE; margin: 1rem;"> 
+<div style="background-color: #d3d3d3; padding: 1rem;"> 
     <i>References</i>
 </div>

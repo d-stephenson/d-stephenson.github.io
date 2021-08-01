@@ -65,7 +65,7 @@ Reporting deliverables must capture the needs of the following teams as they rel
 - Sales
 - Tech
  
-Consideration should be made to:
+Consideration will be made to:
 - Marketing, Finance and Sales data
 - Site usage data – website and cloud platform
 - Events based data to drive automated actions

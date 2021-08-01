@@ -15,7 +15,6 @@ JOURNAL #ONE [PRJ701]
 
 <h3>Pending</h3>
 
-<div class="article-post apa">
 <i>References</i>
 <br>
 
@@ -35,4 +34,3 @@ What every IT pro needs to know about privacy. (n.d.). Retrieved August 1, 2021,
 <br>
 
 What is Data Engineering? - Responsibilities and Tools. (n.d.). Retrieved August 1, 2021, from [https://www.dremio.com/data-lake/data-engineering/](https://www.dremio.com/data-lake/data-engineering/)
-</div>

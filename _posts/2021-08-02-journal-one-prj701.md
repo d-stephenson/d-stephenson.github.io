@@ -83,6 +83,7 @@ Production reporting will be prioritised to meet the demands of the business and
     <i>References</i>
     <br>
 </div>
+<br>
 
 Cloud-based Data Warehouse. (n.d.). SnapLogic. Retrieved August 1, 2021, from [https://www.snaplogic.com/glossary/cloud-based-data-warehouse](https://www.snaplogic.com/glossary/cloud-based-data-warehouse)
 <br>

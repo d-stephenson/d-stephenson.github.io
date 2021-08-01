@@ -24,7 +24,7 @@ JOURNAL #ONE [PRJ701]
 <br>
     Markel, M. (2006). Safe harbor and privacy protection: A looming issue for IT professionals. IEEE Transactions on Professional Communication, 49(1), 1–11. [https://doi.org/10.1109/TPC.2006.870462](https://doi.org/10.1109/TPC.2006.870462)
 <br>
-    What Are Business Intelligence (BI) Tools '|' Microsoft Azure. (n.d.). Retrieved August 1, 2021, from [https://azure.microsoft.com/en-us/overview/what-are-business-intelligence-tools/](https://azure.microsoft.com/en-us/overview/what-are-business-intelligence-tools/)
+    What Are Business Intelligence (BI) Tools | Microsoft Azure. (n.d.). Retrieved August 1, 2021, from [https://azure.microsoft.com/en-us/overview/what-are-business-intelligence-tools/](https://azure.microsoft.com/en-us/overview/what-are-business-intelligence-tools/)
 <br>
     What every IT pro needs to know about privacy. (n.d.). Retrieved August 1, 2021, from [https://www.technologydecisions.com.au/content/information-technology-professionals-association/article/, http://technologydecisions.com.au/content/information-technology-professionals-association/article/what-every-it-pro-needs-to-know-about-privacy-202184559](https://www.technologydecisions.com.au/content/information-technology-professionals-association/article/, http://technologydecisions.com.au/content/information-technology-professionals-association/article/what-every-it-pro-needs-to-know-about-privacy-202184559)
 </div>

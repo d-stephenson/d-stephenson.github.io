@@ -899,9 +899,3 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
-
-.apa {
-    background-color: #f6f6f6; 
-    padding: 1rem; 
-    border-radius: 10px 20px;
-}

@@ -15,6 +15,17 @@ JOURNAL #ONE [PRJ701]
 
 <h3>Pending</h3>
 
-<div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
+<div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px; text-indent: 0.5em hanging;"> 
     <i>References</i>
+
+    Cloud-based Data Warehouse. (n.d.). SnapLogic. Retrieved August 1, 2021, from https://www.snaplogic.com/glossary/cloud-based-data-warehouse
+
+    Giulio, C. D., Sprabery, R., Kamhoua, C., Kwiat, K., Campbell, R., & Bashir, M. N. (2017). IT Security and Privacy Standards in Comparison: Improving FedRAMP Authorization for Cloud Service Providers. 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID), 1090–1099. https://doi.org/10.1109/CCGRID.2017.137
+
+    Markel, M. (2006). Safe harbor and privacy protection: A looming issue for IT professionals. IEEE Transactions on Professional Communication, 49(1), 1–11. https://doi.org/10.1109/TPC.2006.870462
+
+    What Are Business Intelligence (BI) Tools | Microsoft Azure. (n.d.). Retrieved August 1, 2021, from https://azure.microsoft.com/en-us/overview/what-are-business-intelligence-tools/
+
+    What every IT pro needs to know about privacy. (n.d.). Retrieved August 1, 2021, from https://www.technologydecisions.com.au/content/information-technology-professionals-association/article/, http://technologydecisions.com.au/content/information-technology-professionals-association/article/what-every-it-pro-needs-to-know-about-privacy-202184559
+
 </div>

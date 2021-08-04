@@ -15,23 +15,23 @@ JOURNAL #ONE [PRJ701]
 
 <h3>Background</h3>
 
-The approved workplace project proposal is intended to showcase the required knowledge and expertise towards a major in information systems and completion of a bachelor of information technology degree. The project scope is required to meet the standards of a level 7 course whilst exhibiting the learning achievements conducted thus far, and track the learning goals and outcomes throughout the project.
+The approved project proposal is intended to showcase the required knowledge and expertise relating to a major in information systems and completion of a bachelor of information technology degree. The project scope is required to meet the standards of a level 7 course, whilst exhibiting the learning achievements thus far. The learning goals and outcomes will be tracked and documented throughout the project.
 
 It is important that the project is planned, implemented and completed of sufficient quality and depth to not only meet the discussed requirements for completion of the course but to reflect the 45 credits assigned and produce a body of work that provides a material benefit to the company.
 
 <h3>Summary</h3>
 
-Use and deploy analytic engineering to produce clean data sets for end-users employed in key departments of the company, modelling data in a way that empowers them to answer questions to support the business operation and future growth plans.
+To use and deploy analytic engineering to produce clean data sets for end-users employed in key departments of the company, modelling data in a way that empowers them to answer questions to support the business operation and future growth plans.
 
-Furthermore, personal goals include developing an understanding and gaining further practical experience with cloud-based data-warehouses such as 'Snowflake' to make data processing and analytics faster and more affordable. In addition, there is an important research element to the project that will require investigating business intelligence (BI) tools that can enhance the ability of stakeholders to self serve the reporting function across business units.
+Furthermore, personal goals will include developing an understanding and gaining further practical experience with cloud-based data-warehouses such as 'Snowflake' to make data processing and analytics faster and more affordable. In addition, there is an important research element to the project that will require investigating business intelligence (BI) tools that can enhance the ability of stakeholders to self serve the reporting function across business units.
 
-The intention is to conduct any research, where possible, to improve personal understanding whilst also gaining an ability to contribute to the decision-making process within the company. The approach being taken is very much an agile one, as such, it is anticipated that the project may change and take on new responsibilities and direction as it progresses and as further clarity is gained with regards to the products and services available, and changing user requirements within each department.
+The intention is to conduct any research, where possible, to improve personal understanding whilst also gaining an ability to contribute to the decision-making process within the company. The approach being taken is very much an agile one, as such, it is anticipated that the project may change and take on new responsibilities and direction as it progresses, and as further clarity is gained with regards to the products and services available, including any changing user requirements within each department.
 
 <h3>Scope</h3>
 
-The primary focus of the project is the technical, research and analytic aspects. This will not however restrict the scope simply to these areas. The nature of IT and specifically data is such that areas not normally considered the purview of IT professionals, will be taken into consideration. The reason for this choice is simple, the steps required to meet corporate decisions on data privacy will be carried out by IT professionals, therefore it is deemed unavoidable in relation to this project.
+The primary focus of the project is the technical, research and analytic aspects. This will not however restrict the scope simply to these areas and topics. The nature of IT and specifically data is such that areas not normally considered the purview of IT professionals, will be taken into consideration. The reason for this is unavoidable as the steps required to meet corporate decisions on data privacy and security will be carried out by IT professionals, therefore it is deemed necessary in relation to this project.
 
-Data privacy and security considerations will include but are not limited to regulatory concerns such as the EU General Data Protection Regulations (GDPR) and California Consumer Privacy Act (CCPA), in addition to any security controls that form part of SOC 2 audits and ISO 27001 accreditation.
+Data privacy and security considerations will include, but are not limited to, regulatory concerns such as the EU General Data Protection Regulations (GDPR) and California Consumer Privacy Act (CCPA), in addition to any security controls that form part of SOC 2 audits and ISO 27001 accreditation.
 
 <h3>Approach</h3>
 
@@ -58,7 +58,7 @@ Data must be encrypted without overtly increasing complexity, the database will 
 
 <h4>3- Report Deliverables</h4>
 
-Reporting deliverables must capture the needs of the following teams as they relate to company data:
+Reporting deliverables must capture the needs of the following business departments as they relate to company data:
 - Production
 - Product
 - Marketing

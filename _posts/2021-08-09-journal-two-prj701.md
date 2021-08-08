@@ -39,7 +39,7 @@ There are several advantages to a 'light' pipeline, it can hide some of the comp
  
 The following diagram is a high level overview of the problem:
 
-<center><img src="/assets/images/prj-j2-1-DataPipeline.jpg" alt="Data Pipline"></center>
+<center><img src="/assets/images/prj-j2-1-DataPipeline.jpg" alt="Data Pipline"></center><br>
 
 <h2>Business Intelligence Application Testing</h2> 
 
@@ -49,11 +49,11 @@ The ultimate goal of the project is to display business-ready data capable of ai
  
 Effective testing of these systems required the creation of a local database instance, PostgreSQL was chosen as it is utilised within the company. A test database was installed from a backup and a physical diagram was generated and studied to allow for queries to be written that could be used later for the meaningful visualisation of the results:
 
-<center><img src="assets/images/prj-j2-2-postgres_erd.png" alt="PostgreSQL ERD"></center>
+<center><img src="/assets/images/prj-j2-2-postgres_erd.png" alt="PostgreSQL ERD"></center><br>
 
 The following query was created and tested that could be deployed in the BI applications:
 
-<center><img src="assets/images/prj-j2-3-postgres_sql.png" alt="PostgreSQL Query"></center>
+<center><img src="/assets/images/prj-j2-3-postgres_sql.png" alt="PostgreSQL Query"></center><br>
 
 <h3>Microsoft Power BI</h3>
  
@@ -67,47 +67,47 @@ Tableau was also tested against the local database instance. Testing of the prod
  
 The following screenshot shows display the results of the query after a connection was made with the localhost database instance:
 
-<center><img src="assets/images/prj-j2-4-tableau_sql.png" alt="Tableau SQL Query"></center>
+<center><img src="/assets/images/prj-j2-4-tableau_sql.png" alt="Tableau SQL Query"></center><br>
 
 The following screenshot shows the results of the data retrieved by the select query and manipulated using the visualisation tools:
 
-<center><img src="assets/images/prj-j2-5-tableau_results-2.png" alt="Tableau Data Results"></center>
+<center><img src="/assets/images/prj-j2-5-tableau_results-2.png" alt="Tableau Data Results"></center><br>
 
 The data retrieved from the database was further manipulated to display the categories only, and not the instances contained within the categories:
 
-<center><img src="assets/images/prj-j2-6-tableau_results-3.png" alt="Tableau Data Results"></center>
+<center><img src="/assets/images/prj-j2-6-tableau_results-3.png" alt="Tableau Data Results"></center><br>
 
 This final slide concerning Tableau is of the cloud-based version that can be accessed through a web browser, the data visualisation was further manipulated to make it more readable for business users. The functionality mimics that of the desktop version of the product, which makes moving between the two very easy:
 
-<center><img src="assets/images/prj-j2-7-tableau_onlinepublishandedit.png" alt="Tableau Cloud Data Results"></center>
+<center><img src="/assets/images/prj-j2-7-tableau_onlinepublishandedit.png" alt="Tableau Cloud Data Results"></center><br>
 
 <h3>Snowflake & Metabase</h3>
  
 Systems testing went one step further with a Snowflake trial, which acted as a test instance of a data warehouse. Snowflake is a cloud-based service that includes a test database, the benefit of the service is it allows a business decision to be made with regards to the geolocation of business data. This is essential as it allows the company to choose a location that allows it to meet its obligations under the GDPR. As a result the test instance established the database in EU (Ireland) <code>eu-west-1</code>:
 
-<center><img src="assets/images/prj-j2-8-snowflake_region.png" alt="Snowflake Region Selection"></center>
+<center><img src="/assets/images/prj-j2-8-snowflake_region.png" alt="Snowflake Region Selection"></center><br>
 
 A connection was established between Snowflake and Metabase, in this case, Snowflake generates a secure origin to connect the database with the visualisation tool, <code>https://af52358.eu-west-1.snowflakecomputing.com</code>, login credentials were then required to complete the connection. 
 
 Metabase is also a cloud-based service that also has an open-source application should an organisation wish to support and manage its instance locally. The cloud-based version was deployed as part of the test as it is the most likely solution for this use case:
 
-<center><img src="assets/images/prj-j2-9-snowflake_connection.png" alt="Snowflake Connection"></center>
+<center><img src="/assets/images/prj-j2-9-snowflake_connection.png" alt="Snowflake Connection"></center><br>
 
 Once a connection was established the data could be manipulated. In this instance a new query was created based on the in-built data set as follows:
 
-<center><img src="assets/images/prj-j2-10-snowflake_connectionWorking.png" alt="Snowflake SQL Query Test"></center>
+<center><img src="/assets/images/prj-j2-10-snowflake_connectionWorking.png" alt="Snowflake SQL Query Test"></center><br>
 
 The following screen shot shows the connection in Metabase, tested with a simple <code>select</code> query:
 
-<center><img src="assets/images/prj-j2-11-metabase_sqlquery.png" alt="Metabase SQL Query Test"></center>
+<center><img src="/assets/images/prj-j2-11-metabase_sqlquery.png" alt="Metabase SQL Query Test"></center><br>
 
 To better test the two systems a query was generated that would create a more complex data set to test:
 
-<center><img src="assets/images/prj-j2-12-metabase_queryresults2.png" alt="Metabase Query Results"></center>
+<center><img src="/assets/images/prj-j2-12-metabase_queryresults2.png" alt="Metabase Query Results"></center><br>
 
 The data was manipulated in the results displayed as follows:
 
-<center><img src="assets/images/prj-j2-13-metabase_queryresults.png" alt="Metabase Query Results"></center>
+<center><img src="/assets/images/prj-j2-13-metabase_queryresults.png" alt="Metabase Query Results"></center><br>
 
 Metabase includes a dashboard that can be used to display multiple charts together that can be accessed collectively and analysed by business users and analysts. At this stage of testing, Metabase does not appear to be as feature-rich as either Power BI or Tableau. A complete comparison analysis of these three products will take place over the next week or two. 
 

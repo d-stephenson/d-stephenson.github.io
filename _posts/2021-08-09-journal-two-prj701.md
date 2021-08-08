@@ -87,7 +87,7 @@ Systems testing went one step further with a Snowflake trial, which acted as a t
 
 <center><img src="/assets/images/prj-j2-8-snowflake_region.png" alt="Snowflake Region Selection"></center><br>
 
-A connection was established between Snowflake and Metabase, in this case, Snowflake generates a secure origin to connect the database with the visualisation tool, <code>https://af52358.eu-west-1.snowflakecomputing.com</code>, login credentials were then required to complete the connection. 
+A connection was established between Snowflake and Metabase, in this case, Snowflake generates a secure origin to connect the database with the visualisation tool, <code>https://af52358.eu-west-1.snowflakecomputing.com</code>, login credentials are necessary. 
 
 Metabase is also a cloud-based service that also has an open-source application should an organisation wish to support and manage its instance locally. The cloud-based version was deployed as part of the test as it is the most likely solution for this use case:
 

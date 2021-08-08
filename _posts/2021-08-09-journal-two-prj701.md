@@ -114,7 +114,7 @@ Metabase includes a dashboard that can be used to display multiple charts togeth
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
-</br>
+<br>
 
 Data Visualization - Microsoft Power BI. (n.d.). Retrieved August 9, 2021, from [https://powerbi.microsoft.com/en-us/](https://powerbi.microsoft.com/en-us/)
 

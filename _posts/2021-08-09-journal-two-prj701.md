@@ -19,7 +19,7 @@ JOURNAL #TWO [PRJ701]
  
 The scope of the project is such that it will require resources and expertise from members in each department, consequently, the newly formed data team will be interdisciplinary. This is a logical decision, ultimately the aims are to meet the reporting needs of each organisational unit. Furthermore, key individuals from these departments will have greater clarity with regards to what information is being collected, and by what applications through the business lifecycle.
  
-The 'Data Team' will operate a SCRUM process, the periods of the sprints have yet to be determined, likewise, the format of the daily meetups to assess progress is yet to be finalised. This format is being utilised to allow the team to meet collective and individual objectives and key results (OKRs).
+The 'Data Team' will operate under the SCRUM methodology, the periods of the sprints have yet to be determined, likewise, the format of the daily meetups to assess progress is yet to be finalised. This format is being utilised to allow the team to meet collective and individual objectives and key results (OKRs).
  
 <h3>Data</h3>
  

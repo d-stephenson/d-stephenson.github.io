@@ -25,7 +25,7 @@ The 'Data Team' will operate under the SCRUM methodology, the periods of the spr
  
 Although still in the planning stage, a cloud-based data warehouse provider is the preferred option for deployment to store and manage the data sourced from the various corporate applications and social media apps. It is anticipated that a process of data cleansing will be required before it is capable of supporting business analytics queries and possible data marts for the separate and distinct departmental groups.
  
-<h2>Data Pipeline Overview</h2>
+<h2>Data Pipeline Summary</h2>
  
 Several solutions are being explored that to solve the problem, these are:
  
@@ -39,7 +39,7 @@ There are several advantages to a 'light' pipeline, it can hide some of the comp
  
 The following diagram is a high level overview of the problem:
 
-<center><img src="/assets/images/prj-j2-1-DataPipeline.jpg" alt="Data Pipline"></center><br>
+<center><img src="/assets/images/prj-j2-1-DataPipeline.jpg" alt="Data Pipeline"></center><br>
 
 <h2>Business Intelligence Application Testing</h2> 
 
@@ -111,6 +111,16 @@ The data was manipulated in the results displayed as follows:
 
 Metabase includes a dashboard that can be used to display multiple charts together that can be accessed collectively and analysed by business users and analysts. At this stage of testing, Metabase does not appear to be as feature-rich as either Power BI or Tableau. A complete comparison analysis of these three products will take place over the next week or two. 
 
-<!-- <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
+<div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
-</div> -->
+</div>
+
+Data Visualization | Microsoft Power BI. (n.d.). Retrieved August 9, 2021, from [https://powerbi.microsoft.com/en-us/](https://powerbi.microsoft.com/en-us/)
+
+Group, P. G. D. (2021, August 8). PostgreSQL. PostgreSQL. [https://www.postgresql.org/](https://www.postgresql.org/)
+
+Metabase. (n.d.). Retrieved August 9, 2021, from [https://www.metabase.com/](https://www.metabase.com/)
+
+Tableau: Business Intelligence and Analytics Software. (n.d.). Tableau. Retrieved August 9, 2021, from [https://www.tableau.com/](https://www.tableau.com/)
+
+The Data Cloud | Snowflake | Enable the Most Critical Workloads. (n.d.). Snowflake. Retrieved August 9, 2021, from [https://www.snowflake.com/](https://www.snowflake.com/)

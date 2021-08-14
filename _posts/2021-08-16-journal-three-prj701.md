@@ -69,9 +69,11 @@ A preliminary analysis has been conducted of three industry-leading data analyti
 - Quantity and quality of the features available particularly regarding the ability to visualise data   
 - Security and privacy features with consideration to GDPR 
 
-<center><object data="/assets/docs/prj-j3-1-DataAnalyticsComparison-Table.pdf" type="application/pdf" width="100%" height="625px">
+<center>
+<object data="/assets/docs/prj-j3-1-DataAnalyticsComparison-Table.pdf" type="application/pdf" width="100%" height="625px">
   <p>Data Analytics Comparison Table <a href="/assets/docs/prj-j3-1-DataAnalyticsComparison-Table.pdf">Documentation</a></p>
-</object></center><br>
+</object>
+</center><br>
 
 <center><img src="/assets/images/prj-j3-2-DataAnalyticsComparison-Chart.png" alt="Data Analytics Comparison Chart"></center><br>
  

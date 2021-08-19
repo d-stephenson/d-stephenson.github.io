@@ -13,8 +13,6 @@ JOURNAL #FOUR [PRJ701]
 
 <h2>Data Anonymisation</h2>
 
-<h3>Sub Title</h3>
-
 <h3>Daily Standups</h3>
  
 The primary focus for the daily standups has been on attempting to clarifying where the required data is located, in what form, and if there is sufficient information to allow the team to meet the business requirements.  
@@ -78,9 +76,9 @@ Upon completion of a full assessment of the data ensuring it is satisfactory, it
 
 ARX - Data Anonymization Tool. (n.d.). Introduction to the ARX Data Anonymization Tool. Retrieved August 20, 2021, from [https://www.youtube.com/watch?v=N8I-sxmMfqQ](https://www.youtube.com/watch?v=N8I-sxmMfqQ)
 
-ARX - Data Anonymization Tool | A comprehensive software for privacy-preserving microdata publishing. (n.d.). Retrieved August 20, 2021, from [https://arx.deidentifier.org/](https://arx.deidentifier.org/)
+ARX - Data Anonymization Tool - A comprehensive software for privacy-preserving microdata publishing. (n.d.). Retrieved August 20, 2021, from [https://arx.deidentifier.org/](https://arx.deidentifier.org/)
 
-Data Visualization | Microsoft Power BI. (n.d.). Retrieved August 20, 2021, from [https://powerbi.microsoft.com/en-us/](https://powerbi.microsoft.com/en-us/)
+Data Visualization - Microsoft Power BI. (n.d.). Retrieved August 20, 2021, from [https://powerbi.microsoft.com/en-us/](https://powerbi.microsoft.com/en-us/)
 
 Dimakopoulos, M. T., Dimitris Tsitsigkos and Nikolaos. (n.d.). Amnesia Anonymization Tool—Data anonymization made easy. Retrieved August 20, 2021, from [https://amnesia.openaire.eu/](https://amnesia.openaire.eu/)
 

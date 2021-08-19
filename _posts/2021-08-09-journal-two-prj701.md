@@ -12,8 +12,6 @@ hidden: true
 JOURNAL #TWO [PRJ701]
 
 <h2>Data Team</h2>
-
-<h2>Meeting Minutes</h2>
  
 <h3>Team Structure</h3>
  

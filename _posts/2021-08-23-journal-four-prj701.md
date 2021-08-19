@@ -72,7 +72,8 @@ Upon completion of a full assessment of the data ensuring it is satisfactory, it
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
-</div></br>
+</div>
+</br>
 
 ARX - Data Anonymization Tool. (n.d.). Introduction to the ARX Data Anonymization Tool. Retrieved August 20, 2021, from [https://www.youtube.com/watch?v=N8I-sxmMfqQ](https://www.youtube.com/watch?v=N8I-sxmMfqQ)
 

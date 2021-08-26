@@ -7,7 +7,7 @@ image: assets/images/prj701-j5.jpg
 featured: true
 hidden: true
 ---
-<i>MData Pipeline Infrastructure</i>
+<i>Data Pipeline Infrastructure</i>
 
 JOURNAL #FIVE [PRJ701]
 

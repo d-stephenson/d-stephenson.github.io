@@ -26,7 +26,7 @@ The API client used for this process utilised the representational state transfe
 - PUT
 - DELETE
  
-REST is an architectural style for distributed hypertext systems that includes 6 guiding principles, or constraints. For an interface to be referred to as 'RESTful' the constraints must be satisfied. More information on REST architecture can be found <a href="https://restfulapi.net/.">here</a>.
+REST is an architectural style for distributed hypertext systems that includes 6 guiding principles, or constraints. For an interface to be referred to as 'RESTful' the constraints must be satisfied. More information on REST architecture can be found <a href="https://restfulapi.net/." target="_blank">here</a>.
  
 To perform the data mapping a collaborative API client, Insomnia was deployed that integrated with the sales software. Insomnia allows for easy and fast REST, SOAP, GraphQL and GRPC requests, communicating directly with the source. This was used to catch data relationships and identifiers that could support the data mapping process.
  

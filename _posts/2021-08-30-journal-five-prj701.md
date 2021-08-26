@@ -79,6 +79,7 @@ Further data warehouse information will be provided in future journals following
     <i>References</i>
 </div>
 
+<br>
 HubSpot APIs - Getting started. (n.d.). Retrieved August 26, 2021, from [https://developers.hubspot.com/docs/api/overview](https://developers.hubspot.com/docs/api/overview)
 
 Micro-partitions & Data Clustering—Snowflake Documentation. (n.d.). Retrieved August 26, 2021, from [https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions.html](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions.html)

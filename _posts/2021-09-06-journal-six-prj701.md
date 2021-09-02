@@ -7,7 +7,7 @@ image: assets/images/prj701-j6.jpg
 featured: true
 hidden: true
 ---
-<i>Main Title</i>
+<i>Data Warehouse Architecture<</i>
 
 JOURNAL #SIX [PRJ701]
 

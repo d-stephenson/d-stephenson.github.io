@@ -15,7 +15,7 @@ JOURNAL #SIX [PRJ701]
  
 <h3>Data Team Sprint Demo</h3>
  
-The primary focus of the Data Team Sprint Demo was the data pipeline architecture, explaining the process for all team members and stakeholders. Data extraction will be performed with different tools and deploy different methods based on the data source and loaded into the data warehouse. Transformation is carried out by the service provider DBT, which is discussed later in this journal. The data is transformed and then loaded back into the warehouse in its transformed form, making this an <code>ELTL</code> pipeline.
+The primary focus of the Data Team Sprint Demo was the data pipeline architecture, explaining the process for all team members and stakeholders. Data extraction will be performed with different tools and deploy different methods based on the data source and loaded into the data warehouse. Transformation is carried out by the service provider DBT, which is discussed later in this journal. The data is transformed and then loaded back into the warehouse in its transformed form, making this an <code>ELT</code> pipeline.
  
 The meeting objective shifted to how the current prototype architecture could be used to generate meaningful analytics over the coming fortnightly sprint, which would also act as a test and proof of concept for the prototype. The key result will be to connect two BI tools, in this case, Tableau and Qlik to answer a business question and test with non-technical users to assist the decision-making process.
  
@@ -76,7 +76,7 @@ The final data analytics shows the comparison of bike usage against JSON weather
  
 <h3>DBT | The 'T' in ETL</h3>
  
-DBT (Data Building Tool) is a tool that allows data analysts and engineers to transform data in data warehouses using command-line select statements. In effect, DBT is being deployed in the data pipeline to perform the 'T' in the <code>ELTL</code> architecture. DBT does not offer extract or load functionality, instead, it allows transformation to occur more efficiently by taking code, compiling it to <code>SQL</code>, and then running it against the data warehouse.
+DBT (Data Building Tool) is a tool that allows data analysts and engineers to transform data in data warehouses using command-line select statements. In effect, DBT is being deployed in the data pipeline to perform the 'T' in the <code>ELT</code> architecture. DBT does not offer extract or load functionality, instead, it allows transformation to occur more efficiently by taking code, compiling it to <code>SQL</code>, and then running it against the data warehouse.
 
 <center><img src="/assets/images/prj-j6-15-dbt.png" alt="DBT pipeline"></center><br>
  

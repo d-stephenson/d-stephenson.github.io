@@ -105,8 +105,7 @@ A further BI tool is being considered and tested for the forthcoming fortnightly
 </div>
 <br>
 
-Connecting to data sources ‒ Qlik Sense on Windows. (n.d.). Retrieved September 2, 2021, from [https://help.qlik.com/en-US/sense/May2021/Subsystems/Hub/Content/Sense_Hub/LoadData/connect-data-sources.htm])
-https://help.qlik.com/en-US/sense/May2021/Subsystems/Hub/Content/Sense_Hub/LoadData/connect-data-sources.htm)
+Connecting to data sources ‒ Qlik Sense on Windows. (n.d.). Retrieved September 2, 2021, from [https://help.qlik.com/en-US/sense/May2021/Subsystems/Hub/Content/Sense_Hub/LoadData/connect-data-sources.htm](https://help.qlik.com/en-US/sense/May2021/Subsystems/Hub/Content/Sense_Hub/LoadData/connect-data-sources.htm)
 
 CREATE MASKING POLICY — Snowflake Documentation. (n.d.). Retrieved September 2, 2021, from [https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy.html](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy.html)
 

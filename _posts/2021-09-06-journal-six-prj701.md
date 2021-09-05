@@ -21,7 +21,7 @@ The meeting objective shifted to how the current prototype architecture could be
  
 The business question that will be answered is:
  
-<i>"Extract deal revenue from the sales platform, load into Snowflake and present total revenue for the current month in two BI tools for comparison"</i>
+<center><i>"Extract deal revenue from the sales platform, load into Snowflake and present total revenue for the current month in two BI tools for comparison"</i></center>
  
 <h3>Snowflake Demo</h3>
  

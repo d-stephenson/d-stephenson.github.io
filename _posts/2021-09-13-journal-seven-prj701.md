@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Journal #Seven [PRJ701] - Main Data Tracking & Regulation" 
+title:  "Journal #Seven [PRJ701] - Data Tracking & Regulation" 
 author: Dale Stephenson
 categories: [ PRJ701, Journal, Project ]
 image: assets/images/prj701-j7.jpg

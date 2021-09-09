@@ -19,8 +19,8 @@ Daily standup discussions have revealed a need to track data requests from acros
  
 Two questions had to be answered before a framework could be deployed:
  
-Which business unit or units would benefit the most from the process and regularly use the service?
-What tools are available that could be deployed to provide the service?
+1. Which business unit or units would benefit the most from the process and regularly use the service?
+2. What tools are available that could be deployed to provide the service?
  
 Due to the interdisciplinary nature of the data team, it was clear that the significant majority of requests for data related to sales and revenue information, meaning this department was going to benefit from the service in the first instance. The current ad-hoc method of collecting these requests across multiple communication channels was not sufficient to gain meaningful insights into the type of data necessary to service the company's demands.
  

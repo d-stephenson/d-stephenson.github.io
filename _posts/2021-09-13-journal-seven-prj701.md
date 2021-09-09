@@ -103,7 +103,7 @@ If a determination is made that a DPIA is required then it must be carried out b
  
 At all times the DPIA should be completed in consultation with the organisation's Data Protection Officer (DPO) if one exists and the stakeholders that have an interest in the project outcome.  
  
-A template DPIA has been created by the UK’s Information Commissioner’s Office (ICO) and can be found <a href="https://gdpr.eu/wp-content/uploads/2019/03/dpia-template-v1.pdf" target="_blank">here</a>.
+A template DPIA has been created by the UK’s Information Commissioner’s Office (ICO) and can be downloaded <a href="https://gdpr.eu/wp-content/uploads/2019/03/dpia-template-v1.pdf" target="_blank">here</a>.
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>

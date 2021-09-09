@@ -109,7 +109,6 @@ A template DPIA has been created by the UK’s Information Commissioner’s Offi
     <i>References</i>
 </div>
 <br>
-
 Art. 9 GDPR – Processing of special categories of personal data. (n.d.). General Data Protection Regulation (GDPR). Retrieved September 8, 2021, from [https://gdpr-info.eu/art-9-gdpr/](https://gdpr-info.eu/art-9-gdpr/)
 
 Art. 37 GDPR – Designation of the data protection officer. (n.d.). General Data Protection Regulation (GDPR). Retrieved September 9, 2021, from [https://gdpr-info.eu/art-37-gdpr/](https://gdpr-info.eu/art-37-gdpr/)

@@ -75,10 +75,10 @@ Once the data is loaded into Qlik master measures are formulas are created by de
  
 The measures allow the data to be analysed. There are two ways to do this, either through 'insight', which allow natural language inputs that work to varying degrees of success or with the creation of sheets. Sheets allow data to be manipulated with the drag and drop of dimensions and measures allowing the system to be used by non-coders such as business stakeholders. Qlik will auto decide what visualisations work best, these can be amended and new visualisation created by the user.
 
-<center><img src="/assets/images/prj-j8-5-Qlik" alt="Qlik Research & Visualisation"></center><br>
-<center><img src="/assets/images/prj-j8-6-Qlik" alt="Qlik Research & Visualisation"></center><br>
-<center><img src="/assets/images/prj-j8-7-Qlik" alt="Qlik Research & Visualisation"></center><br>
-<center><img src="/assets/images/prj-j8-8-Qlik" alt="Qlik Research & Visualisation"></center><br>
+<center><img src="/assets/images/prj-j8-5-Qlik.png" alt="Qlik Research & Visualisation"></center><br>
+<center><img src="/assets/images/prj-j8-6-Qlik.png" alt="Qlik Research & Visualisation"></center><br>
+<center><img src="/assets/images/prj-j8-7-Qlik.png" alt="Qlik Research & Visualisation"></center><br>
+<center><img src="/assets/images/prj-j8-8-Qlik.png" alt="Qlik Research & Visualisation"></center><br>
 
 <b>Qlik Features</b>
 
@@ -97,5 +97,4 @@ The measures allow the data to be analysed. There are two ways to do this, eithe
     <i>References</i>
 </div>
 <br>
-
 Snowflake. (n.d.). Retrieved September 16, 2021, from [https://help.tableau.com/current/pro/desktop/en-us/examples_snowflake.htm](https://help.tableau.com/current/pro/desktop/en-us/examples_snowflake.htm)

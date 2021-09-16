@@ -15,7 +15,7 @@ JOURNAL #EIGHT [PRJ701]
  
 <h3>Data Team Sprint Demo</h3>
  
-The data team demo included a presentation of the extracted sales platform data that had been loaded into the Snowflake data warehouse solution and subsequently transformed by DBT. The objective of the fortnightly sprint was to visualise meaningful data analytics which was presented in two business intelligence solutions, Tableau and Qlik.
+The data team demo included a presentation of the extracted sales platform data that had been loaded into the Snowflake data warehouse solution and subsequently transformed by DBT. The objective of the fortnightly sprint was to visualise meaningful data analytics which was presented in two business intelligence solutions, <a href="hhttps://www.tableau.com/" target="_blank">Tableau</a> and <a href="https://www.qlik.com/us/products/qlik-sense" target="_blank">Qlik</a>.
  
 The data for the analytics was run first in Snowflake using a simple SQL query selecting year, month and the sum of sales grouped by year and month to produce year on year monthly revenue figures. The query was expanded to include the region so stakeholders could identify the best performing regions year on year.
  

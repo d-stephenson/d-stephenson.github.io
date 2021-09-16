@@ -91,7 +91,7 @@ The measures allow the data to be analysed. There are two ways to do this, eithe
 - Filters are built into every sheet and when selected they auto adjust every visualisation
 - Measures and dimensions are stored in-memory to increase the speed results are returned
 - Data refresh is dependent on the size of the data, for close to real-time information it is better to  fetch only the data necessary rather than the entire database
-- Larger data refresh on the complete data in the collection is best performed overnight so it doesn’t affect business processes
+- Larger data refresh on the complete data set in the collection is best performed overnight so it doesn’t affect business processes
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>

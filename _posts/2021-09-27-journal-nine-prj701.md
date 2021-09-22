@@ -17,9 +17,9 @@ JOURNAL #NINE [PRJ701]
  
 The project scope requires the creation of analytic data visualisations that offer valuable business insights to stakeholders, this is one aspect of the goals that make up this sprint. To produce an end product the decision has been made on the business intelligence (BI) application that will be deployed, the trial instance of Tableau has been tested and connected to the data warehouse allowing fro the progression and creation of a dashboard that combines the following analytics:
  
-Current monthly sales revenue figure concerted to country currency
-Progress bar chart showing the current monthly sales against monthly revenue target
-Bar chart showing total monthly sales from January 2020 to date
+- Current monthly sales revenue figure concerted to country currency
+- Progress bar chart showing the current monthly sales against monthly revenue target
+- Bar chart showing total monthly sales from January 2020 to date
  
 It is important for the business that the visualisations are branded with the company logo, colours, and fonts. Adding branding elements such as the company logo and company colours was straightforward, fonts were however, slightly problematic and ultimately unsuccessful. The fonts had to be downloaded from Google Fonts and added to the font window before they could be deployed in the Tableau Desktop application. Unfortunately, once the dashboard was published to the cloud environment the font defaulted to Times New Roman. The cloud platform does not support the branded fonts and the options available are somewhat limited. There may be an alternative solution and this will be explored.
  
@@ -45,10 +45,10 @@ Two triggers activate the requirement for a DPIA, either the data processing is 
  
 The DPIA is recorded in a custom issue created in Jira Service Manager, this acts as an audit log should it be required later by regulators or auditors. The DPIA includes the:
  
-Nature, scope, context and purpose of the data processing activities 
-Necessity and proportionality of the processing and all compliance measures taken
-Identification and assessment of the risk to data subjects
-Identification of any further measures that can be implemented to mitigate the risks 
+- Nature, scope, context and purpose of the data processing activities 
+- Necessity and proportionality of the processing and all compliance measures taken
+- Identification and assessment of the risk to data subjects
+- Identification of any further measures that can be implemented to mitigate the risks 
  
 The outcome of a DPIA will act as the comprehensive analysis of the data processing activities designed to identify and minimise the risks involved. These risks should not only cover those associated with the failure to meet regulatory compliance, but also the broader risks to data subjects. Consideration has been made to the potential for harm this might cause, be it physical and material or non-material harm either at the individual level, or to society at large.
  

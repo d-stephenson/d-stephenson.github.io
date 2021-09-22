@@ -27,7 +27,7 @@ To meet the requirements of the sprint the dashboard was displayed on the monito
  
 Although different from the actual dashboard produced for the project, excluded here for confidentiality reasons, the following image is an example sales and revenue dashboard that is capable of being produced in Tableau.
  
-<center><img src="/assets/images/prj-j9-1-TableauDashboard.png" alt="Tableau Data Dashboard"></center>
+<center><img src="/assets/images/prj-j9-1-TableauDashboard.png" alt="Tableau Data Dashboard"></center><br>
  
 <h3>Identifying Anomalies</h3>
  
@@ -57,7 +57,7 @@ The DPIA conducted for the project requires contribution from members of the tec
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
-
+<br>
 Data protection by design and default. (2021, February 9). ICO. [https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-by-design-and-default/](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-by-design-and-default/)
 
 Data protection impact assessments. (2021, January 11). ICO. [https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/)

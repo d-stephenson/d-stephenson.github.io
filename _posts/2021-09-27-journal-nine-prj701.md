@@ -62,4 +62,4 @@ Data protection by design and default. (2021, February 9). ICO. [https://ico.org
 
 Data protection impact assessments. (2021, January 11). ICO. [https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/)
 
-Kaur, R. (2021, June 30). Best Free BI Software 2021| Top Free Business Intelligence Tools. [https://www.selecthub.com/business-intelligence/free-business-intelligence-tools/](https://www.selecthub.com/business-intelligence/free-business-intelligence-tools/)
+Kaur, R. (2021, June 30). Best Free BI Software 2021 - Top Free Business Intelligence Tools. [https://www.selecthub.com/business-intelligence/free-business-intelligence-tools/](https://www.selecthub.com/business-intelligence/free-business-intelligence-tools/)

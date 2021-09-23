@@ -35,7 +35,7 @@ An initial attempt was made to test the process using the opensource Anonimatron
  
 Amnesia is a cloud-based service that would best meet the IT infrastructure of the wider organisation. However, further investigation would be necessary to determine the geolocation of the cloud infrastructure to ensure that regulatory compliance could be maintained with regards to transferring information to data centres outside the EU or safe harbour countries to perform the transformation, this would negate its intended purpose.
  
-Although the teat data being transformed as part of the exercise was readily available from online sources, ARX was chosen to test the process. This is an open-source package that could be installed locally in a sandbox environment to confidently separate it from the wider system to meet security obligations.
+Although the test data being transformed as part of the exercise was readily available from online sources, ARX was chosen to test the process. This is an open-source package that could be installed locally in a sandbox environment to confidently separate it from the wider system to meet security obligations.
  
 <h3>Practical Application - k-Anonymity</h3>
  

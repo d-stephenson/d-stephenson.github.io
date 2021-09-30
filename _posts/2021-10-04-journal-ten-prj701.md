@@ -60,47 +60,51 @@ There are several team level and individual level goals in the forthcoming sprin
 To protect company confidentiality the outcome of the automation process will not be displayed in this journal, however, the code deployed to create the calculations is listed. The code used to create the automation is based on the documentation standards as follows:
  
 1. Calculation for today's sales
+<br>
 <code>
-IF [Order Date]=TODAY() THEN [Sales] END
+IF [Order Date]=TODAY() 
+<br>THEN [Sales] END
 </code>
 
 2. Calculation for this month's sales
+<br>
 <code>
 IF DATETRUNC('month',[Order Date])=DATETRUNC('month',TODAY())
-AND DAY([Order Date])<=DAY(TODAY())
-THEN [Sales] END
+<br>AND DAY([Order Date])<=DAY(TODAY())
+<br>THEN [Sales] END
 </code>
 
 3. Calculation for last month's sales 
+<br>
 <code>
 IF DATETRUNC('month',[Order Date])=DATETRUNC('month',DATEADD('month',-1,TODAY()))
-THEN [Sales] END
+<br>THEN [Sales] END
 </code>
  
 The first step in the automation process was to collect all revenue for the current month based on the current date, this code allows for the total monthly sales revenue and revenue tracker to auto-adjust when a new month begins.
  
 <center><img src="/assets/images/prj-j10-1-TableauCalculations.png" alt="Tableau DATETRUNC Month"></center>
- 
+<br> 
 Secondly, code was developed to visualise all sales from the current year and the previous year, the <code>date month name</code> was then used to split the sales by month. Currently, this is adding the sales by month combining the years, and not splitting by each year, this will require further work.
  
 <center><img src="/assets/images/prj-j10-2-TableauCalculations.png" alt="Tableau DATETRUNC Current & Previous Year"></center>
- 
+<br> 
 To get the sales for the current and previous year separately, in two separate bar charts, the following code has been deployed.
  
 <center><img src="/assets/images/prj-j10-3-TableauCalculations.png" alt="Tableau DATETRUNC Current Year"></center>
- 
+<br> 
 The final calculation collates the months in the current quarter, this is used to prepare the chart to allocate the calculation into the columns. Despite the documentation indicating this to be the preferred solution, changes are likely to be made that use the quarter fields in the <code>DimDate</code> table to get the current quarter information. The reason is this calculation will produce quarters going back from the current month and not the defined financial quarter, for example, the next financial quarter is Oct, Nov, Dec, this calculation will produce the quarter as Aug, Sep, Oct, producing incorrect figures.
  
 <center><img src="/assets/images/prj-j10-4-TableauCalculations.png" alt="Tableau DATEDIFF Months in Current Quarter"></center>
- 
+<br>
 <center><img src="/assets/images/prj-j10-5-TableauCalculations.png" alt="Tableau Displaying Quarter"></center>
- 
+<br>
 The next immediate steps are to resolve the automation issues and re-create the chart headings so they automatically display the current month. Once these are resolved work can move to connect a Google Sheet directly into Tableau that contains the monthly sales targets.
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
-</br>
+<br>
 
 Creating a Title that Automatically Displays Today’s Date - Tableau Software. (n.d.). Retrieved September 30, 2021, from [https://kb.tableau.com/articles/howto/creating-a-title-that-automatically-displays-today-s-date](https://kb.tableau.com/articles/howto/creating-a-title-that-automatically-displays-today-s-date)
 

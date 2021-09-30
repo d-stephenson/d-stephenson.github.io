@@ -36,7 +36,9 @@ Progress has been delayed with the implementation of alerts and notifications, c
  
 There are several team level and individual level goals in the forthcoming sprint:
  
-1. Include financial data that is currently sent to stakeholders in regular emails which includes:
+1. Amend the sales and revenue charts so the dashboard is fully automated, or automated to a sufficient degree that it requires minimal maintenance
+2. Understand the set-up process for alerts and notifications and discuss the requirements with the data team, i.e. what are the triggers for alerts
+3. Include financial data that is currently sent to stakeholders in regular emails which includes:
  
 - Current monthly revenue breakdown by region 
 - Revenue split into direct sales revenue, partner revenue and total revenue 
@@ -51,9 +53,6 @@ There are several team level and individual level goals in the forthcoming sprin
 
 - Create a partner paid revenue table
 - Work with the interdisciplinary team to define the sales categories if a deal is partner paid
-  
-2. Amend the sales and revenue charts so the dashboard is fully automated, or automated to a sufficient degree that it requires minimal maintenance.
-3. Understand the set-up process for alerts and notifications and discuss the requirements with the data team, i.e. what are the triggers for alerts
  
 <h3>Tableau Automation</h3>
  

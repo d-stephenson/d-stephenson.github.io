@@ -104,7 +104,6 @@ The next immediate steps are to resolve the automation issues and re-create the 
     <i>References</i>
 </div>
 <br>
-
 Creating a Title that Automatically Displays Today’s Date - Tableau Software. (n.d.). Retrieved September 30, 2021, from [https://kb.tableau.com/articles/howto/creating-a-title-that-automatically-displays-today-s-date](https://kb.tableau.com/articles/howto/creating-a-title-that-automatically-displays-today-s-date)
 
 How To Show Sales of Today, This Month, Last Month in One Table - Tableau Software. (n.d.). Retrieved September 30, 2021, from [https://kb.tableau.com/articles/howto/How-To-Show-Sales-of-Today-This-Month-Last-Month-in-One-Table](https://kb.tableau.com/articles/howto/How-To-Show-Sales-of-Today-This-Month-Last-Month-in-One-Table)

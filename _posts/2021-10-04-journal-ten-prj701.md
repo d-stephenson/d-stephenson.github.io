@@ -24,7 +24,7 @@ As stated the data is close to production-ready, which allowed the work conducte
  
 <h4>Problems Encountered</h4>
  
-As the team has moved closer to producing accurate data the identification of anomalies becomes more difficult to uncover, usually requiring a solution that is more complex or time consuming for the degree of extra accuracy that is gained. This is a familiar process having a finance background, so it was anticipated. Many of the issues are a result of input errors from users of the sales system and are an easy but time-consuming fix. Rules will be implemented in the data warehouse to prevent these errors from impacting the data set.
+As the team has moved closer to producing accurate data the identification of anomalies becomes more difficult to uncover, usually requiring a solution that is more complex or time consuming for the degree of extra accuracy that is gained. This is a familiar process having a finance background, so it was anticipated. Many of the issues are a result of input errors from users of the sales system, which are an easy but time-consuming fix. Rules will be implemented in the data warehouse to prevent these errors from impacting the data set.
  
 The iterative nature of a Scrum methodology led to the creation of a dashboard that was produced in time for the demonstration. To achieve this the visualisations were generated using fixed filters, for instance, where year, month, or quarters represent the axis of a chart. This is a temporary working solution that will require the manual adapting of the charts at the beginning of each new month, quarter and year, this must be improved through automation by creating calculations that base the charts on <code>today</code>, and work from that as a base point.
  

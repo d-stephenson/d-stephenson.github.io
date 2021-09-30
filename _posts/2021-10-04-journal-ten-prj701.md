@@ -65,7 +65,7 @@ IF [Order Date]=TODAY()
 <br>THEN [Sales] END
 </code>
 
-2. Calculation for this month's sales
+2. Calculation for the current month's sales
 <br>
 <code>
 IF DATETRUNC('month',[Order Date])=DATETRUNC('month',TODAY())

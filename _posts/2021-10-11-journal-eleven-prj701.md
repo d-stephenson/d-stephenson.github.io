@@ -65,13 +65,13 @@ After a period of false starts, it was realised that the target data was not for
  
 Once the targets were available in Tableau they could be compared against the actual figures to date, the dragging and dropping of dimension attributes and fact measurements made this process simple for the total quarterly figure. The inclusion of months for the given quarter has proved more challenging. When these are added to the table using the attributes, the worksheet produces a monthly split of the <i>sales target</i>, only provided as a total quarterly figure by region. The <i>percentage achieved</i> results are split in this way. The documentation provided some calculations that might work as followed, these were tested and ultimately unsuccessful.
  
-<code>
+<code style="margin-left: 30px;">
 IF DATETRUNC('quarter',[Revenue Recognised At])=DATETRUNC('quarter',TODAY())<br>
 AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())<br>
 THEN [Revenue cur] END<br>
 </code>
  
-<code>
+<code style="margin-left: 30px;">
 IF DATETRUNC('quarter', [Date])=DATETRUNC('quarter',TODAY())<br>
 THEN [total_monthly_target] END<br>
 </code>

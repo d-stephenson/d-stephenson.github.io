@@ -39,21 +39,21 @@ There are several team level and individual level goals in the forthcoming sprin
 1. Amend the sales and revenue charts so the dashboard is fully automated, or automated to a sufficient degree that it requires minimal maintenance
 2. Understand the set-up process for alerts and notifications and discuss the requirements with the data team, i.e. what are the triggers for alerts
 3. Include financial data that is currently sent to stakeholders in regular emails, to include the following tables and charts:
-<p style="margin-left: 10px;">
+<p style="margin-left: 30px;">
 
-- <i>Current monthly revenue breakdown by region</i>
-- <i>Revenue split into direct sales revenue, partner revenue and total revenue</i>
-- <i>Revenue against target and percentage achieved for the month</i>
+- <i>Current monthly revenue breakdown by region</i><br>
+- <i>Revenue split into direct sales revenue, partner revenue and total revenue</i><br>
+- <i>Revenue against target and percentage achieved for the month</i><br>
  
-- <i>Three monthly revenue to date split by region and relating to the current quarter</i>
-- <i>Total revenue from current quarter compared to quarterly targets</i>
-- <i>Percentage revenue achieve against revenue for the quarter</i>
+- <i>Three monthly revenue to date split by region and relating to the current quarter</i><br>
+- <i>Total revenue from current quarter compared to quarterly targets</i><br>
+- <i>Percentage revenue achieve against revenue for the quarter</i><br>
 
-- <i>Total bookings revenue for each month of the current year by region</i>
-- <i>Visualise this data in a chart grouped by the monthly revenue by region</i>
+- <i>Total bookings revenue for each month of the current year by region</i><br>
+- <i>Visualise this data in a chart grouped by the monthly revenue by region</i><br>
 
-- <i>Create a partner paid revenue table</i>
-- <i>Work with the interdisciplinary team to define the sales categories if a deal is partner paid</i>
+- <i>Create a partner paid revenue table</i><br>
+- <i>Work with the interdisciplinary team to define the sales categories if a deal is partner paid</i><br>
 </p> 
 
 <h3>Tableau Automation</h3>

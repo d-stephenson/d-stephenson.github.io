@@ -40,19 +40,19 @@ There are several team level and individual level goals in the forthcoming sprin
 2. Understand the set-up process for alerts and notifications and discuss the requirements with the data team, i.e. what are the triggers for alerts
 3. Include financial data that is currently sent to stakeholders in regular emails, to include the following tables and charts:
  
-- Current monthly revenue breakdown by region 
-- Revenue split into direct sales revenue, partner revenue and total revenue 
-- Revenue against target and percentage achieved for the month
+- <i>Current monthly revenue breakdown by region</i>
+- <i>Revenue split into direct sales revenue, partner revenue and total revenue</i>
+- <i>Revenue against target and percentage achieved for the month</i>
  
-- Three monthly revenue to date split by region and relating to the current quarter
-- Total revenue from current quarter compared to quarterly targets
-- Percentage revenue achieve against revenue for the quarter
+- <i>Three monthly revenue to date split by region and relating to the current quarter</i>
+- <i>Total revenue from current quarter compared to quarterly targets</i>
+- <i>Percentage revenue achieve against revenue for the quarter</i>
 
-- Total bookings revenue for each month of the current year by region
-- Visualise this data in a chart grouped by the monthly revenue by region
+- <i>Total bookings revenue for each month of the current year by region</i>
+- <i>Visualise this data in a chart grouped by the monthly revenue by region</i>
 
-- Create a partner paid revenue table
-- Work with the interdisciplinary team to define the sales categories if a deal is partner paid
+- <i>Create a partner paid revenue table</i>
+- <i>Work with the interdisciplinary team to define the sales categories if a deal is partner paid</i>
  
 <h3>Tableau Automation</h3>
  

@@ -68,7 +68,7 @@ Once the targets were available in Tableau they could be compared against the ac
 <code>
 IF DATETRUNC('quarter',[Revenue Recognised At])=DATETRUNC('quarter',TODAY())
 <br>AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())
-<br>THEN [Revenue cur] END
+<br>THEN [Revenue cur] END<br>
 </code>
  
 <code>

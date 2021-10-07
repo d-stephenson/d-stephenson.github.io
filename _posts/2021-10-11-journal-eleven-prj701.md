@@ -70,7 +70,7 @@ IF DATETRUNC('quarter',[Revenue Recognised At])=DATETRUNC('quarter',TODAY())
 <br>AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())
 <br>THEN [Revenue cur] END<br>
 </code>
- 
+<br> 
 <code>
 IF DATETRUNC('quarter', [Date])=DATETRUNC('quarter',TODAY())
 <br>THEN [total_monthly_target] END

@@ -67,13 +67,13 @@ Once the targets were available in Tableau they could be compared against the ac
  
 <code style="margin-left: 30px;">
 IF DATETRUNC('quarter',[Revenue Recognised At])=DATETRUNC('quarter',TODAY())
-AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())
-THEN [Revenue cur] END<br>
+<br>AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())
+<br>THEN [Revenue cur] END
 </code>
  
 <code style="margin-left: 30px;">
 IF DATETRUNC('quarter', [Date])=DATETRUNC('quarter',TODAY())
-THEN [total_monthly_target] END<br>
+<br>THEN [total_monthly_target] END
 </code>
  
 Further research indicated these fields could be hidden from view, which seemed like an appropriately simple solution when compared with some of the complicated suggestions that were attempted. This feature was, however, unavailable in the cloud version, the desktop version being unavailable due to the free trial expiring. A meeting was held with the account representative where this was discussed, it was confirmed that the cloud version lacks the features to perform some of the functions asked of it. Fortunately, once the licence is established some of the problems faced should be resolved as a consequence of the added functionality, this extends to the issues identified with alerts and notifications.

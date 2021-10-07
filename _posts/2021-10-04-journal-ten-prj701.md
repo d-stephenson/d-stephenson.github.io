@@ -39,7 +39,8 @@ There are several team level and individual level goals in the forthcoming sprin
 1. Amend the sales and revenue charts so the dashboard is fully automated, or automated to a sufficient degree that it requires minimal maintenance
 2. Understand the set-up process for alerts and notifications and discuss the requirements with the data team, i.e. what are the triggers for alerts
 3. Include financial data that is currently sent to stakeholders in regular emails, to include the following tables and charts:
- 
+<p> tag: style="margin-left: 10px;"
+
 - <i>Current monthly revenue breakdown by region</i>
 - <i>Revenue split into direct sales revenue, partner revenue and total revenue</i>
 - <i>Revenue against target and percentage achieved for the month</i>
@@ -53,7 +54,8 @@ There are several team level and individual level goals in the forthcoming sprin
 
 - <i>Create a partner paid revenue table</i>
 - <i>Work with the interdisciplinary team to define the sales categories if a deal is partner paid</i>
- 
+</p> 
+
 <h3>Tableau Automation</h3>
  
 To protect company confidentiality the outcome of the automation process will not be displayed in this journal, however, the code deployed to create the calculations is listed. The code used to create the automation is based on the documentation standards as follows:

@@ -64,18 +64,18 @@ After a period of false starts, it was realised that the target data was not for
 <h4>Revenue by Month for Quarter</h4>
  
 Once the targets were available in Tableau they could be compared against the actual figures to date, the dragging and dropping of dimension attributes and fact measurements made this process simple for the total quarterly figure. The inclusion of months for the given quarter has proved more challenging. When these are added to the table using the attributes, the worksheet produces a monthly split of the <i>sales target</i>, only provided as a total quarterly figure by region. The <i>percentage achieved</i> results are split in this way. The documentation provided some calculations that might work as followed, these were tested and ultimately unsuccessful.
- 
-<code style="margin-left: 30px;">
+<p style="margin-left: 30px;"> 
+<code>
 IF DATETRUNC('quarter',[Revenue Recognised At])=DATETRUNC('quarter',TODAY())
 <br>AND DATETRUNC('month', [Revenue Recognised At])=DATETRUNC('month',TODAY())
 <br>THEN [Revenue cur] END
 </code>
  
-<code style="margin-left: 30px;">
+<code>
 IF DATETRUNC('quarter', [Date])=DATETRUNC('quarter',TODAY())
 <br>THEN [total_monthly_target] END
 </code>
- 
+</p> 
 Further research indicated these fields could be hidden from view, which seemed like an appropriately simple solution when compared with some of the complicated suggestions that were attempted. This feature was, however, unavailable in the cloud version, the desktop version being unavailable due to the free trial expiring. A meeting was held with the account representative where this was discussed, it was confirmed that the cloud version lacks the features to perform some of the functions asked of it. Fortunately, once the licence is established some of the problems faced should be resolved as a consequence of the added functionality, this extends to the issues identified with alerts and notifications.
  
 <h4>Automation and Manipulation</h4>

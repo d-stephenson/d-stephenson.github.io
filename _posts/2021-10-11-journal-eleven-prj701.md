@@ -25,22 +25,22 @@ A point to note is that the data validation is not yet complete. There remain mi
  
 Tableau has been chosen as the preferred software solution, pending licence agreements and cost. This has prompted several organisation controls that will allow the team to meet the company's commitment to GDPR and requirements as part of the SOC 2 Type-II audit. Two tasks are necessary, firstly a <i>Vendor Risk Assessment</i> and secondly, entries into the <i>SaaS Risk Register</i> are required. These tasks are both performed in <a href="https://www.atlassian.com/software/jira/service-management">Atlassian Jira Service Management</a>.
  
-As part of this audit log process and to meet the security and organisational controls in place, an investigation of the company is required that includes:
+As part of this audit log process and to meet the security and organisational controls in place, an investigation of the vendor is required that includes:
  
-- Any security accreditation held by the Vendor
+- Any security accreditation held by the vendor
 - The geolocation of the Vendor, considering support time, native languages, and GDPR for the storage of data
-- Identify any regulatory risks the Vendor may create for the company
-- Identify any reputation risk that might occur by using the Vendor
-- Review data protection policies and values held by the Vendor
+- Identify any regulatory risks the vendor may create for the company
+- Identify any reputation risk that might occur by using the vendor
+- Review data protection policies and values held by the vendor
 - The scope of the integrations with other applications
-- Whether the Vendor meets the primary purpose of deployment
-- Whether the Vendor has a status page
+- Whether the vendor meets the primary purpose of deployment
+- Whether the vendor has a status page
 - The level and professionalism of the customer service offered
 - Testimonials of existing users and companies
 - The pricing structure to mitigate and lock-in periods, exit penalties or unused credits
 - Any trial period offered and to what extent it is available
  
-Once the <i>Vendor Risk Assessment</i> is complete and a Vendor chosen, risks can be identified and completed in the <i>SaaS Risk Register</i>. The risk register records:
+Once the <i>Vendor Risk Assessment</i> is complete and a vendor chosen, risks can be identified and completed in the <i>SaaS Risk Register</i>. The risk register records:
  
 - The company account holders
 - A description of the application and its scope within the organisation
@@ -89,7 +89,7 @@ The intention is to recreate a couple of visualisations first to test how these 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
-</br>
+<br>
 Blend Your Data. (n.d.). Retrieved October 7, 2021, from [https://help.tableau.com/current/pro/desktop/en-us/multiple_connections.htm](https://help.tableau.com/current/pro/desktop/en-us/multiple_connections.htm)
 
 Date Calculations in Tableau. (n.d.). Retrieved October 7, 2021, from [https://dash-intel.com/tableau/date_calculations_tableau.php](https://dash-intel.com/tableau/date_calculations_tableau.php)

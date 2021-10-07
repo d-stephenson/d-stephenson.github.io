@@ -94,7 +94,7 @@ To get the sales for the current and previous year separately, in two separate b
  
 <center><img src="/assets/images/prj-j10-3-TableauCalculations.png" alt="Tableau DATETRUNC Current Year"></center>
 <br> 
-The final calculation collates the months in the current quarter, this is used to prepare the chart to allocate the calculation into the columns. Despite the documentation indicating this to be the preferred solution, changes are likely to be made that use the quarter fields in the <code>DimDate</code> table to get the current quarter information. The reason is this calculation will produce quarters going back from the current month and not the defined financial quarter, for example, the next financial quarter is Oct, Nov, Dec, this calculation will produce the quarter as Aug, Sep, Oct, producing incorrect figures.
+The final calculation collates the months in the current quarter, this is used to prepare the chart to allocate the calculation into the columns. Despite the documentation indicating this to be the preferred solution, changes are likely to be made that use the quarter fields in the <code>dim_date</code> table to get the current quarter information. The reason is this calculation will produce quarters going back from the current month and not the defined financial quarter, for example, the next financial quarter is Oct, Nov, Dec, this calculation will produce the quarter as Aug, Sep, Oct, producing incorrect figures.
  
 <center><img src="/assets/images/prj-j10-4-TableauCalculations.png" alt="Tableau DATEDIFF Months in Current Quarter"></center>
 <br>

@@ -26,7 +26,7 @@ The data validation covers two areas, firstly clarifying the team understanding 
  
 Secondly, the data warehouse requires changes to meet the requirements of business stakeholders regarding the recurring revenue. It was understood that the currency was 'locked in' at the point of sale, however, this is not the case. The finance and sales operation teams 'lock in' the currency rate at the start of each month, the recurring revenue must be converted to the currency at the month it is recognised against and not the currency at the outset of the deal.
  
-The issues with <i>Tableau</i> that have been discussed in [Journal Ten](https://d-stephenson.github.io/dat602/journal/database%20application%20development/2021/04/30/journal-ten-dat602.html) have now been resolved. Unfortunately, this was not in time for the demo meeting. The extended free trial of <i>Tableau</i> ended on the morning of the demo and this was unresolved in time for the sprint. However, once the licence was activated and the desktop version made available, the remaining work that couldn't be carried out due to the limitations of the cloud version could be completed. Many of the unresolved issues were simple fixes and included low tech requirements such as branding, two key technical areas have been resolved, one satisfactorily, and the other that may require contact with <i>Tableau</i> support.
+The issues with <i>Tableau</i> that have been discussed in [Journal Ten](https://d-stephenson.github.io/prj701/journal/project/2021/10/04/journal-ten-prj701.html) have now been resolved. Unfortunately, this was not in time for the demo meeting. The extended free trial of <i>Tableau</i> ended on the morning of the demo and this was unresolved in time for the sprint. However, once the licence was activated and the desktop version made available, the remaining work that couldn't be carried out due to the limitations of the cloud version could be completed. Many of the unresolved issues were simple fixes and included low tech requirements such as branding, two key technical areas have been resolved, one satisfactorily, and the other that may require contact with <i>Tableau</i> support.
  
 The first issue was the creation of alerts, although this is exclusively a cloud integration it appears a licence was required to activate the function. An alerts worksheet has been created to handle these business requirements. Currently, this is being tested against monthly revenue, when it reaches key milestones an alert notification is sent by email. Once the team is comfortable with this output, other alerts can be discussed with stakeholders and incorporated into the worksheets. Multiple alert sheets may be required depending on the sensitivity of the data, consideration will have to be made to <i>general users</i>, <i>users by department</i>, or <i>management level users</i>.
  
@@ -34,14 +34,14 @@ The second issue was with the revenue split between direct and partner generated
  
 In any event, the sales and revenue dashboard is complete and automated requiring no further input by the technical or business members of the team. Once the currency conversion rate against recurring revenue is resolved the dashboard will display accurate and near real-time data.
  
-<h4>Integrating <i>Jira Service Management</i> with <i>Halp</i> with <i>Slack</i></h4>
+<h4>Integrating <i>Halp</i> with <i>Jira Service Management</i> and <i>Slack</i></h4>
  
 Although uncommon to add a new item to an existing sprint, there was a revisit to a test performed during the security sprints concerning the SOC 2 audit. There is a desire to simplify the submission of data requests across the company. One solution is to use <i>Slack</i>, however, it would be difficult gaining meaningful metrics from the conversation history. It was suggested that <i>Halp Conversational Ticketing</i> be tested as a <i>Slack</i> integration to replicate the forms already created in <i>Jira</i>, thereby keeping it in the existing conversational ecosystem that most users are familiar. <i>Halp</i> is an <i>Atlassian</i> product, simple integration was expected.
  
 <i>Halp</i> is a simple integration tool, however, the setup of the forms is somewhat convoluted and, much like <i>Jira</i> (JSM), requires several processes before the forms are ready to deploy. The first step requires the creation of a 'recipe' that sets the fields relating to the form from JSM, in addition to any associated rules that are set. Once this is done the form needs to be created and built around the 'recipe' before being linked to a secure channel in <i>Slack</i>.
  
 <center><img src="/assets/images/prj-j12-Halp-Integration.png" alt="Halp integration with Slack"></center>
- 
+<br>
 The integration is run on a two-week trial, at which point a determination will be made whether to proceed. An assessment will be made based on the uptake by users and the services ability to improve the quantity and quality of data requests.
  
 <h4>Goals</h4>

@@ -60,7 +60,7 @@ One challenge has, however, been identified. Data requests are currently created
  
 There has been a significant progression in this sprint, moving from managing challenges in the data pipeline to focusing on how the team can improve and increase the insights generated from the relatively limited data set currently available. More effort is being focused on new data dashboards that can be accessed by each member of the sales team to view targets against current generated sales. This comes with further challenges, namely because targets are attached to salaries that are private to each sales representative. A dashboard must be created that allows management stakeholders to gain a complete picture of each sales representative, whilst allowing access to those sales representatives with the ability to see only their sales target, and not the targets of other sales representatives.
  
-<h4>Security Considerations</i></h4>
+<h4>Security Considerations</h4>
  
 The private sales representatives targets and production release of the company dashboard, have necessitated security to be placed on the production-ready data. This is essential as the production data is the environment that is updated in near real-time, every 30 minutes. Development data is updated once overnight to reduce costs associated with the extract and load process.
  
@@ -84,12 +84,12 @@ In the initial comparative analysis <i>Tableau</i> fell short on its integration
 </div>
 <br>
 
-APILayer | Privacy Policy. (n.d.). Retrieved October 23, 2021, from [https://www.ideracorp.com/Legal/APILayer/PrivacyStatement](https://www.ideracorp.com/Legal/APILayer/PrivacyStatement)
+APILayer - Privacy Policy. (n.d.). Retrieved October 23, 2021, from [https://www.ideracorp.com/Legal/APILayer/PrivacyStatement](https://www.ideracorp.com/Legal/APILayer/PrivacyStatement)
 
 Best Practices for Row Level Security. (n.d.). Retrieved October 23, 2021, from [https://help.tableau.com/current/server/en-us/rls_bestpractices.htm](https://help.tableau.com/current/server/en-us/rls_bestpractices.htm)
 
 Create a User Filter and Secure it for Publishing. (n.d.). Retrieved October 23, 2021, from [https://help.tableau.com/current/pro/desktop/en-us/publish_userfilters_create.htm](https://help.tableau.com/current/pro/desktop/en-us/publish_userfilters_create.htm)
 
-Documentation | Exchange Rates API. (n.d.). Retrieved October 23, 2021, from [https://exchangeratesapi.io/documentation/](https://exchangeratesapi.io/documentation/)
+Documentation - Exchange Rates API. (n.d.). Retrieved October 23, 2021, from [https://exchangeratesapi.io/documentation/](https://exchangeratesapi.io/documentation/)
 
 Exchange Rates API. (n.d.). Retrieved October 23, 2021, from [https://exchangeratesapi.io/](https://exchangeratesapi.io/)

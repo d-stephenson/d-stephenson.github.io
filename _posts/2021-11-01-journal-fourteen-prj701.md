@@ -64,7 +64,7 @@ The naming and field convention utilises <code>snake_case</code>, with names tha
 - Models should have primary keys named as <code>< object >_id</code> making it easy to identify the <i>id</i> referenced
 - Columns that are timestamps should be named <code>< event >_at</code> for UTC or include the time zone if a different one is used, such as <code>< event >_at_pt</code> for pacific time
 - Booleans should be named with the prefix <code>is_</code> or <code>has_</code>
-- Fields that contain revenue should be in decimal currency, for example <code><event>19.99</code>, in instances where decimal currency is not used this should be indicated as follows <code>price_in_cents</code>
+- Fields that contain revenue should be in decimal currency, for example <code>19.99</code>, in instances where decimal currency is not used this should be indicated as follows <code>price_in_cents</code>
 - Maintain consistency across models where possible, for example, keys relating to a <code>sales person</code> table should be named <code>salesperson_id</code> instead of <code>user_id</code>
 - Reserve words should be avoided when naming columns
 - Models for base/staging should order the fields into categories with identifiers first and timestamps at the end

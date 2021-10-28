@@ -19,7 +19,7 @@ It’s fitting that this journal series is concluding with the reporting of a Sp
  
 1. Create a staging environment for Tableau, now it is capable of being used by stakeholders it is important that any testing is not performed on the production instance
 2. Build upon the sales representative performance dashboard, including an increased number of metrics without having to produce a separate dashboard for each sales representative i.e. use filtering to lock down information based on the user account 
-3. Create and implement naming conventions in <i>dbt</i> and <i>[Tableau](https://www.tableau.com)</i>, and document the structure 
+3. Create and implement naming conventions in <i>[dbt](https://www.getdbt.com/)</i> and <i>[Tableau](https://www.tableau.com)</i>, and document the structure 
 4. Complete the remaining stakeholder interviews globally to provide direction for the team over the next quarter and beyond
  
 <h4>Staging and Production <i>Tableau</i> Environment</h4>
@@ -53,7 +53,7 @@ The naming conventions applied in <i>Tableau</i> extends to worksheets and dashb
  
  <i>Tableau</i> includes a feature that allows calculations to be organised into groups which can further help locate generated calculations, these will be grouped by relations.
  
-<i>[dbt](https://www.getdbt.com/)</i>, which performs the transformation of the data set, produce a style model that can be used as a naming guide. A file and naming structure will be generated based on this model that fits into three categories:
+<i>dbt</i>, which performs the transformation of the data set, produce a style model that can be used as a naming guide. A file and naming structure will be generated based on this model that fits into three categories:
  
 - Staging
 - Marts

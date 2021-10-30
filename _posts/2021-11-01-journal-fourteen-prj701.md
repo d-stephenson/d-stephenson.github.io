@@ -85,7 +85,7 @@ Due to the confidentiality of the data involved, a test data set will be deploye
  
 Once a stable instance of the data warehouse is available and visualisation created, time permitting, other data integrations will be established with APIs to ingest similar data that has been included in the workplace pipeline. This may include connections with online spreadsheets or REST-based <code>JSON</code> APIs. As stated, a lot of what can be accomplished here will depend on the time available, constraints on the length of time of the free trials remaining in place for the poster evening, and the complexity of performing the process individually.
 
-<h4>Project Reflections</4>
+<h4>Project Reflections</h4>
  
 The project has been incredibly insightful, data warehousing and business intelligence is something I’ve been particularly interested in and am grateful for the opportunity to be involved in the process. To be able to combine this with security and privacy considerations, whilst conducting the systems development using the Scrum methodology in a practical business environment, has been invaluable.
  

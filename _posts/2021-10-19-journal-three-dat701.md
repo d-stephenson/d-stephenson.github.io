@@ -47,14 +47,14 @@ The grain of the fact tables is based on the business questions listed in Assign
 The FinanceDW data warehouse contains two business processes that form the two fact tables. Several preliminary measurements have been incorporated in the <i>FactSaleOrder</i> table to support future proofing and to be able to quickly answer business questions that may not have been identified in the requirements gathering process. The measurements in the fact tables extend to the dimension tables, which includes data that allows performance data to be aggregated annually and monthly, and further related to both the sales representative and region tables. The sales order table aggregates measurements to total sales relating to an order, with granularity to the product level. The fact table measurements constitute multiple granularities within the single fact, the columns have been named to specifically identify the granularity level of the records represented by the column, such as <i>TotalAnnualKPI</i> and <i>TotalMonthlyKPI</i>.
 
 1. Sale Performance (Fact)
-    a. By Date (Granularity to the Month) (Dim)
-    b. By Region (Granularity to the Country and Segment) (Dim)
-    c. By Sales Representative (Granularity to the Sales Representative Name) (Dim)
+    > By Date (Granularity to the Month) (Dim)
+    > By Region (Granularity to the Country and Segment) (Dim)
+    > By Sales Representative (Granularity to the Sales Representative Name) (Dim)
 2. Sale Order (Granularity to the Sales Order ID) (Fact)
-    a. By Date (Granularity to the Day) (Dim)
-    b. By Region (Granularity to the Country and Segment) (Dim)
-    c. By Sales Representative (Granularity to the Sales Representative Name) (Dim)
-    d. By Product (Granularity to the Product Name) (Dim)
+    > By Date (Granularity to the Day) (Dim)
+    > By Region (Granularity to the Country and Segment) (Dim)
+    > By Sales Representative (Granularity to the Sales Representative Name) (Dim)
+    > By Product (Granularity to the Product Name) (Dim)
 
 <h3>User Access & Security</h3>
 

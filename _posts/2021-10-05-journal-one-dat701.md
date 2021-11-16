@@ -19,48 +19,47 @@ The developed data warehouse model is designed to meet the business requirements
 
 The benefit of deploying a dimensional schema for an enterprise data warehouse is the ability for end-users, particularly non-technical users, to produce business-level analytics and reporting (Moody et al., 2000). This is commonly deployed with user-friendly querying and business intelligence tools such as Power BI, these systems require no knowledge of SQL or other technical coding languages. Dimensional model databases are considered read-only and designed for data retrieval for analytics. Updates are normally performed with a batch extract, transform and load (ETL) (Moody et al., 2000). ETL is best performed during system downtime, preferably overnight so they do not affect query performance. Entities are classified into three categories as outlined in Table 1.
  
-<table style="width:100%, padding:5%">
+<table style="width:100%">
   <tr>
-    <th>Transaction</th>
-    <th>Component</th>
-    <th>Classification</th>
+    <th style="padding:5%">Transaction</th>
+    <th style="padding:5%">Component</th>
+    <th style="padding:5%">Classification</th>
   </tr>
   <tr>
-    <td>Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
+    <td style="padding:5%">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
 
 These entities are known as measures or quantities and will be identified by dollar figures or weights, for example. These entities are contained within the fact tables. Consideration should be made to those transaction entities that are capable of answering the business questions.</td>
-    <td>Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
+    <td style="padding:5%">Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
 
 Dimension tables are formed based on the component entities and can include the salesperson (who), the product (what), the location (where), and the period (when).</td>
-    <td>Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.
+    <td style="padding:5%">Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.
 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
-</table><br>
   <tr>
-    <td>- SalesOrderLineItem</td>
-    <td>- Promotion</td>
-    <td>- ProductCost</td>
+    <td style="padding:5%">- SalesOrderLineItem</td>
+    <td style="padding:5%">- Promotion</td>
+    <td style="padding:5%">- ProductCost</td>
   </tr>
   <tr>
-    <td>- SalesOrder</td>
-    <td>- Product</td>
-    <td>- Region</td>
+    <td style="padding:5%">- SalesOrder</td>
+    <td style="padding:5%">- Product</td>
+    <td style="padding:5%">- Region</td>
   </tr>
   <tr>
-    <td></td>
-    <td>- SalesRegion</td>
-    <td>- Country</td>
+    <td style="padding:5%"></td>
+    <td style="padding:5%">- SalesRegion</td>
+    <td style="padding:5%">- Country</td>
   </tr>
   <tr>
-    <td></td>
-    <td>- SalesPerson</td>
-    <td>- Segment</td>
+    <td style="padding:5%"></td>
+    <td style="padding:5%">- SalesPerson</td>
+    <td style="padding:5%">- Segment</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td>- SalesKPI</td>
+    <td style="padding:5%"></td>
+    <td style="padding:5%"></td>
+    <td style="padding:5%">- SalesKPI</td>
   </tr>
 </table>
 <center>

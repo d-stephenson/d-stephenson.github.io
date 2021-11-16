@@ -19,11 +19,6 @@ To support the views that have been created to answer the business questions, fu
 
 The view relating to the fact table sales performance is performed in zero seconds, meaning that addition non-clustered indexing is not necessary at this stage. However, to support scalability a non-clustered index was created on the table to support this view in recognition of business growth over time. The non-clustered index groups the <i>DateKey</i>, <i>SalesPersonID</i>, and <i>RegionID</i>, and uses <code>include</code> in the statement for the <i>AnnualSalesPrice</i> and <i>AnnualPerformance</i>. The index had no impact on the load time of the select statement. Should the records in the table grow over time, further testing should take place, particularly if the performance decreases.
 
-<center>
-    <img src="/assets/images/dat701-j-iv1.png" alt="Indexing created for view 1">
-</center>
-
-<center>
 <pre><code>
     -- Indexing for View 1
 
@@ -39,11 +34,13 @@ The view relating to the fact table sales performance is performed in zero secon
         with (data_compression = row);
     go
 </code></pre>
+
+<center>
+    <i><b>Figure 18</b> Indexing created for view 1</i>
 </center>
 
  The view against the fact table sale order is more taxing on the system resources, requiring 20 seconds to complete the query and generating over 1 million records as observed in Figure 20. A non-clustered index was created in addition to the clustered and non-clustered index performed in the DDL, this grouped <i>DateKey</i> and <i>SalesOrderID</i>, and was tested with several columns in the index and utilising <code>include</code> for the columns. The results were less than impressive, with most attempts producing the same 14-second result, or increasing the load time to as much as 16-seconds.
 
-<center>
 <pre><code>
     -- Indexing for View 2
 
@@ -59,7 +56,6 @@ The view relating to the fact table sales performance is performed in zero secon
         with (data_compression = row);;
     go
 </code></pre>
-</center>
 
 <center>
     <i><b>Figure 19</b> Indexing created for view 2</i>

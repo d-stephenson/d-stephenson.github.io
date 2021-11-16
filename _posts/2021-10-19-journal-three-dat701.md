@@ -291,14 +291,14 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 "tsql - How do I get the month and day with leading 0’s in SQL? (E.g. 9 => 09). (n.d.). Stack Overflow. Retrieved November 4, 2021, from" [https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09](https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09)
 
-"UPSERT Functionality in SQL Server 2008—DatabaseJournal.com. (n.d.). Retrieved November 6, 2021, from" [https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm](https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm)
+UPSERT Functionality in SQL Server 2008—DatabaseJournal.com. (n.d.). Retrieved November 6, 2021, from [https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm](https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm)
 
-"XiaoyuMSFT. (n.d.). MERGE (Transact-SQL)—SQL Server. Retrieved November 6, 2021, from" [https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql](https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql)
+XiaoyuMSFT. (n.d.). MERGE (Transact-SQL)—SQL Server. Retrieved November 6, 2021, from [https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql](https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql)
 
 <h3>Appendices</h3>
 
 <h4>Appendix A</h4>
-<center>
+
 <pre><code>
 
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -658,10 +658,10 @@ Research was conducted to find a solution that would allow the ETL merge procedu
     go
 
 </code></pre>
-</center>
+
 
 <h4>Appendix B</h4>
-<center>
+
 <pre><code>
 
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -1089,4 +1089,3 @@ Research was conducted to find a solution that would allow the ETL merge procedu
     go
 
 </code></pre>
-</center>

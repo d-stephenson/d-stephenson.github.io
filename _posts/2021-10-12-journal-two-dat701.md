@@ -357,13 +357,13 @@ The SQL statement used to confirm the <i>full</i> recovery model in the FinanceD
     <i>References</i>
 </div>
 <br>
-"Blaha, M. (2016, June 15). Data Warehouses Should Stage Source Data. DATAVERSITY." [https://www.dataversity.net/data-warehouses-stage-source-data/](https://www.dataversity.net/data-warehouses-stage-source-data/)
+Blaha, M. (2016, June 15). Data Warehouses Should Stage Source Data. DATAVERSITY. [https://www.dataversity.net/data-warehouses-stage-source-data/](https://www.dataversity.net/data-warehouses-stage-source-data/)
 
-"cawrites. (n.d.-a). Recovery Models (SQL Server)—SQL Server. Retrieved October 22, 2021, from" [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server)
+cawrites. (n.d.-a). Recovery Models (SQL Server)—SQL Server. Retrieved October 22, 2021, from [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
-"cawrites. (n.d.-b). Set database recovery model—SQL Server. Retrieved October 22, 2021, from" [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/view-or-change-the-recovery-model-of-a-database-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/view-or-change-the-recovery-model-of-a-database-sql-server)
+cawrites. (n.d.-b). Set database recovery model—SQL Server. Retrieved October 22, 2021, from [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/view-or-change-the-recovery-model-of-a-database-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/view-or-change-the-recovery-model-of-a-database-sql-server)
 
-"Multidimensional Warehouse (MDW). (n.d.). [Pstopic]. Retrieved October 17, 2021, from" [https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html](https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html)
+Multidimensional Warehouse (MDW). (n.d.). [Pstopic]. Retrieved October 17, 2021, from [https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html](https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html)
 
-"Surrogate Key in Data Warehouse, What, When and Why. (n.d.). Data Integration Solutions. Retrieved October 17, 2021, from" [http://www.disoln.org/2013/11/Surrogate-Key-in-Data-Warehouse-What-When-Why-and-Why-Not.html](http://www.disoln.org/2013/11/Surrogate-Key-in-Data-Warehouse-What-When-Why-and-Why-Not.html)
+Surrogate Key in Data Warehouse, What, When and Why. (n.d.). Data Integration Solutions. Retrieved October 17, 2021, from [http://www.disoln.org/2013/11/Surrogate-Key-in-Data-Warehouse-What-When-Why-and-Why-Not.html](http://www.disoln.org/2013/11/Surrogate-Key-in-Data-Warehouse-What-When-Why-and-Why-Not.html)
 

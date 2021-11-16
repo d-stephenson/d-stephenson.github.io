@@ -48,12 +48,17 @@ The FinanceDW data warehouse contains two business processes that form the two f
 
 1. Sale Performance (Fact)
     > By Date (Granularity to the Month) (Dim)
+
     > By Region (Granularity to the Country and Segment) (Dim)
+
     > By Sales Representative (Granularity to the Sales Representative Name) (Dim)
 2. Sale Order (Granularity to the Sales Order ID) (Fact)
     > By Date (Granularity to the Day) (Dim)
+
     > By Region (Granularity to the Country and Segment) (Dim)
+
     > By Sales Representative (Granularity to the Sales Representative Name) (Dim)
+    
     > By Product (Granularity to the Product Name) (Dim)
 
 <h3>User Access & Security</h3>

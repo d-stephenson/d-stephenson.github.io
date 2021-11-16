@@ -1,0 +1,296 @@
+---
+layout: post
+title:  "Journal #Three [DAT701] - ETL Process" 
+author: Dale Stephenson
+categories: [ DAT701, Journal, Enterprise Database Solutions ]
+image: assets/images/dat701-j3.jpg
+featured: true
+hidden: true
+---
+<i>ETL Process</i>
+
+JOURNAL #THREE [DAT701]
+
+<h2>ETL Process</h2>
+
+<h3>Business Process</h3>
+
+A business process in dimensional modelling is identified and described through the classification of a set of related business activities that have the highest importance to stakeholders. Business processes will not necessarily relate to business departments, and instead might revolve around customers, sales, profit, and products. For example, an organisation might have a sales department and marketing department, both will be interested in order data as the recognised business process. Dimensional models should be constructed around the business process to limit duplication or data redundancy, which can lead to problems and inconsistencies with data quality. In the case of FinanceDB, two business processes have been identified:
+
+1. Sales Performance
+2. Sales Orders
+
+After the business processes have been identified they must be prioritised. To clarify the priority level several criteria must be considered:
+
+- Strategic significance and scope of the business process
+- Availability and quality of data in the source system
+- Feasibility of the process and its complexity
+- Other factors specified as important to the business process
+ 
+Defining business processes allows for the high-level entities that are common across the processes to be identified and grouped to create shared dimensions. In the case of FinanceDB, these have been determined as:
+
+1. Date
+2. Sales Representative
+3. Region
+4. Product
+
+It is important to identify these common entities early in the development lifecycle, to allow business stakeholders to agree on the definitions to ensure consistency across the organisation. This is crucial to mitigate the risk of entities changing once the data warehouse is in production, which can impact the ETL process and applications that rely on the definitions, such as the business intelligence tools.
+
+<h3>Granularity</h3>
+
+The level of granularity that will be required in the fact tables can be determined from the business processes, and the requirements gathering conducted as part of the systems development. Documents collected in the requirements gathering process will often contain information that can be used to define the grain of measurement stores in the fact tables. The level of the grain should convey the exact contents of a measurement record stored in the fact table. The greater the level of detail included, the lower the level of granularity, conversely, if there is less detail included in the record, the granularity level will be higher.
+
+The level of detail available in a dimensional schema is the grain, and each fact and dimension table in the schema will have separate granularity. The dimensional schema’s grain is defined as the finest level of detail that can be realised by joining the fact and dimension tables. The grain defined in the FinanceDW model consists of dimensions <i>Date</i>, <i>Sales Representative</i>, <i>Product</i>, and <i>Region</i>, meaning the granularity obtained extends to <i>the date a product was sold by region and sales representative</i>.
+
+The grain of the fact tables is based on the business questions listed in Assignment 1. In a business scenario, additional information may be produced such as invoices, order forms, and any access granted to business operation applications. These documents and applications can also point to entities such as customer or product that can form the dimension tables. High-level or preliminary measures that are easy to identify should be considered first to define the grain, these measures can include unit price, manufacturing price, and cost. These measures may not be the final set of measurements included in the fact tables, however, they can support formal measures for the fact tables.
+
+The FinanceDW data warehouse contains two business processes that form the two fact tables. Several preliminary measurements have been incorporated in the <i>FactSaleOrder</i> table to support future proofing and to be able to quickly answer business questions that may not have been identified in the requirements gathering process. The measurements in the fact tables extend to the dimension tables, which includes data that allows performance data to be aggregated annually and monthly, and further related to both the sales representative and region tables. The sales order table aggregates measurements to total sales relating to an order, with granularity to the product level. The fact table measurements constitute multiple granularities within the single fact, the columns have been named to specifically identify the granularity level of the records represented by the column, such as <i>TotalAnnualKPI</i> and <i>TotalMonthlyKPI</i>.
+
+1. Sale Performance (Fact)
+    a. By Date (Granularity to the Month) (Dim)
+    b. By Region (Granularity to the Country and Segment) (Dim)
+    c. By Sales Representative (Granularity to the Sales Representative Name) (Dim)
+2. Sale Order (Granularity to the Sales Order ID) (Fact)
+    a. By Date (Granularity to the Day) (Dim)
+    b. By Region (Granularity to the Country and Segment) (Dim)
+    c. By Sales Representative (Granularity to the Sales Representative Name) (Dim)
+    d. By Product (Granularity to the Product Name) (Dim)
+
+<h3>User Access & Security</h3>
+
+To ensure the operational integrity of the OLTP FinanceDB database, access permissions have been granted to the Data Warehouse Developer. The developer does not require permissions that extend beyond READ, therefore <code>select</code> has been granted to this user. The permissions granted are a set of governing rules that determine the access level given to a user. Further permissions can be applied such as <code>grant</code>, <code>revoke</code>, and <code>deny</code>. Two further users have been created in the FinanceDW data warehouse for the data analysts to READ the data from the business intelligence tool.
+
+Users have been set up using two available processes in SQL Server:
+
+1. T-SQL statement
+2. SQL Server Management Studio Wizard
+
+These methods have been used to create the necessary login, the users, and the permissions associated with those users. The processes have been recorded in Figure 8, Figure 9, Figure 10, and Figure 11.
+
+<center>
+<pre><code>
+    -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    -- Create User Login and assign permissions for Data Warehouse Developer to read only access FinanceDB
+
+    use FinanceDB;
+
+    create login data_Warehouse_Developer with password = 'P@ssword1';
+
+    create user data_Warehouse_Developer for login data_Warehouse_Developer;
+
+    grant select on FinanceDB.dbo.Country to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.Product to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.ProductCost to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.Promotion to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.Region to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.SalesKPI to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.SalesOrder to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.SalesOrderLineItem to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.SalesPerson to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.SalesRegion to data_Warehouse_Developer;
+    grant select on FinanceDB.dbo.Segment to data_Warehouse_Developer;
+
+    -- Create User Login and assign permissions for Data Analyst Manager to read only access FinanceDW from PowerBI
+
+    use production_FinanceDW;
+
+    create login data_Analyst_Manager with password = 'P@ssword1';
+
+    create user data_Analyst_Manager for login data_Analyst_Manager;
+
+    grant select on DimDate to data_Analyst_Manager;
+    grant select on DimProduct to data_Analyst_Manager;
+    grant select on DimSalesLocation to data_Analyst_Manager;
+    grant select on DimSalesPerson to data_Analyst_Manager;
+    grant select on FactSaleOrder to data_Analyst_Manager;
+    grant select on FactSalePerformance to data_Analyst_Manager;
+</code></pre>
+</center>
+<center>
+    <i><b>Figure 8</b> Login, User, and Permissions assigned to Data Warehouse Developer on FinanceDB and Data Analyst on FinanceDW</i>
+</center>
+
+The following figures show the same process represented in Figure 8, a further data analyst having been created in the data warehouse using the built-in Login Properties and Database User wizards.
+
+<center>
+    <img src="/assets/images/dat701-j-lup1.png" alt="Login Wizard">
+</center>
+
+<center>
+    <i><b>Figure 9</b> Login Wizard</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-lup2.png" alt="User Wizard">
+</center>
+
+<center>
+    <i><b>Figure 10</b> User Wizard</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-lup3.png" alt="Assign Permissions Wizard">
+</center>
+
+<center>
+    <i><b>Figure 11</b> Assign Permissions Wizard</i>
+</center>
+
+<h3>Dimensions and Facts</h3>
+
+ETL of the operational data has been performed through the use of two procedures and two views. The first procedure performs a complete bulk update of all the data ingested into the data warehouse as an initial ingestion of data, this is provided in the TALOS virtual machine, the GitHub repository listed in this report, and has been included in Appendix A. A further method has been created that is also available in the TALOS virtual machine, the GitHub repository identified in this report and has been included in Appendix B. This method deploys a variation of UPSERT in SQL Server called MERGE, which aims to update column records in the data warehouse for tuples that already exist in the fact or dimension tables, insert data where new information has been added to the OLTP database, or delete data that has been removed. UPSERT is an acronym for <code>update</code> and <code>insert</code> in T-SQL.
+
+Merge is an operation that runs <code>insert</code>, <code>update</code>, or <code>delete</code> on a target table defined in the statement, in this case, FinanceDW, and joins it with the source database, FinanceDB. The merge statement effectively synchronises the two tables based on the differences that have been identified. This is accomplished through the use of the following terms:
+
+- <code>when matched then</code> – when this is satisfied by the search condition the tuples are either updated or deleted. Merge statements can have two <code>when matched</code> clauses, with the second clause applied only if the first has not been applied.
+- <code>when not match then</code> – specifies that the row will be inserted into the target table. Merge statements can only contain one <code>when not match</code> clause.
+
+Common table expressions have been deployed for the dimension tables, acting as the temporary name for the result set, the merge statement references the common table expression naming structure. The fact tables are more complex due to the granularity of the measures and the relationships to the dimension tables, these require multiple common table expressions that are not capable of being referenced by the merge function. This required the fact table queries to be wrapped inside a view, these views can then be referenced by the merge statements to perform the UPSERT event.
+
+To test the merge statements, data was changed in the FinanceDB database after the bulk insert procedure was run and the data set was successfully stored in the FinanceDW data warehouse. The merge statements showed that the changed data was updated as expected in the data warehouse. One such test has been provided in the TALOS virtual machine that can be tested and reviewed for this assignment, the statement is currently commented out for ease of performing the primary procedures as required.
+
+<h3>Data ETL for Dimensional Tables and Fact Tables</h3>
+
+The two ETL procedures created for the FinanceDW data warehouse are wrapped in stored procedures that can be run in the TALOS virtual machine. The completed procedures including the views created for the merge statements can be found in Appendix A and Appendix B.
+
+An alternative DimDate table has been considered and created that uses the dates contained across the tables in the FinanceDB database. The table takes the sales order date as the date key and includes the sales KPI year and promotion year as dates through the union select statement using the convert function. The day, month, and year have been extrapolated as integers from the collection of distinct dates. Figure 12 shows the process used to create this table.
+
+<center>
+<pre><code>
+    -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    -- Alternative DimDate based on dates in FinanceDB
+
+    drop table if exists DimDate_AltVersion;
+    go
+
+    create table DimDate_AltVersion
+    (
+        [Date_Key] datetime primary key,
+        [Day] int not null,
+        [Month] int not null,
+        [Year] int not null
+    );
+    go
+
+    drop view if exists DateView_AltVersion;
+    go
+
+    create view DateView_AltVersion as
+        with dd_av(NewDate) as
+            (
+                select SalesOrderDate from FinanceDB.dbo.SalesOrder
+                union
+                select convert(datetime, convert(varchar(10), SalesYear)) from FinanceDB.dbo.SalesKPI
+                union
+                select convert(datetime, convert(varchar(10), PromotionYear)) from FinanceDB.dbo.Promotion
+            )
+        select distinct
+            NewDate as [Date_Key],
+            day(NewDate) as [Day],
+            month(NewDate) as [Month],
+            year(NewDate) as [Year]
+        from dd_av
+        where
+            NewDate is not null;
+    go
+
+    select * from DateView_AltVersion
+        order by [Date_Key] desc;
+    go
+
+    merge into DimDate_AltVersion as Target
+    using DateView_AltVersion  as Source
+    on Target.[Date_Key] = Source.[Date_Key]
+    when matched then
+        update set
+            Target.[Date_Key] = Source.[Date_Key],
+            Target.[Day] = Source.[Day],
+            Target.[Month] = Source.[Month],
+            Target.[Year] = Source.[Year]
+    when not matched then
+        insert ([Date_Key], [Day], [Month], [Year])
+        values (Source.[Date_Key], Source.[Day], Source.[Month], Source.[Year]);
+    go
+
+    select * from DateView_AltVersion;
+    go
+</code></pre>
+</center>
+<center>
+    <i><b>Figure 12</b> Alternative DimDate solution explored for the FinanceDW data warehouse</i>
+</center>
+
+Research was conducted to find a solution that would allow the ETL merge procedure to be performed on a schedule when access is likely to be limited resulting in a low demand on system resources, such as overnight. SQL Server Agent was used to create a job that would run the procedure automatically, the process to establish the run merge procedure can be viewed in Figures 13, 14, 15, 16, and 17.
+
+<center>
+    <img src="/assets/images/dat701-j-aetl1.png" alt="Create new agent job to perform procedure automation">
+</center>
+
+<center>
+    <i><b>Figure 13</b> Create new agent job to perform procedure automation</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-aetl2.png" alt="Create T-SQL script to execute the procedure against the production_FinanceDW data warehouse">
+</center>
+
+<center>
+    <i><b>Figure 14</b> Create T-SQL script to execute the procedure against the production_FinanceDW data warehouse</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-aetl3.png" alt="Assign a schedule to the agent job">
+</center>
+
+<center>
+    <i><b>Figure 5</b> Assign a schedule to the agent job</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-aetl4.png" alt="Run the job">
+</center>
+
+<center>
+    <i><b>Figure 16</b> Run the job</i>
+</center>
+
+<center>
+    <img src="/assets/images/dat701-j-aetl5.png" alt="Review the job logs to confirm the procedure was run successfully and the next run is scheduled">
+</center>
+
+<center>
+    <i><b>Figure 17</b> Review the job logs to confirm the procedure was run successfully and the next run is scheduled</i>
+</center>
+
+<div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
+    <i>References</i>
+</div>
+<br>
+
+"Convert datetime to integer. (n.d.). Retrieved October 17, 2021, from" [https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql](https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql)
+
+"Converting dates to integer. (n.d.). Kimballgroup.Forumotion.Net. Retrieved October 17, 2021, from" [https://kimballgroup.forumotion.net/t720-converting-dates-to-integer](https://kimballgroup.forumotion.net/t720-converting-dates-to-integer)
+
+"Data Transformation and Data Quality. (n.d.). Stitch. Retrieved November 10, 2021, from" [https://www.stitchdata.com/platform/datatransformation/](https://www.stitchdata.com/platform/datatransformation/)
+
+"data warehouse—Loading Fact Tables with SQL Server. (n.d.). Stack Overflow. Retrieved October 17, 2021, from" [https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server](https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server)
+
+"Execute Stored Proc Using SQL Job. (n.d.). Retrieved November 14, 2021, from" [https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/](https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/)
+
+"How to Run a SQL Server UPSERT using Merge. (2020, August 14). HackDeploy." [https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/](https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/)
+
+"MS SQL Server—How to get Date only from the datetime value? (2018, September 1). TablePlus." [https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html](https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html)
+
+"Peterson, R. (2020, March 16). How to Create Login, User & Assign Permissions in SQL Server." [https://www.guru99.com/sql-server-create-user.html](https://www.guru99.com/sql-server-create-user.html)
+
+"Populating Fact Tables. (2015, February 9). Data Warehousing and Machine Learning." [https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/](https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/)
+
+"Sql server—How to automatically run a stored procedure on scheduler basis? - Stack Overflow. (n.d.). Retrieved November 14, 2021, from" [https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis](https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis)
+
+"tsql - How do I get the month and day with leading 0’s in SQL? (E.g. 9 => 09). (n.d.). Stack Overflow. Retrieved November 4, 2021, from" [https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09](https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09)
+
+"UPSERT Functionality in SQL Server 2008—DatabaseJournal.com. (n.d.). Retrieved November 6, 2021, from" [https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm](https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm)
+
+"XiaoyuMSFT. (n.d.). MERGE (Transact-SQL)—SQL Server. Retrieved November 6, 2021, from" [https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql](https://docs.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql)

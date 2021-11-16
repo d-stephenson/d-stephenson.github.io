@@ -68,10 +68,10 @@ Classification entities may be collapsed into component entities to form dimensi
     <td></td>
     <td>SalesKPI</td>
   </tr>
-</table><br>
+</table>
 <center>
     <i><b>Table 1</b> Entity Classifications for the FinanceDB database</i>
-</center>
+</center><br>
 
 The classifications form a precedence hierarchy with transaction entities forming the highest precedence, through to classification entities, and ending with component entities as the lowest precedence. Entities are capable of being classified as either component or classification, where this is the case, the entity should be classified in the classification category. When entities do not fit into the hierarchical structure they are not capable of being included in the schema.
 The following is the process deployed to identify the hierarchies:
@@ -134,10 +134,10 @@ Entities at the bottom of the hierarchy are referred to as minimal, entities at 
     <td></td>
     <td></td>
   </tr>
-</table><br>
+</table>
 <center>
     <i><b>Table 2</b> Maximal and Minimal Entities for FinanceDB database</i>
-</center>
+</center><br>
 
 The hierarchical structure can be used to collapse lower-level entities into higher-level entities. Lower-level entities in the FinanceDB relational tables can be collapsed as follows:
 
@@ -177,7 +177,7 @@ Two paths have been identified for the DimDate table, the first was to treat thi
 
 <center>
     <i><b>Figure 1</b> First Iteration – Investigating Draft Star Schema Implementation</i>
-</center>
+</center><br>
 
 <h3>Fact Constellation Schema – Final Dimensional Model</h3>
 
@@ -187,13 +187,12 @@ Two paths have been identified for the DimDate table, the first was to treat thi
 
 <center>
     <i><b>Figure 2</b> Late Iteration Version 3.2 – Fact Constellation Schema Implementation</i>
-</center>
+</center><br>
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
 <br>
-
 Moody, D. L., & Kortink, M. A. R. (2000). From Enterprise Models to Dimensional Models: A Methodology for Data Warehouse and Data Mart Design. Proceedings of the International Workshop on Design and Management of Data Warehouses (DMDW’2000).
 
 Multidimensional Warehouse (MDW). (n.d.). [Pstopic]. Retrieved October 17, 2021, from [https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html](https://docs.oracle.com/cd/E41507_01/epm91pbr3/eng/epm/penw/concept_MultidimensionalWarehouseMDW-9912e0.html)

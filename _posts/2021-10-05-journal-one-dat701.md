@@ -19,7 +19,7 @@ The developed data warehouse model is designed to meet the business requirements
 
 The benefit of deploying a dimensional schema for an enterprise data warehouse is the ability for end-users, particularly non-technical users, to produce business-level analytics and reporting (Moody et al., 2000). This is commonly deployed with user-friendly querying and business intelligence tools such as Power BI, these systems require no knowledge of SQL or other technical coding languages. Dimensional model databases are considered read-only and designed for data retrieval for analytics. Updates are normally performed with a batch extract, transform and load (ETL) (Moody et al., 2000). ETL is best performed during system downtime, preferably overnight so they do not affect query performance. Entities are classified into three categories as outlined in Table 1.
  
-<table width: 100%;>
+<table style="width:100%">
   <tr>
     <th>Transaction</th>
     <th>Component</th>
@@ -37,7 +37,7 @@ Dimension tables are formed based on the component entities and can include the 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
 </table><br>
-<table width: 100%;>
+<table style="width:100%">
   <tr>
     <th>Transaction</th>
     <th>Component</th>
@@ -103,7 +103,7 @@ The following is the process deployed to identify the hierarchies:
 
 Entities at the bottom of the hierarchy are referred to as minimal, entities at the top of the hierarchy are referred to as maximal. The FinanceDB OLTP database contains four maximal entities and three minimal entities that are listed in Table 2.
 
-<table width: 100%;>
+<table style="width:100%">
   <tr>
     <th>Maximal Entities</th>
     <th>Quantity</th>

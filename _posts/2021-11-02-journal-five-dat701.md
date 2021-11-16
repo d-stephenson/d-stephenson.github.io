@@ -38,7 +38,7 @@ Tooltips are available to perform a deeper dive into the detail in the charts, s
 
 <center>
     <i><b>Figure 24</b> Power BI dashboard relating to Sales Performance against KPI</i>
-</center>
+</center><br>
 
 <h3>Sales Orders</h3>
 
@@ -52,7 +52,7 @@ The main purpose of the view is to provide the most valuable sales order data fo
 
 <center>
     <i><b>Figure 25</b>  Power BI dashboard relating to Sales Orders</i>
-</center>
+</center><br>
 
 <h3>Monthly Margin & Percentage</h3>
 
@@ -64,12 +64,11 @@ Figure 26 has been produced to meet the business question relating to margin and
 
 <center>
     <i><b>Figure 26</b> Power BI dashboard relating to Margin & Percentage</i>
-</center>
+</center><br>
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
 <br>
-
 maggiesMSFT. (n.d.). Create a Power BI dashboard from a report—Power BI. Retrieved November 6, 2021, from [https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-create](https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-create)
 

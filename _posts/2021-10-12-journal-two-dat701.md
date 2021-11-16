@@ -18,7 +18,6 @@ JOURNAL #TWO [DAT701]
  
 Figure 3 is a view of the data definition language (DDL) used to meet the schema design. Column data types match the attributes in the FinanceDB database. A primary key constraint has been created against the date key in the DimDate table. Primary key constraints have not been created on the other dimension tables because the fact table granularity is such that the relationship references will replicated in these tables, instead a clustered index has been created against these references.
 
-<center>
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -189,10 +188,10 @@ Figure 3 is a view of the data definition language (DDL) used to meet the schema
     exec create_tables;
     go
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 3</b> DDL in relation to v.3.2 Fact Constellation Dimensional Model Schema</i>
-</center>
+</center><br>
 
 <h3>Indexes</h3>
 
@@ -212,7 +211,6 @@ The partition has been created using a partition function and a partition scheme
 
 In addition to the partitions and clustered indexes against the date dimension DateKey column in the two fact tables, additional non-clustered indexes have been created against the fact tables and the sales representative dimension table. The fact tables include non-clustered indexes against the relationship columns that are linked to the dimension tables, which would ordinarily be classified as foreign key relations. In the sales representative dimension table, a non-clustered index has been created against the first and last names of the sales representatives, as these are most likely to be searched for querying and data analytics. However, it is recognised that given the relatively small size of this table, the effect this is likely to have on overall performance is expected to be minimal.
 
-<center>
 <pre><code>
     -- Create partitions
 
@@ -275,10 +273,10 @@ In addition to the partitions and clustered indexes against the date dimension D
     exec sp_helpindex 'FactSaleOrder';
     go
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 4a</b> Partition code to create table partitioning</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-p1.png" alt="Defined partition structure">
@@ -286,7 +284,7 @@ In addition to the partitions and clustered indexes against the date dimension D
 
 <center>
     <i><b>Figure 4b</b> Defined partition structure</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-p2.png" alt="Partition applied to FactSalePerformance on the clustered index">
@@ -294,7 +292,7 @@ In addition to the partitions and clustered indexes against the date dimension D
 
 <center>
     <i><b>Figure 4c</b> Partition applied to FactSalePerformance on the clustered index</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-p3.png" alt="Partition applied to FactSaleOrder on the clustered index">
@@ -302,7 +300,7 @@ In addition to the partitions and clustered indexes against the date dimension D
 
 <center>
     <i><b>Figure 4d</b> Partition applied to FactSaleOrder on the clustered index</i>
-</center>
+</center><br>
 
 <h3>Recovery Model</h3>
 
@@ -320,7 +318,7 @@ The <i>bulk-logged</i> model is an adjunct of the <i>full</i> model, however, th
 
 The SQL statement used to confirm the <i>full</i> recovery model in the FinanceDW data warehouse can be viewed in Figure 5a, the result of which is shown in Figure 5b.
 
-<center>
+
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -335,10 +333,10 @@ The SQL statement used to confirm the <i>full</i> recovery model in the FinanceD
     where name = 'model';  
     go
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 5a</b> Query used to confirm default recovery model</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-rm1.png" alt="Partition applied to FactSaleOrder on the clustered index">
@@ -346,7 +344,7 @@ The SQL statement used to confirm the <i>full</i> recovery model in the FinanceD
 
 <center>
     <i><b>Figure 5d</b> Results of recovery model query</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-pd1.png" alt="Physical Diagram generated in SQL Server">
@@ -354,13 +352,12 @@ The SQL statement used to confirm the <i>full</i> recovery model in the FinanceD
 
 <center>
     <i><b>Figure 6</b> Physical Diagram generated in SQL Server</i>
-</center>
+</center><br>
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
 <br>
-
 "Blaha, M. (2016, June 15). Data Warehouses Should Stage Source Data. DATAVERSITY." [https://www.dataversity.net/data-warehouses-stage-source-data/](https://www.dataversity.net/data-warehouses-stage-source-data/)
 
 "cawrites. (n.d.-a). Recovery Models (SQL Server)—SQL Server. Retrieved October 22, 2021, from" [https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server)

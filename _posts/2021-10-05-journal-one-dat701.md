@@ -39,7 +39,9 @@ Dimension tables are formed based on the component entities and can include the 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
 </table><br>
-<table>
+<table 
+  width: 100%;
+>
   <tr>
     <th>Transaction</th>
     <th>Component</th>
@@ -105,9 +107,9 @@ The following is the process deployed to identify the hierarchies:
 
 Entities at the bottom of the hierarchy are referred to as minimal, entities at the top of the hierarchy are referred to as maximal. The FinanceDB OLTP database contains four maximal entities and three minimal entities that are listed in Table 2.
 
-<table {
+<table 
   width: 100%;
-}>
+>
   <tr>
     <th>Maximal Entities</th>
     <th>Quantity</th>

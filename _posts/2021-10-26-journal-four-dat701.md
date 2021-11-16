@@ -37,7 +37,7 @@ The view relating to the fact table sales performance is performed in zero secon
 
 <center>
     <i><b>Figure 18</b> Indexing created for view 1</i>
-</center>
+</center><br>
 
  The view against the fact table sale order is more taxing on the system resources, requiring 20 seconds to complete the query and generating over 1 million records as observed in Figure 20. A non-clustered index was created in addition to the clustered and non-clustered index performed in the DDL, this grouped <i>DateKey</i> and <i>SalesOrderID</i>, and was tested with several columns in the index and utilising <code>include</code> for the columns. The results were less than impressive, with most attempts producing the same 14-second result, or increasing the load time to as much as 16-seconds.
 
@@ -59,7 +59,7 @@ The view relating to the fact table sales performance is performed in zero secon
 
 <center>
     <i><b>Figure 19</b> Indexing created for view 2</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-iv1.png" alt="Query completion time">
@@ -67,7 +67,7 @@ The view relating to the fact table sales performance is performed in zero secon
 
 <center>
     <i><b>Figure 20</b> Query completion time</i>
-</center>
+</center><br>
 
 The results experienced in this test were not unexpected, given that the index strategy deployed in the DDL is sufficient given the size of the data set. The index strategy that has been deployed surrounds the creation of clustered indexes on the single-column primary keys in the dimension tables, which work in conjunction with the table partitioning meaning that given the tables are not considered very large by data warehousing standards, > 100k rows or even large, ~100k rows, a performance improvement has not been realised.
 
@@ -79,7 +79,6 @@ The two views created in the data warehouse have been specifically chosen to pro
 
 These views will be used to produce data visualisations by the data analyst in Power BI. By restricting the data available to these views, the data warehouse developer can provide a greater level of security by restricting access to the other data contained in the tables.
 
-<center>
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -112,12 +111,11 @@ These views will be used to produce data visualisations by the data analyst in P
         CountryName desc,
         SegmentName desc;
 </code></pre>
-</center>
-<center>
-    <i><b>Figure 21</b> View 1 for total yearly KPI by Sales Representative, Country, and Segment on Fact Sale Performance</i>
-</center>
 
 <center>
+    <i><b>Figure 21</b> View 1 for total yearly KPI by Sales Representative, Country, and Segment on Fact Sale Performance</i>
+</center><br>
+
 <pre><code>
     -- Reporting View 2 | Yearly Sales Orders by Sales Representative
 
@@ -152,10 +150,10 @@ These views will be used to produce data visualisations by the data analyst in P
         SalesOrderID,
         SalesRepresentative;
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 22</b> View 2 for yearly sales orders on Fact Sale Order</i>
-</center>
+</center><br>
 
 The execution plan was considered against both fact table views throughout the development process. A trade-off was necessary between the need to perform the aggregations across the tables in the OLTP database and the level of granularity required in the fact tables, with the desire to ensure optimum performance. The higher cost areas of the queries were expected, being with the aggregations and the inner joins. The queries and the common table expression have been designed to mitigate the effect on performance and run times.
 
@@ -163,6 +161,5 @@ The execution plan was considered against both fact table views throughout the d
     <i>References</i>
 </div>
 <br>
-
 Systems, C. (n.d.). SQL Server: Data Warehouse Indexing Strategy. Catapult Systems. Retrieved November 6, 2021, from [https://www.catapultsystems.com/blogs/sql-server-data-warehouse-indexing-strategy/](https://www.catapultsystems.com/blogs/sql-server-data-warehouse-indexing-strategy/)
 

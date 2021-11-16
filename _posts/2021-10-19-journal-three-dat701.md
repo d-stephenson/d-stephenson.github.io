@@ -67,7 +67,6 @@ Users have been set up using two available processes in SQL Server:
 
 These methods have been used to create the necessary login, the users, and the permissions associated with those users. The processes have been recorded in Figure 8, Figure 9, Figure 10, and Figure 11.
 
-<center>
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -106,10 +105,10 @@ These methods have been used to create the necessary login, the users, and the p
     grant select on FactSaleOrder to data_Analyst_Manager;
     grant select on FactSalePerformance to data_Analyst_Manager;
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 8</b> Login, User, and Permissions assigned to Data Warehouse Developer on FinanceDB and Data Analyst on FinanceDW</i>
-</center>
+</center><br>
 
 The following figures show the same process represented in Figure 8, a further data analyst having been created in the data warehouse using the built-in Login Properties and Database User wizards.
 
@@ -119,7 +118,7 @@ The following figures show the same process represented in Figure 8, a further d
 
 <center>
     <i><b>Figure 9</b> Login Wizard</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-lup2.png" alt="User Wizard">
@@ -127,7 +126,7 @@ The following figures show the same process represented in Figure 8, a further d
 
 <center>
     <i><b>Figure 10</b> User Wizard</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-lup3.png" alt="Assign Permissions Wizard">
@@ -135,7 +134,7 @@ The following figures show the same process represented in Figure 8, a further d
 
 <center>
     <i><b>Figure 11</b> Assign Permissions Wizard</i>
-</center>
+</center><br>
 
 <h3>Dimensions and Facts</h3>
 
@@ -156,7 +155,6 @@ The two ETL procedures created for the FinanceDW data warehouse are wrapped in s
 
 An alternative DimDate table has been considered and created that uses the dates contained across the tables in the FinanceDB database. The table takes the sales order date as the date key and includes the sales KPI year and promotion year as dates through the union select statement using the convert function. The day, month, and year have been extrapolated as integers from the collection of distinct dates. Figure 12 shows the process used to create this table.
 
-<center>
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -217,10 +215,10 @@ An alternative DimDate table has been considered and created that uses the dates
     select * from DateView_AltVersion;
     go
 </code></pre>
-</center>
+
 <center>
     <i><b>Figure 12</b> Alternative DimDate solution explored for the FinanceDW data warehouse</i>
-</center>
+</center><br>
 
 Research was conducted to find a solution that would allow the ETL merge procedure to be performed on a schedule when access is likely to be limited resulting in a low demand on system resources, such as overnight. SQL Server Agent was used to create a job that would run the procedure automatically, the process to establish the run merge procedure can be viewed in Figures 13, 14, 15, 16, and 17.
 
@@ -230,7 +228,7 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 <center>
     <i><b>Figure 13</b> Create new agent job to perform procedure automation</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-aetl2.png" alt="Create T-SQL script to execute the procedure against the production_FinanceDW data warehouse">
@@ -238,7 +236,7 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 <center>
     <i><b>Figure 14</b> Create T-SQL script to execute the procedure against the production_FinanceDW data warehouse</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-aetl3.png" alt="Assign a schedule to the agent job">
@@ -246,7 +244,7 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 <center>
     <i><b>Figure 5</b> Assign a schedule to the agent job</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-aetl4.png" alt="Run the job">
@@ -254,7 +252,7 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 <center>
     <i><b>Figure 16</b> Run the job</i>
-</center>
+</center><br>
 
 <center>
     <img src="/assets/images/dat701-j-aetl5.png" alt="Review the job logs to confirm the procedure was run successfully and the next run is scheduled">
@@ -262,34 +260,33 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 
 <center>
     <i><b>Figure 17</b> Review the job logs to confirm the procedure was run successfully and the next run is scheduled</i>
-</center>
+</center><br>
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>
 </div>
 <br>
+Convert datetime to integer. (n.d.). Retrieved October 17, 2021, from [https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql](https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql)
 
-"Convert datetime to integer. (n.d.). Retrieved October 17, 2021, from" [https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql](https://social.msdn.microsoft.com/Forums/en-US/04f2098e-9802-4fea-a936-3f988981f8ee/convert-datetime-to-integer?forum=transactsql)
+Converting dates to integer. (n.d.). Kimballgroup.Forumotion.Net. Retrieved October 17, 2021, from [https://kimballgroup.forumotion.net/t720-converting-dates-to-integer](https://kimballgroup.forumotion.net/t720-converting-dates-to-integer)
 
-"Converting dates to integer. (n.d.). Kimballgroup.Forumotion.Net. Retrieved October 17, 2021, from" [https://kimballgroup.forumotion.net/t720-converting-dates-to-integer](https://kimballgroup.forumotion.net/t720-converting-dates-to-integer)
+Data Transformation and Data Quality. (n.d.). Stitch. Retrieved November 10, 2021, from [https://www.stitchdata.com/platform/datatransformation/](https://www.stitchdata.com/platform/datatransformation/)
 
-"Data Transformation and Data Quality. (n.d.). Stitch. Retrieved November 10, 2021, from" [https://www.stitchdata.com/platform/datatransformation/](https://www.stitchdata.com/platform/datatransformation/)
+data warehouse—Loading Fact Tables with SQL Server. (n.d.). Stack Overflow. Retrieved October 17, 2021, from [https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server](https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server)
 
-"data warehouse—Loading Fact Tables with SQL Server. (n.d.). Stack Overflow. Retrieved October 17, 2021, from" [https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server](https://stackoverflow.com/questions/10053002/loading-fact-tables-with-sql-server)
+Execute Stored Proc Using SQL Job. (n.d.). Retrieved November 14, 2021, from [https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/](https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/)
 
-"Execute Stored Proc Using SQL Job. (n.d.). Retrieved November 14, 2021, from" [https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/](https://www.c-sharpcorner.com/article/execute-stored-proc-using-sql-job/)
+How to Run a SQL Server UPSERT using Merge. (2020, August 14). HackDeploy. [https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/](https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/)
 
-"How to Run a SQL Server UPSERT using Merge. (2020, August 14). HackDeploy." [https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/](https://hackdeploy.com/how-to-run-a-sql-server-upsert-using-merge/)
+MS SQL Server—How to get Date only from the datetime value? (2018, September 1). TablePlus. [https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html](https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html)
 
-"MS SQL Server—How to get Date only from the datetime value? (2018, September 1). TablePlus." [https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html](https://tableplus.com/blog/2018/09/ms-sql-server-how-to-get-date-only-from-datetime-value.html)
+Peterson, R. (2020, March 16). How to Create Login, User & Assign Permissions in SQL Server. [https://www.guru99.com/sql-server-create-user.html](https://www.guru99.com/sql-server-create-user.html)
 
-"Peterson, R. (2020, March 16). How to Create Login, User & Assign Permissions in SQL Server." [https://www.guru99.com/sql-server-create-user.html](https://www.guru99.com/sql-server-create-user.html)
+Populating Fact Tables. (2015, February 9). Data Warehousing and Machine Learning. [https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/](https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/)
 
-"Populating Fact Tables. (2015, February 9). Data Warehousing and Machine Learning." [https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/](https://dwbi1.wordpress.com/2015/02/09/populating-fact-tables/)
+Sql server—How to automatically run a stored procedure on scheduler basis? - Stack Overflow. (n.d.). Retrieved November 14, 2021, from [https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis](https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis)
 
-"Sql server—How to automatically run a stored procedure on scheduler basis? - Stack Overflow. (n.d.). Retrieved November 14, 2021, from" [https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis](https://stackoverflow.com/questions/12158158/how-to-automatically-run-a-stored-procedure-on-scheduler-basis)
-
-"tsql - How do I get the month and day with leading 0’s in SQL? (E.g. 9 => 09). (n.d.). Stack Overflow. Retrieved November 4, 2021, from" [https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09](https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09)
+tsql - How do I get the month and day with leading 0’s in SQL? (E.g. 9 => 09). (n.d.). Stack Overflow. Retrieved November 4, 2021, from [https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09](https://stackoverflow.com/questions/13804096/how-do-i-get-the-month-and-day-with-leading-0s-in-sql-e-g-9-09)
 
 UPSERT Functionality in SQL Server 2008—DatabaseJournal.com. (n.d.). Retrieved November 6, 2021, from [https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm](https://www.databasejournal.com/features/mssql/article.php/3739131/UPSERT-Functionality-in-SQL-Server-2008.htm)
 

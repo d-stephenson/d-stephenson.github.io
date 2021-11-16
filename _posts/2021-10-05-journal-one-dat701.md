@@ -31,7 +31,7 @@ The benefit of deploying a dimensional schema for an enterprise data warehouse i
     <td>Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
 
 These entities are known as measures or quantities and will be identified by dollar figures or weights, for example. These entities are contained within the fact tables. Consideration should be made to those transaction entities that are capable of answering the business questions.</td>
-    <td>Component entities enable transaction entities to be described through direct one-to- many relationships. These answer the who, what, when, where, how, and why.
+    <td>Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
 
 Dimension tables are formed based on the component entities and can include the salesperson (who), the product (what), the location (where), and the period (when).</td>
     <td>Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.

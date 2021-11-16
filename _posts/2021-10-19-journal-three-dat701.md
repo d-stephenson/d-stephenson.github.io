@@ -243,7 +243,7 @@ Research was conducted to find a solution that would allow the ETL merge procedu
 </center>
 
 <center>
-    <i><b>Figure 5</b> Assign a schedule to the agent job</i>
+    <i><b>Figure 15</b> Assign a schedule to the agent job</i>
 </center><br>
 
 <center>

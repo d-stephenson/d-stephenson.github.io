@@ -22,44 +22,44 @@ The benefit of deploying a dimensional schema for an enterprise data warehouse i
 <table style="width:100%">
   <tr>
     <th style="padding:1%; vertical-align:top">Transaction</th>
-    <th style="padding:5%">Component</th>
-    <th style="padding:5%">Classification</th>
+    <th style="padding:1%; vertical-align:top">Component</th>
+    <th style="padding:1%; vertical-align:top">Classification</th>
   </tr>
   <tr>
-    <td style="padding:5%">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
+    <td style="padding:1%; vertical-align:top">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
 
 These entities are known as measures or quantities and will be identified by dollar figures or weights, for example. These entities are contained within the fact tables. Consideration should be made to those transaction entities that are capable of answering the business questions.</td>
-    <td style="padding:5%">Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
+    <td style="padding:1%; vertical-align:top">Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
 
 Dimension tables are formed based on the component entities and can include the salesperson (who), the product (what), the location (where), and the period (when).</td>
-    <td style="padding:5%">Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.
+    <td style="padding:1%; vertical-align:top">Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.
 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
   <tr>
-    <td style="padding:5%">- SalesOrderLineItem</td>
-    <td style="padding:5%">- Promotion</td>
-    <td style="padding:5%">- ProductCost</td>
+    <td style="padding:1%; vertical-align:top">- SalesOrderLineItem</td>
+    <td style="padding:1%; vertical-align:top">- Promotion</td>
+    <td style="padding:1%; vertical-align:top">- ProductCost</td>
   </tr>
   <tr>
-    <td style="padding:5%">- SalesOrder</td>
-    <td style="padding:5%">- Product</td>
-    <td style="padding:5%">- Region</td>
+    <td style="padding:1%; vertical-align:top">- SalesOrder</td>
+    <td style="padding:1%; vertical-align:top">- Product</td>
+    <td style="padding:1%; vertical-align:top">- Region</td>
   </tr>
   <tr>
-    <td style="padding:5%"></td>
-    <td style="padding:5%">- SalesRegion</td>
-    <td style="padding:5%">- Country</td>
+    <td style="padding:1%; vertical-align:top"></td>
+    <td style="padding:1%; vertical-align:top">- SalesRegion</td>
+    <td style="padding:1%; vertical-align:top">- Country</td>
   </tr>
   <tr>
-    <td style="padding:5%"></td>
-    <td style="padding:5%">- SalesPerson</td>
-    <td style="padding:5%">- Segment</td>
+    <td style="padding:1%; vertical-align:top"></td>
+    <td style="padding:1%; vertical-align:top">- SalesPerson</td>
+    <td style="padding:1%; vertical-align:top">- Segment</td>
   </tr>
   <tr>
-    <td style="padding:5%"></td>
-    <td style="padding:5%"></td>
-    <td style="padding:5%">- SalesKPI</td>
+    <td style="padding:1%; vertical-align:top"></td>
+    <td style="padding:1%; vertical-align:top"></td>
+    <td style="padding:1%; vertical-align:top">- SalesKPI</td>
   </tr>
 </table>
 <center>

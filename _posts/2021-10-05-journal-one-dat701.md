@@ -186,7 +186,7 @@ Two paths have been identified for the DimDate table, the first was to treat thi
 </center>
 
 <center>
-    <i><b>Figure 2</b> Late Iteration Version 3.2 – Fact Constellation Schema Implementation</i>
+    <i><b>Figure 2</b> Final Iteration – Fact Constellation Schema Implementation</i>
 </center><br>
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 

@@ -21,7 +21,7 @@ The benefit of deploying a dimensional schema for an enterprise data warehouse i
  
 <table style="width:100%">
   <tr>
-    <th style="padding:5%">Transaction</th>
+    <th style="padding:1%; vertical-align:top">Transaction</th>
     <th style="padding:5%">Component</th>
     <th style="padding:5%">Classification</th>
   </tr>

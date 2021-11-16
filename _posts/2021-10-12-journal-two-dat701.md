@@ -318,7 +318,6 @@ The <i>bulk-logged</i> model is an adjunct of the <i>full</i> model, however, th
 
 The SQL statement used to confirm the <i>full</i> recovery model in the FinanceDW data warehouse can be viewed in Figure 5a, the result of which is shown in Figure 5b.
 
-
 <pre><code>
     -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 

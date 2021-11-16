@@ -37,36 +37,30 @@ Dimension tables are formed based on the component entities and can include the 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
 </table><br>
-<table style="width:100%">
   <tr>
-    <th>Transaction</th>
-    <th>Component</th>
-    <th>Classification</th>
+    <td>- SalesOrderLineItem</td>
+    <td>- Promotion</td>
+    <td>- ProductCost</td>
   </tr>
   <tr>
-    <td>SalesOrderLineItem</td>
-    <td>Promotion</td>
-    <td>ProductCost</td>
-  </tr>
-  <tr>
-    <td>SalesOrder</td>
-    <td>Product</td>
-    <td>Region</td>
+    <td>- SalesOrder</td>
+    <td>- Product</td>
+    <td>- Region</td>
   </tr>
   <tr>
     <td></td>
-    <td>SalesRegion</td>
-    <td>Country</td>
+    <td>- SalesRegion</td>
+    <td>- Country</td>
   </tr>
   <tr>
     <td></td>
-    <td>SalesPerson</td>
-    <td>Segment</td>
+    <td>- SalesPerson</td>
+    <td>- Segment</td>
   </tr>
   <tr>
     <td></td>
     <td></td>
-    <td>SalesKPI</td>
+    <td>- SalesKPI</td>
   </tr>
 </table>
 <center>

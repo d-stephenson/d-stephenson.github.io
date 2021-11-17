@@ -37,29 +37,29 @@ Dimension tables are formed based on the component entities and can include the 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>
   <tr>
-    <td style="padding:1%; vertical-align:top">- SalesOrderLineItem</td>
-    <td style="padding:1%; vertical-align:top">- Promotion</td>
-    <td style="padding:1%; vertical-align:top">- ProductCost</td>
+    <td style="padding:1%; vertical-align:top">- <i>SalesOrderLineItem</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>Promotion</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>ProductCostv</td>
   </tr>
   <tr>
-    <td style="padding:1%; vertical-align:top">- SalesOrder</td>
-    <td style="padding:1%; vertical-align:top">- Product</td>
-    <td style="padding:1%; vertical-align:top">- Region</td>
-  </tr>
-  <tr>
-    <td style="padding:1%; vertical-align:top"></td>
-    <td style="padding:1%; vertical-align:top">- SalesRegion</td>
-    <td style="padding:1%; vertical-align:top">- Country</td>
+    <td style="padding:1%; vertical-align:top">- <i>SalesOrder</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>Product</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>Region</i></td>
   </tr>
   <tr>
     <td style="padding:1%; vertical-align:top"></td>
-    <td style="padding:1%; vertical-align:top">- SalesPerson</td>
-    <td style="padding:1%; vertical-align:top">- Segment</td>
+    <td style="padding:1%; vertical-align:top">- <i>SalesRegion</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>Country</i></td>
+  </tr>
+  <tr>
+    <td style="padding:1%; vertical-align:top"></td>
+    <td style="padding:1%; vertical-align:top">- <i>SalesPerson</i></td>
+    <td style="padding:1%; vertical-align:top">- <i>Segment</i></td>
   </tr>
   <tr>
     <td style="padding:1%; vertical-align:top"></td>
     <td style="padding:1%; vertical-align:top"></td>
-    <td style="padding:1%; vertical-align:top">- SalesKPI</td>
+    <td style="padding:1%; vertical-align:top">- <i>SalesKPI</i></td>
   </tr>
 </table>
 <center>

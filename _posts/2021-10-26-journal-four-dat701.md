@@ -53,7 +53,7 @@ The view relating to the fact table sales performance is performed in zero secon
     create nonclustered index ix_fso_view2
         on FactSaleOrder
             (DateKey, SalesOrderID) -- include (TotalSalesPrice, TotalCost, TotalRRP)
-        with (data_compression = row);;
+        with (data_compression = row);
     go
 </code></pre>
 

@@ -26,13 +26,13 @@ The benefit of deploying a dimensional schema for an enterprise data warehouse i
     <th style="padding:1%; vertical-align:top">Classification</th>
   </tr>
   <tr>
-    <td style="padding:1%; vertical-align:top">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.
+    <td style="padding:1%; vertical-align:top">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.<br>
 
 These entities are known as measures or quantities and will be identified by dollar figures or weights, for example. These entities are contained within the fact tables. Consideration should be made to those transaction entities that are capable of answering the business questions.</td>
-    <td style="padding:1%; vertical-align:top">Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.
+    <td style="padding:1%; vertical-align:top">Component entities enable transaction entities to be described through direct one-to-many relationships. These answer the who, what, when, where, how, and why.<br>
 
 Dimension tables are formed based on the component entities and can include the salesperson (who), the product (what), the location (where), and the period (when).</td>
-    <td style="padding:1%; vertical-align:top">Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.
+    <td style="padding:1%; vertical-align:top">Classification entities are directly or transitively functionally dependent on component entities through one-to-many relationships.<br>
 
 Classification entities may be collapsed into component entities to form dimension tables through their embedded hierarchy. FinanceDB contains classification entities such as Segment and Country that can be collapsed into the component, Region entity. Likewise, ProductCost is a classification of Product that can be collapsed into a DimProduct table.</td>
   </tr>

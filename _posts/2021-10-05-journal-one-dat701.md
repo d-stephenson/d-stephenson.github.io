@@ -69,30 +69,34 @@ Classification entities may be collapsed into component entities to form dimensi
 The classifications form a precedence hierarchy with transaction entities forming the highest precedence, through to classification entities, and ending with component entities as the lowest precedence. Entities are capable of being classified as either component or classification, where this is the case, the entity should be classified in the classification category. When entities do not fit into the hierarchical structure they are not capable of being included in the schema.
 The following is the process deployed to identify the hierarchies:
 - Product > Promotion > SalesOrderLineItem
-    > Product is the parent of Promotion
-    > Promotion is the child of Product
-    > SalesOrderLineItem and Promotion are descendants of Product o Product and Promotion are ancestors of SalesOrderLineItem
+    > Product is the parent of Promotion<br>
+    > Promotion is the child of Product<br>
+    > SalesOrderLineItem and Promotion are descendants of Product<br>
+    > Product and Promotion are ancestors of SalesOrderLineItem
 - Product > SalesOrderLineItem
 - Product > Product Cost
 - Country > Product Cost
 - Country > Region > SalesRegion > SalesOrder > SalesOrderLineItem
-    > Country is the parent of Region
-    > Region is the child of Country
-    > SalesOrderLineItem, SalesOrder, SalesRegion and Region are descendants of Country o Country, Region, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
+    > Country is the parent of Region<br>
+    > Region is the child of Country<br>
+    > SalesOrderLineItem, SalesOrder, SalesRegion and Region are descendants of Country<br>
+    > Country, Region, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
 - Segment > Region > SalesRegion > SalesOrder > SalesOrderLineItem
-    > Country is the parent of Segment
-    > Segment is the child of Country
-    > SalesOrderLineItem, SalesOrder, SalesRegion and Region are descendants of Segment
-    >  Segment, Region, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
+    > Country is the parent of Segment<br>
+    > Segment is the child of Country<br>
+    > SalesOrderLineItem, SalesOrder, SalesRegion and Region are descendants of Segment<br>
+    > Segment, Region, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
 - SalesPerson > SalesKPI
 - SalesPerson > SalesRegion > SalesOrder > SalesOrderLineItem
-    > SalesPerson is the parent of SalesRegion
-    > SalesRegion is the child of SalesPerson
-    > SalesOrderLineItem, SalesOrder, SalesRegion are descendants of SalesPerson o SalesPerson, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
+    > SalesPerson is the parent of SalesRegion<br>
+    > SalesRegion is the child of SalesPerson<br>
+    > SalesOrderLineItem, SalesOrder, SalesRegion are descendants of SalesPerson<br> 
+    > SalesPerson, SalesRegion and SalesOrder are ancestors of SalesOrderLineItem
 - SalesPerson > SalesOrder > SalesOrderLineItem
-    > SalesPerson is the parent of SalesOrder
-    > SalesOrder is the child of SalesPerson
-    > SalesOrderLineItem and SalesOrder are descendants of SalesPerson o SalesPerson and SalesOrder are ancestors of SalesOrderLineItem
+    > SalesPerson is the parent of SalesOrder<br>
+    > SalesOrder is the child of SalesPerson<br>
+    > SalesOrderLineItem and SalesOrder are descendants of SalesPerson<br> 
+    > SalesPerson and SalesOrder are ancestors of SalesOrderLineItem
 
 Entities at the bottom of the hierarchy are referred to as minimal, entities at the top of the hierarchy are referred to as maximal. The FinanceDB OLTP database contains four maximal entities and three minimal entities that are listed in Table 2.
 

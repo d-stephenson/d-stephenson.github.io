@@ -102,10 +102,10 @@ Entities at the bottom of the hierarchy are referred to as minimal, entities at 
 
 <table style="width:100%">
   <tr>
-    <th>Maximal Entities</th>
-    <th>Quantity</th>
-    <th>Minimal Entities</th>
-    <th>Quantity</th>
+    <th style="text-align:center">Maximal Entities</th>
+    <th style="text-align:center">Quantity</th>
+    <th style="text-align:center">Minimal Entities</th>
+    <th style="text-align:center">Quantity</th>
   </tr>
   <tr>
     <td>Product</td>

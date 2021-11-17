@@ -21,9 +21,9 @@ The benefit of deploying a dimensional schema for an enterprise data warehouse i
  
 <table style="width:100%; table-layout: fixed;">
   <tr>
-    <th style="padding:1%; vertical-align:top">Transaction</th>
-    <th style="padding:1%; vertical-align:top">Component</th>
-    <th style="padding:1%; vertical-align:top">Classification</th>
+    <th style="padding:1%; vertical-align:top; text-align:center">Transaction</th>
+    <th style="padding:1%; vertical-align:top; text-align:center">Component</th>
+    <th style="padding:1%; vertical-align:top; text-align:center">Classification</th>
   </tr>
   <tr>
     <td style="padding:1%; vertical-align:top">Transaction entities are records relating to particular events that occur, such as sales orders, travel bookings, salary payments etc. These are the events that will be analysed by stakeholders to gain greater business insight.<br>

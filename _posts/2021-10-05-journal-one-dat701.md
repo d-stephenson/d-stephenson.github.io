@@ -19,7 +19,7 @@ The developed data warehouse model is designed to meet the business requirements
 
 The benefit of deploying a dimensional schema for an enterprise data warehouse is the ability for end-users, particularly non-technical users, to produce business-level analytics and reporting (Moody et al., 2000). This is commonly deployed with user-friendly querying and business intelligence tools such as Power BI, these systems require no knowledge of SQL or other technical coding languages. Dimensional model databases are considered read-only and designed for data retrieval for analytics. Updates are normally performed with a batch extract, transform and load (ETL) (Moody et al., 2000). ETL is best performed during system downtime, preferably overnight so they do not affect query performance. Entities are classified into three categories as outlined in Table 1.
  
-<table style="width:100%">
+<table style="width:100%; table-layout: fixed;">
   <tr>
     <th style="padding:1%; vertical-align:top">Transaction</th>
     <th style="padding:1%; vertical-align:top">Component</th>

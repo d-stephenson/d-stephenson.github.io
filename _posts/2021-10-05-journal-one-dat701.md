@@ -39,7 +39,7 @@ Classification entities may be collapsed into component entities to form dimensi
   <tr>
     <td style="padding:1%; vertical-align:top">- <i>SalesOrderLineItem</i></td>
     <td style="padding:1%; vertical-align:top">- <i>Promotion</i></td>
-    <td style="padding:1%; vertical-align:top">- <i>ProductCostv</td>
+    <td style="padding:1%; vertical-align:top">- <i>ProductCost</i></td>
   </tr>
   <tr>
     <td style="padding:1%; vertical-align:top">- <i>SalesOrder</i></td>

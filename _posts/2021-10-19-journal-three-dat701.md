@@ -143,7 +143,7 @@ The following figures show the same process represented in Figure 8, a further d
 
 <h3>Dimensions and Facts</h3>
 
-ETL of the operational data has been performed through the use of two procedures and two views. The first procedure performs a complete bulk update of all the data ingested into the data warehouse as an initial ingestion of data, this is provided in the TALOS virtual machine, the GitHub repository listed in this report, and has been included in Appendix A. A further method has been created that is also available in the TALOS virtual machine, the GitHub repository identified in this report and has been included in Appendix B. This method deploys a variation of UPSERT in SQL Server called MERGE, which aims to update column records in the data warehouse for tuples that already exist in the fact or dimension tables, insert data where new information has been added to the OLTP database, or delete data that has been removed. UPSERT is an acronym for <code>update</code> and <code>insert</code> in T-SQL.
+ETL of the operational data has been performed through the use of two procedures and two views. The first procedure performs a complete bulk update of all the data ingested into the data warehouse as an initial ingestion of data, this is provided in the TALOS virtual machine, the GitHub repository listed in this report, and has been included in <a href="#app_a">Appendix A</a>. A further method has been created that is also available in the TALOS virtual machine, the GitHub repository identified in this report and has been included in Appendix B. This method deploys a variation of UPSERT in SQL Server called MERGE, which aims to update column records in the data warehouse for tuples that already exist in the fact or dimension tables, insert data where new information has been added to the OLTP database, or delete data that has been removed. UPSERT is an acronym for <code>update</code> and <code>insert</code> in T-SQL.
 
 Merge is an operation that runs <code>insert</code>, <code>update</code>, or <code>delete</code> on a target table defined in the statement, in this case, FinanceDW, and joins it with the source database, FinanceDB. The merge statement effectively synchronises the two tables based on the differences that have been identified. This is accomplished through the use of the following terms:
 
@@ -299,7 +299,7 @@ XiaoyuMSFT. (n.d.). MERGE (Transact-SQL)—SQL Server. Retrieved November 6, 202
 
 <h3>Appendices</h3>
 
-<h4>Appendix A</h4>
+<h4 id="app_a">Appendix A</h4>
 
 <pre><code>
 

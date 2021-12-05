@@ -156,7 +156,7 @@ To test the merge statements, data was changed in the FinanceDB database after t
 
 <h3>Data ETL for Dimensional Tables and Fact Tables</h3>
 
-The two ETL procedures created for the FinanceDW data warehouse are wrapped in stored procedures that can be run in the TALOS virtual machine. The completed procedures including the views created for the merge statements can be found in Appendix A and Appendix B.
+The two ETL procedures created for the FinanceDW data warehouse are wrapped in stored procedures that can be run in the TALOS virtual machine. The completed procedures including the views created for the merge statements can be found in <a href="#app_a">Appendix A</a> and <a href="#app_b">Appendix B</a>.
 
 An alternative DimDate table has been considered and created that uses the dates contained across the tables in the FinanceDB database. The table takes the sales order date as the date key and includes the sales KPI year and promotion year as dates through the union select statement using the convert function. The day, month, and year have been extrapolated as integers from the collection of distinct dates. Figure 12 shows the process used to create this table.
 

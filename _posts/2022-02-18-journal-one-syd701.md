@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #One [SYD701] - Introduction" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j1.jpg
+image: /assets/images/syd701-j1.jpg
 featured: true
 hidden: true
 ---

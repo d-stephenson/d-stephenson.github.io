@@ -13,7 +13,7 @@ JOURNAL #ONE [SYD701]
 
 <h2>Introduction</h2>
 
-Content available soon. 
+Content available Feb/March. 
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>

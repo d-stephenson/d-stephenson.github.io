@@ -13,7 +13,7 @@ JOURNAL #ONE [SYD701]
 
 <h2>The Difficulty with Software</h2>
 
-<h3>What make good software difficult - Critical Analysis</h3>
+<h3>What makes good software difficult - Critical Analysis</h3>
  
 Software development is still emerging, and it is not governed by a concrete set of rules and procedures that can be found, for example, in construction or manufacturing. Software is often custom-built and does not exist on its own, combining many elements that create the whole system. Although frameworks do exist a lot of software is unproven and must be tested to ensure the array of possible inputs, outputs, states and dependencies impact each other as expected.
  

@@ -37,7 +37,7 @@ Consider a web application, a business stakeholder will not want to lose custome
  
 Given that the barrier to entry into software is quite low, namely that it is easy to learn how to write code, there is a significant gap between writing code and delivering good software systems. Good software, therefore, requires top-class coders to deliver systems quicker, cheaper and with fewer defects.
  
-<h3>Chapter 1: The Joys (and Woes) of the Craft, <i>The Mythical Man-Month</i> (1974) by Frederick P. Brooks - A Critical Review</h3>
+<h3>Chapter 1: The Joys (and Woes) of the Craft, <i>The Mythical Man-Month</i> (1974) by Frederick P. Brooks - Critical Review</h3>
  
 <i>Q: Did anything in the section surprise you or cause you to think about software differently? What and why?</i>
  
@@ -53,9 +53,7 @@ One caveat to the above statement, is that author starts the passage with <i>"Wh
  
 I agree with his statement that indicates the software industry is still looking for the next best thing, which does not appear to be based on technological advancement or great commercial application. Perhaps instead, there needs to be a paradigm shift towards seeking solutions that have longevity, although the complexity with software leads to a somewhat pessimistic outlook.
 
-<h3>No Silver Bullet—Essence and Accident in Software Engineering by Frederick P. Brooks, Jr. - A Critical Review</h3>
-
-<i>In your own words what is the difference between accidental tasks and essential tasks?</i>
+<h3>No Silver Bullet—Essence and Accident in Software Engineering by Frederick P. Brooks, Jr. - Critical Review</h3>
  
 The complexity of software development is a consequence of the essential tasks that makes it so difficult to achieve with a high degree of quality, these tasks cannot be avoided as collectively they are intended to solve the business or technical problem. Essential tasks are the development of the structures that construct the entire software system, being the functions that meet the business requirements, without them the end product will not succeed and will be deemed a failure.
  
@@ -64,8 +62,6 @@ Accidental tasks are also difficult, however, these are artificial barriers that
 These gains can be thought of as an anomaly. Computer hardware development and integration have progressed at a pace greater than any other technology, a fact that gives the appearance of relatively slow progress with software development. This may have resulted in lofty expectations of software development that is both unfounded and unfair. 
  
 The industry is at the point where reducing accidental tasks further will not result in any significant improvement in the difficulty experienced with software development, and this is the key difference between accidental and essential tasks. To reduce the difficulties in software development the focus must move to essential tasks, which has not benefitted from the same order of improvement. Software is, by its nature, a conceptual construct that requires detailed specifications, design and testing, all difficult elements to execute when ensuring requirements are met errors mitigated. Unless this changes, gains from improving the essential tasks will not experience the gains witnessed with accidental tasks.
- 
-<i>In your own words summarise the 4 properties that make software hard (Complexity, Conformity, Changeability, and Invisibility)</i>
  
 <h4>Complexity</h4>
  

@@ -22,15 +22,10 @@ Testing is often rushed, meaning the software is delivered to stakeholders havin
 Software development is affected by many external constraints:
  
 - Hardware
- 
 - Integration
- 
 - Regulatory
- 
 - Legacy systems and formats
- 
 - Performance issues
- 
 - Scalability
  
 Consider a web application, a business stakeholder will not want to lose customers because the software application does not function correctly on <i>Firefox</i> or <i>Safari</i>. The seemingly simple requirement to support multiple browsers inevitably increases complexity and the testing process.

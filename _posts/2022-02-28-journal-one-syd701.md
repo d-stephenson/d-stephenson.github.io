@@ -68,7 +68,13 @@ What is most surprising is that seemingly nothing has fundamentally changed with
  
 At first, I disagreed with several comparisons made by the author, for instance, those made between the programmer and the poet and the creative aspect of programming. On re-reading the passage I find it more difficult to disagree, not because my views have changed, but because the author has chosen his words very carefully.
  
-One caveat to the above statement, is that the author starts the passage with <i>"Why is programming fun?"</i>, I might have started with <i>"Is programming fun?"</i>
+One caveat to the above statement, is that the author starts the passage with:
+
+> "Why is programming fun?"
+
+I might have started with 
+
+> "Is programming fun?"
  
 <i>Q: Is his perspective from 50 or so years ago still relevant? Or have there been changes since 1974 which would render his observations obsolete? Why?</i>
  

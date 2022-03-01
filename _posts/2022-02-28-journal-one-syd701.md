@@ -72,7 +72,7 @@ One caveat to the above statement, is that the author starts the passage with:
 
 > "Why is programming fun?"
 
-I might have started with 
+I might have started with:
 
 > "Is programming fun?"
  

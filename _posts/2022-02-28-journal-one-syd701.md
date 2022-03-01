@@ -13,7 +13,7 @@ JOURNAL #ONE [SYD701]
 
 <h2>The Difficulty with Software</h2>
 
-<h3>What makes good software difficult - Critical Analysis</h3>
+<h3>What makes good software difficult - <i>A Critical Analysis</i></h3>
  
 Software development is still emerging, and it is not governed by a concrete set of rules and procedures that can be found, for example, in construction or manufacturing. Software is often custom-built and does not exist on its own, combining many elements that create the whole system. Although frameworks do exist a lot of software is unproven and must be tested to ensure the array of possible inputs, outputs, states and dependencies impact each other as expected.
  
@@ -31,24 +31,8 @@ Software development is affected by many external constraints:
 Consider a web application, a business stakeholder will not want to lose customers because the software application does not function correctly on <i>Firefox</i> or <i>Safari</i>. The seemingly simple requirement to support multiple browsers inevitably increases complexity and the testing process.
  
 Given that the barrier to entry into software is quite low, namely that it is easy to learn how to write code, there is a significant gap between writing code and delivering good software systems. Good software, therefore, requires top-class coders to deliver systems quicker, cheaper and with fewer defects.
- 
-<h3>Chapter 1: The Joys (and Woes) of the Craft, <i>The Mythical Man-Month</i> (1974) by Frederick P. Brooks - Critical Review</h3>
- 
-<i>Q: Did anything in the section surprise you or cause you to think about software differently? What and why?</i>
- 
-What is most surprising is that seemingly nothing has fundamentally changed with the significant passage of time. The technology industry is often perceived to be at the forefront of modern developed societies and post-industrial economies, and no doubt there have been significant increases in processing power and data storage capacity, however, little appears to have fundamentally changed in how software is built, despite the changes in programming languages and richness of the features and functionality that is now possible.
- 
-<i>Q: Do you disagree with Fred Brooks on anything? Why?</i>
- 
-At first, I disagreed with several comparisons made by the author, for instance, those made between the programmer and the poet and the creative aspect of programming. On re-reading the passage I find it more difficult to disagree, not because my views have changed, but because the author has chosen his words very carefully.
- 
-One caveat to the above statement, is that author starts the passage with <i>"Why is programming fun?"</i>, I might have started with <i>"Is programming fun?"</i>
- 
-<i>Q: Is his perspective from 50 or so years ago still relevant? Or have there been changes since 1974 which would render his observations obsolete? Why?</i>
- 
-I agree with his statement that indicates the software industry is still looking for the next best thing, which does not appear to be based on technological advancement or great commercial application. Perhaps instead, there needs to be a paradigm shift towards seeking solutions that have longevity, although the complexity with software leads to a somewhat pessimistic outlook.
 
-<h3>No Silver Bullet—Essence and Accident in Software Engineering by Frederick P. Brooks, Jr. - Critical Review</h3>
+<h3>No Silver Bullet—Essence and Accident in Software Engineering by Frederick P. Brooks, Jr. - <i>A Critical Review</i></h3>
  
 The complexity of software development is a consequence of the essential tasks that makes it so difficult to achieve with a high degree of quality, these tasks cannot be avoided as collectively they are intended to solve the business or technical problem. Essential tasks are the development of the structures that construct the entire software system, being the functions that meet the business requirements, without them the end product will not succeed and will be deemed a failure.
  
@@ -73,6 +57,22 @@ Software is incredibly malleable and easy to change, of course, this leads to al
 <h4>Invisibility</h4>
  
 Software is difficult to visualise and often requires numerous graphical depictions, such as control flows, data flows, time sequencing and other diagrams that can be produced using UML, for example. These visualisation tools are not always hierarchical or planar but are a disparate set of visualisations stacked on top of one another. Despite these diagramming tools, the software is still difficult for humans to visualise conceptually, which increases communication and design process problems.
+
+<h3>Chapter 1: The Joys (and Woes) of the Craft, <i>The Mythical Man-Month</i> (1974) by Frederick P. Brooks - <i>A Critical Review</i></h3>
+ 
+<i>Q: Did anything in the section surprise you or cause you to think about software differently? What and why?</i>
+ 
+What is most surprising is that seemingly nothing has fundamentally changed with the significant passage of time. The technology industry is often perceived to be at the forefront of modern developed societies and post-industrial economies, and no doubt there have been significant increases in processing power and data storage capacity, however, little appears to have fundamentally changed in how software is built, despite the changes in programming languages and richness of the features and functionality that is now possible.
+ 
+<i>Q: Do you disagree with Fred Brooks on anything? Why?</i>
+ 
+At first, I disagreed with several comparisons made by the author, for instance, those made between the programmer and the poet and the creative aspect of programming. On re-reading the passage I find it more difficult to disagree, not because my views have changed, but because the author has chosen his words very carefully.
+ 
+One caveat to the above statement, is that the author starts the passage with <i>"Why is programming fun?"</i>, I might have started with <i>"Is programming fun?"</i>
+ 
+<i>Q: Is his perspective from 50 or so years ago still relevant? Or have there been changes since 1974 which would render his observations obsolete? Why?</i>
+ 
+I agree with his statement that indicates the software industry is still looking for the next best thing, which does not appear to be based on technological advancement or great commercial application. Perhaps instead, there needs to be a paradigm shift towards seeking solutions that have longevity, although the complexity with software leads to a somewhat pessimistic outlook.
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>

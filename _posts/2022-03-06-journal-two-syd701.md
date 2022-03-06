@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Two [SYD701] - Strategic Problem Solving" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j2.jpg
+image: assets/images/syd701-j2
 featured: true
 hidden: true
 ---

@@ -21,13 +21,13 @@ Before we discuss the types of challenges teams face it is important to look at 
  
 <i>Issue: Students and staff often comment (complain!) about the difficulty of finding car parking spaces at NMIT.</i>
  
-<h4>Solution</h4>
+<b>Solution</b>
  
 Construct a multistorey car park in the parking area in front of G Block (a large car park on the NMIT campus). If there is sufficient funding available and a bureaucratic will to pursue a project of this scale, it could prove to be a simple and relatively inexpensive solution given the recognised constraints. Many of these structures have been constructed using precast concrete that can reduce the construction time and cost. There is of course a significant problem created from such a solution, Nelson is in a region of New Zealand that is seismically active. Therefore, seismic retrofits should be applied to the structure, which when factored into the solution, may make it unfeasible.
  
 <i>Issue: What should the Nelson City Council do to prepare for the impact of climate change?</i>
  
-<h4>Solution</h4>
+<b>Solution</b>
  
 To begin, the Council should obtain all relevant data where it is available to understand the rate of coastal erosion and the anticipated sea-level rise considering Nelson's geographically location on Tasman Bay. The information can be used to determine a worst-case scenario for ratepayers, including the impact of doing nothing as a viable alternative. If the impact is deemed low then the Council should do nothing and instead focus on more regional social and economic problems that are of greater concern to residents. Should the effects likely impact infrastructure, the economy, residential property and economic development, then research must take place with a view to implement proven solutions that are capable of protecting these assets. Most of all, those tasked with drafting a plan should be realistic and measured, they should take a scientific approach that avoids decisions based on the heightened emotions surrounding this problem.
  

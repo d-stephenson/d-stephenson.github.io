@@ -86,7 +86,7 @@ The licensing options available are as followed, copied directly from the [Creat
 - <b><u>CC BY-ND</u></b>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, and only so long as attribution is given to the creator. The license allows for commercial use.
 - <b><u>CC BY-NC-ND</u></b>: This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator. 
 
-If you take a look down at the bottom of this webpage you'll probably <i>not</i> notice that the established copyright logo has now been removed, replaced instaed with a Creative Commons license - if you want to create your own license for your website [click here](https://creativecommons.org/share-your-work/).
+If you take a look down at the bottom of this webpage you'll probably <i>not</i> notice that the established copyright logo has now been removed, replaced instead with a Creative Commons license - if you want to create your own license for your website [click here](https://creativecommons.org/share-your-work/).
 
 <i>References</i>
 

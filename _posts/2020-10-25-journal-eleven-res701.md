@@ -13,19 +13,19 @@ JOURNAL #ELEVEN [RES701]
 
 <h2>Protecting and Sharing Work</h2>
 
-There are several legal principles that ensure that 'unique' work is protected when shared, these protections are increasing important to understand as the internet and technology has made it especially easy to share information, concepts, designs and artwork in several mediums. 
+Several legal principles ensure that ‘unique’ work is protected when shared, these protections are increasingly important to understand as the internet and technology have made it especially easy to share information, concepts, designs and artwork in several mediums.
 
 <h3>Intellectual Property</h3>
 
-Intellectual Property (IP) is a legal protection which ensures creations and inventions are attributed to the people responsible for the work. This work is often referred to as a creation of the mind, and the intention of IP is to strike an acceptable balance between the interests of the creators to be:
+Intellectual Property (IP) is a legal protection that ensures creations and inventions are attributed to the people responsible for the work. This work is often referred to as a creation of the mind, and IP intends to strike an acceptable balance between the interests of the creators to be:
 
-a) recognised for their work, and <br>
-b) to benefit financially from their work, <br>
-c) whilst at the same time considering the interests of the wider public. 
+a) recognised for their work, and 
+b) to benefit financially from their work, 
+c) whilst at the same time considering the interests of the wider public.
 
 The aim of defining this balance is to foster an environment that allows people to innovate freely and apply creative ideas to solve problems. The principle of IP encompasses the following uses in commerce:
 
-- Inventions 
+- Inventions
 - Literature
 - Artwork
 - Design
@@ -33,49 +33,49 @@ The aim of defining this balance is to foster an environment that allows people 
 - Names
 - Images
 
-IP law has several methods that allow people to protect their creations, one is copyright which Is dealt with separately, the other are as follows:
+IP law has several methods that allow people to protect their creations, one is copyright which Is dealt with separately, the other is as follows:
 
-1. <b>Patents</b> - An exclusive right to a process or a product that has been invented, this could be a new way to perform an action such as what Dyson did with the bagless vacuum cleaner, or a new solution to a problem such as Tesla with the electric car. To obtain a patent technical details are disclosed publicly as part of the patent application.
+1. Patents - An exclusive right to a process or a product that has been invented, this could be a new way to act, such as what Dyson did with the bagless vacuum cleaner, or a new solution to a problem such as Tesla with the electric car. To obtain a patent technical details are disclosed publicly as part of the patent application.
 
-2. <b>Trademarks</b> - Allow enterprises to protect signs that distinguish themselves or their products and services from other enterprises. Trademarks can include words, letters, combinations of words, drawings, symbols, packaging, sounds, fragrances or colour shades, the possibilities are almost endless. Many corporations trademark distinguishing marks, such as McDonalds with the golden arches, and Disney, as two examples. 
+2. Trademarks - Allow enterprises to protect signs that distinguish themselves or their products and services from other enterprises. Trademarks can include words, letters, combinations of words, drawings, symbols, packaging, sounds, fragrances or colour shades, the possibilities are almost endless. Many corporations trademark distinguishing marks, such as Mcdonald's with the golden arches, and Disney, as two examples.
 
-These protections are not criminally applied but civil in nature, and allow redress to be obtained in the form of financial compensation through the courts, or used to stop misuse where it has occurred. Start up businesses will often secure their IP as soon as it is feasible to prevent costly disputes, it also allows for the securing of venture capital funding which is particularly prevalent in the software development industry.
+These protections are not criminally applied but civil, and allow redress to be obtained in the form of financial compensation through the courts, or used to stop misuse where it has occurred. Start-up businesses will often secure their IP as soon as it is feasible to prevent costly disputes, it also allows for the securing of venture capital funding which is particularly prevalent in the software development industry.
 
 <h3>Copyright</h3>
 
-Copyright is a form of IP that differs from patents and trademarks, being fixed in a tangible format, which does not necessary mean words on paper. Copyright protects original works of authorship in any of the following mediums:
+Copyright is a form of IP that differs from patents and trademarks, is fixed in a tangible format, which does not necessarily mean words on paper. Copyright protects original works of authorship in any of the following mediums: 
 
-- Literary works such as poetry and novels 
+- Literary works such as poetry and novels
 - Music including associated words
 - Dramatic works including associated music
 - Pantomimes and choreography
-- Pictures, graphics and sculpture	
+- Pictures, graphics and sculpture
 - Movies and audiovisual
 - Sound recording
-- Architecture 
+- Architecture
 - Computer software
 
-Copyright has its limitations and does not cover ideas, facts, operational methods, or systems, it may however protect expressions of these concepts. Also, copyright does not require registration in order to obtain the necessary protection in the way a patent does, it is established in most countries by legal statute and is applied automatically if the criteria for copyright is met.
+Copyright has its limitations and does not cover ideas, facts, operational methods, or systems, it may however protect expressions of these concepts. Also, copyright does not require registration to obtain the necessary protection in the way a patent does, it is established in most countries by legal statute and is applied automatically if the criteria for copyright is met.
 
 A copyright holder will often hold the following exclusive rights:
 
-1. To reproduce the work 
+1. To reproduce the work
 2. Create derivatives of the work
 3. Copy the work for distribution
-4. Publicly perform the work 
+4. Publicly perform the work
 5. Publicly display the work
 
-A person exploiting copyrighted work will infringe on the first two rights if they are violated either publicly or privately, the final three rights are only violated if they are carried out in public. The law does not consider the 'intent' of the person infringing on rights of the copyright holder when passing judgement. The internet has led to many public debates and costly lawsuits to establish copyright in this new technological arena, examples include the file sharing of music and movies, to copying images and text for reports and blogs. 
+A person exploiting copyrighted work will infringe on the first two rights if they are violated either publicly or privately, the final three rights are only violated if they are carried out in public. The law does not consider the ‘intent’ of the person infringing on the rights of the copyright holder when passing judgement. The internet has led to many public debates and costly lawsuits to establish copyright in this new technological arena, examples include the file-sharing of music and movies, to copying images and text for reports and blogs.
 
 <h3>Copyleft & Creative Commons</h3>
 
-<i>Copyleft</i> is a type of license that a copyright holder grants which gives permission to others allowing then to copy and reproduce IP, the concept is to protect societal interests through the free use of otherwise copyrighted property. Common uses of <i>copyleft</i> include software such as that produced in open-source projects, digital art, writings and creative content. 
+<i>Copyleft</i> is a type of license that a copyright holder grants which permits others allowing them to copy and reproduce IP, the concept is to protect societal interests through the free use of the otherwise copyrighted property. Common uses of <i>copyleft</i> include software such as that produced in open-source projects, digital art, writings and creative content.
 
-The origins of <i>copyleft</i> are thought to have come from computer expert Richard Stallman during his work at MIT in 1983. The <i>copyleft</i> principle was applied to the open-source programming project GNU, commonly known as Linux. The idea of keeping works and their derivatives free from copyright, is that it builds on what has come before, and helps to shape what comes next, which encourages the growth of knowledge for the common good, in effect it becomes part of our heritage.
+The origins of <i>copyleft</i> are thought to have come from computer expert Richard Stallman during his work at MIT in 1983. The <i>copyleft</i> principle was applied to the open-source programming project GNU, commonly known as Linux. The idea of keeping works and their derivatives free from copyright is that it builds on what has come before, and helps to shape what comes next, which encourages the growth of knowledge for the common good, in effect it becomes part of our heritage.
 
-The <i>copyleft</i> concept has led to the formation of the non-profit organisation 'Creative Commons', which aims to provide an alternative to the automatically applied copyright that is often viewed as restrictive.
+The <i>copyleft</i> concept has led to the formation of the non-profit organisation ‘Creative Commons’, which aims to provide an alternative to the automatically applied copyright that is often viewed as restrictive.
 
-Creative Commons generates licensing alternatives to copyright which are freely available. The licenses are designed to encourage the sharing of knowledge and information for general use, which aligns with many broad educations aims. A Creative Commons license gives users a guarantee that content is safe, as long as it is correctly applied, making the content a valuable resource for individuals and teams. It also offers a simple way to allow use of your work, without third parties contacting you requesting permission. Furthermore, you have a say in exactly how you want the information you share used. 
+Creative Commons generates licensing alternatives to copyright that are freely available. The licenses are designed to encourage the sharing of knowledge and information for general use, which aligns with many broad educations aims. A Creative Commons license gives users a guarantee that content is safe, as long as it is correctly applied, making the content a valuable resource for individuals and teams. It also offers a simple way to allow the use of your work, without third parties contacting you requesting permission. Furthermore, you have a say in exactly how you want the information you share used.
 
 The licensing options available are as followed, copied directly from the [Creative Commons](https://creativecommons.org/about/cclicenses/) website:
 

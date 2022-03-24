@@ -66,18 +66,18 @@ The stream would contain information such as a birth certificate at the tail wit
     <i>References</i>
 </div>
 <br>
-Bad Metaphors and Comparisons | The Austin Writing Shop. (n.d.). Retrieved March 23, 2022, from [http://austinwritingshop.com/writing-help/bad-metaphors-and-comparisons/](http://austinwritingshop.com/writing-help/bad-metaphors-and-comparisons/)
+Bad Metaphors and Comparisons - The Austin Writing Shop. (n.d.). Retrieved March 23, 2022, from [http://austinwritingshop.com/writing-help/bad-metaphors-and-comparisons/](http://austinwritingshop.com/writing-help/bad-metaphors-and-comparisons/)
 
 Computer Metaphors—List with Examples. (n.d.). Retrieved March 23, 2022, from [http://knowgramming.com/computer_metaphors.htm](http://knowgramming.com/computer_metaphors.htm)
 
-Desktop Metaphor—An overview | ScienceDirect Topics. (n.d.). Retrieved March 23, 2022, from [https://www.sciencedirect.com/topics/computer-science/desktop-metaphor](https://www.sciencedirect.com/topics/computer-science/desktop-metaphor)
+Desktop Metaphor—An overview - ScienceDirect Topics. (n.d.). Retrieved March 23, 2022, from [https://www.sciencedirect.com/topics/computer-science/desktop-metaphor](https://www.sciencedirect.com/topics/computer-science/desktop-metaphor)
 
 Eagan, K. (2017, June 27). Our digital futures and the problem with metaphor. Medium. [https://criticalmargins.com/our-digital-futures-and-the-problem-with-metaphor-adacc047e870](https://criticalmargins.com/our-digital-futures-and-the-problem-with-metaphor-adacc047e870)
 
-Metaphors in software development | TIGO Software Solutions. (n.d.). TIGO Software. Retrieved March 23, 2022, from [https://tigosoftware.com/index.php/metaphors-software-development](https://tigosoftware.com/index.php/metaphors-software-development)
+Metaphors in software development - TIGO Software Solutions. (n.d.). TIGO Software. Retrieved March 23, 2022, from [https://tigosoftware.com/index.php/metaphors-software-development](https://tigosoftware.com/index.php/metaphors-software-development)
 
 Metaphors—How popular are the terms “software” and “hardware” outside the computer world? - English Language & Usage Stack Exchange. (n.d.). Retrieved March 23, 2022, from [https://english.stackexchange.com/questions/84526/how-popular-are-the-terms-software-and-hardware-outside-the-computer-world](https://english.stackexchange.com/questions/84526/how-popular-are-the-terms-software-and-hardware-outside-the-computer-world)
 
 Scott Fertig, Eric Freeman and David Gelernter. (n.d.). Lifestreams: An Alternative to the Desktop Metaphor. Retrieved March 23, 2022, from [https://www.cs.yale.edu/homes/freeman/ericchi96.html](https://www.cs.yale.edu/homes/freeman/ericchi96.html)
 
-Software engineering metaphors | Tines. (n.d.). Retrieved March 23, 2022, from [https://www.tines.com/blog/software-engineering-metaphors](https://www.tines.com/blog/software-engineering-metaphors)
+Software engineering metaphors - Tines. (n.d.). Retrieved March 23, 2022, from [https://www.tines.com/blog/software-engineering-metaphors](https://www.tines.com/blog/software-engineering-metaphors)

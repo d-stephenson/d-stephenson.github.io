@@ -27,11 +27,11 @@ Despite the metaphors' ability to add strength and clarity to a concept, they ca
  
 To help illustrate these points, the following are examples of common metaphors in software and the broader field of IT:
  
-> <i>Software</i> itself is an analogy to hardware, it is not soft as we would typically think
-> <i>Space</i> availability on a hard drive, the space the hard drive takes up remains the same
-> <i>Windows</i> can be opened and closed, but open starts the program that becomes susceptible to change, closing will end the program
-> <i>Files</i> are paths where data is stored, there are no physical files that contain paperwork
-> <i>Moving</i> through the program, but the user is not moving anywhere
+> <i>Software</i> itself is an analogy to hardware, it is not soft as we would typically think<br>
+> <i>Space</i> availability on a hard drive, the space the hard drive takes up remains the same<br>
+> <i>Windows</i> can be opened and closed, but open starts the program that becomes susceptible to change, closing will end the program<br>
+> <i>Files</i> are paths where data is stored, there are no physical files that contain paperwork<br>
+> <i>Moving</i> through the program, but the user is not moving anywhere<br>
 > <i>Time Machine</i> on a Mac computer is designed to restore the computer to a previous state
  
 <h3>Metaphors in Computing</h3>
@@ -58,7 +58,9 @@ This new user experience included files, folders, documents and even a bin for r
  
 What would work as an alternative to the desktop metaphor?
  
-Desktop computers, in fact, all computers, must deal with increasing digital objects that users demand in their work and personal lives. (Scott Fertig, Eric Freeman and David Gelernter, n.d.) recommend the metaphor "Lifestreams" to better explain users' interactions with the traditional desktop computer. Lifestreams would end the conventional files and directories we are accustomed to and instead replace them with a time-ordered stream of documents. Separate applications that perform common desktop tasks could be consumed by the lifestream, whilst allowing users to continue using the document types and editors they are accustomed to for filtering and searching. The stream would contain information such as a birth certificate at the tail with the most recently edited document or received email at the head. Moving from the head into the future would include calendar items or reminders on a user's to-do list. This might alleviate common, difficult and often time-consuming tasks associated with hierarchical file systems that could make use of archived information normally discarded and offering a big picture view.
+Desktop computers, in fact, all computers, must deal with increasing digital objects that users demand in their work and personal lives. (Scott Fertig, Eric Freeman and David Gelernter, n.d.) recommend the metaphor "Lifestreams" to better explain users' interactions with the traditional desktop computer. Lifestreams would end the conventional files and directories we are accustomed to and instead replace them with a time-ordered stream of documents. Separate applications that perform common desktop tasks could be consumed by the lifestream, whilst allowing users to continue using the document types and editors they are accustomed to for filtering and searching. 
+
+The stream would contain information such as a birth certificate at the tail with the most recently edited document or received email at the head. Moving from the head into the future would include calendar items or reminders on a user's to-do list. This might alleviate common, difficult and often time-consuming tasks associated with hierarchical file systems that could make use of archived information normally discarded and offering a big picture view.
 
 <div style="background-color: #f6f6f6; padding: 1rem; border-radius: 10px 20px;"> 
     <i>References</i>

@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Four [SYD701] - Failed Systems Development - Consideration Analysis" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j4
+image: assets/images/syd701-j4.jpg
 featured: true
 hidden: true
 ---

@@ -23,10 +23,10 @@ SSM has a clearly defined structure that must be understood by the practitioner 
  
 Stages of the SSM intervention include:
  
-Determining the situation
-Discuss different systems that could be deployed in the situation
-Measure the discussions against the systems
-Use the information learnt to take action
+- Determining the situation
+- Discuss different systems that could be deployed in the situation
+- Measure the discussions against the systems
+- Use the information learnt to take action
  
 The stages outlined are not a route to the right answer, but act as an informed basis for taking positive action.
  
@@ -34,13 +34,13 @@ The stages outlined are not a route to the right answer, but act as an informed 
  
 There are seven steps that make up the SSM model. The steps do not represent a single process that must be followed through, but a flexible set of processes that can be applied to meet the needs of the organisation.
  
-<b>Step 1:</b> Understand and appreciate the problem situation
-<b>Step 2:</b> Document the problem situation
-<b>Step 3:</b> Formulate root definitions
-<b>Step 4:</b> Create the conceptual models including formal system concepts and other systems thinking
-<b>Step 5:</b> Compare these models with real world scenario
-<b>Step 6:</b> Define any possible changes
-<b>Step 7:</b> Recommend appropriate or necessary actions
+<b>Step 1:</b> Understand and appreciate the problem situation<br>
+<b>Step 2:</b> Document the problem situation<br>
+<b>Step 3:</b> Formulate root definitions<br>
+<b>Step 4:</b> Create the conceptual models including formal system concepts and other systems thinking<br>
+<b>Step 5:</b> Compare these models with real world scenario<br>
+<b>Step 6:</b> Define any possible changes<br>
+<b>Step 7:</b> Recommend appropriate or necessary actions<br>
  
 The process is repeatable as necessary and designed so that all parties have the ability to learn about the organisation, the diversity within the organisation and fellow employees. Practical ways to move forward should be discussed throughout the process, these should be well thought out and options accommodated and re-thought through.
  

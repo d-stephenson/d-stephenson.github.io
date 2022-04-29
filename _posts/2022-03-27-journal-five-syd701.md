@@ -33,7 +33,7 @@ As a result, the SDLC needed to evolve to include phases, procedures, tasks, rul
  
 This early approach, now referred to as the Waterfall approach, was not without its limitations. Primarily, its inflexibility made changes and change management costly and difficult to achieve, it created documentation problems because users could not test the system as it was developed and finally, there was an overemphasis to digitalise existing business systems. Although developing a mythology for system development was a step forward, there was clear room for improvement.
  
-<h3>Methods & Tools<h3>
+<h3>Methods & Tools</h3>
  
 Deploying the correct methodology for a software development project will inform and justify the methods & tools used to find solutions for problems. Methods can be qualitative, such as interviewing stakeholders and users, and quantitative, collecting data to create workable knowledge to identify and optimise trends and patterns and quantifying processes and products for improvement.
  

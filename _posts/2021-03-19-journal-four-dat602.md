@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Four [DAT602] - CRUD Table" 
 author: Dale Stephenson
 categories: [ DAT602, Journal, Database Application Development ]
-image: assets/images/DAT602-J4.jpeg
+image: assets/images/DAT602-J4
 featured: true
 hidden: true
 ---

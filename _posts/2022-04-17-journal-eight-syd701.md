@@ -314,7 +314,7 @@ Table 1 highlights the emphasis given to various methodologies, the key ranges f
     <td>Long-term projects</td>
   </tr>
 </table>
-<center><i>Table 1: Comparison of the various software development methodologies</i></center>
+<center><i>Table 1: Comparison of the various software development methodologies</i></center><br>
  
 <h3>Common Reasons for Failure</h3>
  

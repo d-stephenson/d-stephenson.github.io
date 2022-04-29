@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Seven [SYD701] - Soft Systems Methodology" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j7.jpg
+image: assets/images/syd701-j7
 featured: true
 hidden: true
 ---

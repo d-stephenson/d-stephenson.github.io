@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Nine [SYD701] - Software Development Methodology Trends" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j9.jpg
+image: assets/images/syd701-j9
 featured: true
 hidden: true
 ---

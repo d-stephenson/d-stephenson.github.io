@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Five [SYD701] - Systems Methodologies for Software Development" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j5.jpg
+image: assets/images/syd701-j5
 featured: true
 hidden: true
 ---

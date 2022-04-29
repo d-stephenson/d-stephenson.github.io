@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Six [SYD701] - Information Technology Standards & Frameworks" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j6.jpg
+image: assets/images/syd701-j6
 featured: true
 hidden: true
 ---

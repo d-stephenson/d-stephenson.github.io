@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Journal #Eight [SYD701] - Software Development Methodologies - Overview" 
+title:  "Journal #Eight [SYD701] - Deploying Software Development Methodologies" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
 image: assets/images/syd701-j8
 featured: true
 hidden: true
 ---
-<i>Software Development Methodologies - Overview</i>
+<i>Deploying Software Development Methodologies</i>
 
 JOURNAL #EIGHT [SYD701]
 

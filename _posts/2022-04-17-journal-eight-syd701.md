@@ -32,19 +32,19 @@ It is important to understand that no one methodology is a fit for all situation
 The following list reveals the extent to which solutions have been developed to provide a solution to practical software development, to enable it to meet requirements and improve success:
  
 - Waterfall 
-- Agile family:
-    ○ SCRUM
-	○ Dynamic Systems Development Model (DSDM) 
-	○ Rapid Application Development (RAD)
-	○ Extreme Programming (XP)
-	○ Feature-Driven Development (FDD)
+- Agile family:<br>
+  ○ SCRUM<br>
+	○ Dynamic Systems Development Model (DSDM) <br>
+	○ Rapid Application Development (RAD)<br>
+	○ Extreme Programming (XP)<br>
+	○ Feature-Driven Development (FDD)<br>
 	○ Internet-Speed Development
 - Evo
-- Unified Process family:
-	○ Rational Unified Process (RUP)
-	○ Open Unified Process (OpenUP)
-	○ Essential Unified Process (EssUP) 
-	○ Agile Unified Process
+- Unified Process family:<br>
+	○ Rational Unified Process (RUP)<br>
+	○ Open Unified Process (OpenUP)<br>
+	○ Essential Unified Process (EssUP) <br>
+	○ Agile Unified Process<br>
 	○ Enterprise Unified Process
 - PRINCE2 (PRojects IN Controlled Environments 2) 
 - Project Management Body of Knowledge (PMBOK)
@@ -314,7 +314,7 @@ Table 1 highlights the emphasis given to various methodologies, the key ranges f
     <td>Long-term projects</td>
   </tr>
 </table>
-<i>Table 1: Comparison of the various software development methodologies</i>
+<center><i>Table 1: Comparison of the various software development methodologies</i></center>
  
 <h3>Common Reasons for Failure</h3>
  

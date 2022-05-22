@@ -157,4 +157,4 @@ The concept of failing fast, important in Scrum, can help individuals overcome p
     <i>References</i>
 </div>
 <br>
-12 Principles Behind the Agile Manifesto - Agile Alliance. (n.d.). Retrieved May 22, 2022, from (https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)[https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/]
+12 Principles Behind the Agile Manifesto - Agile Alliance. (n.d.). Retrieved May 22, 2022, from [https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)

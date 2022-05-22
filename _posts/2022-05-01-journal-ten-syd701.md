@@ -121,7 +121,7 @@ The principle allows for increased feedback time, a shared feeling of responsibi
  
 In a Scrum framework, this would be inviting business users to observe the daily stand-up, attend the sprint review and retrospective and can even include a shared kitchen or drinks area to allow natural communication outside the more formal gatherings.
  
-<h2>The Agile Manifesto</h2>
+<h2>The Scrum Framework</h2>
  
 <h4>Describe the practice:</h4>
  

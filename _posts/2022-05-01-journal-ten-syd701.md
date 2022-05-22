@@ -85,10 +85,10 @@ The purpose of these activities plus the inputs and outputs are described as fol
  
 The Agile Manifesto is defined by 4 statements, where the items on the left are considered more valuable then the items on the right:
 
-<b>Individuals and interactions</b>over processes and tools
-<b>Working software</b> over comprehensive documentation
-<b>Customer collaboration</b> over contract negotiation
-<b>Responding to change</b> over following a plan
+<b>Individuals and interactions</b>over processes and tools<br>
+<b>Working software</b> over comprehensive documentation<br>
+<b>Customer collaboration</b> over contract negotiation<br>
+<b>Responding to change</b> over following a plan<br>
 
 Twelve principles comprise the Agile Methodology:
 

@@ -159,6 +159,7 @@ An important output of the spring review is to obtain a clear picture from the s
 <center>
     <img src="/assets/images/syd701-figure-1.png" alt="Figure 1: Rich Picture for GentleApple scenario">
 </center>
+<i>Figure 1: Rich Picture for GentleApple scenario</i>
 
 Several issues have been identified by the creation of the GentleApple Rich Picture:
 

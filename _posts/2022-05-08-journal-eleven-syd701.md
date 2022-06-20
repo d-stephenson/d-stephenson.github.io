@@ -17,19 +17,19 @@ JOURNAL #ELEVEN [SYD701]
 
 GentleApple is a mid-sized apple producer, packhouse and cool store enterprise. They have approached the author to develop a cloud-based application and database accessed through a secure web-based user interface (UI). The project's purpose is to update the current spreadsheet-based operational processes and collate them into a single system that is simple to manage and operate, improves data entry input and benefits from an automated backup solution. The system should consider the following requirements outlined in the proposal document:
 
--	Customer account information 
-  ○ Customer type
-  ○ Contact details 
-  ○ Order details (quality, price, quantity) 
+-	Customer account information <br>
+  ○ Customer type<br>
+  ○ Contact details <br>
+  ○ Order details (quality, price, quantity) <br>
   ○ Order and delivery tracking
--	Supplier purchase ordering information
-  ○ Contact details
+-	Supplier purchase ordering information<br>
+  ○ Contact details<br>
   ○ Purchase Orders (item, quantity, price, authorisation)
 -	Cool store items track and trace
--	Employee information
-  ○ Contact details
-  ○ Shift control
-  ○ Annual leave
+-	Employee information<br>
+  ○ Contact details<br>
+  ○ Shift control<br>
+  ○ Annual leave<br>
   ○ Sick leave  
 -	Integration with the intermediate bin database web API
 -	Operational performance dashboard

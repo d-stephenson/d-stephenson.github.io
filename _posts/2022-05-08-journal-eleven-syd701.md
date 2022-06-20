@@ -76,8 +76,8 @@ To ensure an effective delivery strategy the Agile techniques must focus on high
 Forney (2019) indicates that Agile is capable of demonstrating measured success rates, explaining its popularity. Young (2013) provides a methodology comparison of several techniques against characteristics of project delivery outlined in Table 1. The table identifies seven software development measures, deadline, cost, quality, project size, release frequency, planning and coordination tightness and ranks them from very high (VH) to very low (VL). This table will be used as a countercheck for the methodology chosen for the GentleApple development. 
 
 <center>
-    <img src="/assets/images/syd701-table-1.png" alt="Table 1: Software development methodology comparison"><br>
-</center>
+    <img src="/assets/images/syd701-table-1.png" alt="Table 1: Software development methodology comparison">
+</center><br>
 
 1.3	Impact of Outsourcing on Agile Methodologies 
 
@@ -104,8 +104,8 @@ Scrum is a highly versatile framework derived from its simplicity, consequently,
 The following Scrum elements have been identified as key to the success of the GentleApple software development, 1) remote outsourced development; 2) technical capabilities of the end-user operating the packhouse; 3) need to test the functionality and usability of the interface incrementally to manage change; 4) receive feedback from stakeholders and end-users early in the design and development phases, mitigating risk and increasing the likelihood of success. The elements of the Scrum framework that encompasses events, artefacts and roles will be implemented to fit the context of the development project whilst staying within the boundaries of the Agile methodology, ensuring the human practice framework remains intact (Shringi, 2020). The elements that make up Scrum are outlined in Table 2 (FUIOR, 2019).
 
 <center>
-    <img src="/assets/images/syd701-table-2.png" alt="Table 2: The key elements of Scrum"><br>
-</center>
+    <img src="/assets/images/syd701-table-2.png" alt="Table 2: The key elements of Scrum">
+</center><br>
 
 The four most important elements for the GentleApple project, considering the complexity of the development, remote location of stakeholders and users and the resulting identified risks are 1) The Product Backlog; 2) The Increment; 3) The Sprint Goal; 4) The Sprint Review. 
 
@@ -159,7 +159,7 @@ An important output of the spring review is to obtain a clear picture from the s
 <center>
     <img src="/assets/images/syd701-figure-1.png" alt="Figure 1: Rich Picture for GentleApple scenario">
     <i>Figure 1: Rich Picture for GentleApple scenario</i>
-</center>
+</center><br>
 
 Several issues have been identified by the creation of the GentleApple Rich Picture:
 
@@ -184,8 +184,8 @@ The development phases outlined for the GentleApple software development are not
     <img src="/assets/images/syd701-table-3b.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (b)">
     <img src="/assets/images/syd701-table-3c.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (c)">
     <img src="/assets/images/syd701-table-3d.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (d)">
-    <img src="/assets/images/syd701-table-3e.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (e)"><br>
-</center>
+    <img src="/assets/images/syd701-table-3e.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (e)">
+</center><br>
 
 An analysis of the project factors outlined in Table 1 has been conducted to inform the decisions made for the high-level plan:
 
@@ -207,8 +207,8 @@ The product owner should carefully manage the GentleApple product backlog, ackno
 
 <center>
     <img src="/assets/images/syd701-table-4a.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (a)">
-    <img src="/assets/images/syd701-table-4b.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (b)"><br>
-</center>
+    <img src="/assets/images/syd701-table-4b.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (b)">
+</center><br>
 
 <h4>5.2	The Increment</h4>
 
@@ -217,8 +217,8 @@ The GentleApple business model is a relative uncertainty to the development team
 The definition outlined in Table 5 accounts for the nature of the product being built and the technologies used, the sprints can be measured and used to show progress to stakeholders, regardless of whether the product is shippable. The intention of the definition is not to excuse the inability to deliver validated value to GentleApple; it merely acknowledges the ground up modernisation of the data entry process moving away from spreadsheets. This should be supported by the prioritisation of items in the product backlog to emphasize product delivery for end-user testing early in the development lifecycle. Two-week increments would be sufficient time to generate incremental work that falls within the definition of done, requiring no further work. The team must remember that in Scrum it is not considered possible to measure the amount of work that has not occurred (Fowler, 2019). Although two weeks is recommended, the increment should be negotiated first between the product owner and development team for two reasons, 1) the product owner often values shorter sprint increments and the transparency that comes with the end of a sprint, whilst 2) developers value longer sprint increments with a focus on the stability between the beginning and the end of the increment (Fowler, 2019). The recommended two weeks may ultimately not be decided by the team as feasible, however, providing it remains within the Scrum rules of no longer than 30 calendar days, it will be approved (Fowler, 2019). It must be noted that the sprint increment is not a deadline, the increment should never be extended to provide extra time to complete tasks, the increment is a measuring tool to help the team to learn and improve as the development progresses (Fowler, 2019). 
 
 <center>
-    <img src="/assets/images/syd701-table-5.png" alt="Table 5: Indicative definition of done to close sprints"><br>
-</center>
+    <img src="/assets/images/syd701-table-5.png" alt="Table 5: Indicative definition of done to close sprints">
+</center><br>
 
 <h4>5.3	The Sprint Goal</h4>
 

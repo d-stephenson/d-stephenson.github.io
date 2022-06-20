@@ -293,7 +293,6 @@ The research indicates that Scrum is a valuable framework for software developme
     <i>References</i>
 </div>
 <br>
-
 Alhazmi, A., & Huang, S. (2018). A decision support system for sprint planning in Scrum practice. SoutheastCon 2018, 1–9.
 
 Aoufi, A., Schoeman, M., & Turner, N. (2021). How to Outsource Agile Projects Effectively: Suppliers and client advisors need to work closely with client organizations to ensure key enablers are in place to increase success when outsourcing Agile projects. Research-Technology Management, 65(1), 59–66.

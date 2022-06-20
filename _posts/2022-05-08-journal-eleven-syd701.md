@@ -184,7 +184,7 @@ The development phases outlined for the GentleApple software development are not
     <img src="/assets/images/syd701-table-3b.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (b)">
     <img src="/assets/images/syd701-table-3c.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (c)">
     <img src="/assets/images/syd701-table-3d.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (d)">
-    <img src="/assets/images/syd701-table-3e.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (e)">
+    <img src="/assets/images/syd701-table-3e.png" alt="TTable 3: Phases, Practices, Techniques, Tools and Outputs of the GentleApple development (e)"><br>
 </center>
 
 An analysis of the project factors outlined in Table 1 has been conducted to inform the decisions made for the high-level plan:
@@ -207,7 +207,7 @@ The product owner should carefully manage the GentleApple product backlog, ackno
 
 <center>
     <img src="/assets/images/syd701-table-4a.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (a)">
-    <img src="/assets/images/syd701-table-4b.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (b)">
+    <img src="/assets/images/syd701-table-4b.png" alt="Table 4: Indicative Scrum Product Backlog deploying User Stories (b)"><br>
 </center>
 
 <h4>5.2	The Increment</h4>
@@ -217,7 +217,7 @@ The GentleApple business model is a relative uncertainty to the development team
 The definition outlined in Table 5 accounts for the nature of the product being built and the technologies used, the sprints can be measured and used to show progress to stakeholders, regardless of whether the product is shippable. The intention of the definition is not to excuse the inability to deliver validated value to GentleApple; it merely acknowledges the ground up modernisation of the data entry process moving away from spreadsheets. This should be supported by the prioritisation of items in the product backlog to emphasize product delivery for end-user testing early in the development lifecycle. Two-week increments would be sufficient time to generate incremental work that falls within the definition of done, requiring no further work. The team must remember that in Scrum it is not considered possible to measure the amount of work that has not occurred (Fowler, 2019). Although two weeks is recommended, the increment should be negotiated first between the product owner and development team for two reasons, 1) the product owner often values shorter sprint increments and the transparency that comes with the end of a sprint, whilst 2) developers value longer sprint increments with a focus on the stability between the beginning and the end of the increment (Fowler, 2019). The recommended two weeks may ultimately not be decided by the team as feasible, however, providing it remains within the Scrum rules of no longer than 30 calendar days, it will be approved (Fowler, 2019). It must be noted that the sprint increment is not a deadline, the increment should never be extended to provide extra time to complete tasks, the increment is a measuring tool to help the team to learn and improve as the development progresses (Fowler, 2019). 
 
 <center>
-    <img src="/assets/images/syd701-table-5.png" alt="Table 5: Indicative definition of done to close sprints">
+    <img src="/assets/images/syd701-table-5.png" alt="Table 5: Indicative definition of done to close sprints"><br>
 </center>
 
 <h4>5.3	The Sprint Goal</h4>

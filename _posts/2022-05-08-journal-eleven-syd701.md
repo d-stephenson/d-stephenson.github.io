@@ -3,7 +3,7 @@ layout: post
 title:  "Journal #Eleven [SYD701] - Systems Development Scenario" 
 author: Dale Stephenson
 categories: [ SYD701, Journal, Systems Development Methodologies ]
-image: assets/images/syd701-j11.jpg
+image: assets/images/syd701-j11
 featured: true
 hidden: true
 ---

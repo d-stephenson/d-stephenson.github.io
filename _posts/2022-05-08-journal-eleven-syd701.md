@@ -76,7 +76,7 @@ To ensure an effective delivery strategy the Agile techniques must focus on high
 Forney (2019) indicates that Agile is capable of demonstrating measured success rates, explaining its popularity. Young (2013) provides a methodology comparison of several techniques against characteristics of project delivery outlined in Table 1. The table identifies seven software development measures, deadline, cost, quality, project size, release frequency, planning and coordination tightness and ranks them from very high (VH) to very low (VL). This table will be used as a countercheck for the methodology chosen for the GentleApple development. 
 
 <center>
-    <img src="/assets/images/syd701-table-1.png" alt="Table 1: Software development methodology comparison">
+    <img src="/assets/images/syd701-table-1.png" alt="Table 1: Software development methodology comparison"><br>
 </center>
 
 1.3	Impact of Outsourcing on Agile Methodologies 
@@ -104,7 +104,7 @@ Scrum is a highly versatile framework derived from its simplicity, consequently,
 The following Scrum elements have been identified as key to the success of the GentleApple software development, 1) remote outsourced development; 2) technical capabilities of the end-user operating the packhouse; 3) need to test the functionality and usability of the interface incrementally to manage change; 4) receive feedback from stakeholders and end-users early in the design and development phases, mitigating risk and increasing the likelihood of success. The elements of the Scrum framework that encompasses events, artefacts and roles will be implemented to fit the context of the development project whilst staying within the boundaries of the Agile methodology, ensuring the human practice framework remains intact (Shringi, 2020). The elements that make up Scrum are outlined in Table 2 (FUIOR, 2019).
 
 <center>
-    <img src="/assets/images/syd701-table-2.png" alt="Table 2: The key elements of Scrum">
+    <img src="/assets/images/syd701-table-2.png" alt="Table 2: The key elements of Scrum"><br>
 </center>
 
 The four most important elements for the GentleApple project, considering the complexity of the development, remote location of stakeholders and users and the resulting identified risks are 1) The Product Backlog; 2) The Increment; 3) The Sprint Goal; 4) The Sprint Review. 
@@ -129,7 +129,7 @@ Scrum is organised into artefacts known as increments and called sprints which, 
 1.	<b>Establishes work in progress (WIP):</b> A body of work that is started but not yet completed. A WIP limit on the sprint allows the team to include work they feel capable of completing by the end of the sprint. 
 2.	<b>Forces prioritisation:</b> This allows the team to prioritise the amount of work that matters most, sharpening the focus on work with the greatest value.  
 3.	<b>Demonstrates progress:</b> Completing and validating important work by the end of the sprint allows the team to measurably demonstrate the progress being made, this reduces the risk to the organisation and GentleApple stakeholders. 
-4.	<b>Avoids unnecessary perfectionism: A fixed end date for the sprint reduces the human desire to aim for perfection when ‘good enough’ is a satisfactory output. 
+4.	<b>Avoids unnecessary perfectionism:</b> A fixed end date for the sprint reduces the human desire to aim for perfection when ‘good enough’ is a satisfactory output. 
 5.	<b>Motivates closure:</b> A fixed close date motivates teams to close the work, encouraging them to diligently apply themselves to the assigned tasks through the deployment of a hard deadline. No end date reduces the sense of urgency. 
 6.	<b>Improves predictability:</b> It is far easier for the team to predict with a high degree of certainty the work necessary in the short sprint cycle, this is far more difficult over longer periods. 
 
